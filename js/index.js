@@ -4,7 +4,7 @@ $(document).ready(function(){
 		$.get("/js/demo_recipe.json", function(data){
 			//this gets the json and save it as data
 			alert("success");
-			$("#rdiff").text(data.A1.title);
+			$("#rdiff").text(data.title);
 		});
 		$("#rname").text(recipes.A1.title);
 	});
