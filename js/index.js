@@ -1,8 +1,9 @@
 $(document).ready(function(){
 	alert("ready")
-	$("button").click(function(event){
+	$("button").click(function(){
 		$.getJSON("/js/demo_recipe.json", function(data){
 			//this gets the json and save it as data
+			alert("success");
 			$("#rdiff").text(data.A1.title);
 		});
 		$("#rname").text(recipes.A1.title);
