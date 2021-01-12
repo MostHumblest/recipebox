@@ -1,9 +1,6 @@
 recipes = [ 
 
-{
-	"id": "A1",
-	
-    "title": "Tasty Steak",
+{	"id": "A1", "title": "Tasty Steak",
 
     "total_cook_time": {
 
@@ -85,10 +82,7 @@ recipes = [
 
 },
 
-{
-	"id": "A2",
-	
-    "title": "Less Tasty Steak",
+{	"id": "A2", "title": "Less Tasty Steak",
 
     "total_cook_time": {
 
