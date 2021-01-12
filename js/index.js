@@ -1,8 +1,8 @@
 $(document).ready(function(){
-	alert("ready")
+	alert("ready");
 	$("button").click(function(){
-		$("#rname").text(recipes.A1.title);
-		$("#rdiff").text(recipes.A1.difficulty);
+		//$("#rname").text(recipes.A1.title);
+		//$("#rdiff").text(recipes.A1.difficulty);
 		$.each(recipes, function(i, datapt){
 				var html ="<li>" + datapt.quantity + " " + datapt.item + "</li>";
 				$("#ring").append(html);

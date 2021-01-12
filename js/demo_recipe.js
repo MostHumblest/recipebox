@@ -1,7 +1,7 @@
 recipes = [ 
 
 {
-	"id": "A1"
+	"id": "A1",
 	
     "title": "Tasty Steak",
 
@@ -86,7 +86,7 @@ recipes = [
 },
 
 {
-	"id": "A2"
+	"id": "A2",
 	
     "title": "Less Tasty Steak",
 
@@ -168,5 +168,5 @@ recipes = [
 
     ]
 
-}
+},
 ]
