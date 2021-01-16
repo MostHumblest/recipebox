@@ -2,6 +2,8 @@ recipes = [
 
 {	"id": "A1", "title": "Tasty Steak",
 
+	"category" : "beef",
+
     "total_cook_time": {
 
         "end_to_end": 100000,
@@ -84,6 +86,8 @@ recipes = [
 
 {	"id": "A2", "title": "Less Tasty Steak",
 
+	"category" : "beef",
+
     "total_cook_time": {
 
         "end_to_end": 100000,
@@ -114,7 +118,7 @@ recipes = [
 
             "item": "seasoning salt",
 
-            "quantity": "1 teaspoon",
+            "quantity": "1 tsp",
 
             "notes": "add more for seasoning to taste"
 
