@@ -32,7 +32,7 @@ $(document).ready(function(){
 	
 //add recipe titles to beef section
 	$.each(recipes, function(i, value){
-		var rTitles = "<li data-href=\"htttp://www.google.com\">" + recipes[i].title + "</li>";
+		var rTitles = "<li><a href=\"http://www.google.com\"><li><span>" + recipes[i].title + "</span></a></li>";
 		$("#rBeef").append(rTitles);
 	});
 	
