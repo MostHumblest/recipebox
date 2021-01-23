@@ -35,6 +35,7 @@ $(document).ready(function(){
 		var rTitles = "<li>" + recipes[i].title + "</li>";
 		$("#rBeef").append(rTitles);
 	});
+	
 //toggle recipes in each section
 	$("#hBeef").click(function(){
 		$("#rBeef").toggle();
