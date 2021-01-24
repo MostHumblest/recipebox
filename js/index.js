@@ -13,7 +13,7 @@ $(document).ready(function(){
 				$("#ring").html(html);
 			});
 		}); */
-		
+		window.location.hash = "clicked";
 	});
 //testing listing recipe titles
 	/*$.each(recipes, function(i, item){
