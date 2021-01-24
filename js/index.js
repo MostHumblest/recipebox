@@ -43,7 +43,7 @@ $(document).ready(function(){
 	});	
 	
 //hash change event
-	$(window).hashchange(function() {
+	$(window).on('hashchange', function() {
 		var hash = location.hash;
 		alert("hash changed to: " + hash);
 	});
