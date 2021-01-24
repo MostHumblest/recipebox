@@ -41,6 +41,12 @@ $(document).ready(function(){
 	$("#hBeef").click(function(){
 		$("#rBeef").toggle();
 	});	
+	
+//hash change event
+	$(window).hashchange(function() {
+		var hash = window.location.hash;
+		alert(hash);
+	});
 		
 });
 	
