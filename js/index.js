@@ -44,7 +44,7 @@ $(document).ready(function(){
 	
 //hash change event
 	$(window).hashchange(function() {
-		var hash = this.location.hash.substr(1);
+		var hash = location.hash;
 		alert("hash changed to: " + hash);
 	});
 		
