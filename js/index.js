@@ -6,13 +6,14 @@ $(document).ready(function(){
 	$("button").click(function(){
 		//$("#rname").text(recipes.A1.title);
 		//$("#rdiff").text(recipes.A1.difficulty);
-		$.each(recipes, function(i, value){
+		/* $.each(recipes, function(i, value){
 			var html;
 			$.each(this.ingredients, function(j, value){
 				html = html + "<li>" + recipes[i].ingredients[j].quantity+ " " + recipes[i].ingredients[j].item + "</li>";
 				$("#ring").html(html);
 			});
-		});
+		}); */
+		
 	});
 //testing listing recipe titles
 	/*$.each(recipes, function(i, item){
@@ -32,7 +33,7 @@ $(document).ready(function(){
 	
 //add recipe titles to beef section
 	$.each(recipes, function(i, value){
-		var rTitles = "<li><a href=\"http://www.google.com\"><li><span>" + recipes[i].title + "</span></a></li>";
+		var rTitles = "<li><a href=\"https://mosthumblest.github.io/recipebox/#" + recipes[i].id + "\"><li><span>" + recipes[i].title + "</span></a></li>";
 		$("#rBeef").append(rTitles);
 	});
 	
