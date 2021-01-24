@@ -45,10 +45,15 @@ $(document).ready(function(){
 //hash change event
 	$(window).on('hashchange', function() {
 		var hash = location.hash;
-		hash = hash.replace('#', '');//strip hash
-		hash = hash.replace(/\W/g, '');
+		hash = hash.replace('#', '');//strip hash symbol
+		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
 		alert("hash changed to: " + hash);
 	});
+	
+//load recipe
+	function loadSelectedRecipe(id){
+		//do stuff
+	};
 		
 });
 	
