@@ -45,6 +45,8 @@ $(document).ready(function(){
 //hash change event
 	$(window).on('hashchange', function() {
 		var hash = location.hash;
+		hash = hash.replace('#', '');//strip hash
+		hash = hash.replace(/_\W/g, '');
 		alert("hash changed to: " + hash);
 	});
 		
