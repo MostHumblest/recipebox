@@ -45,7 +45,7 @@ $(document).ready(function(){
 	});	
 	
 //hash change event
-	$(window).on('hashchange', cleanHash, findRecipe, loadRecipe);
+	$(window).on('hashchange', cleanHash, findRecipe);
 		/* var hash = location.hash;
 		hash = hash.replace('#', '');//strip hash symbol
 		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
