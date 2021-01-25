@@ -56,10 +56,10 @@ $(document).ready(function(){
 		console.log(selectedRecipe) */
 	
 //load recipe
-	function findRecipe(idSearch){
+	function findRecipe(){
 		//do stuff
 		selectedRecipe = recipes.filter(function(e){
-			return e.id === idSearch;
+			return e.id === hash;
 		});
 		console.log(selectedRecipe)
 	};
