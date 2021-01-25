@@ -45,7 +45,7 @@ $(document).ready(function(){
 	});	
 	
 //hash change event
-	$(window).on('hashchange', cleanHash, findRecipe);
+	$(window).on('hashchange', findRecipe);
 		/* var hash = location.hash;
 		hash = hash.replace('#', '');//strip hash symbol
 		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
@@ -56,8 +56,9 @@ $(document).ready(function(){
 		console.log(selectedRecipe) */
 	
 //load recipe
-	function findRecipe(){
+	function findRecipe(cleanHash){
 		//do stuff
+		
 		selectedRecipe = recipes.filter(function(e){
 			return e.id === hash;
 		});
