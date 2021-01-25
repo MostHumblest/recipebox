@@ -43,16 +43,15 @@ $(document).ready(function(){
 	});	
 	
 //hash change event
-	$(window).on('hashchange', function() {
-		var hash = location.hash;
+	$(window).on('hashchange', cleanHash);
+		/* var hash = location.hash;
 		hash = hash.replace('#', '');//strip hash symbol
 		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
 		alert("hash changed to: " + hash);
 		let selectedRecipe = recipes.filter(function(e){
 			return e.id === hash;
 		});
-		console.log(selectedRecipe)
-	});
+		console.log(selectedRecipe) */
 	
 //load recipe
 	function loadSelectedRecipe(idSearch){
@@ -60,6 +59,13 @@ $(document).ready(function(){
 		selectedRecipe = recipes.filter(function(e){
 			return e.id === idSearch;
 		});
+	};
+	
+	function cleanHash(){
+		var hash = location.hash;
+		hash = hash.replace('#', '');//strip hash symbol
+		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
+		alert("hash changed to: " + hash);
 	};
 		
 });
