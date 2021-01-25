@@ -1,6 +1,8 @@
 $(document).ready(function(){
 //creates pop up when page loads
 	alert("ready");
+	var hash;
+	var selectedRecipe;
 	
 //testing actions on button click
 	$("button").click(function(){
@@ -43,7 +45,7 @@ $(document).ready(function(){
 	});	
 	
 //hash change event
-	$(window).on('hashchange', cleanHash);
+	$(window).on('hashchange', cleanHash, findRecipe, loadRecipe);
 		/* var hash = location.hash;
 		hash = hash.replace('#', '');//strip hash symbol
 		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
@@ -54,19 +56,22 @@ $(document).ready(function(){
 		console.log(selectedRecipe) */
 	
 //load recipe
-	function loadSelectedRecipe(idSearch){
+	function findecipe(idSearch){
 		//do stuff
 		selectedRecipe = recipes.filter(function(e){
 			return e.id === idSearch;
 		});
+		console.log(selectedRecipe)
 	};
 	
 	function cleanHash(){
-		var hash = location.hash;
+		hash = location.hash;
 		hash = hash.replace('#', '');//strip hash symbol
 		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
 		alert("hash changed to: " + hash);
 	};
+	
+	
 		
 });
 	
