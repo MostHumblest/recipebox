@@ -49,7 +49,7 @@ $(document).ready(function(){
 		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
 		alert("hash changed to: " + hash);
 		let selectedRecipe = recipes.filter(function(e){
-			return e.id === idSearch;
+			return e.id === hash;
 		});
 		console.log(selectedRecipe)
 	});
