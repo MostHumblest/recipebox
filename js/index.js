@@ -48,11 +48,18 @@ $(document).ready(function(){
 		hash = hash.replace('#', '');//strip hash symbol
 		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
 		alert("hash changed to: " + hash);
+		let selectedRecipe = recipes.filter(function(e){
+			return e.id === idSearch;
+		});
+		console.log(selectedRecipe)
 	});
 	
 //load recipe
-	function loadSelectedRecipe(id){
+	function loadSelectedRecipe(idSearch){
 		//do stuff
+		selectedRecipe = recipes.filter(function(e){
+			return e.id === idSearch;
+		});
 	};
 		
 });
