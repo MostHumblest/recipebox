@@ -56,7 +56,7 @@ $(document).ready(function(){
 		console.log(selectedRecipe) */
 	
 //load recipe
-	function findecipe(idSearch){
+	function findRecipe(idSearch){
 		//do stuff
 		selectedRecipe = recipes.filter(function(e){
 			return e.id === idSearch;
