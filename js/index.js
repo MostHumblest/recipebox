@@ -56,9 +56,9 @@ $(document).ready(function(){
 		console.log(selectedRecipe) */
 	
 //load recipe
-	function findRecipe(cleanHash){
+	function findRecipe(){
 		//do stuff
-		
+		cleanHash();
 		selectedRecipe = recipes.filter(function(e){
 			return e.id === hash;
 		});
