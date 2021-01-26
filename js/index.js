@@ -48,7 +48,7 @@ $(document).ready(function(){
 	$(window).on('hashchange', function(){
 		cleanHash();
 		switch(hash){
-			case clicked:
+			case "clicked":
 				alert("home");
 				break;
 			default:
