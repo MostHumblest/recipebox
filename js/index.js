@@ -90,7 +90,7 @@ $(document).ready(function(){
 		findRecipe();
 		listIngr = "<tr>"
 		$.each(selectedRecipe.ingredients, function(i, iVal){
-			listIngr = listIngr + "<td>" + this[i].quantity + "</td><td>" + this[i].item + "</td>";			
+			listIngr = listIngr + "<td>" + selectedRecipe.ingredients[i].quantity + "</td><td>" + selectedRecipe.ingredients[i].item + "</td>";			
 		});
 		listIngr = listIngr + "</tr>";
 		$("#ingList").html(listIngr);
