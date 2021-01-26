@@ -88,7 +88,7 @@ $(document).ready(function(){
 //load recipe details
 	function loadRecipe(){
 		findRecipe();
-		listIngr = "<tr>"
+		listIngr = "<tr>";
 		$.each(selectedRecipe.ingredients, function(i, iVal){
 			listIngr = listIngr + "<td>" + selectedRecipe[0].ingredients[i].quantity + "</td><td>" + selectedRecipe[0].ingredients[i].item + "</td></tr>";	
 			$("#ingList").html(listIngr);		
