@@ -89,8 +89,8 @@ $(document).ready(function(){
 	function loadRecipe(){
 		findRecipe();
 		listIngr = "<tr>"
-		$.each(selectedRecipe.ingredients, function(j){
-			listIngr = listIngr + "<td>" + selectedRecipe.ingredients[j].quantity + "</td><td>" + selectedRecipe.ingredients[j].item + "</td></tr>";
+		$.each(selectedRecipe, function(j){
+			listIngr = listIngr + "<td>" + this.ingredients[j].quantity + "</td><td>" + this.ingredients[j].item + "</td></tr>";
 			$("#ingList").html(listIngr);
 		});
 	};	
