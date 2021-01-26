@@ -52,7 +52,7 @@ $(document).ready(function(){
 				alert("home");
 				break;
 			default:
-				findRecipe();
+				loadRecipe(hash);
 		}
 	});
 		/* var hash = location.hash;
@@ -64,15 +64,10 @@ $(document).ready(function(){
 		});
 		console.log(selectedRecipe) */
 	
-//load recipe
-	function findRecipe(){
-		//do stuff
-		selectedRecipe = recipes.filter(function(e){
-			return e.id === hash;
-		});
-		console.log(selectedRecipe)
-	};
+
+		
 	
+//sanitize text after the hash	
 	function cleanHash(){
 		hash = location.hash;
 		hash = hash.replace('#', '');//strip hash symbol
@@ -80,6 +75,19 @@ $(document).ready(function(){
 		alert("hash changed to: " + hash);
 	};
 	
+//find recipe
+	function findRecipe(lookup){
+		//do stuff
+		selectedRecipe = recipes.filter(function(e){
+			return e.id === lookup;
+		});
+		console.log(selectedRecipe)
+	};
+	
+//load recipe details
+	function loadRecipe(lookup)){
+		findRecipe(lookup)
+	};
 	
 		
 });
