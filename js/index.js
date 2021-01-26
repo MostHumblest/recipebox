@@ -25,14 +25,14 @@ $(document).ready(function(){
 	});*/
 	
 //testing create ingredient table
-	/* var listIng;
+	var listIng;
 	$.each(recipes, function(i, valueI){
 		listIngr = "<tr>";
 		$.each(this.ingredients, function(j, valueJ){
 			listIngr = listIngr + "<td>" + recipes[i].ingredients[j].quantity + "</td><td>" + recipes[i].ingredients[j].item + "</td></tr>";
 			$("#ingList").html(listIngr);
 		});
-	}); */
+	});
 	
 //add recipe titles to beef section
 	$.each(recipes, function(i, value){
@@ -91,7 +91,7 @@ $(document).ready(function(){
 		listIngr = "<tr>";
 		$.each(selectedRecipe.ingredients, function(i, iVal){
 			listIngr = listIngr + "<td>" + selectedRecipe.ingredients[i].quantity + "</td><td>" + selectedRecipe.ingredients[i].item + "</td></tr>";	
-			$("#ingList").html(listIngr);		
+			$("#ingList").html(listIngr);
 		});		
 	};	
 		
