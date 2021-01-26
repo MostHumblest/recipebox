@@ -85,7 +85,7 @@ $(document).ready(function(){
 	};
 	
 //load recipe details
-	function loadRecipe(lookup)){
+	function loadRecipe(lookup){
 		findRecipe(lookup)
 	};
 	
