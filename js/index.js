@@ -3,6 +3,7 @@ $(document).ready(function(){
 	alert("ready");
 	var hash;
 	var selectedRecipe;
+	var listIngr;
 	
 //testing actions on button click
 	$("button").click(function(){
@@ -24,14 +25,14 @@ $(document).ready(function(){
 	});*/
 	
 //testing create ingredient table
-	var listIng;
+	/* var listIng;
 	$.each(recipes, function(i, valueI){
 		listIngr = "<tr>";
 		$.each(this.ingredients, function(j, valueJ){
 			listIngr = listIngr + "<td>" + recipes[i].ingredients[j].quantity + "</td><td>" + recipes[i].ingredients[j].item + "</td></tr>";
 			$("#ingList").html(listIngr);
 		});
-	});
+	}); */
 	
 //add recipe titles to beef section
 	$.each(recipes, function(i, value){
@@ -52,7 +53,7 @@ $(document).ready(function(){
 				alert("home");
 				break;
 			default:
-				loadRecipe(hash);
+				loadRecipe();
 		}
 	});
 		/* var hash = location.hash;
@@ -76,19 +77,23 @@ $(document).ready(function(){
 	};
 	
 //find recipe
-	function findRecipe(lookup){
+	function findRecipe(){
 		//do stuff
 		selectedRecipe = recipes.filter(function(e){
-			return e.id === lookup;
+			return e.id === hash;
 		});
-		console.log(selectedRecipe)
+		console.log(selectedRecipe);
 	};
 	
 //load recipe details
-	function loadRecipe(lookup){
-		findRecipe(lookup)
-	};
-	
+	function loadRecipe(){
+		findRecipe();
+		listIngr = "<tr>"
+		$.each(selectedRecipe.ingredients, function(j){
+			listIngr = listIngr + "<td>" + recipes[i].ingredients[j].quantity + "</td><td>" + recipes[i].ingredients[j].item + "</td></tr>";
+			$("#ingList").html(listIngr);
+		});
+	};	
 		
 });
 	
