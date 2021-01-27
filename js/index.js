@@ -90,9 +90,9 @@ $(document).ready(function(){
 		findRecipe();
 		listIngr = "<tr>";
 		$.each(selectedRecipe.ingredients, function(i, value){
-			listIngr = listIngr + "<td>" + i.quantity + "</td><td>" + i.item + "</td></tr>";	
-			console.log(listIngr);
-			$("#ingList").html(listIngr);
+			
+			console.log(selectedRecipe.Ingredients);
+			
 		});	
 			
 	};	
