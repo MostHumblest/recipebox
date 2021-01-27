@@ -9,7 +9,8 @@ $(document).ready(function(){
 			var rCat = recipes[i].category;
 			var categoryHeaders = "<h2 id = h\"" + rCat + "\" class=\"headCat\">" + rCat + "</h2>";
 			var categoryLists = "<ul id = r\""+ rCat +"\" class=\"rList\"></ul>";
-			$("#allRecipes").append(categoryHeaders + categoryLists);
+			$("#allRecipes").append(categoryHeaders);
+			$("allRecipess").append(categoryLists);
 		});				
 	}
 
