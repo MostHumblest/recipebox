@@ -2,7 +2,6 @@ $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
 	var hash;
-	var selectedRecipe;
 	var listIngr;
 	
 //testing actions on button click
@@ -79,18 +78,18 @@ $(document).ready(function(){
 //find recipe
 	function findRecipe(){
 		//do stuff
-		selectedRecipe = recipes.filter(function(e){
+		let selectedRecipe = recipes.filter(function(e){
 			return e.id === hash;
-		});
+		});		
 		console.log(selectedRecipe);
+		return selectedRecipe;
 	};
 	
 //load recipe details
 	function loadRecipe(){
-		findRecipe();
+		let selectedRecipe = findRecipe();
 		console.log(selectedRecipe.Ingredients);
-		
-			
+					
 	};	
 		
 });
