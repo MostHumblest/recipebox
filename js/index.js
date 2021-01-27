@@ -3,15 +3,23 @@ $(document).ready(function(){
 	console.log("ready");
 	
 //testing actions on button click
-	$("button").click(function(){
-		
+	$("button").click(function(){		
 		window.location.hash = "clicked";
 	});
 
 	
 //add recipe titles to beef section
-	$.each(recipes, function(i, value){
+	$.each(recipes, function(i, val){
 		var rTitles = "<li><a href=\"https://mosthumblest.github.io/recipebox/#" + recipes[i].id + "\"><li><span>" + recipes[i].title + "</span></a></li>";
+		var rCat = recipes[i].category;
+		switch(category){
+			case "beef":
+				break;
+			case "chicken":
+				break;
+			default:
+		}
+				
 		$("#rBeef").append(rTitles);
 	});
 	
@@ -64,14 +72,14 @@ $(document).ready(function(){
 		$.each(ingredients, function(j, valueJ){
 			listIngr = listIngr + "<td>" + ingredients[j].quantity + "</td><td>" + ingredients[j].item + "</td></tr>";		
 		});
-		$("#ingList").html(listIngr);
+		$("#listIng").html(listIngr);
 		
 		//get steps
 		var currentStep = "";
 		$.each(steps, function(i, val){
 			currentStep = currentStep + "<li>" + steps[i] + "</li>";			
 		});
-		$("#listSteps").html(currentStep);
+		$("#listStep").html(currentStep);
 	};	
 		
 });
