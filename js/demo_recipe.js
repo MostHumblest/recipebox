@@ -2,6 +2,7 @@ recipes = [
 
 { "id": "demo", "title":"template",
 	"category":"demo",
+	"servings":1,
 	"time":{
 		"active": 00,
 		"total":00
@@ -36,10 +37,6 @@ recipes = [
 },
 	
 		
-		
-	"servings":1,
-	"
-
 {	"id": "A1", "title": "Tasty Steak",
 
 	"category" : "beef",
