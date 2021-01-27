@@ -7,10 +7,10 @@ $(document).ready(function(){
 	function populateCategories(){
 		$.each(recipes, function(i, val){
 			var rCat = recipes[i].category;
-			var categoryHeaders = "<h2 id = h\"" + rCat + "\" class=\"headCat\">" + rCat + "</h2>";
-			var categoryLists = "<ul id = r\""+ rCat +"\" class=\"rList\"></ul>";
-			$("#allRecipes").html(categoryHeaders);
-			$("allRecipess").html(categoryLists);
+			var categoryHeaders = "<h2 id=\"h" + rCat + "\" class=\"headCat\">" + rCat + "</h2>";
+			var categoryLists = "<ul id=\"r"+ rCat +"\" class=\"rList\"></ul>";
+			$("#allRecipes").append(categoryHeaders);
+			$("allRecipess").append(categoryLists);
 		});				
 	}
 
