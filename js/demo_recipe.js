@@ -34,7 +34,7 @@ recipes = [
 
             "item": "seasoning salt",
 
-            "quantity": "1 teaspoon",
+            "quantity": "1 tsp",
 
             "notes": "add more for seasoning to taste"
 
@@ -128,7 +128,7 @@ recipes = [
 
             "item": "all-purpose flour",
 
-            "quantity": "1 cup",
+            "quantity": "1/2 cup",
 
             "notes": ""
 
@@ -136,7 +136,7 @@ recipes = [
 
         {
 
-            "item": "rib eye steak",
+            "item": "strip steak",
 
             "quantity": 1,
 
