@@ -35,7 +35,7 @@ $(document).ready(function(){
 		thisID = cleanHash();
 		switch(thisID){
 			case "clicked":
-				alert("home");
+				console.log("home");
 				break;
 			default:
 				loadRecipe(thisID);
