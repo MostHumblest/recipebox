@@ -88,12 +88,8 @@ $(document).ready(function(){
 //load recipe details
 	function loadRecipe(){
 		findRecipe();
-		listIngr = "<tr>";
-		$.each(selectedRecipe.ingredients, function(i, value){
-			
-			console.log(selectedRecipe.Ingredients);
-			
-		});	
+		console.log(selectedRecipe.Ingredients);
+		
 			
 	};	
 		
