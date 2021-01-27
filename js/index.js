@@ -10,7 +10,7 @@ $(document).ready(function(){
 			var thisID = "h"+rCat;
 			var hCat = "<h2 id = \"" + thisID + "\" class=\"headCat\">" + rCat + "</h2>";
 			$("#allRecipes").append(hCat);
-						
+		});				
 	}
 
 //add recipe titles to each section
