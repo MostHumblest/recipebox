@@ -7,9 +7,9 @@ $(document).ready(function(){
 	function populateCategories(){
 		$.each(recipes, function(i, val){
 			var rCat = recipes[i].category;
-			var thisID = "h"+rCat;
-			var hCat = "<h2 id = \"" + thisID + "\" class=\"headCat\">" + rCat + "</h2>";
-			$("#allRecipes").append(hCat);
+			var categoryHeaders = "<h2 id = h\"" + rCat + "\" class=\"headCat\">" + rCat + "</h2>";
+			var categoryLists = "<ul id = r\""+ rCat +"\" class=\"rList\"></ul>";
+			$("#allRecipes").append(categoryHeaders + categoryLists);
 		});				
 	}
 
