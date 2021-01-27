@@ -1,6 +1,6 @@
 $(document).ready(function(){
 //creates pop up when page loads
-	alert("ready");
+	console.log("ready");
 	var hash;
 	var selectedRecipe;
 	var listIngr;
@@ -73,7 +73,7 @@ $(document).ready(function(){
 		hash = location.hash;
 		hash = hash.replace('#', '');//strip hash symbol
 		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
-		alert("hash changed to: " + hash);
+		console.log("hash changed to: " + hash);
 	};
 	
 //find recipe
@@ -89,10 +89,12 @@ $(document).ready(function(){
 	function loadRecipe(){
 		findRecipe();
 		listIngr = "<tr>";
-		$.each(selectedRecipe.ingredients, function(i, iVal){
+		$.each(selectedRecipe.ingredients, function(i, value){
 			listIngr = listIngr + "<td>" + i.quantity + "</td><td>" + i.item + "</td></tr>";	
+			console.log(listIngr);
 			$("#ingList").html(listIngr);
-		});		
+		});	
+			
 	};	
 		
 });
