@@ -66,7 +66,7 @@ recipes = [
 
         "Salt and pepper both sides of the steak.",
 
-        "Deep fry that sumbitch at 1000 degrees.",
+        "Deep fry that sumbitch at flaming 1000 degrees.",
 
         "Serve with A1 steaksauce."
 
@@ -148,11 +148,11 @@ recipes = [
 
     "directions": [
 
-        "Salt and pepper both sides of the steak.",
+        "Salt and pepper one side of the steak.",
 
-        "Deep fry that sumbitch at 1000 degrees.",
+        "Deep fry that sumbitch at a measly 900 degrees.",
 
-        "Serve with A1 steaksauce."
+        "Serve with A2 steaksauce."
 
     ],
 

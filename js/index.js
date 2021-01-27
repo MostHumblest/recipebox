@@ -1,9 +1,6 @@
 $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
-	var hash;
-	var listIngr;
-	var selectedRecipe;
 	
 //testing actions on button click
 	$("button").click(function(){
@@ -47,13 +44,13 @@ $(document).ready(function(){
 	
 //hash change event
 	$(window).on('hashchange', function(){
-		cleanHash();
-		switch(hash){
+		thisID = cleanHash();
+		switch(thisID){
 			case "clicked":
 				alert("home");
 				break;
 			default:
-				loadRecipe();
+				loadRecipe(thisID);
 		}
 	});
 				
@@ -64,29 +61,34 @@ $(document).ready(function(){
 		hash = hash.replace('#', '');//strip hash symbol
 		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
 		console.log("hash changed to: " + hash);
+		return hash;
 	};
 	
 //find recipe
-	function findRecipe(){
+	function findRecipe(hash){
 		//do stuff
-		selectedRecipe = recipes.filter(function(e){
+		thisRecipe = recipes.filter(function(e){
 			return e.id === hash;
-		});		
+		});	
+		return thisRecipe;
 		//console.log(selectedRecipe);
 	};
 	
 //load recipe details
-	function loadRecipe(){
-		findRecipe();
+	function loadRecipe(hash){
+		thisRecipe = findRecipe(hash);
 		//console.log(selectedRecipe[0].ingredients);
-		ingredients = selectedRecipe[0].ingredients;
-		steps = selectedRecipe[0].directions;
+		ingredients = thisRecipe[0].ingredients;
+		steps = thisRecipe[0].directions;
+		
+		//get ingredients
 		var listIngr = "<tr>";
 		$.each(ingredients, function(j, valueJ){
 			listIngr = listIngr + "<td>" + ingredients[j].quantity + "</td><td>" + ingredients[j].item + "</td></tr>";		
 		});
 		$("#ingList").html(listIngr);
 		
+		//get steps
 		var currentStep = "";
 		$.each(steps, function(i, val){
 			currentStep = currentStep + "<li>" + steps[i] + "</li>";			
