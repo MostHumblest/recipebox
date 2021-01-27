@@ -2,6 +2,8 @@ $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
 	
+//create recipe list
+	
 //testing actions on button click
 	$("button").click(function(){		
 		window.location.hash = "clear";
@@ -17,9 +19,9 @@ $(document).ready(function(){
 		switch(rCat){
 			case "beef":
 				break;
-			case "chicken":
-				break;
 			default:
+				thisTag = "#r" + rCat;
+				$(thisTag).append(rTitles);
 		}
 				
 		$("#rBeef").append(rTitles);
