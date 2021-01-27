@@ -8,7 +8,7 @@ $(document).ready(function(){
 	function populateCategories(){
 		$.each(recipes, function(i, val){
 			var rCat = recipes[i].category;
-			rCat = rCat.replace('', 'uncategorized');
+			//rCat = rCat.replace('', 'uncategorized');
 			var categoryHeaders = "<h2 id=\"h" + rCat + "\" class=\"headCat\">" + rCat + "</h2>";
 			var categoryLists = "<ul id=\"r"+ rCat +"\" class=\"rList\"></ul>";
 			$("#allRecipes").append(categoryHeaders);
