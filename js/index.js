@@ -56,17 +56,7 @@ $(document).ready(function(){
 				loadRecipe();
 		}
 	});
-		/* var hash = location.hash;
-		hash = hash.replace('#', '');//strip hash symbol
-		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
-		alert("hash changed to: " + hash);
-		let selectedRecipe = recipes.filter(function(e){
-			return e.id === hash;
-		});
-		console.log(selectedRecipe) */
-	
-
-		
+				
 	
 //sanitize text after the hash	
 	function cleanHash(){
@@ -90,11 +80,17 @@ $(document).ready(function(){
 		findRecipe();
 		//console.log(selectedRecipe[0].ingredients);
 		ingredients = selectedRecipe[0].ingredients;
+		steps = selectedRecipe[0].directions;
 		listIngr = "<tr>";
 		$.each(ingredients, function(j, valueJ){
 			listIngr = listIngr + "<td>" + ingredients[j].quantity + "</td><td>" + ingredients[j].item + "</td></tr>";
 			$("#ingList").html(listIngr);
-		});		
+		});
+		
+		$.each(steps, function(i, val){
+			var currentStep = "<li>" + steps[i] + "</li>";
+			$("#listSteps").append(currentStep);
+		};
 	};	
 		
 });
