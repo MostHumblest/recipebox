@@ -88,7 +88,7 @@ $(document).ready(function(){
 //load recipe details
 	function loadRecipe(){
 		findRecipe();
-		console.log(selectedRecipe.ingredients);					
+		console.log(selectedRecipe[0].ingredients);					
 	};	
 		
 });
