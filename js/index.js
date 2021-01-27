@@ -1,8 +1,27 @@
 $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
+	populateCategories();
 	
 //create recipe list
+	function populateCategories(){
+		$.each(recipes, function(i, val){
+			var rCat = recipes[i].category;
+			var thisID = "h"+rCat;
+			var hCat = "<h2 id = \"" + thisID + "\" class=\"headCat\">" + rCat + "</h2>";
+			$("#allRecipes").append(hCat);
+						
+	}
+
+//add recipe titles to each section
+	function populateRecipes(){
+		$.each(recipes, function(i, val){
+			var rTitles = "<li><a href=\"https://mosthumblest.github.io/recipebox/#" + recipes[i].id + "\"><li><span>" + recipes[i].title + "</span></a></li>";
+			var rCat = recipes[i].category;
+			var thisTag = "#r" + rCat;
+			$(thisTag).append(rTitles);
+		});
+	}	
 	
 //testing actions on button click
 	$("button").click(function(){		
@@ -12,13 +31,7 @@ $(document).ready(function(){
 	});
 
 	
-//add recipe titles to beef section
-	$.each(recipes, function(i, val){
-		var rTitles = "<li><a href=\"https://mosthumblest.github.io/recipebox/#" + recipes[i].id + "\"><li><span>" + recipes[i].title + "</span></a></li>";
-		var rCat = recipes[i].category;
-		thisTag = "#r" + rCat;
-		$(thisTag).append(rTitles);
-	});
+
 	
 //toggle recipes in each section
 	$("#hBeef").click(function(){
