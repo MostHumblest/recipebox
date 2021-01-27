@@ -81,16 +81,17 @@ $(document).ready(function(){
 		//console.log(selectedRecipe[0].ingredients);
 		ingredients = selectedRecipe[0].ingredients;
 		steps = selectedRecipe[0].directions;
-		listIngr = "<tr>";
+		var listIngr = "<tr>";
 		$.each(ingredients, function(j, valueJ){
-			listIngr = listIngr + "<td>" + ingredients[j].quantity + "</td><td>" + ingredients[j].item + "</td></tr>";
-			$("#ingList").html(listIngr);
+			listIngr = listIngr + "<td>" + ingredients[j].quantity + "</td><td>" + ingredients[j].item + "</td></tr>";		
 		});
+		$("#ingList").html(listIngr);
 		
+		var currentStep = "";
 		$.each(steps, function(i, val){
-			var currentStep = "<li>" + steps[i] + "</li>";
-			$("#listSteps").append(currentStep);
+			currentStep = currentStep + "<li>" + steps[i] + "</li>";			
 		});
+		$("#listSteps").html(currentStep);
 	};	
 		
 });
