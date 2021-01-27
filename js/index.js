@@ -16,15 +16,8 @@ $(document).ready(function(){
 	$.each(recipes, function(i, val){
 		var rTitles = "<li><a href=\"https://mosthumblest.github.io/recipebox/#" + recipes[i].id + "\"><li><span>" + recipes[i].title + "</span></a></li>";
 		var rCat = recipes[i].category;
-		switch(rCat){
-			case "beef":
-				break;
-			default:
-				thisTag = "#r" + rCat;
-				$(thisTag).append(rTitles);
-		}
-				
-		$("#rBeef").append(rTitles);
+		thisTag = "#r" + rCat;
+		$(thisTag).append(rTitles);
 	});
 	
 //toggle recipes in each section
