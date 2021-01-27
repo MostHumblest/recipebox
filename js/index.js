@@ -16,7 +16,7 @@ $(document).ready(function(){
 	$.each(recipes, function(i, val){
 		var rTitles = "<li><a href=\"https://mosthumblest.github.io/recipebox/#" + recipes[i].id + "\"><li><span>" + recipes[i].title + "</span></a></li>";
 		var rCat = recipes[i].category;
-		thisTag = "#r" + rCat;
+		thisTag = "\"#r" + rCat + "\"";
 		$(thisTag).append(rTitles);
 	});
 	
