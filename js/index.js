@@ -3,6 +3,7 @@ $(document).ready(function(){
 	console.log("ready");
 	var hash;
 	var listIngr;
+	var selectedRecipe;
 	
 //testing actions on button click
 	$("button").click(function(){
@@ -78,18 +79,15 @@ $(document).ready(function(){
 //find recipe
 	function findRecipe(){
 		//do stuff
-		let selectedRecipe = recipes.filter(function(e){
+		selectedRecipe = recipes.filter(function(e){
 			return e.id === hash;
 		});		
-		console.log(selectedRecipe);
-		return selectedRecipe;
+		//console.log(selectedRecipe);
 	};
 	
 //load recipe details
 	function loadRecipe(){
-		let selectedRecipe = findRecipe();
-		console.log(selectedRecipe.Ingredients);
-					
+		console.log(selectedRecipe);					
 	};	
 		
 });
