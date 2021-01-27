@@ -86,7 +86,7 @@ recipes = [
 
 {	"id": "A2", "title": "Less Tasty Steak",
 
-	"category" : ,
+	"category" : "",
 
     "total_cook_time": {
 
