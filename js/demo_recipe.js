@@ -1,7 +1,7 @@
 recipes = [ 
 
-{ "id": "demo", "recipe:template",
-	"category":"demo"
+{ "id": "demo", "title":"template",
+	"category":"demo",
 	"time":{
 		"active": 00,
 		"total":00
