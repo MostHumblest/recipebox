@@ -90,7 +90,7 @@ $(document).ready(function(){
 		$.each(steps, function(i, val){
 			var currentStep = "<li>" + steps[i] + "</li>";
 			$("#listSteps").append(currentStep);
-		};
+		});
 	};	
 		
 });
