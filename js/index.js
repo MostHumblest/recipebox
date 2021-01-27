@@ -12,7 +12,7 @@ $(document).ready(function(){
 	$.each(recipes, function(i, val){
 		var rTitles = "<li><a href=\"https://mosthumblest.github.io/recipebox/#" + recipes[i].id + "\"><li><span>" + recipes[i].title + "</span></a></li>";
 		var rCat = recipes[i].category;
-		switch(category){
+		switch(rCat){
 			case "beef":
 				break;
 			case "chicken":
