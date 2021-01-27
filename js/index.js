@@ -5,6 +5,8 @@ $(document).ready(function(){
 //testing actions on button click
 	$("button").click(function(){		
 		window.location.hash = "clicked";
+		$("#listIng").hide();
+		$("#listStep").hide();
 	});
 
 	
@@ -72,6 +74,7 @@ $(document).ready(function(){
 		$.each(ingredients, function(j, valueJ){
 			listIngr = listIngr + "<td>" + ingredients[j].quantity + "</td><td>" + ingredients[j].item + "</td></tr>";		
 		});
+		$("#listIng").show();
 		$("#listIng").html(listIngr);
 		
 		//get steps
@@ -79,6 +82,7 @@ $(document).ready(function(){
 		$.each(steps, function(i, val){
 			currentStep = currentStep + "<li>" + steps[i] + "</li>";			
 		});
+		$("#listStep").show();
 		$("#listStep").html(currentStep);
 	};	
 		
