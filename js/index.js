@@ -1,7 +1,7 @@
 $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
-	window.location.hash = "home";
+	//window.location.hash = "home";
 	populateCategories();
 	hashNavigation();
 	populateRecipes();
