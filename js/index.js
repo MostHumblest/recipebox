@@ -47,11 +47,10 @@ $(document).ready(function(){
 			var headText = $(this).text();
 			var n = headText.length;
 			var arrowType = headText.charCodeAt(n-1);
-			if(arrowType == 9662){
+			if(arrowType == 9656){
 				console.log("right arrow");
 				headText = headText.replace(/\u25B8/, '\u25BE');
-				break;
-			}else if(arrowType == 9656){
+			}else if(arrowType == 9662){
 				console.log("left arrow");
 				headText = headText.replace(/\u25BE/, '\u25B8');				
 			}else {
