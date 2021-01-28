@@ -10,7 +10,7 @@ i {
 	border:solid black;
 	border-width: 0 3px 3px 0;
 	display: inline-block;
-	margin-left: 10px;
+	padding: 3px;
 }
 
 .right {
