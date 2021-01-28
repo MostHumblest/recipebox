@@ -53,7 +53,7 @@ $(document).ready(function(){
 			}else{
 				console.log("left arrow");
 			}
-			$(this).text(headText);
+			$("#"+clickedID).text(headText);
 			console.log(headText);
 		});	
 	};
