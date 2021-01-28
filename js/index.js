@@ -12,7 +12,7 @@ $(document).ready(function(){
 		$.each(recipes, function(i, val){
 			var rCat = recipes[i].category;
 			//rCat = rCat.replace('', 'uncategorized');
-			var categoryHeaders = "<h2 id=\"h" + rCat + "\" class=\"headCat\">" + rCat + "    &#9658<i class=\"right\"></i></h2>";
+			var categoryHeaders = "<h2 id=\"h" + rCat + "\" class=\"headCat\">" + rCat + "    &#9656</h2>";
 			var categoryLists = "<ul id=\"r"+ rCat +"\" class=\"rList\"></ul>";
 			$("#allRecipes").append(categoryHeaders);
 			$("#allRecipes").append(categoryLists);
