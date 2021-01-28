@@ -1,6 +1,7 @@
 $(document).ready(function(){
 //creates pop up when page loads
-	console.log("ready");	
+	console.log("ready");
+	window.location.hash = "home";
 	populateCategories();
 	hashNavigation();
 	populateRecipes();
@@ -31,7 +32,7 @@ $(document).ready(function(){
 	
 //testing actions on button click
 	$("button").click(function(){		
-		window.location.hash = "clear";
+		window.location.hash = "home";
 		$("#listIng").hide();
 		$("#listStep").hide();
 	});	
