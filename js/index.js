@@ -40,19 +40,20 @@ $(document).ready(function(){
 //toggle recipes in each section
 	function toggleHeaders(){
 		$('.headCat').click(function(){
-			var clicked = $(this).attr('id');
-			clicked = clicked.slice(1);
-			clicked = "#r" + clicked;
-			$(clicked).toggle();
+			var clickedID = $(this).attr('id');
+			tagCapture = clickedID.slice(1);
+			newID = "#r" + tagCapture;
+			$(newID).toggle();
 			var headText = $(this).text();
 			var n = headText.length;
 			var arrowType = headText.charCodeAt(n-1);
 			if(arrowType == 9656){
 				console.log("right arrow");
-				headText = headText.replace(/\u25B8/, "&#9662");
+				headText = headText.replace(/\u25B8/, /\u25BE/);
 			}else{
 				console.log("left arrow");
 			}
+			$(this).text(headText);
 			console.log(headText);
 		});	
 	};
