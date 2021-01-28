@@ -2,10 +2,10 @@ $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");	
 	populateCategories();
+	hashNavigation();
 	populateRecipes();
 	toggleHeaders();
 });
-hashNavigation();
 
 //create recipe list
 	function populateCategories(){
