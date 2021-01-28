@@ -1,7 +1,7 @@
 $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
-	window.location.hash = "home";
+	//window.location.hash = "home"; this prevent bookmarking a meaningful hash
 	populateCategories();
 	hashNavigation();
 	buttonClicked();
@@ -12,10 +12,10 @@ $(document).ready(function(){
 //create recipe list
 	function populateCategories(){
 		$.each(recipes, function(i, val){
-			var rCat = recipes[i].category;
+			var rCategory = recipes[i].category;
 			//rCat = rCat.replace('', 'uncategorized');
-			var categoryHeaders = "<h2 id=\"h" + rCat + "\" class=\"headCat\">" + rCat + "    \u25BE</h2>"; //&#9662
-			var categoryLists = "<ul id=\"r"+ rCat +"\" class=\"rList\"></ul>";
+			var categoryHeaders = "<h2 id=\"h" + rCategory + "\" class=\"headerCategory\">" + rCategory + "    \u25BE</h2>"; //&#9662
+			var categoryLists = "<ul id=\"r"+ rCategory +"\" class=\"listTOC\"></ul>";
 			$("#allRecipes").append(categoryHeaders);
 			$("#allRecipes").append(categoryLists);
 		});				
@@ -25,8 +25,8 @@ $(document).ready(function(){
 	function populateRecipes(){
 		$.each(recipes, function(i, val){
 			var rTitles = "<li><a href=\"https://mosthumblest.github.io/recipebox/#" + recipes[i].id + "\"><li><span>" + recipes[i].title + "</span></a></li>";
-			var rCat = recipes[i].category;
-			var thisTag = "#r" + rCat;
+			var rCategory = recipes[i].category;
+			var thisTag = "#r" + rCategory;
 			$(thisTag).append(rTitles);
 		});
 	}	
@@ -35,8 +35,8 @@ $(document).ready(function(){
 	function buttonClicked(){
 		$("button").click(function(){		
 			window.location.hash = "clear";
-			$("#listIng").hide();
-			$("#listStep").hide();
+			$("#listIngredients").hide();
+			$("#listDirections").hide();
 		});	
 	}
 	
@@ -44,7 +44,7 @@ $(document).ready(function(){
 	
 //toggle recipes in each section
 	function toggleHeaders(){
-		$('.headCat').click(function(){
+		$('.headerCategory').click(function(){
 			var clickedID = $(this).attr('id');
 			tagCapture = clickedID.slice(1);
 			newID = "#r" + tagCapture;
@@ -70,7 +70,7 @@ $(document).ready(function(){
 //hash change event
 	function hashNavigation(){
 		$(window).on('hashchange', function(){
-			thisID = cleanHash();
+			var thisID = cleanHash();
 			switch(thisID){
 				case "home":
 				case "clear":
@@ -83,7 +83,7 @@ $(document).ready(function(){
 	
 //sanitize text after the hash	
 	function cleanHash(){
-		hash = location.hash;
+		var hash = location.hash;
 		hash = hash.replace('#', '');//strip hash symbol
 		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
 		console.log("hash changed to: " + hash);
@@ -93,7 +93,7 @@ $(document).ready(function(){
 //find recipe
 	function findRecipe(hash){
 		//do stuff
-		thisRecipe = recipes.filter(function(e){
+		var thisRecipe = recipes.filter(function(e){
 			return e.id === hash;
 		});	
 		return thisRecipe;
@@ -102,18 +102,18 @@ $(document).ready(function(){
 	
 //load recipe details
 	function loadRecipe(hash){
-		thisRecipe = findRecipe(hash);
+		var thisRecipe = findRecipe(hash);
 		//console.log(selectedRecipe[0].ingredients);
-		ingredients = thisRecipe[0].ingredients;
-		steps = thisRecipe[0].directions;
+		var ingredients = thisRecipe[0].ingredients;
+		var steps = thisRecipe[0].directions;
 		
 		//get ingredients
-		var listIngr = "<tr>";
+		var listIngredients = "<tr>";
 		$.each(ingredients, function(j, valueJ){
-			listIngr = listIngr + "<td>" + ingredients[j].quantity + "</td><td>" + ingredients[j].item + "</td></tr>";		
+			listIngredients = listIngredients + "<td>" + ingredients[j].quantity + "</td><td>" + ingredients[j].item + "</td></tr>";		
 		});
 		$("#listIng").show();
-		$("#listIng").html(listIngr);
+		$("#listIng").html(listIngredients);
 		
 		//get steps
 		var currentStep = "";
