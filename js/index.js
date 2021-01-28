@@ -37,9 +37,7 @@ $(document).ready(function(){
 //toggle recipes in each section
 	$('h2').click(function(){
 		var clicked = $(this).attr('id');
-		clicked = clicked.slice(2);
-		clicked = "#r" + clicked;
-		$(clicked).toggle();
+		console.log(clicked);
 	});	
 	
 //hash change event
