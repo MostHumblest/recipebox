@@ -47,11 +47,11 @@ $(document).ready(function(){
 			var headText = $(this).text();
 			var n = headText.length;
 			var arrowType = headText.charCodeAt(n-1);
-			/* if(arrowType == "9656"){
-				headText.replace("9656", "9662");
+			if(arrowType == 9656){
+				headText.replace(/\u25B8/, /\u25BE/);
 			}else{
 				headText.replace("9662", "9656");
-			} */
+			}
 			console.log(arrowType);
 		});	
 	};
