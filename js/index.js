@@ -4,6 +4,7 @@ $(document).ready(function(){
 	//window.location.hash = "home";
 	populateCategories();
 	hashNavigation();
+	buttonClicked();
 	populateRecipes();
 	toggleHeaders();
 });
@@ -31,11 +32,14 @@ $(document).ready(function(){
 	}	
 	
 //testing actions on button click
-	$("button").click(function(){		
-		window.location.hash = "clear";
-		$("#listIng").hide();
-		$("#listStep").hide();
-	});	
+	function buttonClicked(){
+		$("button").click(function(){		
+			window.location.hash = "clear";
+			$("#listIng").hide();
+			$("#listStep").hide();
+		});	
+	}
+	
 
 	
 //toggle recipes in each section
@@ -60,7 +64,7 @@ $(document).ready(function(){
 			$("#"+clickedID).text(headText);
 			console.log(arrowType);
 		});	
-	};
+	}
 	
 	
 //hash change event
@@ -74,7 +78,7 @@ $(document).ready(function(){
 					loadRecipe(thisID);
 			}
 		});
-	};				
+	}				
 	
 //sanitize text after the hash	
 	function cleanHash(){
@@ -83,7 +87,7 @@ $(document).ready(function(){
 		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
 		console.log("hash changed to: " + hash);
 		return hash;
-	};
+	}
 	
 //find recipe
 	function findRecipe(hash){
@@ -93,7 +97,7 @@ $(document).ready(function(){
 		});	
 		return thisRecipe;
 		//console.log(selectedRecipe);
-	};
+	}
 	
 //load recipe details
 	function loadRecipe(hash){
@@ -117,5 +121,5 @@ $(document).ready(function(){
 		});
 		$("#listStep").show();
 		$("#listStep").html(currentStep);
-	};	
+	}	
 	
