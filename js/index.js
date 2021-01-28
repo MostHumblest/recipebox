@@ -37,7 +37,7 @@ $(document).ready(function(){
 //toggle recipes in each section
 	$('h2').click(function(){
 		var clicked = $(this).attr('id');
-		clicked = clicked.splice(1);
+		clicked = clicked.slice(1);
 		clicked = "#r" + clicked;
 		console.log(clicked);
 	});	
