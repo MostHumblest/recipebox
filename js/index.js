@@ -44,7 +44,8 @@ $(document).ready(function(){
 			clicked = clicked.slice(1);
 			clicked = "#r" + clicked;
 			$(clicked).toggle();
-			console.log(clicked);
+			var headText = $(this).text();
+			console.log(headText);
 		});	
 	};
 	
