@@ -3,9 +3,8 @@ $(document).ready(function(){
 	console.log("ready");	
 	populateCategories();
 	populateRecipes();
+	toggleHeaders();
 });
-
-toggleHeaders();
 hashNavigation();
 
 //create recipe list
