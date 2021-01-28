@@ -1,4 +1,4 @@
-.h1 {
+h1 {
 	color:red;
 }
 
@@ -10,7 +10,7 @@ i {
 	border:solid black;
 	border-width:0 3px 3px 0;
 	display: inline-block;
-	padding: 3px;
+	padding-left: 10px;
 }
 
 .right {
