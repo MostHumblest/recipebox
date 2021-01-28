@@ -18,7 +18,7 @@ i {
 	-webkit-transform: rotate(-45deg);
 }
 
-div.horizontalgap {
+span.horizontalgap {
 	float: left;
 	overflow: hidden;
 	height: 1px;
