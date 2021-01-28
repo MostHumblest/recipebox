@@ -47,12 +47,13 @@ $(document).ready(function(){
 			var headText = $(this).text();
 			var n = headText.length;
 			var arrowType = headText.charCodeAt(n-1);
-			if(arrowType == '25B8'){
+			if(arrowType == 9662){
 				console.log("right arrow");
 				headText = headText.replace(/\u25B8/, '\u25BE');
 			}else{
-				headText = headText.replace(/\u25BE/, '\u25B8')
 				console.log("left arrow");
+				headText = headText.replace(/\u25BE/, '\u25B8');
+				
 			}
 			$("#"+clickedID).text(headText);
 			console.log(arrowType);
