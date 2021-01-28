@@ -14,7 +14,7 @@ $(document).ready(function(){
 		$.each(recipes, function(i, val){
 			var rCategory = recipes[i].category;
 			//rCat = rCat.replace('', 'uncategorized');
-			var categoryHeaders = "<h2 id=\"h" + rCategory + "\" class=\"headerCategory\">" + rCategory + "    \u25BE</h2>"; //&#9662
+			var categoryHeaders = "<h2 id=\"h" + rCategory + "\" class=\"headerCategory\">" + rCategory + "    \u25BE</h2>"; //&ring9662
 			var categoryLists = "<ul id=\"r"+ rCategory +"\" class=\"listTOC\"></ul>";
 			$("#allRecipes").append(categoryHeaders);
 			$("#allRecipes").append(categoryLists);
