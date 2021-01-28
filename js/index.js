@@ -1,8 +1,8 @@
 $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
-	hashNavigation();
 	toggleHeaders();
+	hashNavigation();	
 	populateCategories();
 	populateRecipes();
 	
