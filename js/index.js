@@ -50,9 +50,12 @@ $(document).ready(function(){
 			if(arrowType == 9662){
 				console.log("right arrow");
 				headText = headText.replace(/\u25B8/, '\u25BE');
+				break;
 			}else if(arrowType == 9656){
 				console.log("left arrow");
 				headText = headText.replace(/\u25BE/, '\u25B8');				
+			}else {
+				//do nothing
 			}
 			$("#"+clickedID).text(headText);
 			console.log(arrowType);
