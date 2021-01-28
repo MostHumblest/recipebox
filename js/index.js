@@ -32,7 +32,7 @@ $(document).ready(function(){
 	
 //testing actions on button click
 	$("button").click(function(){		
-		window.location.hash = "home";
+		window.location.hash = "clear";
 		$("#listIng").hide();
 		$("#listStep").hide();
 	});	
@@ -68,7 +68,7 @@ $(document).ready(function(){
 		$(window).on('hashchange', function(){
 			thisID = cleanHash();
 			switch(thisID){
-				case "home":
+				case "home", "clear":
 					break;
 				default:
 					loadRecipe(thisID);
