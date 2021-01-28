@@ -6,24 +6,4 @@ ul.rList {
 	list-style-type:none;
 }
 
-i {
-	border:solid black;
-	border-width: 0 3px 3px 0;
-	float: right;
-	display: inline-block;
-	padding: 3px;
-}
-
-.right {
-	transform: rotate(-45deg);
-	-webkit-transform: rotate(-45deg);
-}
-
-span.horizontalgap {
-	float: left;
-	overflow: hidden;
-	height: 1px;
-	width: 20px;
-  }
-
 
