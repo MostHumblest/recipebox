@@ -1,11 +1,12 @@
 $(document).ready(function(){
 //creates pop up when page loads
-	console.log("ready");
-	toggleHeaders();
-	hashNavigation();	
+	console.log("ready");	
 	populateCategories();
 	populateRecipes();
 });
+
+toggleHeaders();
+hashNavigation();
 
 //create recipe list
 	function populateCategories(){
