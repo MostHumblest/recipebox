@@ -31,14 +31,15 @@ $(document).ready(function(){
 		window.location.hash = "clear";
 		$("#listIng").hide();
 		$("#listStep").hide();
-	});
-
-	
+	});	
 
 	
 //toggle recipes in each section
-	$("#hBeef").click(function(){
-		$("#rBeef").toggle();
+	$('h2').click(function(){
+		var clicked = $(this).attr('id');
+		clicked = clicked.slice(2);
+		clicked = "#r" + clicked;
+		$(clicked).toggle();
 	});	
 	
 //hash change event
