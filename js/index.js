@@ -72,7 +72,8 @@ $(document).ready(function(){
 		$(window).on('hashchange', function(){
 			thisID = cleanHash();
 			switch(thisID){
-				case "home", "clear":
+				case "home":
+				case "clear":
 					break;
 				default:
 					loadRecipe(thisID);
