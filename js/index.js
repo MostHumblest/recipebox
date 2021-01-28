@@ -12,7 +12,7 @@ $(document).ready(function(){
 		$.each(recipes, function(i, val){
 			var rCat = recipes[i].category;
 			//rCat = rCat.replace('', 'uncategorized');
-			var categoryHeaders = "<h2 id=\"h" + rCat + "\" class=\"headCat\">" + rCat + "    &#9656</h2>";
+			var categoryHeaders = "<h2 id=\"h" + rCat + "\" class=\"headCat\">" + rCat + "    \u25BE</h2>"; //&#9662
 			var categoryLists = "<ul id=\"r"+ rCat +"\" class=\"rList\"></ul>";
 			$("#allRecipes").append(categoryHeaders);
 			$("#allRecipes").append(categoryLists);
@@ -47,14 +47,15 @@ $(document).ready(function(){
 			var headText = $(this).text();
 			var n = headText.length;
 			var arrowType = headText.charCodeAt(n-1);
-			if(arrowType == 9656){
+			if(arrowType == '25B8'){
 				console.log("right arrow");
 				headText = headText.replace(/\u25B8/, '\u25BE');
 			}else{
+				headText = headText.replace(/\u25BE/, '\u25B8')
 				console.log("left arrow");
 			}
 			$("#"+clickedID).text(headText);
-			console.log(headText);
+			console.log(arrowType);
 		});	
 	};
 	
