@@ -45,7 +45,10 @@ $(document).ready(function(){
 			clicked = "#r" + clicked;
 			$(clicked).toggle();
 			var headText = $(this).text();
-			console.log(headText);
+			var n = headText.length;
+			var arrowType = headText.slice(n-7);
+			headText = headText.replace("&#9656" , )
+			console.log(arrowType);
 		});	
 	};
 	
