@@ -39,7 +39,7 @@ hashNavigation();
 	
 //toggle recipes in each section
 	function toggleHeaders(){
-		$('h2').click(function(){
+		$('.headCat').click(function(){
 			var clicked = $(this).attr('id');
 			clicked = clicked.slice(1);
 			clicked = "#r" + clicked;
