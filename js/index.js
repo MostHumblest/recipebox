@@ -49,7 +49,7 @@ $(document).ready(function(){
 			var arrowType = headText.charCodeAt(n-1);
 			if(arrowType == 9656){
 				console.log("right arrow");
-				headText = headText.replace(/\u25B8/, /\u25BE/);
+				headText = headText.replace(/\u25B8/, '\u25BE');
 			}else{
 				console.log("left arrow");
 			}
