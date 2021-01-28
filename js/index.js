@@ -39,6 +39,7 @@ $(document).ready(function(){
 		var clicked = $(this).attr('id');
 		clicked = clicked.slice(1);
 		clicked = "#r" + clicked;
+		(clicked).toggle();
 		console.log(clicked);
 	});	
 	
