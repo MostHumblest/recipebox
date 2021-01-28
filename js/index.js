@@ -1,6 +1,7 @@
 $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
+	hashNavigation();
 	toggleHeaders();
 	populateCategories();
 	populateRecipes();
@@ -48,16 +49,17 @@ $(document).ready(function(){
 	
 	
 //hash change event
-	$(window).on('hashchange', function(){
-		thisID = cleanHash();
-		switch(thisID){
-			case "clear":
-				break;
-			default:
-				loadRecipe(thisID);
-		}
-	});
-				
+	function hashNavigation(){
+		$(window).on('hashchange', function(){
+			thisID = cleanHash();
+			switch(thisID){
+				case "clear":
+					break;
+				default:
+					loadRecipe(thisID);
+			}
+		});
+	};				
 	
 //sanitize text after the hash	
 	function cleanHash(){
