@@ -5,7 +5,8 @@ $(document).ready(function(){
 	hashNavigation();	
 	populateCategories();
 	populateRecipes();
-	
+});
+
 //create recipe list
 	function populateCategories(){
 		$.each(recipes, function(i, val){
@@ -103,6 +104,4 @@ $(document).ready(function(){
 		$("#listStep").show();
 		$("#listStep").html(currentStep);
 	};	
-		
-});
 	
