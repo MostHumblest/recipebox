@@ -1,6 +1,7 @@
 $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
+	toggleHeaders();
 	populateCategories();
 	populateRecipes();
 	
@@ -35,13 +36,16 @@ $(document).ready(function(){
 
 	
 //toggle recipes in each section
-	$('h2').click(function(){
-		var clicked = $(this).attr('id');
-		clicked = clicked.slice(1);
-		clicked = "#r" + clicked;
-		$(clicked).toggle();
-		console.log(clicked);
-	});	
+	function toggleHeaders(){
+		$('h2').click(function(){
+			var clicked = $(this).attr('id');
+			clicked = clicked.slice(1);
+			clicked = "#r" + clicked;
+			$(clicked).toggle();
+			console.log(clicked);
+		});	
+	};
+	
 	
 //hash change event
 	$(window).on('hashchange', function(){
