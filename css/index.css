@@ -18,8 +18,11 @@ i {
 	-webkit-transform: rotate(-45deg);
 }
 
-.headCat{
-	padding-right: 20px;
-}
+div.horizontalgap {
+	float: left;
+	overflow: hidden;
+	height: 1px;
+	width: 20px;
+  }
 
 
