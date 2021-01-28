@@ -1,6 +1,6 @@
 recipes = [ 
 
-{ "id": "demo", "title":"template",
+{   "id": "demo", "title": "template",
 	"category":"demo",
 	"servings":1,
 	"time":{
@@ -34,8 +34,7 @@ recipes = [
 		"test",
 		"test2"
 	],
-},
-	
+},	
 		
 {	"id": "A1", "title": "Tasty Steak",
 
