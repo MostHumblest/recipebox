@@ -12,7 +12,7 @@ $(document).ready(function(){
 		$.each(recipes, function(i, val){
 			var rCat = recipes[i].category;
 			//rCat = rCat.replace('', 'uncategorized');
-			var categoryHeaders = "<h2 id=\"h" + rCat + "\" class=\"headCat\">" + rCat + "    &x25BE;</h2>";
+			var categoryHeaders = "<h2 id=\"h" + rCat + "\" class=\"headCat\">" + rCat + "    &#9656</h2>";
 			var categoryLists = "<ul id=\"r"+ rCat +"\" class=\"rList\"></ul>";
 			$("#allRecipes").append(categoryHeaders);
 			$("#allRecipes").append(categoryLists);
@@ -48,9 +48,9 @@ $(document).ready(function(){
 			var n = headText.length;
 			var arrowType = headText.charCodeAt(n-1);
 			if(arrowType == 9656){
-				headText.replace(/\u25B8/, /\u25BE/);
+				console.log("right arrow");
 			}else{
-				headText.replace("9662", "9656");
+				console.log("left arrow");
 			}
 			console.log(arrowType);
 		});	
