@@ -7,7 +7,8 @@ $(document).ready(function(){
 	buttonClicked();
 	populateRecipes();
 	toggleHeaders();
-	window.location.hash = location.hash;
+	var loadedHash = location.hash;
+	window.location.hash = loadedHash;
 });
 
 //create recipe list
