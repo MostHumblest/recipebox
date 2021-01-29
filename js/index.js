@@ -1,13 +1,13 @@
 $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
-	//window.location.hash = "home"; this prevent bookmarking a meaningful hash
-	window.location.hash = location.hash;
+	//window.location.hash = "home"; this prevent bookmarking a meaningful hash	
 	populateCategories();
 	hashNavigation();
 	buttonClicked();
 	populateRecipes();
 	toggleHeaders();
+	window.location.hash = location.hash;
 });
 
 //create recipe list
