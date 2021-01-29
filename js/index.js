@@ -8,7 +8,7 @@ $(document).ready(function(){
 	populateRecipes();
 	toggleHeaders();
 	//pageLoad();
-	window.trigger('hashchange');
+	$(window).trigger('hashchange');
 });
 
 //create recipe list
