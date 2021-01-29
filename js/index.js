@@ -112,15 +112,15 @@ $(document).ready(function(){
 		$.each(ingredients, function(j, valueJ){
 			listIngredients = listIngredients + "<td>" + ingredients[j].quantity + "</td><td>" + ingredients[j].item + "</td></tr>";		
 		});
-		$("#listIng").show();
-		$("#listIng").html(listIngredients);
+		$("#listIngredients").show();
+		$("#listIngredients").html(listIngredients);
 		
 		//get steps
 		var currentStep = "";
 		$.each(steps, function(i, val){
 			currentStep = currentStep + "<li>" + steps[i] + "</li>";			
 		});
-		$("#listStep").show();
-		$("#listStep").html(currentStep);
+		$("#listDirections").show();
+		$("#listDirections").html(currentStep);
 	}	
 	
