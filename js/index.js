@@ -1,14 +1,12 @@
 $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
-	//window.location.hash = "home"; this prevent bookmarking a meaningful hash	
 	populateCategories();
 	hashNavigation();
 	buttonClicked();
 	populateRecipes();
 	toggleHeaders();
-	//pageLoad();
-	$(window).trigger('hashchange');
+	$(window).trigger('hashchange'); //forces hash change on page load - enables bookmarking recipes
 });
 
 //create recipe list
@@ -33,13 +31,6 @@ $(document).ready(function(){
 		});
 	}	
 
-//what should happen when the page loads
-	function pageLoad(){
-		window.trigger('hashchange');
-		$("#listIngredients").show();
-		$("#listDirections").show();
-	}
-	
 //testing actions on button click
 	function buttonClicked(){
 		$("button").click(function(){		
