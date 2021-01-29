@@ -2,6 +2,7 @@ $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
 	//window.location.hash = "home"; this prevent bookmarking a meaningful hash
+	window.location.hash = location.hash;
 	populateCategories();
 	hashNavigation();
 	buttonClicked();
