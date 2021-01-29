@@ -75,6 +75,7 @@ $(document).ready(function(){
 			switch(thisID){
 				case "home":
 				case "clear":
+				case "":
 					break;
 				default:
 					loadRecipe(thisID);
