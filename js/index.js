@@ -7,8 +7,7 @@ $(document).ready(function(){
 	buttonClicked();
 	populateRecipes();
 	toggleHeaders();
-	var loadedHash = location.hash;
-	window.location.hash = loadedHash;
+	pageLoad();
 });
 
 //create recipe list
@@ -32,6 +31,14 @@ $(document).ready(function(){
 			$(thisTag).append(rTitles);
 		});
 	}	
+
+//what should happen when the page loads
+	function pageLoad(){
+		var loadedHash = location.hash;
+		window.location.hash = loadedHash;
+		$("#listIngredients").show();
+		$("#listDirections").show();
+	}
 	
 //testing actions on button click
 	function buttonClicked(){
