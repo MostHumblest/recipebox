@@ -24,15 +24,21 @@
 
 <nav id="allRecipes"></nav>
 
-<div id="recipeDisplay">
-    <h2 id="recipeTitle" class="headerRecipe"></h2>
-    <ul id="recipeTime" class="listTime"></ul>    
-    <ul id="recipeNotes" class="listNotes"></ul>
-    <div id="recipeBody" class="grid">
+<div id="recipeDisplay" class="grid">
+    <div id="recipeHeader" class="row">
+        <h2 id="recipeTitle" class="headerRecipe"></h2>
+        <ul id="recipeTime" class="listTime"></ul>  
+    </div>
+    <div class="row">
+        <ul id="recipeNotes" class="listNotes"></ul>
+    </div>
+    <div id="recipeBody" class="row">
         <table id="listIngredients" class="tableIngredients"></table>
         <ol id="listDirections" class="listDirections"></ol>
+    </div> 
+    <div class="row">
+        <footer id="recipeInfo" c;ass="footerRecipe"></footer>
     </div>    
-    <footer id="recipeInfo" c;ass="footerRecipe"></footer>
 </div>
 
 </body>
