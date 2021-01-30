@@ -25,3 +25,9 @@ ul.listTOC {
 	width:75%;
 }
 
+.grid:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
