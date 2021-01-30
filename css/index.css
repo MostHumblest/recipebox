@@ -15,3 +15,11 @@ ul.listTOC {
 	padding-right: 4px;
 }
 
+.listIngredients {
+	width:25%;
+}
+
+.listDirections {
+	width:75%
+}
+
