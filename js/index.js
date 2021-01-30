@@ -47,9 +47,11 @@ $(document).ready(function(){
 			tagCapture = clickedID.slice(1);
 			newID = "#r" + tagCapture;
 			$(newID).toggle();
+			//get arrow type
 			var headText = $(this).text();
 			var n = headText.length;
 			var arrowType = headText.charCodeAt(n-1);
+			//toogle arrow type
 			if(arrowType == 9656){
 				console.log("right arrow");
 				headText = headText.replace(/\u25B8/, '\u25BE');
@@ -105,7 +107,7 @@ $(document).ready(function(){
 	
 //find recipe
 	function findRecipe(hash){
-		//do stuff
+		//create new array for recipe ID that matches
 		var thisRecipe = recipes.filter(function(e){
 			return e.id === hash;
 		});	
@@ -115,6 +117,7 @@ $(document).ready(function(){
 
 //sanitize text after the hash	
 	function cleanHash(){
+		//sanitize hash and get input to find recipe
 		var hash = location.hash;
 		hash = hash.replace('#', '');//strip hash symbol
 		hash = hash.replace(/\W/g, '');//strip non-alphanumerics

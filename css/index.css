@@ -25,6 +25,9 @@ ul.listTOC {
 	width:70%;
 }
 
+.grid-container{
+	display:grid;
+}
 .grid:after {
 	content: "";
 	display: table;
