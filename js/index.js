@@ -1,9 +1,9 @@
 $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
-	populateCategories();
 	hashNavigation();
 	buttonClicked();
+	populateCategories();
 	populateRecipes();
 	toggleHeaders();
 	$(window).trigger('hashchange'); //forces hash change on page load - enables bookmarking recipes
@@ -39,9 +39,7 @@ $(document).ready(function(){
 			$("#listDirections").hide();
 		});	
 	}
-	
-
-	
+		
 //toggle recipes in each section
 	function toggleHeaders(){
 		$('.headerCategory').click(function(){
@@ -64,8 +62,7 @@ $(document).ready(function(){
 			$("#"+clickedID).text(headText);
 			console.log(arrowType);
 		});	
-	}
-	
+	}	
 	
 //hash change event
 	function hashNavigation(){
@@ -80,26 +77,7 @@ $(document).ready(function(){
 					loadRecipe(thisID);
 			}
 		});
-	}				
-	
-//sanitize text after the hash	
-	function cleanHash(){
-		var hash = location.hash;
-		hash = hash.replace('#', '');//strip hash symbol
-		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
-		console.log("hash changed to: " + hash);
-		return hash;
-	}
-	
-//find recipe
-	function findRecipe(hash){
-		//do stuff
-		var thisRecipe = recipes.filter(function(e){
-			return e.id === hash;
-		});	
-		return thisRecipe;
-		//console.log(selectedRecipe);
-	}
+	}	
 	
 //load recipe details
 	function loadRecipe(hash){
@@ -125,3 +103,21 @@ $(document).ready(function(){
 		$("#listDirections").html(currentStep);
 	}	
 	
+//find recipe
+	function findRecipe(hash){
+		//do stuff
+		var thisRecipe = recipes.filter(function(e){
+			return e.id === hash;
+		});	
+		return thisRecipe;
+		//console.log(selectedRecipe);
+	}
+
+//sanitize text after the hash	
+	function cleanHash(){
+		var hash = location.hash;
+		hash = hash.replace('#', '');//strip hash symbol
+		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
+		console.log("hash changed to: " + hash);
+		return hash;
+	}
