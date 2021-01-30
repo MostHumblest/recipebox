@@ -6,4 +6,11 @@ ul.listTOC {
 	list-style-type:none;
 }
 
+table {
+	text-align:left;
+}
+
+table:first-child {
+	text-align:right;
+}
 
