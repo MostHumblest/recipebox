@@ -16,10 +16,12 @@ ul.listTOC {
 }
 
 .tableIngredients {
+	float:left;
 	width:25%;
 }
 
 .listDirections {
-	width:75%
+	float:left;
+	width:75%;
 }
 
