@@ -17,7 +17,7 @@ ul.listTOC {
 
 .grid-container{
 	display:grid;
-	grid-column-gap: 25px;
+	column-gap: 2rem;
 }
 
 

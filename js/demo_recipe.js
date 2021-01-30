@@ -2,7 +2,7 @@ recipes = [
 
 {   "id": "demo", "title": "template",
 	"category":"demo",
-	"servings":1,
+    "servings":1,
 	"time":{
 		"active": 00,
 		"total":00
@@ -37,170 +37,86 @@ recipes = [
 },	
 		
 {	"id": "A1", "title": "Tasty Steak",
-
-	"category" : "beef",
-
-    "total_cook_time": {
-
-        "end_to_end": 100000,
-
-        "active": 10000
-
+    "category" : "chicken",
+    "servings":5,
+    "time": { 
+        "active": 10,
+        "total": 15
     },
-
-    "servings_yield": 5,
-
-    "difficulty": "easy",
-
-    "rating": 4.5,
-
     "source": {
-
-        "url": "https://foodnetwork.com/etc/blarg",
-
         "title": "Foodnetwork",
-
-        "author": "Foodie McFoodFace"
-
+        "location": "foodnetwork",       
+        "modify": "n"
     },
-
     "ingredients": [
-
         {
-
             "item": "seasoning salt",
-
-            "quantity": "1 teaspoon",
-
-            "notes": "add more for seasoning to taste"
-
+            "quantity": "1 tbsp"
         },
-
         {
-
             "item": "all-purpose flour",
-
-            "quantity": "1 cup",
-
-            "notes": ""
-
+            "quantity": "1 cup"
         },
-
         {
-
-            "item": "rib eye steak",
-
-            "quantity": 1,
-
-            "notes": "can substitute a NY strip"
-
+            "item": "rib-eye",
+            "quantity": 1
         }
-
     ],
-
     "directions": [
-
         "Salt and pepper both sides of the steak.",
-
         "Deep fry that sumbitch at 1000 degrees.",
-
         "Serve with A1 steaksauce."
-
     ],
-
+    "notes":[
+        "can substitue porterhouse or t-bone",
+        "server rare for best flavor"
+    ],
     "tags": [
-
         "meaty",
-
         "salty",
-
         "quick"
-
     ]
-
 },
 
 {	"id": "A2", "title": "Less Tasty Steak",
-
-	"category" : "chicken",
-
-    "total_cook_time": {
- 
-        "end_to_end": 100000,
-
-        "active": 10000
-
+    "category" : "chicken",
+    "servings":5,
+    "time": { 
+        "active": 45,
+        "total": 60
     },
-
-    "servings_yield": 5,
-
-    "difficulty": "easy",
-
-    "rating": 4.5,
-
     "source": {
-
-        "url": "https://foodnetwork.com/etc/blarg",
-
         "title": "Foodnetwork",
-
-        "author": "Foodie McFoodFace"
-
+        "location": "foodnetwork",       
+        "modify": "n"
     },
-
     "ingredients": [
-
         {
-
             "item": "seasoning salt",
-
-            "quantity": "1 tsp",
-
-            "notes": "add more for seasoning to taste"
-
+            "quantity": "1 tsp"
         },
-
         {
-
             "item": "all-purpose flour",
-
-            "quantity": "1 cup",
-
-            "notes": ""
-
+            "quantity": "1 cup"
         },
-
         {
-
             "item": "chicken",
-
-            "quantity": 1,
-
-            "notes": "can substitute game hen"
-
+            "quantity": 1
         }
-
     ],
-
     "directions": [
-
         "Salt and pepper one sides of the steak.",
-
         "Deep fry that sumbitch at 900 degrees.",
-
         "Serve with A2 steaksauce."
-
     ],
-
+    "notes":[
+        "tastes like chicken",
+        "can substitue beef"
+    ],
     "tags": [
-
         "meaty",
-
         "salty",
-
         "quick"
-
     ]
-
 },
 ]
