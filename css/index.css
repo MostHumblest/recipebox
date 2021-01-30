@@ -6,11 +6,11 @@ ul.listTOC {
 	list-style-type:none;
 }
 
-table {
+td.item {
 	text-align:left;
 }
 
-table:first-child {
+td.qty{
 	text-align:right;
 }
 
