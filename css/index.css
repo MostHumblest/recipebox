@@ -16,6 +16,9 @@ ul.listTOC {
 }
 
 .grid-container{
+	max-width: 1920px;
+	margin: auto;
+	border: 3px solid goldenrod;
 	display:grid;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 	align-items: center;
