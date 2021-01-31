@@ -27,7 +27,7 @@ ul.listTOC {
 
 .main-content {
 	background-color:lightgray;
-	grid-column: span 6;
+	grid-column-end: -1;
 }
 
 .recipe-list{
