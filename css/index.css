@@ -17,12 +17,18 @@ ul.listTOC {
 
 .grid-container{
 	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	align-items: center;
 	column-gap: 2rem;
 }
 
 .main-content {
-	background-color:green;
+	background-color:lightgray;
 	background-size:cover;
+}
+
+.recipe-list{
+	background-color:lightpink;
 }
 
 
