@@ -22,7 +22,7 @@ ul.listTOC {
 	border: 3px solid goldenrod;
 	display:grid;
 	grid-template-columns: repeat(3,1fr);
-	grid-template-rows: minmax(10px, auto);
+	grid-auto-rows: minmax(10px, auto);
 	align-items: center;
 	column-gap: 2rem;
 }
