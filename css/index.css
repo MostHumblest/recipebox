@@ -20,6 +20,11 @@ ul.listTOC {
 	column-gap: 2rem;
 }
 
+.main-content {
+	background-color:darkslategray;
+	background-size:cover;
+}
+
 
 
 
