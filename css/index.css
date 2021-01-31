@@ -21,7 +21,7 @@ ul {
 	margin: auto;
 	border: 3px solid goldenrod;
 	display:grid;
-	grid-template-columns: repeat(3,1fr);
+	grid-template-columns: repeat(6,1fr);
 	grid-template-rows: auto;
 	/*align-items: center;*/
 	/*column-gap: 2rem;*/
@@ -41,13 +41,13 @@ ul {
 
 .title{
 	background-color: aqua;
-	grid-column:1/3;
+	grid-column:1/5;
 	grid-row:3;
 }
 
 .details {
 	background-color:blanchedalmond;
-	grid-column: 3/-1;
+	grid-column: 5/-1;
 	grid-row:3;
 }
 
@@ -71,13 +71,13 @@ ul {
 
 .source{
 	background-color:grey;
-	grid-column:1/3;
+	grid-column:1/6;
 	grid-row:7;
 }
 
 .index{
 	background-color:hotpink;
-	grid-column:3/-1;
+	grid-column:6/-1;
 	grid-row:7;
 }
 
