@@ -94,6 +94,10 @@ $(document).ready(function(){
 		//console.log(selectedRecipe[0].ingredients);
 		var ingredients = thisRecipe[0].ingredients;
 		var steps = thisRecipe[0].directions;
+		var title = thisRecipe[0].title;
+		
+		$("#recipeTitle").show();
+		$("#recipeTitle").text(title);
 		
 		//get ingredients
 		var listIngredients = "<tr>";
