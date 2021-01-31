@@ -28,7 +28,6 @@ ul.listTOC {
 .main-content {
 	background-color:lightgray;
 	/*grid-column: span 2;*/
-	grid-row: 1;
 	grid-column: span 2;
 }
 
