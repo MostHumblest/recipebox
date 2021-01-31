@@ -15,13 +15,14 @@ ul.listTOC {
 	padding-right: 4px;
 }
 
+/* designed for mobile */
 .grid-container{
 	max-width: 1920px;
 	margin: auto;
 	border: 3px solid goldenrod;
 	display:grid;
 	grid-template-columns: repeat(3,1fr);
-	grid-template-rows:auto;
+	grid-template-rows: minmax(10px, auto);
 	align-items: center;
 	column-gap: 2rem;
 }
@@ -37,6 +38,18 @@ ul.listTOC {
 	background-color:lightpink;
 	grid-column: 1/-1;
 	grid-row:2;
+}
+
+.title{
+	background-color: aqua;
+	grid-column:1/2;
+	grid-row:3;
+}
+
+.details {
+	background-color:blanchedalmond;
+	grid-column: 3;
+	grid-row:3;
 }
 
 
