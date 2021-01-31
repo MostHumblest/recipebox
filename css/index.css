@@ -20,7 +20,8 @@ ul.listTOC {
 	margin: auto;
 	border: 3px solid goldenrod;
 	display:grid;
-	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows:auto;
 	align-items: center;
 	column-gap: 2rem;
 }
@@ -28,7 +29,7 @@ ul.listTOC {
 .main-content {
 	background-color:lightgray;
 	/*grid-column: span 2;*/
-	width:100%;
+	grid-column:1/-1;
 }
 
 .recipe-list{
