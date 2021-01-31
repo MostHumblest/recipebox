@@ -11,14 +11,20 @@ $(document).ready(function(){
 
 //create recipe list
 	function populateCategories(){
+		var categories = [];
+		var uniqueCatergories = [];
 		$.each(recipes, function(i, val){
-			var rCategory = recipes[i].category;
-			//rCat = rCat.replace('', 'uncategorized');
+			categories.push(recipes[i].category);			
+		});	
+		uniqueCategories = categories.filter(onlyUnique);
+
+		$.each(uniqueCategories, function(i, val){
+			var rCategory = uniqueCategories[i];
 			var categoryHeaders = "<h2 id=\"h" + rCategory + "\" class=\"headerCategory\">" + rCategory + "    \u25BE</h2>"; //&ring9662
 			var categoryLists = "<ul id=\"r"+ rCategory +"\" class=\"listTOC\"></ul>";
 			$("#allRecipes").append(categoryHeaders);
 			$("#allRecipes").append(categoryLists);
-		});				
+		});			
 	}
 
 //add recipe titles to each section
@@ -123,4 +129,8 @@ $(document).ready(function(){
 		hash = hash.replace(/\W/g, '');//strip non-alphanumerics
 		console.log("hash changed to: " + hash);
 		return hash;
+	}
+
+	function onlyUnique(val, i, self){
+		return Selection.indexOf(value) === index;
 	}
