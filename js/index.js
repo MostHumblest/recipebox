@@ -42,8 +42,7 @@ $(document).ready(function(){
 	function buttonClicked(){
 		$("button").click(function(){		
 			window.location.hash = "clear";
-			$("#listIngredients").hide();
-			$("#listDirections").hide();
+			$(".all-info").hide();
 		});	
 	}
 		
@@ -96,19 +95,18 @@ $(document).ready(function(){
 		var steps = thisRecipe[0].directions;
 		var title = thisRecipe[0].title;
 		var servings = thisRecipe[0].servings;
+
+		$(".all-info").show();
 		
-		$("#recipeTitle").show();
 		$("#recipeTitle").text(title);
 
-		$("#recipeDetails").show();
-		$("#recipeDetails").text("Servings: " + servings);
+		$("#recipeDetails").html("<li> Servings: " + servings + "</li>");
 
 		//get ingredients
 		var listIngredients = "<tr>";
 		$.each(ingredients, function(j, valueJ){
 			listIngredients = listIngredients + "<td class=\"qty\">" + ingredients[j].quantity + "</td><td class=\"item\">" + ingredients[j].item + "</td></tr>";		
 		});
-		$("#listIngredients").show();
 		$("#listIngredients").html(listIngredients);
 		
 		//get steps
@@ -116,7 +114,6 @@ $(document).ready(function(){
 		$.each(steps, function(i, val){
 			currentStep = currentStep + "<li>" + steps[i] + "</li>";			
 		});
-		$("#listDirections").show();
 		$("#listDirections").html(currentStep);
 	}	
 	
