@@ -37,7 +37,7 @@ recipes = [
 },	
 		
 {	"id": "A1", "title": "Tasty Steak",
-    "category" : "chicken",
+    "category" : "beef",
     "servings":5,
     "time": { 
         "active": 10,
