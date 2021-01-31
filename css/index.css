@@ -52,6 +52,24 @@ ul.listTOC {
 	grid-row:3;
 }
 
+.notes {
+	background-color:palegreen;
+	grid-column: 1/-1;
+	grid-row:4;
+}
+
+.ingredients {
+	background-color:powderblue;
+	grid-column: 1/-1;
+	grid-row:5;
+}
+
+.directions{
+	background-color: rosybrown;
+	grid-area: 1/-1;
+	grid-row:6;
+}
+
 
 
 
