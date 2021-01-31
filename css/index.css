@@ -29,7 +29,7 @@ ul.listTOC {
 	background-color:lightgray;
 	/*grid-column: span 2;*/
 	grid-row: 1;
-	grid-column: span 1/all;
+	grid-column: span 2;
 }
 
 .recipe-list{
