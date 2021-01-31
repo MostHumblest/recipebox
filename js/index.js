@@ -102,6 +102,13 @@ $(document).ready(function(){
 
 		$("#recipeDetails").html("<li> Servings: " + servings + "</li>");
 
+		//get notes
+		var listNotes = "";
+		$.each(ingredients, function(i, val){
+			listNotes = listNotes + "<li>" + notes[i] + "</li>";
+		});
+		$("#listNotes").html(listNotes);
+
 		//get ingredients
 		var listIngredients = "<tr>";
 		$.each(ingredients, function(j, valueJ){
