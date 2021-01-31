@@ -24,7 +24,7 @@ ul.listTOC {
 	grid-template-columns: repeat(3,1fr);
 	grid-template-rows: minmax(100px, auto);
 	/*align-items: center;*/
-	column-gap: 2rem;
+	/*column-gap: 2rem;*/
 }
 
 .main-content {
