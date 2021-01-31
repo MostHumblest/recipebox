@@ -30,10 +30,13 @@ ul.listTOC {
 	background-color:lightgray;
 	/*grid-column: span 2;*/
 	grid-column:1/-1;
+	grid-row:1;
 }
 
 .recipe-list{
 	background-color:lightpink;
+	grid-column: 1;
+	grid-row:2;
 }
 
 
