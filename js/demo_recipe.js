@@ -8,8 +8,9 @@ recipes = [
 		"total":00
 	},
 	"source":{
-		"title": "recipebox",
-		"url":"na",
+        "title": "recipebox",
+        "author": "steve",
+		"source":"na",
 		"modify":"y"
 	},
 	"ingredients":[

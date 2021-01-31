@@ -95,10 +95,14 @@ $(document).ready(function(){
 		var ingredients = thisRecipe[0].ingredients;
 		var steps = thisRecipe[0].directions;
 		var title = thisRecipe[0].title;
+		var servings = thisReipce[0].servings;
 		
 		$("#recipeTitle").show();
 		$("#recipeTitle").text(title);
-		
+
+		$("#recipeDetails").show();
+		$("#recipeDetails").text("Servings: " + servings);
+
 		//get ingredients
 		var listIngredients = "<tr>";
 		$.each(ingredients, function(j, valueJ){
