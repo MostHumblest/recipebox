@@ -91,6 +91,7 @@ $(document).ready(function(){
 	function loadRecipe(hash){
 		var thisRecipe = findRecipe(hash);
 		//console.log(selectedRecipe[0].ingredients);
+		var notes = thisRecipe[0].notes;
 		var ingredients = thisRecipe[0].ingredients;
 		var steps = thisRecipe[0].directions;
 		var title = thisRecipe[0].title;
@@ -104,7 +105,7 @@ $(document).ready(function(){
 
 		//get notes
 		var listNotes = "";
-		$.each(ingredients, function(i, val){
+		$.each(notes, function(i, val){
 			listNotes = listNotes + "<li>" + notes[i] + "</li>";
 		});
 		$("#listNotes").html(listNotes);
