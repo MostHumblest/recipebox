@@ -12,10 +12,11 @@ $(document).ready(function(){
 //create recipe list
 	function populateCategories(){
 		var categories = [];
-		var uniqueCatergories = [];
+		var uniqueCategories = [];
 		$.each(recipes, function(i, val){
 			categories.push(recipes[i].category);			
 		});	
+
 		uniqueCategories = categories.filter(onlyUnique);
 
 		$.each(uniqueCategories, function(i, val){
@@ -131,6 +132,6 @@ $(document).ready(function(){
 		return hash;
 	}
 
-	function onlyUnique(val, i, self){
-		return Selection.indexOf(value) === index;
+	function onlyUnique(val, index, self){
+		return self.indexOf(val) === index;
 	}
