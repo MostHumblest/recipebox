@@ -139,7 +139,8 @@ $(document).ready(function(){
 
 	//get index
 		var indexLetter = hash.slice(0,1);
-		var indexNumber = hash.slice(1).pad(3, "0");
+		var indexNumber = hash.slice(1);
+		indexNumber = indexNumber.padStart(3, "0");
 		$("#recipeIndex").text(indexLetter + "." + indexNumber);
 	}	
 	
