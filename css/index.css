@@ -25,11 +25,12 @@ ul {
 
 /* designed for mobile */
 .grid-container{
-	margin: auto;
+	justify-items: center;
 	border: 3px solid goldenrod;
 	display:grid;
 	grid-template-columns: repeat(6,1fr);
 	grid-template-rows: repeat(7, minmax(75px,auto));
+
 	/*align-items: center;*/
 	/*column-gap: 2rem;*/
 }
