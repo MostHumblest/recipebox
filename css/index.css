@@ -119,7 +119,7 @@ ul {
 
 	.recipe-list{
 		grid-column: 1/3;
-		grid-row:2/-1;
+		grid-row:2/6;
 	}
 	
 	.title{
