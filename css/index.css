@@ -85,6 +85,11 @@ ul {
 	body{
 		background-color: hotpink;
 	}
+	.title{
+		background-color:maroon;
+		grid-column:1/5;
+		grid-row:3;
+	}
 }
 
 @media (min-width: 1200px){
