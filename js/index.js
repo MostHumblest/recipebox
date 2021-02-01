@@ -42,7 +42,7 @@ $(document).ready(function(){
 	function buttonClicked(){
 		$("button").click(function(){		
 			window.location.hash = "clear";
-			$(".all-info").hide();
+			$(".recipe-info").hide();
 		});	
 	}
 		
