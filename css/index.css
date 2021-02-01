@@ -81,6 +81,18 @@ ul {
 	grid-row:7;
 }
 
+@media (min-width:640px){
+	body{
+		background-color: hotpink;
+	}
+}
+
+@media (min-width: 1200px){
+	body{
+		background-color:lime;
+	}
+}
+
 
 
 
