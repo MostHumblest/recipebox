@@ -45,8 +45,9 @@ recipes = [
         "total": 15
     },
     "source": {
-        "title": "Foodnetwork",
-        "location": "foodnetwork",       
+        "title": "steak",
+        "author": "someone",  
+        "source": "foodnetwork",    
         "modify": "n"
     },
     "ingredients": [
@@ -87,8 +88,9 @@ recipes = [
         "total": 60
     },
     "source": {
-        "title": "Foodnetwork",
-        "location": "foodnetwork",       
+        "title": "chicken",
+        "author": "someone else", 
+        "source": "foodnetwork",    
         "modify": "n"
     },
     "ingredients": [

@@ -96,12 +96,18 @@ $(document).ready(function(){
 		var steps = thisRecipe[0].directions;
 		var title = thisRecipe[0].title;
 		var servings = thisRecipe[0].servings;
+		var activeTime = thisRecipe[0].time.active;
+		var totalTime = thisRecipe[0].time.total;
 
 		$(".all-info").show();
 		
 		$("#recipeTitle").text(title);
 
-		$("#recipeDetails").html("<li> Servings: " + servings + "</li>");
+		//set details
+		activeTime = "<li> Active: "+activeTime+"</li>";
+		totalTime = "<li> Total: "+totalTime+"</li>";
+		servings = "<li> Serves: "+activeTime+"</li>";
+		$("#recipeDetails").html(activeTime+totalTime+servings);
 
 		//get notes
 		var listNotes = "";
@@ -132,7 +138,7 @@ $(document).ready(function(){
 		$("#recipeSource").text(compiledSource);
 
 		//get index
-		
+
 	}	
 	
 //find recipe
