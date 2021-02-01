@@ -15,6 +15,10 @@ ul {
 	padding-right: 4px;
 }
 
+.all-info{
+	padding:2em;
+}
+
 /* designed for mobile */
 .grid-container{
 	margin: auto;
