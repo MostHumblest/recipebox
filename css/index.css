@@ -17,7 +17,6 @@ ul {
 
 /* designed for mobile */
 .grid-container{
-	max-width: 1920px;
 	margin: auto;
 	border: 3px solid goldenrod;
 	display:grid;
@@ -34,66 +33,66 @@ ul {
 }
 
 .recipe-list{
-	background-color:lightpink;
+	border:1px solid lightpink;
 	grid-column: 1/-1;
 	grid-row:2;
 }
 
 .title{
-	background-color: aqua;
+	border:1px solid aqua;
 	grid-column:1/5;
 	grid-row:3;
 }
 
 .details {
-	background-color:blanchedalmond;
+	border:1px solid blanchedalmond;
 	grid-column: 5/-1;
 	grid-row:3;
 }
 
 .notes {
-	background-color:palegreen;
+	border:1px solid palegreen;
 	grid-column: 1/-1;
 	grid-row:4;
 }
 
 .ingredients {
-	background-color:powderblue;
+	border:1px solid powderblue;
 	grid-column: 1/-1;
 	grid-row:5;
 }
 
 .directions{
-	background-color: rosybrown;
+	border:1px solid rosybrown;
 	grid-column: 1/-1;
 	grid-row:6;
 }
 
 .source{
-	background-color:grey;
+	border:1px solid grey;
 	grid-column:1/6;
 	grid-row:7;
 }
 
 .index{
-	background-color:hotpink;
+	border:1px solid hotpink;
 	grid-column:6/-1;
 	grid-row:7;
 }
 
-@media (min-width:640px){
-	body{
-		background-color: hotpink;
-	}
-	.title{
-		grid-column:1/2;
-		grid-row:3;
+@media (min-width:640px){	
+	.grid-container{
+		border: 3px solid maroon;
 	}
 }
 
 @media (min-width: 1200px){
-	body{
-		background-color:lime;
+	.grid-container{
+		max-width:1920px;
+		border: 3px solid darkgreen;
+		display:grid;
+		grid-template-columns: repeat(8,1fr);
+		grid-template-rows: auto;
 	}
 }
 
