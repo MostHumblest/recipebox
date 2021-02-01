@@ -90,7 +90,7 @@ $(document).ready(function(){
 //load recipe details
 	function loadRecipe(hash){
 		var thisRecipe = findRecipe(hash);
-		//console.log(selectedRecipe[0].ingredients);
+	//pull out recipe bits
 		var notes = thisRecipe[0].notes;
 		var ingredients = thisRecipe[0].ingredients;
 		var steps = thisRecipe[0].directions;
@@ -103,42 +103,44 @@ $(document).ready(function(){
 		
 		$("#recipeTitle").text(title);
 
-		//set details
+	//set details
 		activeTime = "<li> Active: "+activeTime+"</li>";
 		totalTime = "<li> Total: "+totalTime+"</li>";
 		servings = "<li> Serves: "+servings+"</li>";
 		$("#recipeDetails").html(activeTime+totalTime+servings);
 
-		//get notes
+	//get notes
 		var listNotes = "";
 		$.each(notes, function(i, val){
 			listNotes = listNotes + "<li>" + notes[i] + "</li>";
 		});
 		$("#listNotes").html(listNotes);
 
-		//get ingredients
+	//get ingredients
 		var listIngredients = "";
 		$.each(ingredients, function(j, valueJ){
 			listIngredients = listIngredients + "<tr><td class=\"qty\">" + ingredients[j].quantity + "</td><td class=\"item\">" + ingredients[j].item + "</td></tr>";		
 		});
 		$("#listIngredients").html(listIngredients);
 		
-		//get steps
+	//get steps
 		var currentStep = "";
 		$.each(steps, function(i, val){
 			currentStep = currentStep + "<li>" + steps[i] + "</li>";			
 		});
 		$("#listDirections").html(currentStep);
 
-		//get source
+	//get source
 		var sourceTitle = thisRecipe[0].source.title;
 		var sourceAuthor = thisRecipe[0].source.author;
 		var sourceSource = thisRecipe[0].source.source;
 		var compiledSource = "\""+sourceTitle+"\", by "+sourceAuthor+" - " + sourceSource;
 		$("#recipeSource").text(compiledSource);
 
-		//get index
-
+	//get index
+		var indexLetter = hash.slice(0,1);
+		var indexNumber = hash.slice(1).pad(3, "0");
+		$("#recipeIndex").text(indexLetter + "." + indexNumber);
 	}	
 	
 //find recipe
