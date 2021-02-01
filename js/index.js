@@ -22,7 +22,7 @@ $(document).ready(function(){
 		$.each(uniqueCategories, function(i, val){
 			var rCategory = uniqueCategories[i];
 			var categoryHeaders = "<h2 id=\"h" + rCategory + "\" class=\"headerCategory\">" + rCategory + "    \u25BE</h2>"; //&ring9662
-			var categoryLists = "<ul id=\"r"+ rCategory +"\" class=\"listTOC\"></ul>";
+			var categoryLists = "<ul id=\"r"+ rCategory +"\" class=\"category-list\"></ul>";
 			$("#allRecipes").append(categoryHeaders);
 			$("#allRecipes").append(categoryLists);
 		});			
