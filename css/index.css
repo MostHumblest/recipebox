@@ -37,6 +37,10 @@ ul {
 	grid-row:1;
 }
 
+.main-content > p{
+	color:white;
+}
+
 .recipe-list{
 	border:1px solid lightpink;
 	grid-column: 1/-1;
