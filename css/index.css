@@ -86,8 +86,7 @@ ul {
 		background-color: hotpink;
 	}
 	.title{
-		background-color:maroon;
-		grid-column:1/5;
+		grid-column:1/2;
 		grid-row:3;
 	}
 }
