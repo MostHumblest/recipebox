@@ -73,6 +73,7 @@ ul {
 
 .directions{
 	border:1px solid rosybrown;
+	display: inline-grid;
 	grid-column: 1/-1;
 	grid-row:6;
 }
