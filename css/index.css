@@ -92,7 +92,7 @@ ul {
 	
 	.directions{
 		border:1px solid rosybrown;
-		grid-column: 4/-1;
+		grid-column: 3/-1;
 		grid-row:5;
 	}
 	.source{
