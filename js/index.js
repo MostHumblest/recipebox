@@ -106,7 +106,7 @@ $(document).ready(function(){
 		//set details
 		activeTime = "<li> Active: "+activeTime+"</li>";
 		totalTime = "<li> Total: "+totalTime+"</li>";
-		servings = "<li> Serves: "+activeTime+"</li>";
+		servings = "<li> Serves: "+servings+"</li>";
 		$("#recipeDetails").html(activeTime+totalTime+servings);
 
 		//get notes
