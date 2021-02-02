@@ -30,11 +30,13 @@ $(document).ready(function(){
 
 //add recipe titles to each section
 	function populateRecipes(){
-		$.each(recipes, function(i, val){
-			var rTitles = "<li><a href=\"https://mosthumblest.github.io/recipebox/#" + recipes[i].id + "\"><li><span>" + recipes[i].title + "</span></a></li>";
+		$.each(recipes, function(i, val){	
+			var rID =recipes[i].id;	
+			var rTitle=recipes[i].title;	
 			var rCategory = recipes[i].category;
 			var thisTag = "#r" + rCategory;
-			$(thisTag).append(rTitles);
+			var rTitleItem = "<li class=\"all " +rID+ "\"><a href=\"https://mosthumblest.github.io/recipebox/#" + rID+ "\"><li><span>" + rTitle + "</span></a></li>";
+			$(thisTag).append(rTitleItem);
 		});
 	}	
 
@@ -42,7 +44,7 @@ $(document).ready(function(){
 	function buttonClicked(){
 		$("button").click(function(){		
 			window.location.hash = "clear";
-			$(".recipe-info").hide();
+			$(".all").hide();
 		});	
 	}
 		
