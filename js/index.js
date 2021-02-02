@@ -35,7 +35,8 @@ $(document).ready(function(){
 			var rTitle=recipes[i].title;	
 			var rCategory = recipes[i].category;
 			var thisTag = "#r" + rCategory;
-			var rTitleItem = "<li class=\"all " +rID+ "\"><a href=\"https://mosthumblest.github.io/recipebox/#" + rID+ "\"><li><span>" + rTitle + "</span></a></li>";
+			var linkClass = "\"all " + rID +"\"";
+			var rTitleItem = "<li class=" +linkClass + "><a class="+linkClass+"href=\"https://mosthumblest.github.io/recipebox/#" + rID+ "\"><li><span>" + rTitle + "</span></a></li>";
 			$(thisTag).append(rTitleItem);
 		});
 	}	
