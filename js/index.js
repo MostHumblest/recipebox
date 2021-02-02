@@ -45,7 +45,7 @@ $(document).ready(function(){
 	function buttonClicked(){
 		$("button").click(function(){		
 			window.location.hash = "clear";
-			$("li.all").hide();
+			$('.all').hide();
 		});	
 	}
 		
