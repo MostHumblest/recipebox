@@ -27,6 +27,10 @@ $(document).ready(function(){
 			$("#allRecipes").append(categoryLists);
 		});			
 	}
+//recipe tags
+	function filterOnTag(){
+
+	}
 
 //add recipe titles to each section
 	function populateRecipes(){
@@ -55,18 +59,19 @@ $(document).ready(function(){
 			var clickedID = $(this).attr('id');
 			tagCapture = clickedID.slice(1);
 			newID = "#r" + tagCapture;
-			$(newID).toggle();
-			//get arrow type
+		//get arrow type
 			var headText = $(this).text();
 			var n = headText.length;
 			var arrowType = headText.charCodeAt(n-1);
-			//toogle arrow type
+		//toogle arrow type
 			if(arrowType == 9656){
 				console.log("right arrow");
 				headText = headText.replace(/\u25B8/, '\u25BE');
+				$(newID).show();
 			}else if(arrowType == 9662){
-				console.log("left arrow");
-				headText = headText.replace(/\u25BE/, '\u25B8');				
+				console.log("down arrow");
+				headText = headText.replace(/\u25BE/, '\u25B8');
+				$(newID).hide();				
 			}else {
 				//do nothing
 			}
