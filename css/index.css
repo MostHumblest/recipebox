@@ -36,7 +36,7 @@ ul {
 }
 
 .main-content {
-	background: url('https://images.unsplash.com/photo-1579636859172-67ced5686109') center;
+	background: url('https://images.unsplash.com/photo-1577308856961-8e9ec50d0c67') center;
 	background-size: cover;
 	grid-column:1/-1;
 	grid-row:1;
