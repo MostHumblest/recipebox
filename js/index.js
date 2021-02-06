@@ -29,7 +29,7 @@ $(document).ready(function(){
 	}
 //recipe tags
 	function filterOnTag(){
-
+		
 	}
 
 //add recipe titles to each section
