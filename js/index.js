@@ -181,10 +181,11 @@ $(document).ready(function(){
 	//get steps
 		var currentStep="";
 		var thisStep="";
+		var stepFirstChar"";
 		var hang=false;
 		$.each(steps, function(i, val){
 			thisStep = steps[i];
-			thisStep=thisStep.charAt(0);
+			stepFirstChar=thisStep.charAt(0);
 			switch(thisStep){
 				case "1":
 				case "2":
