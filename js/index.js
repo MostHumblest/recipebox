@@ -41,7 +41,7 @@ $(document).ready(function(){
 			var returnIDs = '';
 			var count = 0;
 				$.each(recipes, function(key, val){
-					if((val.title.search(regex) != -1) || (val.tags.includes(searchField))){
+					if((val.title.search(regex) != -1) || (val.tags.find(value => regex.test(value)) != -1)){
 						count = count + 1
 						switch(count){
 							case 1:
