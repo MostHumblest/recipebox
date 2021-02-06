@@ -49,7 +49,7 @@ $(document).ready(function(){
 					tagSearch = val.tags.findIndex(value => regex.test(value));
 					//ingredientSearch = val.ingredients.findIndex(value => regex.test(value));
 					$.each(val.ingredients, function(loc, valB){
-						ingredientSearch = valB.item.search(regex);
+						ingredientSearch = val.ingredients.item[loc].search(regex);
 					})
 					if(titleSearch != -1 || tagSearch != -1){
 						count = count + 1
