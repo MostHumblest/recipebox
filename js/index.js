@@ -28,8 +28,15 @@ $(document).ready(function(){
 		});			
 	}
 //recipe tags
-	function filterOnTag(){
-		
+	function liveSearch(){
+		$("#searchBar").keyup(function(){
+			var searchField=this.val();
+			if(searchField === ""){
+				$('.all').show();
+				return;
+			}
+			$('.all').show();
+		})
 	}
 
 //add recipe titles to each section
