@@ -23,7 +23,7 @@ ul {
 	padding:2rem;
 }
 
-li.hanging{
+.hanging{
 	padding-left: 22px ;
 	text-indent: -22px ;
 }
