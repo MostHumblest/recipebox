@@ -38,7 +38,7 @@ $(document).ready(function(){
 				return;
 			}
 			$('.all').show();
-			console.log(seachField);
+			console.log(searchField);
 		})
 	}
 
