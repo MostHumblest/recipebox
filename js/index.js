@@ -34,7 +34,7 @@ $(document).ready(function(){
 			var searchField=$(this).val();
 			console.log(searchField);
 			if(searchField === ""){
-				$('.A1,').show();				
+				$('.all').show();				
 				return;
 			}			
 			var regex = new RegExp(searchField, "i");
@@ -43,10 +43,17 @@ $(document).ready(function(){
 				$.each(recipes, function(key, val){
 					if(val.title.search(regex) != -1){
 						returnIDs = returnIDs + " ." + val.id
+						count = count + 1
+						switch(count){
+							case 1:
+								returnIDs = returnIDs + " ." + val.id
+								break;
+							default:
+								returnIDs = returnIDs + ", ." + val.id
+						}
 					}
 				});
 			console.log(returnIDs);
-			//returnIDs = "\'" + returnIDs + "\'";
 			$(returnIDs).show();			
 		});
 	}
