@@ -87,9 +87,8 @@ $(document).ready(function(){
 
 //testing actions on button click
 	function buttonClicked(){
-		$("button").click(function(){
+		$("#clearSearch").click(function(){
 			$("#searchBar").val("");		
-			window.location.hash = "clear";
 		});	
 	}
 		
