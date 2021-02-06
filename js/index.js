@@ -32,14 +32,20 @@ $(document).ready(function(){
 	function liveSearch(){
 		$("#searchBar").keyup(function(){
 			var searchField=$(this).val();
-			if(searchField === ""){
-				$('.all').show();
-				
-				return;
-			}
-			$('.all').show();
 			console.log(searchField);
-		})
+			if(searchField === ""){
+				$('.all').show();				
+				return;
+			}			
+			var regex = new RegExp(searchField, "i");
+			var returnIDs = '';
+				$.each(recipes, function(key, val){
+					if(val.title.search(regex) != -1){
+						returnIDs = returnIDs + " " + val.id
+					}
+				});
+			$(returnIDs).show();			
+		});
 	}
 
 //add recipe titles to each section
