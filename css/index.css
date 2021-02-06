@@ -23,6 +23,11 @@ ul {
 	padding:2rem;
 }
 
+li.hanging{
+	padding-left: 22px ;
+	text-indent: -22px ;
+}
+
 /* designed for mobile */
 .grid-container{
 	margin:auto;

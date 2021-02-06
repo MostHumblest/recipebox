@@ -179,9 +179,34 @@ $(document).ready(function(){
 		$("#listIngredients").html(listIngredients);
 		
 	//get steps
-		var currentStep = "";
+		var currentStep="";
+		var thisStep="";
+		var hang=false;
 		$.each(steps, function(i, val){
-			currentStep = currentStep + "<li>" + steps[i] + "</li>";			
+			thisStep = steps[i];
+			thisStep=thisStep.charAt(0);
+			switch(thisStep){
+				case "1":
+				case "2":
+				case "3":
+				case "4":
+				case "5":
+				case "6":
+				case "7":
+				case "8":
+				case "9":
+					hang = true;
+					currentStep = currentStep + "<li><h3>" + thisStep + "</h3></li>";
+					break;
+				default:
+					if (hang){
+						currentStep = currentStep + "<li class=hanging>" + thisStep + "</li>";
+						break;
+					}else{
+						currentStep = currentStep + "<li>" + thisStep + "</li>";
+					}
+			}
+						
 		});
 		$("#listDirections").html(currentStep);
 

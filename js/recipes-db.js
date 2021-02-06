@@ -100,17 +100,17 @@ recipes = [
             }
         ],
         "directions":[
-            "<h5> 1 - To store and Maintain: </h5>",
-            "&emsp; Measure out 1/4c (2oz) starter and transfer to a clean bowl or container. Add 1/2c (2.5oz) AP Flour and 1/4c (2oz) room-temperature water. Discard remaining starter",
-            "&emsp; Stir until no dry flour remains",
-            "&emsp; Cover loosely with plastic, or inverted mason jar lid and let sit at room temp for 5 hours",
-            "&emsp; Cover tightly and return to fridge, repeat eery 1-2weeks",
-            "<h5> 2 - To prepare for Baking: </h5>",
-            "&emsp;Measure out 1/2c (4oz) starter and transfer to clean bowl. Add 1c (5oz) AP flour and 1/2c (4oz) room-temperature water",
-            "&emsp; Stir until no dry flour remains",
-            "&emsp; Cover and let sit at room temperature for 5 hours",
-            "&emsp; Measure out amount of starter required for recipe and transfer to second bowl. Cover and refrigerate for at least 12 hours or up to 18 hours",
-            "&emsp; Follow step 1 to maintain remaining starter"
+            "<h3> 1 - To store and Maintain: </h5>",
+            "Measure out 1/4c (2oz) starter and transfer to a clean bowl or container. Add 1/2c (2.5oz) AP Flour and 1/4c (2oz) room-temperature water. Discard remaining starter",
+            "Stir until no dry flour remains",
+            "Cover loosely with plastic, or inverted mason jar lid and let sit at room temp for 5 hours",
+            "Cover tightly and return to fridge, repeat eery 1-2weeks",
+            "<h3> 2 - To prepare for Baking: </h5>",
+            "Measure out 1/2c (4oz) starter and transfer to clean bowl. Add 1c (5oz) AP flour and 1/2c (4oz) room-temperature water",
+            "Stir until no dry flour remains",
+            "Cover and let sit at room temperature for 5 hours",
+            "Measure out amount of starter required for recipe and transfer to second bowl. Cover and refrigerate for at least 12 hours or up to 18 hours",
+            "Follow step 1 to maintain remaining starter"
         ],
         "notes":[
             "For maintaining follow steps 1 and return to fridge",
