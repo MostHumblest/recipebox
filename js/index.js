@@ -42,7 +42,6 @@ $(document).ready(function(){
 			var count = 0;
 				$.each(recipes, function(key, val){
 					if(val.title.search(regex) != -1){
-						returnIDs = returnIDs + " ." + val.id
 						count = count + 1
 						switch(count){
 							case 1:
