@@ -45,6 +45,7 @@ $(document).ready(function(){
 					}
 				});
 			console.log(returnIDs);
+			returnIDs = "\'" + returnIDs + "\'";
 			$(returnIDs).show();			
 		});
 	}
