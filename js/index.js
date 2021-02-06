@@ -44,8 +44,8 @@ $(document).ready(function(){
 			var tagSearch = false;
 				$.each(recipes, function(key, val){
 					titleSearch = val.title.search(regex);
-					tagSearch = val.tags.find(value => regex.test(value));
-					if(titleSearch || tagSearch){
+					tagSearch = val.tags.findIndex(value => regex.test(value));
+					if(titleSearch != -1 || tagSearch >= 0){
 						count = count + 1
 						switch(count){
 							case 1:
