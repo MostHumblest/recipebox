@@ -44,7 +44,7 @@ $(document).ready(function(){
 			var tagSearch = false;
 				$.each(recipes, function(key, val){
 					titleSearch = val.title.search(regex);
-					tagSearch = val.tags.find(value => regex.test(value);
+					tagSearch = val.tags.find(value => regex.test(value));
 					if(titleSearch || tagSearch){
 						count = count + 1
 						switch(count){
