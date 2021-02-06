@@ -127,12 +127,19 @@ $(document).ready(function(){
 				case "home":
 				case "clear":
 				case "":
+					loadNull();
 					break;
 				default:
 					loadRecipe(thisID);
 			}
 		});
 	}	
+
+//load "blank" page
+	function loadNull(){
+		$("#recipeTitle").text('Select a Recipe...')
+		$("#searchBar").value("");
+	}
 	
 //load recipe details
 	function loadRecipe(hash){
