@@ -51,6 +51,9 @@ $(document).ready(function(){
 					ingredients = val.ingredients;
 					$.each(ingredients, function(i, value){
 						ingredientSearch = ingredients[i].item.search(regex);
+						if(ingredientSearch != -1){
+							return false;
+						}
 					});					
 					if(titleSearch != -1 || tagSearch != -1 || ingredientSearch != -1){
 						count = count + 1
