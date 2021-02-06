@@ -52,7 +52,7 @@ $(document).ready(function(){
 					$.each(ingredients, function(i, value){
 						ingredientSearch = ingredients[i].item.search(regex);
 					});					
-					if(titleSearch != -1 || tagSearch != -1){
+					if(titleSearch != -1 || tagSearch != -1 || ingredientSearch != -1){
 						count = count + 1
 						switch(count){
 							case 1:
