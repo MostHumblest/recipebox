@@ -31,7 +31,7 @@ $(document).ready(function(){
 //recipe tags
 	function liveSearch(){
 		$("#searchBar").keyup(function(){
-			var searchField=this.val();
+			var searchField=$(this).val();
 			if(searchField === ""){
 				$('.all').show();
 				
