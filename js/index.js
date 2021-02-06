@@ -43,12 +43,14 @@ $(document).ready(function(){
 			var count = 0;
 			var titleSearch = false;
 			var tagSearch = false;
+			var ingredients;
 			var ingredientSearch = false;
 				$.each(recipes, function(key, val){
 					titleSearch = val.title.search(regex);
 					tagSearch = val.tags.findIndex(value => regex.test(value));
-					$.each(recipes.ingredients, function(i, value){
-						ingredientSearch = val.ingredients[i].item.search(regex);
+					ingredients = val.ingredients;
+					$.each(ingredients, function(i, value){
+						ingredientSearch = ingredients[i].item.search(regex);
 					});					
 					if(titleSearch != -1 || tagSearch != -1){
 						count = count + 1
