@@ -31,6 +31,7 @@ $(document).ready(function(){
 //recipe tags
 	function liveSearch(){
 		$("#searchBar").keyup(function(){
+			$('.all').hide();
 			var searchField=$(this).val();
 			console.log(searchField);
 			if(searchField === ""){
@@ -45,7 +46,8 @@ $(document).ready(function(){
 				$.each(recipes, function(key, val){
 					titleSearch = val.title.search(regex);
 					tagSearch = val.tags.findIndex(value => regex.test(value));
-					if(titleSearch != -1 || tagSearch >= 0){
+					ingredientSearch = val.ingredients.findIndex(value => regex.test(value));
+					if(titleSearch != -1 || tagSearch != -1){
 						count = count + 1
 						switch(count){
 							case 1:
