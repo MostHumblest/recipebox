@@ -40,8 +40,12 @@ $(document).ready(function(){
 			var regex = new RegExp(searchField, "i");
 			var returnIDs = '';
 			var count = 0;
+			var titleSearch = false;
+			var tagSearch = false;
 				$.each(recipes, function(key, val){
-					if((val.title.search(regex) != -1) || (val.tags.find(value => regex.test(value)) != -1)){
+					titleSearch = val.title.search(regex);
+					tagSearch = val.tags.find(value => regex.test(value);
+					if(titleSearch || tagSearch){
 						count = count + 1
 						switch(count){
 							case 1:
