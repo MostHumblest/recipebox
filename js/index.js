@@ -181,7 +181,7 @@ $(document).ready(function(){
 	//get steps
 		var currentStep="";
 		var thisStep="";
-		var stepFirstChar"";
+		var stepFirstChar="";
 		var hang=false;
 		$.each(steps, function(i, val){
 			thisStep = steps[i];
