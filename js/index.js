@@ -6,6 +6,7 @@ $(document).ready(function(){
 	populateCategories();
 	populateRecipes();
 	toggleHeaders();
+	liveSeach();
 	$(window).trigger('hashchange'); //forces hash change on page load - enables bookmarking recipes
 });
 
@@ -33,9 +34,11 @@ $(document).ready(function(){
 			var searchField=this.val();
 			if(searchField === ""){
 				$('.all').show();
+				
 				return;
 			}
 			$('.all').show();
+			console.log(seachField);
 		})
 	}
 
