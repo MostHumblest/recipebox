@@ -201,7 +201,7 @@ $(document).ready(function(){
 					break;
 				default:
 					if (hang){
-						currentStep = currentStep + "<li class=hanging>" + thisStep + "</li>";
+						currentStep = currentStep + "<li class=\"hanging\">" + thisStep + "</li>";
 						break;
 					}else{
 						currentStep = currentStep + "<li>" + thisStep + "</li>";
