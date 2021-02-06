@@ -7,6 +7,7 @@ $(document).ready(function(){
 	populateRecipes();
 	toggleHeaders();
 	liveSearch();
+	loadNull();
 	$(window).trigger('hashchange'); //forces hash change on page load - enables bookmarking recipes
 });
 
@@ -86,9 +87,9 @@ $(document).ready(function(){
 
 //testing actions on button click
 	function buttonClicked(){
-		$("button").click(function(){		
+		$("button").click(function(){
+			$("#searchBar").val("");		
 			window.location.hash = "clear";
-			$('.all').hide();
 		});	
 	}
 		
@@ -124,10 +125,11 @@ $(document).ready(function(){
 		$(window).on('hashchange', function(){
 			var thisID = cleanHash();
 			switch(thisID){
-				case "home":
-				case "clear":
+				case "home":				
 				case "":
 					loadNull();
+					break;
+				case "clear":
 					break;
 				default:
 					loadRecipe(thisID);
