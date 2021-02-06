@@ -34,11 +34,12 @@ $(document).ready(function(){
 			var searchField=$(this).val();
 			console.log(searchField);
 			if(searchField === ""){
-				$('.A1, .A2').show();				
+				$('.A1,').show();				
 				return;
 			}			
 			var regex = new RegExp(searchField, "i");
 			var returnIDs = '';
+			var count = 0;
 				$.each(recipes, function(key, val){
 					if(val.title.search(regex) != -1){
 						returnIDs = returnIDs + " ." + val.id
