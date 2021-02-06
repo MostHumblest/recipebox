@@ -34,7 +34,7 @@ $(document).ready(function(){
 			var searchField=$(this).val();
 			console.log(searchField);
 			if(searchField === ""){
-				$('.A1 .A2').show();				
+				$('.A1, .A2').show();				
 				return;
 			}			
 			var regex = new RegExp(searchField, "i");
