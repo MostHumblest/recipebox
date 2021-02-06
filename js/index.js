@@ -41,7 +41,7 @@ $(document).ready(function(){
 			var returnIDs = '';
 				$.each(recipes, function(key, val){
 					if(val.title.search(regex) != -1){
-						returnIDs = returnIDs + " " + val.id
+						returnIDs = returnIDs + " ." + val.id
 					}
 				});
 			console.log(returnIDs);
