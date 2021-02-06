@@ -6,7 +6,7 @@ $(document).ready(function(){
 	populateCategories();
 	populateRecipes();
 	toggleHeaders();
-	liveSeach();
+	liveSearch();
 	$(window).trigger('hashchange'); //forces hash change on page load - enables bookmarking recipes
 });
 
