@@ -137,8 +137,8 @@ $(document).ready(function(){
 
 //load "blank" page
 	function loadNull(){
-		$("#recipeTitle").text('Select a Recipe...')
-		$("#searchBar").value("");
+		$("#recipeTitle").text('Select a Recipe...');
+		$("#searchBar").val("");
 	}
 	
 //load recipe details
