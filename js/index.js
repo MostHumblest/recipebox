@@ -44,6 +44,7 @@ $(document).ready(function(){
 						returnIDs = returnIDs + " " + val.id
 					}
 				});
+			console.log(returnIDs);
 			$(returnIDs).show();			
 		});
 	}
