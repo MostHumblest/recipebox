@@ -179,6 +179,9 @@ ul {
 	.recipeHeader{
 		grid-column:3/7;
 		grid-row:2;
+	}
+
+	.title{
 		font-size: 48px;
 	}
 	
