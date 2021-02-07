@@ -55,7 +55,7 @@ ul {
 	margin-bottom:16px;
 	
 	display:grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: .85fr;
 	grid-template-rows: .9fr, .1fr;
 }
 
@@ -79,6 +79,7 @@ ul {
 
 
 .time {
+	display:inline-block;
 	border:1px solid blanchedalmond;
 }
 
