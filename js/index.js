@@ -23,6 +23,7 @@ $(document).ready(function(){
 
 		$.each(uniqueCategories, function(i, val){
 			var rCategory = uniqueCategories[i];
+			rCategory = rCategory.replace(" ", "");
 			var categoryHeaders = "<h2 id=\"h" + rCategory + "\" class=\"headerCategory\">" + rCategory + "    \u25BE</h2>"; //&ring9662
 			var categoryLists = "<ul id=\"r"+ rCategory +"\" class=\"category-list\"></ul>";
 			$("#allRecipes").append(categoryHeaders);

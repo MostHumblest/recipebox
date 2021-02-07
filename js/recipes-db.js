@@ -39,7 +39,7 @@ recipes = [
     },	
 
     {   "id": "A1", "title": "Chopping Sizes",
-        "category":"techniques",
+        "category":"tips and techniques",
         "servings":0,
         "time":{
             "active": 00,
