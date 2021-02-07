@@ -140,7 +140,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "If using frozen berries, do not defrost first",
+            "If using frozen berries, do not defrost",
             "<u>Savory scones:</u> replace berries with cheese and herbs of choice, omit sugar and lemon zest",            
             "<u>To make ahead:</u> After placing the scones on the baking sheet, either refrigerate them overnight or freeze.<br>When ready to bake: Refrigerated scones - heat oven to 425 and follow directions in step 6. Frozen scones - heat oven to 375 degrees, follow directions in step 6, and extend cooking itme to 25-30 minutes"
         ],
