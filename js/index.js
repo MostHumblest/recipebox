@@ -230,7 +230,7 @@ $(document).ready(function(){
 		if(firstHashChar === "A"){
 			$("#listDirections").html("");
 			$("#listIngredients").html("");
-			$("#recipeDetails").html("");
+			$("#recipeTime").html("");
 		}
 	}	
 	
