@@ -160,11 +160,10 @@ $(document).ready(function(){
 		
 		$("#recipeTitle").text(title);
 
-	//set details
+	//set time
 		activeTime = "<li> Active: "+activeTime+"</li>";
 		totalTime = "<li> Total: "+totalTime+"</li>";
-		yield = "<li> Yield: "+yield+"</li>";
-		$("#recipeDetails").html(activeTime+totalTime+yield);
+		$("#recipeTime").html(activeTime+totalTime);
 
 	//get notes
 		var listNotes = "";
