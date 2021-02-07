@@ -1,8 +1,11 @@
-body {
-    margin-top:1.6in;
+@page{
+	margin-top:0.5in;
     margin-left:0.6in;
     margin-right:0.6in;
     margin-bottom:0.7in;
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
 }
@@ -10,7 +13,6 @@ body {
 .main-content, .recipe-list{
     display:none;
 }
-
 
 ul {
 	list-style-type:none;
@@ -67,6 +69,7 @@ ul {
 	font-variant: small-caps;
 	margin: 0px;
 	padding: 10px;	
+	font-size:48pt;
 }
 
 .yield{
