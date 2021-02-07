@@ -160,7 +160,7 @@ $(document).ready(function(){
 		
 		$("#recipeTitle").text(title);
 
-		$("recipeYield").text("");
+		$("#recipeYield").text("");
 		if(yield != 0){
 			yield = "Yield: " + yield;
 			$("#recipeYield").text(yield);
