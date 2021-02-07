@@ -53,7 +53,7 @@ ul {
 	padding:32px;
 	margin-top: 16px;
 	margin-bottom:16px;
-	
+
 	display:grid;
 	grid-template-columns: .85fr;
 	grid-template-rows: .9fr, .1fr;
@@ -79,7 +79,8 @@ ul {
 
 
 .time {
-	display:inline-block;
+	width: .15fr;
+	float: right;
 	border:1px solid blanchedalmond;
 }
 
