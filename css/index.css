@@ -83,10 +83,11 @@ ul {
 }
 
 .ingredients {
-	display: inline-table;
+	display: inline-block;
 	border:1px solid powderblue;
 	grid-column: 1/-1;
 	grid-row:5;
+	margin-top:16px;
 }
 
 .directions{
