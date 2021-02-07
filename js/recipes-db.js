@@ -2,7 +2,7 @@ recipes = [
 
     {   "id": "demo", "title": "template",
         "category":"demo",
-        "servings":1,
+        "yield":1,
         "time":{
             "active": 00,
             "total":00
@@ -41,7 +41,7 @@ recipes = [
 
     {   "id": "A1", "title": "Chopping Sizes",
         "category":"tips and techniques",
-        "servings":0,
+        "yield":0,
         "time":{
             "active": 00,
             "total":00
@@ -78,7 +78,7 @@ recipes = [
 
     {   "id": "O1", "title": "Sourdough Starter",
         "category":"baking",
-        "servings":"NA",
+        "yield":"~1c starter",
         "time":{
             "active": 00,
             "total":00
@@ -128,7 +128,7 @@ recipes = [
     
     {   "id": "O2", "title": "Scones",
         "category":"baking",
-        "servings":"8-12",
+        "yield":"8-12 scones",
         "time":{
             "active": 00,
             "total":00
