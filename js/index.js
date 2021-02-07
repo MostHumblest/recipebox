@@ -116,7 +116,7 @@ $(document).ready(function(){
 				//do nothing
 			}
 			$("#"+clickedID).text(headText);
-			console.log(arrowType);
+			console.log(clickedID);
 		});	
 	}	
 	
