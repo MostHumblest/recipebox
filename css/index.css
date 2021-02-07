@@ -27,6 +27,10 @@ ul {
 	padding-left: 25px ;
 }
 
+.directions > li{
+	padding-bottom: 1rem;
+}
+
 /* designed for mobile */
 .grid-container{
 	margin:auto;
