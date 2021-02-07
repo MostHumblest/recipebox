@@ -189,16 +189,9 @@ $(document).ready(function(){
 			thisStep = steps[i];
 			stepFirstChar=thisStep.charAt(0);
 			switch(stepFirstChar){
-				case "1":
-				case "2":
-				case "3":
-				case "4":
-				case "5":
-				case "6":
-				case "7":
-				case "8":
-				case "9":
+				case "!":				
 					hang = true;
+					thisStep=thisStep.slice(1);
 					currentStep = currentStep + "<li><h3>" + thisStep + "</h3></li>";
 					break;
 				default:
