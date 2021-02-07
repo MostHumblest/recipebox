@@ -79,7 +79,7 @@ ul {
 	font-variant: small-caps;	
 }
 
-.details {
+.time {
 	border:1px solid blanchedalmond;
 	grid-column: 5/-1;
 	grid-row:3;
