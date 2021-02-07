@@ -83,12 +83,12 @@ ul {
 }
 
 .title{
-	grid-column:span;
+	grid-column:span 1;
 	grid-row:1;
 }
 
 .yield{
-	grid-column:span;
+	grid-column:span 1;
 	grid-row:2;
 }
 
