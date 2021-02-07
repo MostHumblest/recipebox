@@ -159,6 +159,8 @@ $(document).ready(function(){
 		$(".all-info").show();
 		
 		$("#recipeTitle").text(title);
+
+		yield = "Yield: " + yield;
 		$("#recipeYield").text(yield);
 
 	//set time
