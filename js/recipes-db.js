@@ -75,7 +75,7 @@ recipes = [
         ],
     },	
 
-    {   "id": "O1", "title": "Sourdough Starter Maintenance",
+    {   "id": "O1", "title": "Sourdough Starter",
         "category":"baking",
         "servings":"NA",
         "time":{
