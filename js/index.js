@@ -159,6 +159,7 @@ $(document).ready(function(){
 		$(".all-info").show();
 		
 		$("#recipeTitle").text(title);
+		$("#recipeYield").text(yield);
 
 	//set time
 		activeTime = "<li> Active: "+activeTime+"</li>";
