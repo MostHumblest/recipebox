@@ -16,6 +16,7 @@ ul {
 
 .qty{
 	text-align:right;
+	width: 120px;
 	padding-right: 4px;
 }
 
@@ -88,14 +89,6 @@ ul {
 	grid-column: 1/-1;
 	grid-row:5;
 	margin-top:16px;
-}
-
-.ingredients > td:nth-of-type(1){
-	width:20%;
-}
-
-.ingredients > td:nth-of-type(2){
-	width:80%;
 }
 
 .directions{
