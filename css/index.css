@@ -75,6 +75,10 @@ ul {
 	border:1px solid aqua;
 	grid-column:1/5;
 	grid-row:3;
+
+	padding:32px;
+	margin-top: 16px;
+	margin-bottom:16px;
 	
 	display:grid;
 	grid-template-columns: 1fr;
@@ -85,12 +89,16 @@ ul {
 	grid-column:span 1;
 	grid-row:1;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-variant: small-caps;	
+	font-variant: small-caps;
+	margin: 0px;
+	padding: 10px;	
 }
 
 .yield{
 	grid-column:span 1;
 	grid-row:2;
+	margin:0px;
+	padding: 2px;
 }
 
 
