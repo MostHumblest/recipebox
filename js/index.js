@@ -186,7 +186,7 @@ $(document).ready(function(){
 		$.each(steps, function(i, val){
 			thisStep = steps[i];
 			stepFirstChar=thisStep.charAt(0);
-			switch(thisStep){
+			switch(stepFirstChar){
 				case "1":
 				case "2":
 				case "3":
