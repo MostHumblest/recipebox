@@ -168,7 +168,7 @@ ul {
 		font-size: 48px;
 	}
 	
-	.details {
+	.time {
 		grid-column: 7/-1;
 		grid-row:2;
 	}
