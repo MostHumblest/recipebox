@@ -223,6 +223,14 @@ $(document).ready(function(){
 		var indexNumber = hash.slice(1);
 		indexNumber = indexNumber.padStart(3, "0");
 		$("#recipeIndex").text(indexLetter + "." + indexNumber);
+
+	//if tip/technique then don't display some info
+		var firstHashChar = hash.charAt(0);
+		if(firstHashChar === "A"){
+			$("#listDirections").html("");
+			$("#listIngredients").html("");
+			$("#recipeDetails").html("");
+		}
 	}	
 	
 //find recipe

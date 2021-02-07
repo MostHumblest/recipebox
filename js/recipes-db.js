@@ -76,7 +76,7 @@ recipes = [
     },	
 
     {   "id": "O1", "title": "Sourdough Starter Maintenance",
-        "category":"Baking",
+        "category":"baking",
         "servings":"NA",
         "time":{
             "active": 00,
