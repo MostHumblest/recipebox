@@ -13,6 +13,10 @@ recipes = [
             "source":"na",
             "modify":"y"
         },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
         "ingredients":[
             { 
                 "item": "item 1",
@@ -27,10 +31,7 @@ recipes = [
             "step 2",
             "step 3"
         ],
-        "notes":[
-            "note 1",
-            "note 2"
-        ],
+        
         "tags":[
             "test",
             "test2"
@@ -38,7 +39,7 @@ recipes = [
     },	
 
     {   "id": "A1", "title": "Chopping Sizes",
-        "category":"Tips and Techniques",
+        "category":"techniques",
         "servings":0,
         "time":{
             "active": 00,
@@ -87,6 +88,10 @@ recipes = [
             "source":"America's Test Kitchen",
             "modify":"y"
         },
+        "notes":[
+            "For maintaining follow steps 1 and return to fridge",
+            "For baking, follow steps 2 to increase amount of starterm and use that to provide required starter for your recipe. Maintain the rest per 1-4"
+        ],
         "ingredients":[
             { 
                 "item": "Mature Starter",
@@ -105,7 +110,7 @@ recipes = [
             "Stir until no dry flour remains",
             "Cover loosely with plastic, or inverted mason jar lid and let sit at room temp for 5 hours",
             "Cover tightly and return to fridge, repeat every 1-2weeks",
-            
+
             "2 - To prepare for Baking:",
             "Measure out 1/2c (4oz) starter and transfer to clean bowl. Add 1c (5oz) AP flour and 1/2c (4oz) room-temperature water",
             "Stir until no dry flour remains",
@@ -113,10 +118,7 @@ recipes = [
             "Measure out amount of starter required for recipe and transfer to second bowl. Cover and refrigerate for at least 12 hours or up to 18 hours",
             "Follow step 1 to maintain remaining starter"
         ],
-        "notes":[
-            "For maintaining follow steps 1 and return to fridge",
-            "For baking, follow steps 2 to increase amount of starterm and use that to provide required starter for your recipe. Maintain the rest per 1-4"
-        ],
+        
         "tags":[
             "test",
             "test2"
