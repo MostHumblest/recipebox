@@ -156,35 +156,35 @@ recipes = [
             },
             {	
                 "quantity": "1/2 c",
-                "quantity": "Sour Cream"
+                "item": "Sour Cream"
             },
             {	
                 "quantity": "1/2 c",
-                "quantity": "Whole Milk"
+                "item": "Whole Milk"
             },
             {	
                 "quantity": "2 c",
-                "quantity": "AP Flour"
+                "item": "AP Flour"
             },
             {	
                 "quantity": "1/2 c",
-                "quantity": "Sugar"
+                "item": "Sugar"
             },
             {	
                 "quantity": "2 tsp",
-                "quantity": "Baking Powder"
+                "item": "Baking Powder"
             },
             {	
                 "quantity": "1/4 tsp",
-                "quantity": "Baking Soda"
+                "item": "Baking Soda"
             },
             {	
                 "quantity": "1/2 tsp",
-                "quantity": "Salt"
+                "item": "Salt"
             },
             {	
                 "quantity": "1 tsp",
-                "quantity": "Lemon Zest"
+                "item": "Lemon Zest"
             },
         ],
         "directions":[
