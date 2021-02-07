@@ -160,8 +160,12 @@ $(document).ready(function(){
 		
 		$("#recipeTitle").text(title);
 
-		yield = "Yield: " + yield;
-		$("#recipeYield").text(yield);
+		$("recipeYield").text("");
+		if(yield != 0){
+			yield = "Yield: " + yield;
+			$("#recipeYield").text(yield);
+		}
+		
 
 	//set time
 		activeTime = "<li> Active: "+activeTime+"</li>";
