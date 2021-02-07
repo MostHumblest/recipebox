@@ -10,15 +10,16 @@ ul {
 	list-style-type:none;
 }
 
-.item {
-	text-align:left;
-	vertical-align: top;
-}
-
 .qty{
 	text-align:right;
 	width: 65px;
 	padding-right: 4px;
+	vertical-align: top;
+}
+
+.item {
+	text-align:left;
+	vertical-align: top;
 }
 
 .all-info{
