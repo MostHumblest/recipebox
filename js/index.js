@@ -90,7 +90,8 @@ $(document).ready(function(){
 //testing actions on button click
 	function buttonClicked(){
 		$("#clearSearch").click(function(){
-			$("#searchBar").val("");		
+			$("#searchBar").val("");
+			$("#searchBar").keyup();		
 		});	
 	}
 		

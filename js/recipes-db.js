@@ -47,9 +47,9 @@ recipes = [
             "total":00
         },
         "source":{
-            "title":"Recipe",
+            "title":"N/A",
             "author":"Steve",
-            "source":"multiple",
+            "source":"from personal experience",
             "modify":"n"
         },
         "ingredients":[
