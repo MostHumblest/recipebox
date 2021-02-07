@@ -172,7 +172,7 @@ $(document).ready(function(){
 		$("#listNotes").html(listNotes);
 
 	//get ingredients
-		var listIngredients = "";
+		var listIngredients = "<tr><th></th><th></th></tr>";
 		$.each(ingredients, function(j, valueJ){
 			listIngredients = listIngredients + "<tr><td class=\"qty\">" + ingredients[j].quantity + "</td><td class=\"item\">" + ingredients[j].item + "</td></tr>";		
 		});
