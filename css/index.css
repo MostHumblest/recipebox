@@ -32,6 +32,10 @@ ul {
 	padding-bottom: 1rem;
 }
 
+.notes > li{
+	padding-bottom: .5rem;
+}
+
 /* designed for mobile */
 .grid-container{
 	margin:auto;
