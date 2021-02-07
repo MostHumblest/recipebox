@@ -12,6 +12,7 @@ ul {
 
 .item {
 	text-align:left;
+	vertical-align: top;
 }
 
 .qty{
