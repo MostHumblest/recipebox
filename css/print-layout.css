@@ -49,11 +49,7 @@ ul {
 
 .recipeHeader{
 	border:1px solid aqua;
-
-	padding:32px;
-	margin-top: 16px;
-	margin-bottom:16px;
-
+	float: left;
 	display:grid;
 	grid-template-columns: .85fr;
 	grid-template-rows: .9fr, .1fr;
