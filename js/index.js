@@ -79,7 +79,8 @@ $(document).ready(function(){
 			var rID =recipes[i].id;	
 			var rTitle=recipes[i].title;	
 			var rCategory = recipes[i].category;
-			var thisTag = "#r" + rCategory;
+			rCategoryID = rCategory.replace(/ /g, "_");
+			var thisTag = "#r" + rCategoryID;
 			var linkClass = "\"all " + rID +"\"";
 			var rTitleItem = "<li class=" +linkClass + "><a class="+linkClass+"href=\"https://mosthumblest.github.io/recipebox/#" + rID+ "\"><li><span>" + rTitle + "</span></a></li>";
 			$(thisTag).append(rTitleItem);
