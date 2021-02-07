@@ -142,7 +142,7 @@ recipes = [
         "notes":[
             "For savory scones replace berries with cheese and herbs of choice, omit sugar and lemon zest",
             "If using frozen berries, do not defrost first",
-            "To make ahead: After placing the scones on the baking sheet, either refrigerate them overnight or freeze.<br>When ready to bake - Refridgerated scones, heat overn to 425 and follow directions in step 6. Frozen scones, heat oven to 375 degrees, follow directions in step 6, and extend cooking itme to 25-30 minutes"
+            "To make ahead: After placing the scones on the baking sheet, either refrigerate them overnight or freeze.<br>When ready to bake: <br><span class= \"hanging\">Refridgerated scones, heat overn to 425 and follow directions in step 6.</span><br><span class=\"hanging\"> Frozen scones, heat oven to 375 degrees, follow directions in step 6, and extend cooking itme to 25-30 minutes</span>"
         ],
         "ingredients":[
             { 
