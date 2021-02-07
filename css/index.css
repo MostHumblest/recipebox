@@ -59,6 +59,7 @@ ul {
 }
 
 .recipe-list{
+	display:inline-table;
 	border:1px solid lightpink;
 	grid-column: 1/-1;
 	grid-row:2;

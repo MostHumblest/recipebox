@@ -104,7 +104,8 @@ recipes = [
             "Measure out 1/4c (2oz) starter and transfer to a clean bowl or container. Add 1/2c (2.5oz) AP Flour and 1/4c (2oz) room-temperature water. Discard remaining starter",
             "Stir until no dry flour remains",
             "Cover loosely with plastic, or inverted mason jar lid and let sit at room temp for 5 hours",
-            "Cover tightly and return to fridge, repeat eery 1-2weeks",
+            "Cover tightly and return to fridge, repeat every 1-2weeks",
+            
             "2 - To prepare for Baking:",
             "Measure out 1/2c (4oz) starter and transfer to clean bowl. Add 1c (5oz) AP flour and 1/2c (4oz) room-temperature water",
             "Stir until no dry flour remains",
