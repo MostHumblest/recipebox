@@ -7,7 +7,7 @@
     font-size: 12pt;
 }
 
-.main-content, .recipe-list{
+.grid-container{
     display:none;
 }
 
@@ -39,11 +39,7 @@ ul {
 	padding-bottom: .5rem;
 }
 
-.recipe-list{
-	border:1px solid lightpink;
-}
-
-.recipeHeader{
+#recipeHeaderP{
 	border:1px solid aqua;
 	position:fixed;
 	top:0;
@@ -52,7 +48,7 @@ ul {
 	grid-template-rows: .9fr, .1fr;
 }
 
-.title{
+#recipeTitleP{
 	grid-column: 1/6;
 	grid-row:1;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -62,7 +58,7 @@ ul {
 	font-size:48pt;
 }
 
-.yield{
+#recipeYieldP{
 	grid-column:1/6;
 	grid-row:2;
 	margin:0px;
