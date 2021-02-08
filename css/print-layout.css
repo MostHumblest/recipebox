@@ -48,7 +48,7 @@ ul {
 	position:fixed;
 	top:0;
 	display:grid;
-	grid-template-columns: 6fr;
+	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: .9fr, .1fr;
 }
 
