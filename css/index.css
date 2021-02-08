@@ -39,6 +39,10 @@ ul {
 }
 
 /* designed for mobile */
+.print{
+	display:none;
+}
+
 .grid-container{
 	margin:auto;
 	border: 3px solid goldenrod;
