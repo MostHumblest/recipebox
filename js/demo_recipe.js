@@ -1,6 +1,6 @@
 recipes = [ 
 
-{   "id": "demo", "title": "template",
+{   "id": "demo", "title": "Template",
 	"category":"demo",
     "servings":1,
 	"time":{
