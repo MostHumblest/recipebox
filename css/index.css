@@ -176,15 +176,15 @@ nav{
 }
 /*design for print*/
 @media print{
-    header, nav, footer{
+    header, nav{
         display:none;
     }
 
-    #ingredients{
+    #recipeIngredients{
         grid-column: span 2;
     }
 
-    #directions{
+    #recipeDirections{
         grid-column: span 4;
     }
 }
