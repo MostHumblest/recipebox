@@ -34,7 +34,7 @@ ul {
 	padding-bottom: .5rem;
 }
 
-/* designed for mobile */
+/* design for mobile and small screens */
 body{
 	font-family: Arial, Helvetica, sans-serif;
     font-size:11pt;
@@ -152,7 +152,42 @@ nav{
     border: 3px solid black;
 }
 
+/*design for medium screens*/
+@media screen AND (min-width:640px){
+    #recipeIngredients{
+        grid-column: span 2;
+    }
 
+    #recipeDirections{
+        grid-column: span 4;
+    }
+}
+/*design for large screens*/
+@media screen AND (min-width:1200px){
+    .container-main{
+        display:grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-gap:20px;
+    }
+
+    nav{
+        grid-column: span 2;
+    }
+}
+/*design for print*/
+@media print{
+    header, nav, footer{
+        display:none;
+    }
+
+    #ingredients{
+        grid-column: span 2;
+    }
+
+    #directions{
+        grid-column: span 4;
+    }
+}
 
 
 
