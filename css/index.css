@@ -174,21 +174,7 @@ nav{
         grid-column: span 2;
     }
 }
-/*design for print*/
-@media print{
-    header,
-	nav{
-        display:none;
-    }
 
-    #recipeIngredients{
-        grid-column: span 2;
-    }
-
-    #recipeDirections{
-        grid-column: span 4;
-    }
-}
 
 
 
