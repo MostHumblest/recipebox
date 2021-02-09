@@ -51,6 +51,7 @@ header{
 	border:3px solid goldenrod;
 	display:grid;
 	grid-template-columns: repeat(6, 1fr);
+	gap: 0;
 }
 
 nav{
@@ -69,6 +70,7 @@ nav{
 	display:grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: repeat(5,auto);
+	gap: 0;
 }
 
 .item-a{
@@ -107,6 +109,7 @@ nav{
     display:grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows:.9fr .1fr;
+	gap:0;
 }
 
 #recipeTitle{
@@ -133,6 +136,7 @@ nav{
 .container-footer{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+	gap: 0;
 }
 
 #recipeSource{
