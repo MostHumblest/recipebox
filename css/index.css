@@ -45,7 +45,6 @@ header{
 }
 
 .container-main{
-	margin: auto;
 	border:3px solid goldenrod;
 	display:grid;
 	grid-template-columns: repeat(6, 1fr);
