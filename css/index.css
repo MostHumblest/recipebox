@@ -64,7 +64,7 @@ nav{
 
 .container-recipe{
 	display:grid;
-	grid-template-columns: repeat(6, 1fr);
+	grid-template-columns: (300, 1fr) repeat(5, 1fr);
 	grid-template-rows: repeat(5,auto);
 	gap: 0;
 }
@@ -134,11 +134,13 @@ nav{
 #recipeSource{
     grid-column:span 5;
     border: 3px solid black;
+	margin: 0px;
 }
 
 #recipeIndex{
     grid-column:6;
     border: 3px solid black;
+	margin: 0px;
 }
 
 /*design for medium screens*/
@@ -147,11 +149,11 @@ nav{
 		font-size: 14pt;
 	}
     #recipeIngredients{
-        grid-column: span 2;
+        grid-column: span 1;
     }
 
     #recipeDirections{
-        grid-column: span 4;
+        grid-column: span 5;
     }
 }
 /*design for large screens*/
