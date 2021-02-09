@@ -70,7 +70,7 @@ nav{
 .container-recipe{
 	display:grid;
 	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows:(repeat 4,auto);
+	grid-template-rows:(repeat 5,auto);
 	grid-gap:20px;
 }
 
@@ -88,13 +88,19 @@ nav{
     border:3px solid darkmagenta;
 }
 
-#recipeIngredients{
+#listNotes{
+	grid-column: span 6;
+	padding: 2rem 0;
+	border: 3px solid darkcyan;
+}
+
+#listIngredients{
 	grid-column: spam 6;
 	padding: 2rem 0;
 	border: 3px solid darkred;
 }
 
-#recipeDirections{
+#listDirections{
 	grid-column: span 6;
 	padding: 2rem 0;
 	border: 3px solid darkred;
@@ -128,38 +134,22 @@ nav{
 	border: 3px solid darkblue;
 }
 
-.notes {
-	border:1px solid palegreen;
-	grid-column: 1/-1;
-	grid-row:4;
+.container-footer{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap:20px;
 }
 
-.ingredients {
-	display: inline-block;
-	table-layout: fixed;
-	border:1px solid powderblue;
-	grid-column: 1/-1;
-	grid-row:5;
-	margin-top:16px;
+#recipeSource{
+    grid-column:span 5;
+    padding: 1rem 0;
+    border: 3px solid black;
 }
 
-.directions{
-	border:1px solid rosybrown;
-	display: inline-grid;
-	grid-column: 1/-1;
-	grid-row:6;
-}
-
-.source{
-	border:1px solid grey;
-	grid-column:1/6;
-	grid-row:7;
-}
-
-.index{
-	border:1px solid hotpink;
-	grid-column:6/-1;
-	grid-row:7;
+#recipeIndex{
+    grid-column:6;
+    padding: 1rem 0;
+    border: 3px solid black;
 }
 
 
