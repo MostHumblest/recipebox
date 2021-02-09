@@ -82,7 +82,7 @@ $(document).ready(function(){
 			rCategoryID = rCategory.replace(/ /g, "_");
 			var thisTag = "#r" + rCategoryID;
 			var linkClass = "\"all " + rID +"\"";
-			var rTitleItem = "<li class=" +linkClass + "><a class="+linkClass+"href=\"https://mosthumblest.github.io/recipebox/#" + rID+ "\"><li><span>" + rTitle + "</span></a></li>";
+			var rTitleItem = "<li class=" +linkClass + "><a class="+linkClass+"href=\"https://mosthumblest.github.io/recipebox/#" + rID+ "\"><span>" + rTitle + "</span></a></li>";
 			$(thisTag).append(rTitleItem);
 		});
 	}	
