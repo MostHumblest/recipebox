@@ -160,14 +160,11 @@ $(document).ready(function(){
 		$(".all-info").show();
 		
 		$("#recipeTitle").text(title);
-		$("#recipeTitleP").text(title);
 
 		$("#recipeYield").text("");
-		$("#recipeYieldP").text("");
 		if(yield != 0){
 			yield = "Yield: " + yield;
 			$("#recipeYield").text(yield);
-			$("#recipeYieldP").text(yield);
 		}
 		
 
@@ -175,7 +172,6 @@ $(document).ready(function(){
 		activeTime = "<li> Active: "+activeTime+"</li>";
 		totalTime = "<li> Total: "+totalTime+"</li>";
 		$("#recipeTime").html(activeTime+totalTime);
-		$("#recipeTimeP").html(activeTime+totalTime);
 
 	//get notes
 		var listNotes = "";
@@ -183,7 +179,6 @@ $(document).ready(function(){
 			listNotes = listNotes + "<li>" + notes[i] + "</li>";
 		});
 		$("#listNotes").html(listNotes);
-		$("#listNotesP").html(listNotes);
 
 	//get ingredients
 		var listIngredients = "<tr><th></th><th></th></tr>";
@@ -191,7 +186,6 @@ $(document).ready(function(){
 			listIngredients = listIngredients + "<tr><td class=\"qty\">" + ingredients[j].quantity + "</td><td class=\"item\">" + ingredients[j].item + "</td></tr>";		
 		});
 		$("#listIngredients").html(listIngredients);
-		$("#listIngredientsP").html(listIngredients);
 		
 	//get steps
 		var currentStep="";
@@ -218,7 +212,6 @@ $(document).ready(function(){
 						
 		});
 		$("#listDirections").html(currentStep);
-		$("#listDirectionsP").html(currentStep);
 
 	//get source
 		var sourceTitle = thisRecipe[0].source.title;
@@ -226,14 +219,12 @@ $(document).ready(function(){
 		var sourceSource = thisRecipe[0].source.source;
 		var compiledSource = sourceTitle+" by "+sourceAuthor+" - "+ sourceSource;
 		$("#recipeSource").text(compiledSource);
-		$("#recipeSourceP").text(compiledSource);
 
 	//get index
 		var indexLetter = hash.slice(0,1);
 		var indexNumber = hash.slice(1);
 		indexNumber = indexNumber.padStart(3, "0");
 		$("#recipeIndex").text(indexLetter + "." + indexNumber);
-		$("#recipeIndexP").text(indexLetter + "." + indexNumber);
 
 	//if tip/technique then don't display some info
 		var firstHashChar = hash.charAt(0);
@@ -241,9 +232,6 @@ $(document).ready(function(){
 			$("#listDirections").html("");
 			$("#listIngredients").html("");
 			$("#recipeTime").html("");
-			$("#listDirectionsP").html("");
-			$("#listIngredientsP").html("");
-			$("#recipeTimeP").html("");
 		}
 	}	
 	

@@ -11,52 +11,34 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/index.js"></script>
 <link rel="stylesheet" media="screen" href="css/index.css">
-<link rel="stylesheet" media="print" href="css/print-layout.css">
 </head>
 
 <body>
-
-<div id="wrapper" class="grid-container">
-    <section id="mainContent" class="main-content all-info">
+    <header>
         <h1 class="main"> HELLO! </h1>
         <p> welcome to my online recipe box </p>
         <p> this page is under construction </p>    
         <button id=clearSearch type="button"> clear </button>
         <input type="text" id="searchBar" placeholder="search...">
-    </section>
+    </header>
+    <div class="container-main">
+        <nav id="allRecipes" class="all-info"></nav>
+        <div class="containter-recipe print">
+            <div class="container-header item-a">
+                <h2 id="recipeTitle" class="title all-info"></h2>
+                <p id="recipeYield" class="yield all-info"></p>
+                <ul id="recipeTime" class="time all-info"></ul>
+            </div>
+            <ul id="listNotes" class="notes all-info"></ul>
+            <table id="listIngredients" class="ingredients all-info"></table>
+            <ul id="listDirections" class="directions all-info"></ul>
+            <div class="container-footer item-b">
+                <p id="recipeSource" class="source all-info"></p>
+                <p id="recipeIndex" class="index all-info>"></p>
+            </div>
+        </div>
+    </div>
     
-    <nav id="allRecipes" class="recipe-list all-info"></nav>
-    
-    <section id="recipeHeader" class="recipeHeader recipe-info all-info">
-        <h2 id="recipeTitle" class="title recipe-info all-info"></h2>
-        <p id="recipeYield" class="yield recipe-info all-info"></p>
-    </section>
-    <ul id="recipeTime" class="time recipe-info all-info"></ul>   
-    <ul id="listNotes" class="notes recipe-info all-info"></ul>    
-    <table id="listIngredients" class="ingredients recipe-info all-info"></table>
-    <ul id="listDirections" class="directions recipe-info all-info"></ul>    
-    <footer id="recipeSource" class="source recipe-info all-info"></footer>  
-    <footer id="recipeIndex" class="index recipe-info all-info"></footer>   
-</div>
-
-<div id="printLayout" class="print-container print">
-    <div id="recipeHeaderP" class="recipeHeader print">
-        <h2 id="recipeTitleP" class="title print"></h2>
-        <p id="recipeYieldP" class="yield print"></p>
-        <ul id="recipeTimeP" class="time print"></ul>
-    </div>
-    <div id="contentP" class="content print">
-        <ul id="listNotesP" class="notes print"></ul>    
-        <table id="listIngredientsP" class="ingredients print"></table>
-        <ul id="listDirectionsP" class="directions print"></ul>    
-    </div>
-    <div id="recipeFooterP" class="recipeFooter print">
-        <footer id="recipeSourceP" class="source print"></footer>  
-        <footer id="recipeIndexP" class="index print"></footer>
-    </div>
-</div>
-
-
 </body>
 
 </html>
