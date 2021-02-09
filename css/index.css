@@ -95,6 +95,8 @@ nav{
 }
 
 #recipeIngredients{
+	display:inline-block;
+	table-layout:fixed;
 	grid-column: span 6;
 	padding: 2rem 0;
 	border: 3px solid darkred;
