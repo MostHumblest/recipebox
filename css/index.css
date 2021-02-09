@@ -41,9 +41,7 @@ ul {
 /* design for mobile and small screens */
 
 header{
-	padding: 2rem;
 	border: 3px solid darkblue;
-	margin: 1rem 0;
 }
 
 .container-main{
@@ -56,13 +54,11 @@ header{
 
 nav{
 	grid-column: span 6;
-	padding: 2rem;
 	border: 3px solid darkgreen;
 }
 
 .print{
 	grid-column:span 6;
-	padding: 2rem 0;
 	font-family:"Calibri", "Arial Light", sans-serif;
 	border:darkviolet;
 }
@@ -77,20 +73,17 @@ nav{
 .item-a{
 	grid-column:span 6;
     grid-row:1;
-    padding: 2rem 0;
     border:3px solid darkmagenta;
 }
 
 .item-b{
     grid-column:span 6;
     grid-row: 5;
-    padding: 2rem 0;
     border:3px solid darkmagenta;
 }
 
 #recipeNotes{
 	grid-column: span 6;
-	padding: 2rem 0;
 	border: 3px solid darkcyan;
 }
 
@@ -98,14 +91,11 @@ nav{
 	display:inline-block;
 	table-layout:fixed;
 	grid-column: span 6;
-	padding: 2rem 0;
 	border: 3px solid darkred;
 }
 
 #recipeDirections{
 	grid-column: span 6;
-	padding: 2rem 0;
-	margin: 0px;
 	border: 3px solid darkred;
 }
 
@@ -119,25 +109,20 @@ nav{
 #recipeTitle{
     grid-column:span 5;
     grid-row: 1;
+	font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	font-variant:small-caps;
-    padding: 1rem;
-	margin: 0px;
 	border: 3px solid darkblue;
 }
 
 #recipeYield{
     grid-column:span 5;
     grid-row: 2;
-    padding: 1rem;
-	margin: 0px;
 	border: 3px solid darkblue;
 }
 
 #recipeTime{
     grid-column: 6;
     grid-row: span 2;
-    padding: 1rem 0;
-	margin: 0px;
 	border: 3px solid darkblue;
 }
 
@@ -149,13 +134,11 @@ nav{
 
 #recipeSource{
     grid-column:span 5;
-    padding: 1rem 0;
     border: 3px solid black;
 }
 
 #recipeIndex{
     grid-column:6;
-    padding: 1rem 0;
     border: 3px solid black;
 }
 
