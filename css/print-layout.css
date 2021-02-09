@@ -68,12 +68,7 @@ header{
 	grid-template-columns: repeat(6, 1fr);
 }
 
-/* remove from print layout
-nav{
-	grid-column: span 6;
-	padding: 2rem;
-	border: 3px solid darkgreen;
-}*/
+
 
 .print{
 	grid-column:span 6;
@@ -125,6 +120,18 @@ nav{
     grid-template-columns: repeat(6,1fr);
     grid-template-rows:.9fr .1fr;
     grid-gap:20px;
+}
+
+.container-header h2{
+	margin:0px;
+}
+
+.container-header p{
+	margin:0px;
+}
+
+.container-header ul{
+	margin: 0px;
 }
 
 #recipeTitle{
