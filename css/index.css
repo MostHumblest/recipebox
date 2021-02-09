@@ -38,6 +38,14 @@ ul {
 	vertical-align: top;
 }
 
+a{
+	padding: .25rem;
+}
+
+a:hover{
+	background-color: greenyellow;
+}
+
 /* design for mobile and small screens */
 
 header{
