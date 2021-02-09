@@ -84,6 +84,7 @@ nav{
 #recipeNotes{
 	grid-column: span 6;
 	border: 3px solid darkcyan;
+	margin: 0px;
 }
 
 #recipeIngredients{
@@ -91,11 +92,13 @@ nav{
 	table-layout:fixed;
 	grid-column: span 6;
 	border: 3px solid darkred;
+	margin: 0px;
 }
 
 #recipeDirections{
 	grid-column: span 6;
 	border: 3px solid darkred;
+	margin: 0px;
 }
 
 .container-header{
@@ -103,6 +106,7 @@ nav{
     grid-template-columns: repeat(5,1fr) minmax(100px, 1fr);
     grid-template-rows:.9fr .1fr;
 	gap:0;
+	margin: 0px;
 }
 
 #recipeTitle{
@@ -132,6 +136,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 	gap: 0;
+	margin: 0px;
 }
 
 #recipeSource{
