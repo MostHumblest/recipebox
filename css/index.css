@@ -14,6 +14,18 @@ ul {
 	list-style-type:none;
 }
 
+.directions > li{
+	padding-bottom: 1rem;
+}
+
+.notes > li{
+	padding-bottom: .5rem;
+}
+
+.hanging{
+	padding-left: 25px ;
+}
+
 .qty{
 	text-align:right;
 	width: 65px;
@@ -24,18 +36,6 @@ ul {
 .item {
 	text-align:left;
 	vertical-align: top;
-}
-
-.hanging{
-	padding-left: 25px ;
-}
-
-.directions > li{
-	padding-bottom: 1rem;
-}
-
-.notes > li{
-	padding-bottom: .5rem;
 }
 
 /* design for mobile and small screens */
