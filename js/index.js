@@ -178,14 +178,14 @@ $(document).ready(function(){
 		$.each(notes, function(i, val){
 			listNotes = listNotes + "<li>" + notes[i] + "</li>";
 		});
-		$("#listNotes").html(listNotes);
+		$("#recipeNotes").html(listNotes);
 
 	//get ingredients
 		var listIngredients = "<tr><th></th><th></th></tr>";
 		$.each(ingredients, function(j, valueJ){
 			listIngredients = listIngredients + "<tr><td class=\"qty\">" + ingredients[j].quantity + "</td><td class=\"item\">" + ingredients[j].item + "</td></tr>";		
 		});
-		$("#listIngredients").html(listIngredients);
+		$("#recipeIngredients").html(listIngredients);
 		
 	//get steps
 		var currentStep="";
@@ -211,7 +211,7 @@ $(document).ready(function(){
 			}
 						
 		});
-		$("#listDirections").html(currentStep);
+		$("#recipeDirections").html(currentStep);
 
 	//get source
 		var sourceTitle = thisRecipe[0].source.title;
@@ -229,8 +229,8 @@ $(document).ready(function(){
 	//if tip/technique then don't display some info
 		var firstHashChar = hash.charAt(0);
 		if(firstHashChar === "A"){
-			$("#listDirections").html("");
-			$("#listIngredients").html("");
+			$("#recipeDirections").html("");
+			$("#recipeIngredients").html("");
 			$("#recipeTime").html("");
 		}
 	}	
