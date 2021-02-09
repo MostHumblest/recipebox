@@ -161,6 +161,9 @@ nav{
 
 /*design for medium screens*/
 @media (min-width:640px){
+	body{
+		font-size: 14pt;
+	}
     #recipeIngredients{
         grid-column: span 2;
     }
