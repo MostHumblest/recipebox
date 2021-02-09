@@ -61,48 +61,71 @@ nav{
 	border: 3px solid darkgreen;
 }
 
-.recipe-list{
-	border:1px solid lightpink;
-	grid-column: 1/-1;
-	grid-row:2;
+.print{
+	grid-column:span 6;
+	padding: 2rem 0;
+	border:darkviolet;
 }
 
-.recipeHeader{
-	border:1px solid aqua;
-	grid-column:1/5;
-	grid-row:3;
-
-	padding:32px;
-	margin-top: 16px;
-	margin-bottom:16px;
-	
+.container-recipe{
 	display:grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: .9fr, .1fr;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows:(repeat 4,auto);
+	grid-gap:20px;
 }
 
-.title{
-	grid-column:span 1;
-	grid-row:1;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-variant: small-caps;
-	margin: 0px;
-	padding: 10px;	
+.item-a{
+	grid-column:span 6;
+    grid-row:1;
+    padding: 2rem 0;
+    border:3px solid darkmagenta;
 }
 
-.yield{
-	grid-column:span 1;
-	grid-row:2;
-	margin:0px;
-	padding: 2px;
-	padding-left:10px;
+.item-b{
+    grid-column:span 6;
+    grid-row: 4;
+    padding: 2rem 0;
+    border:3px solid darkmagenta;
 }
 
+#recipeIngredients{
+	grid-column: spam 6;
+	padding: 2rem 0;
+	border: 3px solid darkred;
+}
 
-.time {
-	border:1px solid blanchedalmond;
-	grid-column: 5/-1;
-	grid-row:3;
+#recipeDirections{
+	grid-column: span 6;
+	padding: 2rem 0;
+	border: 3px solid darkred;
+}
+
+.container-header{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows:.9fr .1fr;
+    grid-gap:20px;
+}
+
+#recipeTitle{
+    grid-column:span 5;
+    grid-row: 1;
+    padding: 1rem 0;
+	border: 3px solid darkblue;
+}
+
+#recipeYield{
+    grid-column:span 5;
+    grid-row: 2;
+    padding: 1rem 0;
+	border: 3px solid darkblue;
+}
+
+#recipeTime{
+    grid-column: 6;
+    grid-row: span 2;
+    padding: 1rem 0;
+	border: 3px solid darkblue;
 }
 
 .notes {
