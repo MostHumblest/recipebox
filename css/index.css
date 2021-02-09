@@ -69,7 +69,6 @@ nav{
 	display:grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: repeat(5,auto);
-	grid-gap:20px;
 }
 
 .item-a{
@@ -108,7 +107,6 @@ nav{
     display:grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows:.9fr .1fr;
-    grid-gap:20px;
 }
 
 #recipeTitle{
@@ -135,7 +133,6 @@ nav{
 .container-footer{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap:20px;
 }
 
 #recipeSource{
@@ -165,7 +162,6 @@ nav{
     .container-main{
         display:grid;
         grid-template-columns: repeat(8, 1fr);
-        grid-gap:20px;
     }
 
     nav{
