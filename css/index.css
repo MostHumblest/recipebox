@@ -176,6 +176,10 @@ nav{
     nav{
         grid-column: span 2;
     }
+
+	#recipeTitle{
+		font-size: 48pt;
+	}
 }
 
 
