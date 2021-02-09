@@ -65,7 +65,7 @@ nav{
 .container-recipe{
 	display:grid;
 	grid-template-columns: minmax(300, 1fr) repeat(5, 1fr);
-	grid-template-rows: repeat(5,auto);
+	grid-template-rows: repeat(5,minmax(0, auto));
 	gap: 0;
 }
 
