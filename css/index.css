@@ -176,7 +176,8 @@ nav{
 }
 /*design for print*/
 @media print{
-    header, nav{
+    header,
+	nav{
         display:none;
     }
 
