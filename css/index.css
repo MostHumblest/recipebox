@@ -1,6 +1,6 @@
 
 body{
-	font-family: "Calibri", "Arial Light", sans-serif;
+	font-family: "Arial", sans-serif;
     font-size:11pt;
     max-width:1920px;
     margin:auto;
@@ -63,6 +63,7 @@ nav{
 .print{
 	grid-column:span 6;
 	padding: 2rem 0;
+	font-family:"Calibri", "Arial Light", sans-serif;
 	border:darkviolet;
 }
 
@@ -107,7 +108,7 @@ nav{
 
 .container-header{
     display:grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(5,1fr) minmax(100px, 1fr);
     grid-template-rows:.9fr .1fr;
 	gap:0;
 }
