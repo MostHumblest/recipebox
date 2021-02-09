@@ -111,18 +111,21 @@ nav{
 	font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	font-variant:small-caps;
 	border: 3px solid darkblue;
+	margin: 0px;
 }
 
 #recipeYield{
     grid-column:span 5;
     grid-row: 2;
 	border: 3px solid darkblue;
+	margin: 0px;
 }
 
 #recipeTime{
     grid-column: 6;
     grid-row: span 2;
 	border: 3px solid darkblue;
+	margin:  0px;
 }
 
 .container-footer{
