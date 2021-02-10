@@ -71,7 +71,7 @@ nav > h2{
 }
 
 nav > li{
-	margin: .1em;
+	padding-bottom: .1em;
 }
 
 .print{
