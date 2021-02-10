@@ -173,6 +173,11 @@ nav ul{
 	body{
 		font-size: 14pt;
 	}
+
+	#recipeTitle{
+		font-size: 48pt;
+	}
+
     #recipeIngredients{
         grid-column: span 1;
     }
@@ -191,10 +196,7 @@ nav ul{
     nav{
         grid-column: span 2;
     }
-
-	#recipeTitle{
-		font-size: 48pt;
-	}
+	
 }
 
 
