@@ -39,7 +39,7 @@ ul {
 }
 
 a{
-	padding: .2rem;
+	padding: .3rem;
 }
 
 a:hover{
@@ -68,10 +68,6 @@ nav{
 
 nav > h2{
 	margin: .25em;
-}
-
-nav li{
-	padding-bottom: .1em;
 }
 
 .print{
