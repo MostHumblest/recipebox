@@ -110,6 +110,7 @@ $(document).ready(function(){
 			newID = "#r" + tagCapture;
 		//get arrow type
 			var headText = $(this).text();
+			console.log(headText);
 			var n = headText.length;
 			var arrowType = headText.charCodeAt(n-1);
 		//toogle arrow type
