@@ -1,7 +1,6 @@
 recipes = [ 
 
-    {   "id": "demo", "title": "Template",
-        "category":"demo",
+    {   "id": "demo", "title": "Template Placeholder", "category":"demo",
         "yield":1,
         "time":{
             "active": 00,
@@ -39,8 +38,7 @@ recipes = [
         ],
     },	
 
-    {   "id": "A1", "title": "Chopping Sizes",
-        "category":"tips and techniques",
+    {   "id": "A0", "title": "Tips Placeholder", "category":"tips and techniques",
         "yield":0,
         "time":{
             "active": 00,
@@ -74,10 +72,541 @@ recipes = [
             "test",
             "test2"
         ],
-    },	
+    },
+    
+    {   "id": "B0", "title": "Snacks Placeholder", "category":"snacks",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
 
-    {   "id": "O1", "title": "Sourdough Starter",
-        "category":"baking",
+    {   "id": "C0", "title": "Dips Placeholder", "category":"dips",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "D0", "title": "Salads Placeholder", "category":"salads",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "E0", "title": "Poultry Placeholder", "category":"poultry",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "F0", "title": "Pork Placeholder", "category":"pork",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "G0", "title": "Beef Placeholder", "category":"beef",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "H0", "title": "Seafood Placeholder", "category":"seafood",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "I0", "title": "Vegetables Placeholder", "category":"vegetables",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "J0", "title": "Eggs Placeholder", "category":"eggs",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "K0", "title": "Pasta Placeholder", "category":"pasta",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "L0", "title": "Grains Placeholder", "category":"grains and rice",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "M0", "title": "Legumes Placeholder", "category":"legumes",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "N0", "title": "Sauces Placeholder", "category":"sauces",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "O0", "title": "Baking Placeholder", "category":"baking",
+        "yield":1,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "O1", "title": "Sourdough Starter", "category":"baking",
         "yield":"~1c starter",
         "time":{
             "active": 00,
@@ -126,8 +655,7 @@ recipes = [
         ],
     },
     
-    {   "id": "O2", "title": "Scones",
-        "category":"baking",
+    {   "id": "O2", "title": "Scones", "category":"baking",
         "yield":"8-12 scones",
         "time":{
             "active": 00,
