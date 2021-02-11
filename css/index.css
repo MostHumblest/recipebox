@@ -78,7 +78,7 @@ nav ul{
 
 .print{
 	grid-column:span 6;
-	font-family:"Calibri", "Arial Light", sans-serif;
+	font-family:"Calibri Light", "Arial Light", sans-serif;
 	border:darkviolet;
 }
 
