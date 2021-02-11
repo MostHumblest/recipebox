@@ -132,7 +132,8 @@ nav ul{
 #recipeTitle{
     grid-column:span 5;
     grid-row: 1;
-	font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-family:"Franklin Gothic Medium Cond", "Arial Narrow", Arial, sans-serif;
+	font-size:24pt;
 	font-variant:small-caps;
 	border: 3px solid darkblue;
 	margin: 0px;
@@ -151,7 +152,6 @@ nav ul{
 	border: 3px solid darkblue;
 	padding: 0px;
 	margin: 0 0 0 10px;
-	vertical-align:bottom;
 	text-align:right;
 }
 
