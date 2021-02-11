@@ -63,7 +63,7 @@ header{
 nav{
 	grid-column: span 6;
 	border: 3px solid darkgreen;
-	margin: 1rem;
+	margin: 0 1rem 1rem 1rem;
 }
 
 /*hide #demo */
@@ -150,7 +150,7 @@ nav ul{
     grid-row: span 2;
 	border: 3px solid darkblue;
 	padding: 0px;
-
+	margin: 0 0 0 10px;
 }
 
 .container-footer{
