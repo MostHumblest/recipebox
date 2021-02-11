@@ -2,7 +2,8 @@ $(document).ready(function(){
 //creates pop up when page loads
 	console.log("ready");
 	hashNavigation();
-	buttonClicked();
+	clearButtonClicked();
+	toggleButtonClicked();
 	populateCategories();
 	populateRecipes();
 	toggleHeaders();
@@ -88,11 +89,17 @@ $(document).ready(function(){
 	}	
 
 //testing actions on button click
-	function buttonClicked(){
+	function clearButtonClicked(){
 		$("#clearSearch").click(function(){
 			$("#searchBar").val("");
 			$("#searchBar").keyup();		
 		});	
+	}
+
+	function toggleButtonClicked(){
+		$("#toggleCategories").click(function(){
+			$('.category-list').toggle();
+		});
 	}
 		
 //toggle recipes in each section
