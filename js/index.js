@@ -32,7 +32,8 @@ $(document).ready(function(){
 			$("#allRecipes").append(categoryLists);
 		});			
 	}
-//recipe tags
+
+//live search
 	function liveSearch(){
 		$("#searchBar").keyup(function(){
 			$('.all').hide();
@@ -53,6 +54,8 @@ $(document).ready(function(){
 					titleSearch = val.title.search(regex);
 					tagSearch = val.tags.findIndex(value => regex.test(value));
 					ingredients = val.ingredients;
+					category = val.category;
+					category = category.replace(/ /g, "_");
 					$.each(ingredients, function(i, value){
 						ingredientSearch = ingredients[i].item.search(regex);
 						if(ingredientSearch != -1){
@@ -60,17 +63,20 @@ $(document).ready(function(){
 						}
 					});					
 					if(titleSearch != -1 || tagSearch != -1 || ingredientSearch != -1){
-						count = count + 1
+
+						$(category).show();
+						$(val.id).show();
+						/* count = count + 1
+
 						switch(count){
 							case 1:
 								returnIDs = returnIDs + " ." + val.id
 								break;
 							default:
 								returnIDs = returnIDs + ", ." + val.id
-						}
+						} */
 					}
 				});
-			console.log(returnIDs);
 			$(returnIDs).show();			
 		});
 	}
@@ -125,22 +131,14 @@ $(document).ready(function(){
 			var arrowType = headText.charCodeAt(n-1);
 		//toogle arrow type
 			if(arrowType == 9656){
-				console.log("was right arrow");
 				$(newArrow).text('\u25BE');
-				console.log($(newArrow).text());
-				//headText = headText.replace(/\u25B8/, '\u25BE');
 				$(newID).show();
 			}else if(arrowType == 9662){
-				console.log("was down arrow");
 				$(newArrow).text('\u25B8');
-				console.log($(newArrow).text());
-				//headText = headText.replace(/\u25BE/, '\u25B8');
 				$(newID).hide();				
 			}else {
 				//do nothing
 			}
-			//$("#"+clickedID).text(headText);
-			console.log(clickedID);
 		});	
 	}	
 	
