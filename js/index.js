@@ -56,7 +56,7 @@ $(document).ready(function(){
 					ingredients = val.ingredients;
 					category = val.category;
 					category = "#h"+category.replace(/ /g, "_");
-					returnID = "."+returnID;
+					returnID = "."+val.id;
 					$.each(ingredients, function(i, value){
 						ingredientSearch = ingredients[i].item.search(regex);
 						if(ingredientSearch != -1){
