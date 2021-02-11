@@ -66,7 +66,7 @@ $(document).ready(function(){
 					if(titleSearch != -1 || tagSearch != -1 || ingredientSearch != -1){
 
 						$(category).show();
-						$(returnID.show();
+						$(returnID).show();
 						/* count = count + 1
 
 						switch(count){
