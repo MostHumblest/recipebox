@@ -101,14 +101,14 @@ $(document).ready(function(){
 	function hideButton(){
 		$("#hideCategories").click(function(){
 			$('.category-list').hide();			
-			$('.category-list').replace(/\u25BE/, '\u25B8');
+			$('.arrow').text('\u25B8');
 		});
 	}
 
 	function showButton(){
 		$("#showCategories").click(function(){
 			$('.category-list').show();
-			$('.category-list').replace(/\u25B8/, '\u25BE');
+			$('.arrow').text('\u25BE');
 		});
 	}
 		
