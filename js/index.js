@@ -41,7 +41,8 @@ $(document).ready(function(){
 			var searchField=$(this).val();
 			console.log(searchField);
 			if(searchField === ""){
-				$('.all').show();				
+				$('.all').show();	
+				$('.headerCategory').show();			
 				return;
 			}			
 			var regex = new RegExp(searchField, "i");
