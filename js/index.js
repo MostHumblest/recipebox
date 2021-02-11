@@ -100,13 +100,15 @@ $(document).ready(function(){
 //toggle headers
 	function hideButton(){
 		$("#hideCategories").click(function(){
-			$('.category-list').hide();
+			$('.category-list').hide();			
+			$('.category-list').replace(/\u25BE/, '\u25B8');
 		});
 	}
 
 	function showButton(){
 		$("#showCategories").click(function(){
 			$('.category-list').show();
+			$('.category-list').replace(/\u25B8/, '\u25BE');
 		});
 	}
 		
@@ -118,7 +120,6 @@ $(document).ready(function(){
 			newID = "#r" + tagCapture;
 		//get arrow type
 			var headText = $(this).text();
-			console.log(headText);
 			var n = headText.length;
 			var arrowType = headText.charCodeAt(n-1);
 		//toogle arrow type
