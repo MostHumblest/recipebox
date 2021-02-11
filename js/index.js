@@ -125,15 +125,15 @@ $(document).ready(function(){
 			var arrowType = headText.charCodeAt(n-1);
 		//toogle arrow type
 			if(arrowType == 9656){
-				console.log("right arrow");
+				console.log("was right arrow");
 				$(newArrow).text('\u25BE');
 				//headText = headText.replace(/\u25B8/, '\u25BE');
 				$(newID).hide();
 			}else if(arrowType == 9662){
-				console.log("down arrow");
+				console.log("was down arrow");
 				$(newArrow).text('\u25B8');
 				//headText = headText.replace(/\u25BE/, '\u25B8');
-				$(newID).shiw();				
+				$(newID).show();				
 			}else {
 				//do nothing
 			}
