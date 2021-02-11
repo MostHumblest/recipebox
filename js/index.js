@@ -96,10 +96,16 @@ $(document).ready(function(){
 			$("#searchBar").keyup();		
 		});	
 	}
+//toggle headers
+	function hideHeadersClicked(){
+		$("#hideCategories").click(function(){
+			$('.category-list').hide();
+		});
+	}
 
-	function toggleButtonClicked(){
-		$("#toggleCategories").click(function(){
-			$('.category-list').toggle();
+	function showHeadersClicked(){
+		$("#showCategories").click(function(){
+			$('.category-list').show();
 		});
 	}
 		
