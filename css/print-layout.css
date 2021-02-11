@@ -84,7 +84,7 @@ nav ul{
 
 .container-recipe{
 	display:grid;
-	grid-template-columns: minmax(300px, 1fr) repeat(5, 1fr);
+	grid-template-columns: minmax(250px, 1fr) repeat(5, 1fr);
 	grid-template-rows: repeat(5,minmax(0, auto));
 	gap: 0;
 }
