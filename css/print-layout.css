@@ -12,7 +12,9 @@ h1.main {
 
 h3{
 	padding: 0px;
+	margin: 0 0 .5em -1em;
 }
+
 h3.sectionHeader{
 	text-align:center;
 }

@@ -202,7 +202,7 @@ $(document).ready(function(){
 		$("#recipeNotes").html(listNotes);
 
 	//get ingredients
-		var listIngredients = "<h3 class=\"sectionHeader\">Ingredients</h3><tr><th></th><th></th></tr>";
+		var listIngredients = "<h3 class=\"sectionHeader\">Ingredients</h3>";
 		$.each(ingredients, function(j, valueJ){
 			listIngredients = listIngredients + "<tr><td class=\"qty\">" + ingredients[j].quantity + "</td><td class=\"item\">" + ingredients[j].item + "</td></tr>";		
 		});
