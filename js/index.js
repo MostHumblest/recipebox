@@ -119,6 +119,12 @@ $(document).ready(function(){
 			$('.arrow').text('\u25BE');
 		});
 	}
+
+	function printButton{
+		$("#print").click(function(){
+			window.print();
+		});
+	}
 		
 //toggle recipes in each section
 	function toggleHeaders(){
