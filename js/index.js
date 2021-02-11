@@ -3,7 +3,8 @@ $(document).ready(function(){
 	console.log("ready");
 	hashNavigation();
 	clearButtonClicked();
-	toggleButtonClicked();
+	hideButton();
+	showButton();
 	populateCategories();
 	populateRecipes();
 	toggleHeaders();
@@ -97,13 +98,13 @@ $(document).ready(function(){
 		});	
 	}
 //toggle headers
-	function hideHeadersClicked(){
+	function hideButton(){
 		$("#hideCategories").click(function(){
 			$('.category-list').hide();
 		});
 	}
 
-	function showHeadersClicked(){
+	function showButton(){
 		$("#showCategories").click(function(){
 			$('.category-list').show();
 		});
