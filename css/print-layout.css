@@ -10,6 +10,10 @@ h1.main {
 	color:red;
 }
 
+h3.sectionHeader{
+	text-align:center;
+}
+
 ul {
 	list-style-type:none;
 }

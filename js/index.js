@@ -195,7 +195,7 @@ $(document).ready(function(){
 		$("#recipeTime").html(activeTime+totalTime);
 
 	//get notes
-		var listNotes = "";
+		var listNotes = "<h3>Notes:</h3>";
 		$.each(notes, function(i, val){
 			listNotes = listNotes + "<li>" + notes[i] + "</li>";
 		});
