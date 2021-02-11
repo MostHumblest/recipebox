@@ -120,7 +120,7 @@ $(document).ready(function(){
 		});
 	}
 
-	function printButton{
+	function printButton(){
 		$("#print").click(function(){
 			window.print();
 		});
