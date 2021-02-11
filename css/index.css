@@ -196,6 +196,7 @@ nav ul{
 
     nav{
         grid-column: span 2;
+		grid-row: span 5;
     }
 	
 }
