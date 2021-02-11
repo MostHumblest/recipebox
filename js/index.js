@@ -56,7 +56,7 @@ $(document).ready(function(){
 					tagSearch = val.tags.findIndex(value => regex.test(value));
 					ingredients = val.ingredients;
 					category = val.category;
-					category = category.replace(/ /g, "_");
+					category = "#h"+category.replace(/ /g, "_");
 					$.each(ingredients, function(i, value){
 						ingredientSearch = ingredients[i].item.search(regex);
 						if(ingredientSearch != -1){
