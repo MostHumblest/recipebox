@@ -118,7 +118,7 @@ $(document).ready(function(){
 			var clickedID = $(this).attr('id');
 			tagCapture = clickedID.slice(1);
 			newID = "#r" + tagCapture;
-			newArrow = "\'" + newID + " .arrow \'";
+			newArrow = newID + " .arrow";
 		//get arrow type
 			var headText = $(this).text();
 			var n = headText.length;
