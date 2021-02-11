@@ -37,6 +37,7 @@ $(document).ready(function(){
 	function liveSearch(){
 		$("#searchBar").keyup(function(){
 			$('.all').hide();
+			$('.headerCategory').hide();
 			var searchField=$(this).val();
 			console.log(searchField);
 			if(searchField === ""){
@@ -77,7 +78,7 @@ $(document).ready(function(){
 						} */
 					}
 				});
-			$(returnIDs).show();			
+			//$(returnIDs).show();			
 		});
 	}
 
