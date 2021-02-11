@@ -69,18 +69,9 @@ $(document).ready(function(){
 
 						$(category).show();
 						$(returnID).show();
-						/* count = count + 1
-
-						switch(count){
-							case 1:
-								returnIDs = returnIDs + " ." + val.id
-								break;
-							default:
-								returnIDs = returnIDs + ", ." + val.id
-						} */
+						
 					}
-				});
-			//$(returnIDs).show();			
+				});		
 		});
 	}
 
@@ -95,6 +86,7 @@ $(document).ready(function(){
 			var linkClass = "\"all " + rID +"\"";
 			var rTitleItem = "<li class=" +linkClass + "><a class="+linkClass+"href=\"https://mosthumblest.github.io/recipebox/#" + rID+ "\"><span>" + rTitle + "</span></a></li>";
 			//add code to skip placeholders charAt(1)==="0"
+			//ADD THIS CODE
 			$(thisTag).append(rTitleItem);
 		});
 	}	
@@ -210,14 +202,14 @@ $(document).ready(function(){
 		$("#recipeNotes").html(listNotes);
 
 	//get ingredients
-		var listIngredients = "<tr><th></th><th></th></tr>";
+		var listIngredients = "<h3 class=\"sectionHeader\">Ingredients</h3><tr><th></th><th></th></tr>";
 		$.each(ingredients, function(j, valueJ){
 			listIngredients = listIngredients + "<tr><td class=\"qty\">" + ingredients[j].quantity + "</td><td class=\"item\">" + ingredients[j].item + "</td></tr>";		
 		});
 		$("#recipeIngredients").html(listIngredients);
 		
 	//get steps
-		var currentStep="";
+		var currentStep="<h3 class=\"sectionHeader\">Process</h3>";
 		var thisStep="";
 		var stepFirstChar="";
 		var hang=false;
@@ -228,7 +220,7 @@ $(document).ready(function(){
 				case "!":				
 					hang = true;
 					thisStep=thisStep.slice(1);
-					currentStep = currentStep + "<li><h3>" + thisStep + "</h3></li>";
+					currentStep = currentStep + "<li><h4>" + thisStep + "</h4></li>";
 					break;
 				default:
 					if (hang){
