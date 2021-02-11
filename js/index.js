@@ -157,7 +157,7 @@ $(document).ready(function(){
 					break;
 				default:
 					loadRecipe(thisID);
-					window.location("recipeTitle");
+					window.location="#recipeTitle";
 			}
 		});
 	}	
