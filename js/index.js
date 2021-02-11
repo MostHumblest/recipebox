@@ -128,12 +128,12 @@ $(document).ready(function(){
 				console.log("right arrow");
 				$(newArrow).text('\u25BE');
 				//headText = headText.replace(/\u25B8/, '\u25BE');
-				$(newID).show();
+				$(newID).hide();
 			}else if(arrowType == 9662){
 				console.log("down arrow");
 				$(newArrow).text('\u25B8');
 				//headText = headText.replace(/\u25BE/, '\u25B8');
-				$(newID).hide();				
+				$(newID).shiw();				
 			}else {
 				//do nothing
 			}
