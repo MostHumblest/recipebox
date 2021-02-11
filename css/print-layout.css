@@ -14,6 +14,10 @@ ul {
 	list-style-type:none;
 }
 
+li {
+	padding-bottom: .25rem;
+}
+
 .directions > li{
 	padding-bottom: 1rem;
 }
@@ -38,6 +42,12 @@ ul {
 	vertical-align: top;
 }
 
+a:hover{
+	background-color: greenyellow;
+}
+
+/* design for mobile and small screens */
+
 header{
 	border: 3px solid darkblue;
 }
@@ -46,12 +56,24 @@ header{
 	border:3px solid goldenrod;
 	display:grid;
 	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(2,minmax(0, auto));
 	gap: 0;
 }
 
 nav{
 	grid-column: span 6;
 	border: 3px solid darkgreen;
+	margin: 0 1rem 0 2rem;
+}
+
+/*hide #demo */
+
+nav > h2{
+	margin: .25em;
+}
+
+nav ul{
+	margin: .5em;
 }
 
 .print{
@@ -102,7 +124,7 @@ nav{
 .container-header{
     display:grid;
     grid-template-columns: repeat(5,1fr) minmax(100px, 1fr);
-    grid-template-rows:.9fr .1fr;
+    grid-template-rows:.8fr .2fr;
 	gap:0;
 	margin: 0px;
 }
@@ -110,8 +132,8 @@ nav{
 #recipeTitle{
     grid-column:span 5;
     grid-row: 1;
-	font-size: 48pt;
 	font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 48pt;
 	font-variant:small-caps;
 	border: 3px solid darkblue;
 	margin: 0px;
@@ -128,7 +150,8 @@ nav{
     grid-column: 6;
     grid-row: span 2;
 	border: 3px solid darkblue;
-	margin:  0px;
+	padding: 0px;
+	margin: 0 0 0 10px;
 }
 
 .container-footer{
@@ -149,3 +172,10 @@ nav{
     border: 3px solid black;
 	margin: 0px;
 }
+
+
+
+
+
+
+
