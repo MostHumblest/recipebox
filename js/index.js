@@ -45,8 +45,7 @@ $(document).ready(function(){
 				return;
 			}			
 			var regex = new RegExp(searchField, "i");
-			var returnIDs = '';
-			var count = 0;
+			var returnID;
 			var titleSearch = false;
 			var tagSearch = false;
 			var ingredients;
@@ -57,6 +56,7 @@ $(document).ready(function(){
 					ingredients = val.ingredients;
 					category = val.category;
 					category = "#h"+category.replace(/ /g, "_");
+					returnID = "."+returnID;
 					$.each(ingredients, function(i, value){
 						ingredientSearch = ingredients[i].item.search(regex);
 						if(ingredientSearch != -1){
@@ -66,7 +66,7 @@ $(document).ready(function(){
 					if(titleSearch != -1 || tagSearch != -1 || ingredientSearch != -1){
 
 						$(category).show();
-						$(val.id).show();
+						$(returnID.show();
 						/* count = count + 1
 
 						switch(count){
