@@ -127,13 +127,15 @@ $(document).ready(function(){
 			if(arrowType == 9656){
 				console.log("was right arrow");
 				$(newArrow).text('\u25BE');
+				console.log($(newArrow).text());
 				//headText = headText.replace(/\u25B8/, '\u25BE');
-				$(newID).hide();
+				$(newID).show();
 			}else if(arrowType == 9662){
 				console.log("was down arrow");
 				$(newArrow).text('\u25B8');
+				console.log($(newArrow).text());
 				//headText = headText.replace(/\u25BE/, '\u25B8');
-				$(newID).show();				
+				$(newID).hide();				
 			}else {
 				//do nothing
 			}
