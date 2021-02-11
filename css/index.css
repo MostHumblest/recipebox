@@ -66,6 +66,8 @@ nav{
 	margin: 1rem;
 }
 
+/*hide #demo */
+
 nav > h2{
 	margin: .25em;
 }
