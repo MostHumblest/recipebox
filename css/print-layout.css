@@ -42,14 +42,9 @@ li {
 	vertical-align: top;
 }
 
-a:hover{
-	background-color: greenyellow;
-}
-
-/* design for mobile and small screens */
-
-header{
-	border: 3px solid darkblue;
+header,
+nav{
+	display:none;
 }
 
 .container-main{
@@ -60,22 +55,6 @@ header{
 	gap: 0;
 }
 
-nav{
-	grid-column: span 6;
-	border: 3px solid darkgreen;
-	margin: 0 1rem 0 2rem;
-}
-
-/*hide #demo */
-
-nav > h2{
-	margin: .25em;
-}
-
-nav ul{
-	margin: .5em;
-}
-
 .print{
 	grid-column:span 6;
 	font-family:"Calibri", "Arial Light", sans-serif;
@@ -84,7 +63,7 @@ nav ul{
 
 .container-recipe{
 	display:grid;
-	grid-template-columns: minmax(250px, 1fr) repeat(5, 1fr);
+	grid-template-columns: minmax(200px, 1fr) repeat(5, 1fr);
 	grid-template-rows: repeat(5,minmax(0, auto));
 	gap: 0;
 }
