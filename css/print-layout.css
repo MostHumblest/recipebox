@@ -10,6 +10,9 @@ h1.main {
 	color:red;
 }
 
+h3{
+	padding: 0px;
+}
 h3.sectionHeader{
 	text-align:center;
 }
@@ -76,6 +79,7 @@ nav{
 	grid-column:span 6;
     grid-row:1;
     border:3px solid darkmagenta;
+	margin-bottom: 1em;
 }
 
 .item-b{
