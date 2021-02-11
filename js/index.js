@@ -118,6 +118,7 @@ $(document).ready(function(){
 			var clickedID = $(this).attr('id');
 			tagCapture = clickedID.slice(1);
 			newID = "#r" + tagCapture;
+			newArrow = newID + " .arrow";
 		//get arrow type
 			var headText = $(this).text();
 			var n = headText.length;
@@ -125,11 +126,13 @@ $(document).ready(function(){
 		//toogle arrow type
 			if(arrowType == 9656){
 				console.log("right arrow");
-				headText = headText.replace(/\u25B8/, '\u25BE');
+				$(newArrow).text('\u25BE');
+				//headText = headText.replace(/\u25B8/, '\u25BE');
 				$(newID).show();
 			}else if(arrowType == 9662){
 				console.log("down arrow");
-				headText = headText.replace(/\u25BE/, '\u25B8');
+				$(newArrow).text('\u25B8');
+				//headText = headText.replace(/\u25BE/, '\u25B8');
 				$(newID).hide();				
 			}else {
 				//do nothing
