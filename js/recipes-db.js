@@ -434,7 +434,7 @@ recipes = [
             "Slice 1 lime in half and squeeze juice into chowder, slice remaining lime into wedges",
             "Serve with lime wedges alongside, and top with oyster crackers",
             "!Seasoned Crackers",
-            "Heat remaining 2 tablespoons in a skillet over medium-low.",
+            "Heat remaining 2 Tbsp ghee in a skillet over medium-low.",
             "Add crackers and toss to coat.",
             "Cook tossing often, until golden brown. About 5 minutes",
             "Remove from heat and add paprika, toss to coat."
