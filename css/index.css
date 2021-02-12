@@ -131,7 +131,7 @@ nav ul{
 	grid-column: span 6;
 	border: 3px solid darkred;
 	padding:0px;
-	margin: 0 .5em 1em, 1em;
+	margin: 0 .5em 1em 1em;
 }
 
 .container-header{
