@@ -403,7 +403,7 @@ recipes = [
             },
             {	
                 "quantity": "27 oz",
-                "item": "unsweetened coconut milk (2cans)"
+                "item": "unsweetened coconut milk (2, 13.5oz.cans)"
             },
             {	
                 "quantity": "2",
