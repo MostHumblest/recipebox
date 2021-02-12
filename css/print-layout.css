@@ -45,7 +45,7 @@ li {
 
 .qty{
 	text-align:right;
-	width: 65px;
+	width: 70px;
 	padding-right: 6px;
 	vertical-align: top;
 }
@@ -113,7 +113,7 @@ nav{
     grid-template-columns: repeat(5,1fr) minmax(100px, 1fr);
     grid-template-rows:.8fr .2fr;
 	gap:0;
-	margin-bottom: 1em;
+	margin: 0 0 1em 1em;
 }
 
 #recipeTitle{
