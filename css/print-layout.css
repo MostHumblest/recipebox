@@ -139,7 +139,7 @@ nav{
     grid-row: span 2;
 	border: 3px solid darkblue;
 	padding: 0px;
-	margin: 0 0 0 10px;
+	margin: 0 0 0 .5px;
 }
 
 .container-footer{
