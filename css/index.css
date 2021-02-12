@@ -70,6 +70,8 @@ a:hover{
 nav{
 	grid-column: span 6;
 	margin: 0 1rem 1rem 2rem;
+	background-color: lightgray;
+	border-radius: 25px;
 }
 
 /*hide #demo */
