@@ -197,9 +197,10 @@ $(document).ready(function(){
 
 	//get notes
 		var listNotes = "<h3>Notes:</h3>";
+		var thisNote;
 		$.each(notes, function(i, val){
-			
-			listNotes = listNotes + "<li>" + notes[i] + "</li>";
+			thisNote = addDegreeSymbol(notes[i]);
+			listNotes = listNotes + "<li>" + thisNote + "</li>";
 		});
 		$("#recipeNotes").html(listNotes);
 
