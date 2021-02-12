@@ -340,7 +340,7 @@ recipes = [
         ],
     },
 
-    {   "id": "H1", "title": "Coconut Cod Chower", "category":"seafood",
+    {   "id": "H1", "title": "Coconut Cod Chowder", "category":"seafood",
         "yield":"4-6 Servings",
         "time":{
             "active": 00,
@@ -370,8 +370,8 @@ recipes = [
                 "item": "ghee or butter, divided"
             },
             {	
-                "quantity": "2 medium",
-                "item": "leeks, white and pale green parts only, halved lengthwise, thinly sliced crosswise"
+                "quantity": "2",
+                "item": "medium leeks, white and pale green parts only, halved lengthwise, thinly sliced crosswise"
             },
             {	
                 "quantity": "6",
@@ -423,9 +423,11 @@ recipes = [
             },
         ],
         "directions":[
-            "step 1",
-            "step 2",
-            "step 3"
+            "Season cod all over with salt; set aside",
+            "Heat 3 Tbsp ghee in a medium dutch over over medium. Cook leeks, garlic, and ginger, stirring occassionally until softened but not browned. About 3 minutes",
+            "Add tumeric, coriander, and cardamom and cook, stirring until fragrent, about 30 seconds.",
+            "Add chile, potatoes, coconut milk, 1tsp salt, and 3/4 cup water; bring to a boil (over medium) and immediately reduce heat so soup is at a bare simmer.",
+            "Cover, leaving lid slightly askew, and cook until potatoes are barely fork tender, 10-12 minutes."
         ],
         
         "tags":[
