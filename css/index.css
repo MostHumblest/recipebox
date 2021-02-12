@@ -62,6 +62,8 @@ a:hover{
 
 header{
 	margin: 1rem;
+	background: url('https://images.unsplash.com/photo-1612031736184-77bc60f94c06') center;
+  	background-size: cover;
 }
 
 .container-main{
