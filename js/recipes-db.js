@@ -353,13 +353,13 @@ recipes = [
             "modify":"n"
         },
         "notes":[
-            "Oyster crackers should be prepared while stew cooks",
-            "note 2"
+            "Crackers should be prepared while stew cooks",
+            "Halibut can be used in place of cod"
         ],
         "ingredients":[
             {                 
                 "quantity": "1 1/2lb",
-                "item": "skinless, boneless cod or halibut"
+                "item": "skinless, boneless cod"
             },
             {	
                 "quantity": "2 1/2 tsp",
@@ -441,8 +441,8 @@ recipes = [
         ],
         
         "tags":[
-            "test",
-            "test2"
+            "fish",
+            "stew"
         ],
     },
 
