@@ -716,7 +716,7 @@ recipes = [
             },
         ],
         "directions":[
-            "1. Adjust oven rack to middle position and heat oven to 425 F Grate frozen butter on large holes of box grater (you should grate total of 8 tablespoons). Place grated butter in freezer until needed. Melt 2 tablespoons of remaining ungrated butter and set aside. Place blueberries in freezer until needed.",
+            "1. Adjust oven rack to middle position and heat oven to 425 F, Grate frozen butter on large holes of box grater (you should grate total of 8 tablespoons). Place grated butter in freezer until needed. Melt 2 tablespoons of remaining ungrated butter and set aside. Place blueberries in freezer until needed.",
             "2. Whisk together milk and sour cream in medium bowl; refrigerate until needed. Whisk flour, 1/2 cup sugar, baking powder, baking soda, salt, and lemon zest in medium bowl. Add frozen butter to flour mixture and toss with fingers until thoroughly coated.",
             "3. Add milk mixture to flour mixture; fold with spatula until just combined. With rubber spatula, transfer dough to liberally floured work surface. Dust surface of dough with flour; with floured hands, knead dough 6 to 8 times, until it just holds together in ragged ball, adding flour as needed to prevent sticking.",
             "4. Roll dough into approximate 12-inch square. Following illustrations, fold dough into thirds like a business letter, using bench scraper or metal spatula to release dough if it sticks to countertop. Lift short ends of dough and fold into thirds again to form approximate 4-inch square. Transfer dough to plate lightly dusted with flour and chill in freezer 5 minutes.",

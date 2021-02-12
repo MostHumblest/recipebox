@@ -11,6 +11,7 @@ $(document).ready(function(){
 	toggleHeaders();
 	liveSearch();
 	loadNull();
+	addDegreeSymbol();
 	$(window).trigger('hashchange'); //forces hash change on page load - enables bookmarking recipes
 });
 
@@ -197,6 +198,7 @@ $(document).ready(function(){
 	//get notes
 		var listNotes = "<h3>Notes:</h3>";
 		$.each(notes, function(i, val){
+			
 			listNotes = listNotes + "<li>" + notes[i] + "</li>";
 		});
 		$("#recipeNotes").html(listNotes);
@@ -215,6 +217,7 @@ $(document).ready(function(){
 		var hang=false;
 		$.each(steps, function(i, val){
 			thisStep = steps[i];
+			addDegreeSymbol(thisStep);
 			stepFirstChar=thisStep.charAt(0);
 			switch(stepFirstChar){
 				case "!":				
@@ -278,4 +281,9 @@ $(document).ready(function(){
 
 	function onlyUnique(val, index, self){
 		return self.indexOf(val) === index;
+	}
+
+	function addDegreeSymbol(inputText){
+		var cookTemp = inputText.match(/([0-9]{3} ?[Ff}])/g);
+		console.log(cookTemp);
 	}
