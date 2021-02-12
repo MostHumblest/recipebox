@@ -340,6 +340,100 @@ recipes = [
         ],
     },
 
+    {   "id": "H1", "title": "Coconut Cod Chower", "category":"seafood",
+        "yield":"4-6 Servings",
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"Coconut Cod Chowder with Seasoned Oyster Crackers",
+            "author":"ukn",
+            "source":"Bon Appetit",
+            "modify":"n"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 1/2lb",
+                "item": "skinless, boneless cod or halibut"
+            },
+            {	
+                "quantity": "2 1/2 tsp",
+                "item": "kosher salt, divided"
+            },
+            {	
+                "quantity": "5 Tbsp",
+                "item": "ghee or butter, divided"
+            },
+            {	
+                "quantity": "2 medium",
+                "item": "leeks, white and pale green parts only, halved lengthwise, thinly sliced crosswise"
+            },
+            {	
+                "quantity": "6",
+                "item": "garlic cloves, thinly sliced"
+            },
+            {	
+                "quantity": "3 inch",
+                "item": "length of ginger, peeled and cut into matchsticks"
+            },
+            {	
+                "quantity": "3/4 tsp",
+                "item": "ground tumeric"
+            },
+            {	
+                "quantity": "3/4 tsp",
+                "item": "ground coriander"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "ground cardamom"
+            },
+            {	
+                "quantity": "1",
+                "item": "serrano chile, thinly sliced"
+            },
+            {	
+                "quantity": "12 oz",
+                "item": "baby red or gold potatoes, halved"
+            },
+            {	
+                "quantity": "27 oz",
+                "item": "unsweetened coconut milk (2cans)"
+            },
+            {	
+                "quantity": "2",
+                "item": "celery stalks, thinkly sliced"
+            },
+            {	
+                "quantity": "1 1/2c",
+                "item": "oyster crackers"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "smoked paprika"
+            },
+            {	
+                "quantity": "2",
+                "item": "limes"
+            },
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "I0", "title": "Vegetables Placeholder", "category":"vegetables",
         "yield":1,
         "time":{
