@@ -94,6 +94,7 @@ nav ul{
 	grid-template-columns: minmax(300px, 1fr) repeat(5, 1fr);
 	grid-template-rows: repeat(5,minmax(0, auto));
 	gap: 0;
+	margin: 0 .25em 0 .25em;
 }
 
 .item-a{
@@ -159,10 +160,6 @@ nav ul{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 	gap: 0;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	width: 100%;
 }
 
 #recipeSource{
