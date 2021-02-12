@@ -42,6 +42,12 @@ li {
 	padding-left: 25px ;
 }
 
+table{
+	
+	background-color: lightgray;
+	border-radius: 15px;
+}
+
 .qty{
 	text-align:right;
 	width: 65px;
@@ -70,8 +76,6 @@ a:hover{
 nav{
 	grid-column: span 6;
 	margin: 1rem 1rem 1rem 2rem;
-	background-color: lightgray;
-	border-radius: 15px;
 }
 
 /*hide #demo */
