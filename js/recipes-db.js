@@ -423,14 +423,21 @@ recipes = [
             },
         ],
         "directions":[
-            "!Soup",
+            "!Chowder",
             "Season cod all over with salt; set aside",
             "Heat 3 Tbsp ghee in a medium dutch over over medium. Cook leeks, garlic, and ginger, stirring occassionally until softened but not browned. About 3 minutes",
             "Add tumeric, coriander, and cardamom and cook, stirring until fragrent, about 30 seconds.",
             "Add chile, potatoes, coconut milk, 1tsp salt, and 3/4 cup water; bring to a boil (over medium) and immediately reduce heat so soup is at a bare simmer.",
             "Cover, leaving lid slightly askew, and cook until potatoes are barely fork tender, 10-12 minutes.",
             "Carefully nestle fish into pot and spoon broth over. Cover with lid slight askew, and simmer for 4 mintues.",
-            "Stir in celery, then cook until fish is opaque and flakes easily, about 5 minutes"
+            "Stir in celery, then cook until fish is opaque and flakes easily, about 5 minutes",
+            "Slice 1 lime in half and squeeze juice into chowder, slice remaining lime into wedges",
+            "Serve with lime wedges alongside, and top with oyster crackers",
+            "!Seasoned Crackers",
+            "Heat remaining 2 tablespoons in a skillet over medium-low.",
+            "Add crackers and toss to coat.",
+            "Cook tossing often, until golden brown. About 5 minutes",
+            "Remove from heat and add paprika, toss to coat."
         ],
         
         "tags":[
