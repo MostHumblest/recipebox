@@ -91,6 +91,8 @@ nav{
     grid-column:span 6;
     grid-row: 5;
     border:3px solid darkmagenta;
+	position:fixed;
+	bottom:0;
 }
 
 #recipeNotes{
