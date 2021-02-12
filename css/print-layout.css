@@ -111,7 +111,7 @@ nav{
 	grid-column: span 5;
 	border: 3px solid darkred;
 	padding:0px;
-	margin: 0 0 0 1em;
+	margin: 0 0 0 .5em;
 }
 
 .container-header{
