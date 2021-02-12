@@ -100,7 +100,7 @@ nav ul{
 	grid-template-columns: minmax(300px, 1fr) repeat(5, 1fr);
 	grid-template-rows: repeat(5,minmax(0, auto));
 	gap: 0;
-	margin: 1rem .25em 0 .25em;
+	margin: 1rem .5em 0 .5em;
 }
 
 .item-a{
