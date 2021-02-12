@@ -144,7 +144,8 @@ nav{
     grid-row: span 2;
 	border: 3px solid darkblue;
 	padding: 0px;
-	margin: 0 0 0 .5px;
+	margin: 0 .5em 0 .5em;
+	text-align:right;
 }
 
 .container-footer{
