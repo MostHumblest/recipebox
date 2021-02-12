@@ -62,8 +62,9 @@ a:hover{
 
 header{
 	margin: 1rem;
-	background: url('https://images.unsplash.com/photo-1612031736184-77bc60f94c06') center;
+	background: url('https://images.unsplash.com/reserve/EnF7DhHROS8OMEp2pCkx_Dufer food overhead hig res.jpg') center;
   	background-size: cover;
+	padding: 2rem;
 }
 
 .container-main{
