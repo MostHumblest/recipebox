@@ -285,8 +285,11 @@ $(document).ready(function(){
 
 	function addDegreeSymbol(inputText){
 		var cookTemp = inputText.match(/([0-9]{3} ?[Ff}])/g);
-		var newCookTemp = cookTemp.replace(/ /,"");
-		newCookTemp = newCookTemp.replace(/[Ff]/,'\u2109')
-		var output = inputText.replace(cookTemp, newCookTemp);
-		return output;
+		var newCookTemp;
+		$.each(cookTemp, function(i, val){
+			newCookTemp = cookTemp[i].replace(/ /,"");
+			newCookTemp = newCookTemp.replace(/[Ff]/,'\u2109')
+			inputText = inputText.replace(cookTemp[i], newCookTemp)
+		});
+		return inputText;
 	}
