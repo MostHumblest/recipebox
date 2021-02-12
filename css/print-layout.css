@@ -157,6 +157,7 @@ nav{
 #recipeIndex{
     grid-column:6;
 	margin: 0px;
+	text-align:right;
 }
 
 
