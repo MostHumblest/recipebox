@@ -112,7 +112,7 @@ nav ul{
 #recipeNotes{
 	grid-column: span 6;
 	border: 3px solid darkcyan;
-	margin: 0 0 1em 0px;
+	margin: 0 .5em 1em 0px;
 }
 
 #recipeIngredients{
@@ -126,7 +126,7 @@ nav ul{
 #recipeDirections{
 	grid-column: span 6;
 	border: 3px solid darkred;
-	margin: 0px;
+	margin: 0 0 0 1em;
 }
 
 .container-header{
