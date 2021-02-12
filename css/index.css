@@ -60,6 +60,10 @@ a:hover{
 
 /* design for mobile and small screens */
 
+header{
+	margin: 1rem;
+}
+
 .container-main{
 	display:grid;
 	grid-template-columns: repeat(6, 1fr);
