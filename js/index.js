@@ -288,7 +288,7 @@ $(document).ready(function(){
 		var newCookTemp;
 		$.each(cookTemp, function(i, val){
 			newCookTemp = cookTemp[i].replace(/ /,"");
-			newCookTemp = newCookTemp.replace(/[Ff]/,'\u00B0')
+			newCookTemp = newCookTemp.replace(/[Ff]/,"\u00B0F")
 			inputText = inputText.replace(cookTemp[i], newCookTemp)
 		});
 		return inputText;
