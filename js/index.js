@@ -217,7 +217,7 @@ $(document).ready(function(){
 		var hang=false;
 		$.each(steps, function(i, val){
 			thisStep = steps[i];
-			addDegreeSymbol(thisStep);
+			thisStep = addDegreeSymbol(thisStep);
 			stepFirstChar=thisStep.charAt(0);
 			switch(stepFirstChar){
 				case "!":				
@@ -285,5 +285,8 @@ $(document).ready(function(){
 
 	function addDegreeSymbol(inputText){
 		var cookTemp = inputText.match(/([0-9]{3} ?[Ff}])/g);
-		console.log(cookTemp);
+		var newCookTemp = cookTemp.replace(/ /,"");
+		newCookTemp = newCookTemp.replace(/[Ff]/,'\u2109')
+		var output = inputText.replace(cookTemp, newCookTemp);
+		return output;
 	}
