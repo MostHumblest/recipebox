@@ -74,7 +74,7 @@ header{
 nav{
 	grid-column: span 6;
 	margin: 1rem 1rem 1rem 2rem;
-	background-color: lightgray;
+	background-color: lightgray 0.6;
 	border-radius: 15px;
 }
 
