@@ -6,6 +6,10 @@ body{
     margin:auto;
 }
 
+#print{
+	display:none;
+}
+
 h1.main {
 	color:red;
 }
@@ -183,6 +187,10 @@ nav ul{
 @media (min-width:640px){
 	body{
 		font-size: 14pt;
+	}
+
+	#print{
+		display:block;
 	}
 
 	#recipeTitle{

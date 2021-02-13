@@ -93,8 +93,6 @@ $(document).ready(function(){
 				var thisTag = "#r" + rCategoryID;
 				var linkClass = "\"all " + rID +"\"";
 				var rTitleItem = "<li class=" +linkClass + "><a class="+linkClass+"href=\"https://mosthumblest.github.io/recipebox/#" + rID+ "\"><span>" + rTitle + "</span></a></li>";
-				//add code to skip placeholders charAt(1)==="0"
-				//ADD THIS CODE
 				$(thisTag).append(rTitleItem);
 			}
 		});
