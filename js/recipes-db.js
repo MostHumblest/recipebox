@@ -74,7 +74,7 @@ recipes = [
         ],
     },
 
-    {   "id": "A0", "title": "About", "category":"tips and techniques",
+    {   "id": "A1", "title": "About", "category":"tips and techniques",
         "yield":0,
         "time":{
             "active": 00,
