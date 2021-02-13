@@ -301,3 +301,9 @@ $(document).ready(function(){
 		});
 		return inputText;
 	}
+
+	function doFractions(inputText){
+		var oldFraction = inputText.match(/([0-9]\/[0-9])/g);
+		var newFraction;
+		
+	}
