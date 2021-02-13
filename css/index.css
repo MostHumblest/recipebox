@@ -76,14 +76,17 @@ header{
 	grid-template-rows: repeat(2,minmax(0, auto));
 	gap: 0;
 }
+.item-nav{
+	grid-column: span 6;	
+}
 
 .nav-container{
-	grid-column: span 6;
+	display: grid;
+	grid-template-columns: 3fr 1fr;	
 	margin: 1rem 1rem 1rem 2rem;
 	background-color: rgba(211, 211, 211,.3);
 	border-radius: 15px;
-	display: grid;
-	grid-template-columns: 3fr 1fr;
+	gap: 0;
 }
 
 nav{
@@ -201,7 +204,7 @@ nav ul{
 	}
 
 	#print{
-		display:block;
+		display:inline-block;
 	}
 
 	#recipeTitle{
@@ -223,7 +226,7 @@ nav ul{
         grid-template-columns: minmax(375px, 2fr) repeat(6, 1fr);
     }
 
-    nav{
+    .item-nav{
         grid-column: 1;
 		grid-row: span 2;
     }
