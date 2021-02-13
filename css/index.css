@@ -130,6 +130,7 @@ nav{
 	margin: 0 5px 0 0;
 	background-color:darkslategray;
 	color:white;
+	font-variant:small-caps;
 }
 
 
@@ -246,8 +247,9 @@ nav ul{
 		padding: 20px;
 		margin:5px;
 		border-radius: 12px;
-		background-color: orange;
-		color: white;
+		background-color: goldenrod;
+		color: white;		
+		font-variant:small-caps;
 	}
 
 	#recipeTitle{
