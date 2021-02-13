@@ -256,9 +256,10 @@ nav ul{
 		margin:1rem;
 		border-radius: 12px;
 		background-color: rgb(228, 157, 5);
+		border:none;
 		color: white;		
 		cursor: pointer;
-		opacity: 0.6;
+		opacity: 0.8;
 		transition: 0.3s;
 		
 	}
