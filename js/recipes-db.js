@@ -241,7 +241,7 @@ recipes = [
         "notes":[
             "Gochujang can be found at asian grocery stores, in various levels of heat.",
             "Oven temperature is important for this, oven thermometer is recommended",
-            "Potatoes should be 1.5inchs in diameter or smaller, cut larger ones in half",
+            "Potatoes should be 1.5 inches in diameter or smaller, cut larger ones in half",
             "<u>Do ahead:</u> For crispier skin, chicken should be seasoned 12-24hrs in advanced and chilled"
         ],
         "ingredients":[
@@ -251,14 +251,18 @@ recipes = [
             },
             {	
                 "quantity": "AR",
-                "item": "kosher salt and black pepper"
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "AR",
+                "item": "black pepper"
             },
             {	
                 "quantity": "5 Tbsp",
                 "item": "gochujang"
             },
             {	
-                "quantity": "1/4 c plus 2 Tbsp",
+                "quantity": "1/4 c and 2 Tbsp",
                 "item": "olive oil"
             },
             {	
