@@ -302,6 +302,112 @@ recipes = [
         ],
     },
 
+    {   "id": "G1", "title": "Thai Beef Stew", "category":"beef",
+        "yield":"6-8 servings",
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"Thai Beef Stew with Lemongrass and Noodles",
+            "author":"ukn",
+            "source":"Bon Appetit, Feb 2014",
+            "modify":"y"
+        },
+        "notes":[
+            "Serranos, fresnos, or jalapenos can be used in place of thai chilies",
+            "If available, 4 kaffir lime leaves should be used in place of zest",
+            "<u>Warning:</u> Step 1 creates a mean pepper gas"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "4",
+                "item": "Lemongrass stalks, trimmed, outer layers removed, thinly sliced"
+            },
+            {	
+                "quantity": "4",
+                "item": "Garlic cloves, chopped"
+            },
+            {	
+                "quantity": "2",
+                "item": "limes for zest, reserve for wedges"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "chopped ginger"
+            },
+            {	
+                "quantity": "2",
+                "item": "Thai chilies w/ seeds, chopped"
+            },
+            {	
+                "quantity": "3 lbs",
+                "item": "Beef chuck cut into 2\" pieces"
+            },
+            {	
+                "quantity": "AR",
+                "item": "Salt and Pepper"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "Vegetable Oil"
+            },
+            {	
+                "quantity": "2",
+                "item": "Whole star anise pods"
+            },
+            {	
+                "quantity": "1",
+                "item": "Cinnamon stick"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "Soy Sauce"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "Fish Sauce"
+            },
+            {	
+                "quantity": "1/4 c",
+                "item": "Light brown sugar"
+            },
+            {	
+                "quantity": "1 c",
+                "item": "Unsweetened coconut flakes"
+            },
+            {	
+                "quantity": "4 c",
+                "item": "Shallots, quartered"
+            },
+            {	
+                "quantity": "1 lb",
+                "item": "Carrots, peeled, cut in 2\" lengths, halved"
+            },
+            {	
+                "quantity": "4",
+                "item": "Scallions, cut in 1\" lengths"
+            },
+            {	
+                "quantity": "8 oz",
+                "item": "Wide rice noodles"
+            },            
+        ],
+        "directions":[
+            "1. Process lemongrass, garlic, lime zest, ginger, and chilies in a food processor until a fine paste forms",
+            "2. Season beef with salt and pepper. Heat oil in a large Dutch oven over medium-high heat. Working in batches, cook beef, turning occasionally, until browned, 10-15 minutes; transfer to plate or bowl",
+            "3. Cook lemongrass paste in same pot, stirring often, until lemongrass is beginning to soften, 5-8 minutes. Add star anise, cinnamon, soy sauce, fish sauce, brown sugar, beef with any juices, and 10c of water. Bring to a boil, reduce heat, and simmer, partially covered, skimming occasionally, until beef is tender and liquid is slightly thickened, 2.5-3hrs",
+            "4. Meanwhile, preheat oven to 350°. Toast coconut flakes on a rimmed baking sheet, tossing occasionally, until golden around the edges, about 4 minutes; set aside",
+            "5. Add shallot and carrots to stew and cook, partially covered, until vegetables are soft and beef is falling apart, 35-45 minutes. Mix in scallions (they should slightly wilt)",
+            "6. Meanwhile, cook noodles according to package directions",
+            "7. Divide noodles among bowls, ladle stew over, top with toasted coconut. Serve with lime wedges"
+        ],
+        
+        "tags":[
+            "soup"
+        ],
+    },
+
     {   "id": "H0", "title": "Seafood Placeholder", "category":"seafood",
         "yield":1,
         "time":{
