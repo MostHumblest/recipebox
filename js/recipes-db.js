@@ -827,7 +827,7 @@ recipes = [
         ],
     },
 
-    {   "id": "M0", "title": "Chickpea Bowls", "category":"legumes",
+    {   "id": "M1", "title": "Chickpea Bowls", "category":"legumes",
         "yield":"2-3 servings",
         "time":{
             "active": 00,
