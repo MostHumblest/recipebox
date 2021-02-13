@@ -90,7 +90,7 @@ header{
 
 .nav-container{
 	display: grid;
-	grid-template-columns: 3fr 1fr;
+	grid-template-columns: 1fr 60px;
 	grid-template-rows: 40px 15px 40px 40px auto;	
 	margin: 1rem 1rem 1rem 1rem;
 	padding-top: 1rem;
@@ -128,9 +128,8 @@ nav{
 .nav-container button{
 	border-radius: 12px;
 	margin: 0 5px 0 0;
-	background-color:darkslategray;
+	background-color:black;
 	color:white;
-	font-variant:small-caps;
 }
 
 
@@ -247,9 +246,8 @@ nav ul{
 		padding: 20px;
 		margin:5px;
 		border-radius: 12px;
-		background-color: goldenrod;
+		background-color: rgb(228, 157, 5);
 		color: white;		
-		font-variant:small-caps;
 	}
 
 	#recipeTitle{
