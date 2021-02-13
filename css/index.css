@@ -103,7 +103,7 @@ header{
 
 nav{
 	grid-column: 1;
-	grid-row: 3 span 3;
+	grid-row: 3/-1;
 }
 
 #showCategories{
