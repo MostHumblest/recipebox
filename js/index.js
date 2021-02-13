@@ -216,7 +216,7 @@ $(document).ready(function(){
 		var listIngredients = "<h3 class=\"sectionHeader\">Ingredients</h3>";
 		var thisQuantity;
 		$.each(ingredients, function(j, valueJ){
-			quantity = ingredients[j].quantity;
+			thisQuantity = ingredients[j].quantity;
 			thisQuantity = doFractions(thisQuantity);
 			listIngredients = listIngredients + "<tr><td class=\"qty\">" + thisQuantity + "</td><td class=\"item\">" + ingredients[j].item + "</td></tr>";		
 		});
