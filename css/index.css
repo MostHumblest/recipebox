@@ -90,7 +90,7 @@ header{
 
 .nav-container{
 	display: grid;
-	grid-template-columns: 1fr minmax(auto, 100);
+	grid-template-columns: 1fr minmax(70px 100px);
 	grid-template-rows: 45px 15px 45px 45px auto;	
 	margin: 1rem 1rem 1rem 1rem;
 	padding-top: 1rem;
