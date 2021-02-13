@@ -337,7 +337,7 @@ recipes = [
             "Pat chicken dry and season with salt and pepper, be sure to season the cavity",
             "Whisk gochujang and 1/4 c olive oil in a medium bowl until combined. Grate 3 cloves of garlic (from one head) into oil. Peel ginger, grate into oil. Whisk to combine.",
             "Cut remaining garlic in half crosswise. Repeat with second head of garlic. Stuff 2 halves into the chicken and tie legs with kitchen twine.",
-            "Using a pastry brush, spread half of oil on the .",
+            "Using a pastry brush, spread half of oil on the chicken.",
             "Toss potatoes and remaining 2 garlic halves and remaing 2 tbsp oil until coated. Season lightly with salt and pepper to combine.",
             "Arrange potatoes in a 12\" cast-iron skillet, scooting them towards the edges of the pan. Place garlic halves cut side down in the middle of the skillet. Place chicken over garlic.",
             "Roast chicken and potatoes, turing potatoes once or twice to coat in juices and oil that accumulate in pan until potatoes are tender when pressed with the back of a spoon, and chicken skin is a deep reddish-golden brown, 2.5-3 hrs. When you wiggle the legs of the chicken, the should feel loose in the joints.",
@@ -947,7 +947,8 @@ recipes = [
             "easy",
             "simple",
             "fast",
-            "garbanzo beans"
+            "garbanzo beans",
+            "vegetarian"
         ],
     },
 
