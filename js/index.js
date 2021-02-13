@@ -312,6 +312,7 @@ $(document).ready(function(){
 		var newFraction;
 		$.each(oldFraction, function(i, val){
 			newFraction = "<span class=\"frac\">" + inputText[i] + "</span>"
+			console.log("old: " + oldFraction[i] + " new: " + newFraction);
 			inputText = inputText.replace(oldFraction[i], newFraction);
 		});
 		return inputText;
