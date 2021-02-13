@@ -965,7 +965,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "Use red pepper flakes to control heat level",
+            "Use red pepper flakes to control heat level, as written results in a medium-low spice",
             "Can sub parsley for cilantro"
         ],
         "ingredients":[
