@@ -84,9 +84,10 @@ header{
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 	grid-template-rows: 40px 15px 40px 40px auto;	
-	margin: 1rem 1rem 1rem 2rem;
+	margin: 1rem 1rem 1rem 1rem;
+	padding-top: 1rem;
 	background-color: rgba(211, 211, 211,.3);
-	border-radius: 15px;
+	border-radius: 12px;
 	gap: 0;
 }
 
@@ -104,6 +105,7 @@ header{
 nav{
 	grid-column: 1;
 	grid-row: 3/-1;
+	margin: 0 0 0 1rem;
 }
 
 #showCategories{
