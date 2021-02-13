@@ -90,7 +90,7 @@ header{
 
 .nav-container{
 	display: grid;
-	grid-template-columns: 1fr minmax(70px 100px);
+	grid-template-columns: 1fr 70px;
 	grid-template-rows: 45px 15px 45px 45px auto;	
 	margin: 1rem 1rem 1rem 1rem;
 	padding-top: 1rem;
@@ -266,6 +266,10 @@ nav ul{
 	#print:hover{
 		opacity: 1;
 		font-variant: small-caps;
+	}
+
+	.nav-container{
+		grid-template-columns: 1fr 100px;
 	}
 
 	#recipeTitle{
