@@ -262,7 +262,7 @@ recipes = [
                 "item": "gochujang"
             },
             {	
-                "quantity": "1/4 c and 2 Tbsp",
+                "quantity": "1/4 c and <br>2 Tbsp",
                 "item": "olive oil"
             },
             {	
