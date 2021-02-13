@@ -22,9 +22,7 @@ $(document).ready(function(){
 		$.each(recipes, function(i, val){
 			categories.push(recipes[i].category);			
 		});	
-
 		uniqueCategories = categories.filter(onlyUnique);
-
 		$.each(uniqueCategories, function(i, val){
 			var rCategory = uniqueCategories[i];
 			var rCategoryID = rCategory.replace(/ /g, "_");			
@@ -39,6 +37,9 @@ $(document).ready(function(){
 
 //live search
 	function liveSearch(){
+		$("#searchBar").keypress(function(e) {
+			if(e.keyCode===13) document.activeElement.blur();
+		});
 		$("#searchBar").keyup(function(){
 			$('.all').hide();
 			$('.headerCategory').hide();
