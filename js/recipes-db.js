@@ -827,6 +827,87 @@ recipes = [
         ],
     },
 
+    {   "id": "M0", "title": "Chickpea Bowls", "category":"legumes",
+        "yield":"2-3 servings",
+        "time":{
+            "active": 00,
+            "total":"30 min"
+        },
+        "source":{
+            "title":"Warm Chickpea Bowls with Lemony Yogurt",
+            "author":"Andy Baraghani",
+            "source":"Bon Appetit",
+            "modify":"y"
+        },
+        "notes":[
+            "Can swap in or combine other vegetables with cauliflower (broccoli, brussels sprouts, sweet potatoes, etc.)",
+            ""
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1",
+                "item": "garlic clove, grated"
+            },
+            {	
+                "quantity": "1.5 tsp",
+                "item": "ground coriander"
+            },
+            {	
+                "quantity": "1.5 tsp",
+                "item": "ground cumin"
+            },
+            {	
+                "quantity": "3 Tbsp",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "1/2",
+                "item": "head of cauliflower, broken into florets, sliced 1/4\" thick"
+            },
+            {	
+                "quantity": "1",
+                "item": "can of chickpeas, rinsed"
+            },
+            {	
+                "quantity": "AR",
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "AR",
+                "item": "fresh ground pepper"
+            },
+            {	
+                "quantity": "3/4 c",
+                "item": "whole-milk greek yogurt"
+            },
+            {	
+                "quantity": "4 Tbsp",
+                "item": "fresh lemon juice, divided"
+            },
+            {	
+                "quantity": "1",
+                "item": "fennel bulb, halved lengthwise, thinly sliced crosswise"
+            },
+            {	
+                "quantity": "1",
+                "item": "small chile"
+            }
+        ],
+        "directions":[
+            "Preheat oven to 400F. Mix garlic, coriander, cumin, and oil in a large bowl. Add cauliflower and chickpeas; season with salt and pepper. Toss to coat",
+            "Transfer mixture to a baking sheet or two. Wipe out bowl; reserve. Roast until golden brown, tossing halfway through, 18-22 minutes",
+            "Meanwhile: mix yogurt, 1 tbsp lemon juice and salt ina small bowl",
+            "Toss fennel, chile, and parsley(if using) with remaining 3 tbsp lemon juice in reserved bowl; season with salt.",
+            "Put chickpea mixture in serving bowls, top with yogurt and fennel salad"
+        ],
+        
+        "tags":[
+            "easy",
+            "simple",
+            "fast"
+        ],
+    },
+
     {   "id": "N0", "title": "Sauces Placeholder", "category":"sauces",
         "yield":1,
         "time":{
