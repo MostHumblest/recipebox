@@ -952,6 +952,84 @@ recipes = [
         ],
     },
 
+    {   "id": "M2", "title": "Curry Lentil Soup", "category":"legumes",
+        "yield":"3-4 servings",
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"Curried Lentil, Tomato, and Coconut Soup",
+            "author":"Yotam Ottolenghi",
+            "source":"Bon Appetit",
+            "modify":"y"
+        },
+        "notes":[
+            "Use red pepper flakes to control heat level",
+            "Can sub parsley for cilantro"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "2  Tbsp",
+                "item": "coconut oil"
+            },
+            {	
+                "quantity": "1",
+                "item": "medium onion, finely chopped"
+            },
+            {	
+                "quantity": "2",
+                "item": "garlic cloves, finely chopped"
+            },
+            {	
+                "quantity": "2 1/2inch",
+                "item": "piece ginger, peeled, finely grated"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "curry powder"
+            },
+            {	
+                "quantity": "3/4 c",
+                "item": "red lentils"
+            },
+            {	
+                "quantity": "14.5 oz",
+                "item": "can crushed tomatoes"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "finely chopped cilantro"
+            },
+            {	
+                "quantity": "13.5 oz",
+                "item": "can of unsweetened coconut milk"
+            },
+            {	
+                "quantity": "AR",
+                "item": "lime wedges for serving"
+            }            
+        ],
+        "directions":[
+            "Heat oil in a medium saucepan over meadium",
+            "Cook onion, stirring often, until softened and golden brown, 8-10 minutes.",
+            "Add garlic, ginger, curry powder and red pepper flakes. Cook, stirring until fragrant, about 2 minutes",
+            "Add lentils and cook, stirring, 1 minute",
+            "Add tomatoes, 1/2 cup cilantro, a generous pinch of salt, and 2.5 cups water; season with pepper.",
+            "Set aside 1/4 cup coconut milk for serving and add remaining coconut milk for serving and add remaining coconut milk to saucepan.",
+            "Bring mixture to a boil; reduce heat and simmer gently, stirring occasionally, until lentils are soft, but not mushy, 20-25 minutes.",
+            "Season soup with more salt and pepper if needed",
+            "Drizzle reserved coconut milk over each bowl, serve with lime wedges."
+        ],
+        
+        "tags":[
+            "easy",
+            "fast",
+            "vegan",
+            "vegetarian"
+        ],
+    },
+
     {   "id": "N0", "title": "Sauces Placeholder", "category":"sauces",
         "yield":1,
         "time":{
