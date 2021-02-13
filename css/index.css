@@ -90,7 +90,7 @@ header{
 
 .nav-container{
 	display: grid;
-	grid-template-columns: 1fr 60px;
+	grid-template-columns: 1fr 100px;
 	grid-template-rows: 40px 15px 40px 40px auto;	
 	margin: 1rem 1rem 1rem 1rem;
 	padding-top: 1rem;
@@ -244,7 +244,7 @@ nav ul{
 		right: 0;
 		top: 0;
 		padding: 20px;
-		margin:5px;
+		margin:1rem;
 		border-radius: 12px;
 		background-color: rgb(228, 157, 5);
 		color: white;		
