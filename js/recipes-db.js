@@ -226,6 +226,87 @@ recipes = [
         ],
     },
 
+    {   "id": "E1", "title": "Gochujang Chicken", "category":"poultry",
+        "yield":"4-6 servings",
+        "time":{
+            "active": 00,
+            "total":"4 hours"
+        },
+        "source":{
+            "title":"Slow-roast Gochujang Chicken",
+            "author":"Molly Baz",
+            "source":"Bon Appetit",
+            "modify":"y"
+        },
+        "notes":[
+            "Gochujang can be found at asian grocery stores, in various levels of heat.",
+            "Oven temperature is important for this, oven thermometer is recommended",
+            "Potatoes should be 1.5inchs in diameter or smaller, cut larger ones in half",
+            "<u>Do ahead:</u> For crispier skin, chicken should be seasoned 12-24hrs in advanced and chilled"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "3-4lb",
+                "item": "whole chicken"
+            },
+            {	
+                "quantity": "AR",
+                "item": "kosher salt and black pepper"
+            },
+            {	
+                "quantity": "5 Tbsp",
+                "item": "gochujang"
+            },
+            {	
+                "quantity": "1/4 c plus 2 Tbsp",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "2",
+                "item": "heads of garlic"
+            },
+            {	
+                "quantity": "1/2 inch",
+                "item": "length of ginger"
+            },
+            {	
+                "quantity": "1 1/2lb",
+                "item": "baby gold potatoes"
+            },
+            {	
+                "quantity": "5",
+                "item": "scallions, thinly sliced on long diagonal"
+            },
+            {	
+                "quantity": "2",
+                "item": "limes, halved"
+            },
+            {	
+                "quantity": "2 tsp",
+                "item": "honey"
+            }
+        ],
+        "directions":[
+            "Place rack in middle of oven; preheat to 300F",
+            "Pat chicken dry and season with salt and pepper, be sure to season the cavity",
+            "Whisk gochujang and 1/4 c olive oil in a medium bowl until combined. Grate 3 cloves of garlic (from one head) into oil. Peel ginger, grate into oil. Whisk to combine.",
+            "Cut remaining garlic in half crosswise. Repeat with second head of garlic. Stuff 2 halves into the chicken and tie legs with kitchen twine.",
+            "Using a pastry brush, spread half of oil on the .",
+            "Toss potatoes and remaining 2 garlic halves and remaing 2 tbsp oil until coated. Season lightly with salt and pepper to combine.",
+            "Arrange potatoes in a 12\" cast-iron skillet, scooting them towards the edges of the pan. Place garlic halves cut side down in the middle of the skillet. Place chicken over garlic.",
+            "Roast chicken and potatoes, turing potatoes once or twice to coat in juices and oil that accumulate in pan until potatoes are tender when pressed with the back of a spoon, and chicken skin is a deep reddish-golden brown, 2.5-3 hrs. When you wiggle the legs of the chicken, the should feel loose in the joints.",
+            "Transfer chicken to a cutting board and let rest 10-15 minutes",
+            "Using the back of a spoon or potato masher, gentely smash potatoes in skillet exposing their flesh to the juices to soak up.",
+            "Squeeze limes over potatoes, add honey and stir. Season with more salt if needed. Scatter scallions on top.",
+            "Carve chicken and serve with potatoes."
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "F0", "title": "Pork Placeholder", "category":"pork",
         "yield":1,
         "time":{
@@ -306,17 +387,17 @@ recipes = [
         "yield":"6-8 servings",
         "time":{
             "active": 00,
-            "total":00
+            "total":"5 hours"
         },
         "source":{
             "title":"Thai Beef Stew with Lemongrass and Noodles",
-            "author":"ukn",
+            "author":"Alison Roman",
             "source":"Bon Appetit, Feb 2014",
             "modify":"y"
         },
         "notes":[
             "Serranos, fresnos, or jalapenos can be used in place of thai chilies",
-            "If available, 4 kaffir lime leaves should be used in place of zest",
+            "If available, 4 kaffir lime leaves, chopped, should be used in place of zest",
             "<u>Warning:</u> Step 1 creates a mean pepper gas"
         ],
         "ingredients":[
@@ -454,7 +535,7 @@ recipes = [
         },
         "source":{
             "title":"Coconut Cod Chowder with Seasoned Oyster Crackers",
-            "author":"ukn",
+            "author":"Molly Baz",
             "source":"Bon Appetit",
             "modify":"n"
         },
