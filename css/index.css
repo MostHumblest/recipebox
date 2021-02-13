@@ -83,7 +83,7 @@ header{
 .nav-container{
 	display: grid;
 	grid-template-columns: 3fr 1fr;
-	grid-template-rows: 40px 40px 40px auto;	
+	grid-template-rows: 40px 15px 40px 40px auto;	
 	margin: 1rem 1rem 1rem 2rem;
 	background-color: rgba(211, 211, 211,.3);
 	border-radius: 15px;
@@ -103,17 +103,17 @@ header{
 
 nav{
 	grid-column: 1;
-	grid-row:span 3;
+	grid-row: 3 span 3;
 }
 
 #showCategories{
 	grid-column: 2;
-	grid-row:2;
+	grid-row:3;
 	border-radius: 12px;
 }
 #hideCategories{
 	grid-column: 2;
-	grid-row:3;
+	grid-row:4;
 	border-radius: 12px;
 }
 
