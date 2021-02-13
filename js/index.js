@@ -12,6 +12,7 @@ $(document).ready(function(){
 	liveSearch();
 	loadNull();
 	addDegreeSymbol("lol"); //default input text
+	doFractions("lol");//default input text
 	$(window).trigger('hashchange'); //forces hash change on page load - enables bookmarking recipes
 });
 
