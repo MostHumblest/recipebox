@@ -311,7 +311,7 @@ $(document).ready(function(){
 		var oldFraction = inputText.match(/([0-9]\/[0-9])/g);
 		var newFraction;
 		$.each(oldFraction, function(i, val){
-			newFraction = "<span class=\"frac\">" + inputText[i] + "</span>"
+			newFraction = "<span class=\"frac\">" + oldFraction[i] + "</span>"
 			console.log("old: " + oldFraction[i] + " new: " + newFraction);
 			inputText = inputText.replace(oldFraction[i], newFraction);
 		});
