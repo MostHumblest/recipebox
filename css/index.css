@@ -230,10 +230,11 @@ nav ul{
 
 	#print{
 		display:run-in;
-		position:absolute;
-		right: 5;
-		top: 5;
+		position:fixed;
+		right: 0;
+		top: 0;
 		padding: 20px 10px;
+		margin:5px;
 
 	}
 
