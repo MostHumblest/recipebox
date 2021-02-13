@@ -87,11 +87,11 @@ header{
 }
 
 #photoCredit a:link{
-	color:grey;
+	color:linen;
 }
 
 #photoCredit a:visited{
-	color:white;
+	color:grey;
 }
 
 .container-main{
