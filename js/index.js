@@ -87,15 +87,17 @@ $(document).ready(function(){
 	function populateRecipes(){
 		$.each(recipes, function(i, val){	
 			var rID =recipes[i].id;	
-			var rTitle=recipes[i].title;	
-			var rCategory = recipes[i].category;
-			rCategoryID = rCategory.replace(/ /g, "_");
-			var thisTag = "#r" + rCategoryID;
-			var linkClass = "\"all " + rID +"\"";
-			var rTitleItem = "<li class=" +linkClass + "><a class="+linkClass+"href=\"https://mosthumblest.github.io/recipebox/#" + rID+ "\"><span>" + rTitle + "</span></a></li>";
-			//add code to skip placeholders charAt(1)==="0"
-			//ADD THIS CODE
-			$(thisTag).append(rTitleItem);
+			if(rID != "demo"){
+				var rTitle=recipes[i].title;	
+				var rCategory = recipes[i].category;
+				rCategoryID = rCategory.replace(/ /g, "_");
+				var thisTag = "#r" + rCategoryID;
+				var linkClass = "\"all " + rID +"\"";
+				var rTitleItem = "<li class=" +linkClass + "><a class="+linkClass+"href=\"https://mosthumblest.github.io/recipebox/#" + rID+ "\"><span>" + rTitle + "</span></a></li>";
+				//add code to skip placeholders charAt(1)==="0"
+				//ADD THIS CODE
+				$(thisTag).append(rTitleItem);
+			}
 		});
 	}	
 
