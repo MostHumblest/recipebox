@@ -71,11 +71,9 @@ $(document).ready(function(){
 								return false;
 							}
 						});						
-						if(titleSearch != -1 || tagSearch != -1 || ingredientSearch != -1){
-
+						if(titleSearch != -1 || tagSearch != -1 || ingredientSearch != -1){ //if found in search one of these returns true
 							$(category).show();
-							$(returnID).show();
-							
+							$(returnID).show();							
 						}
 					}		
 					
@@ -86,8 +84,9 @@ $(document).ready(function(){
 //add recipe titles to each section
 	function populateRecipes(){
 		$.each(recipes, function(i, val){	
-			var rID =recipes[i].id;	
-			if(rID != "demo"){
+			var rID=recipes[i].id;
+			var rNumber=rID.charAt(1);
+			if(rID != "demo" && rNumber != "0"){//if not demo or placeholder show recipe
 				var rTitle=recipes[i].title;	
 				var rCategory = recipes[i].category;
 				rCategoryID = rCategory.replace(/ /g, "_");
