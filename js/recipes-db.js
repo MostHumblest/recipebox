@@ -904,7 +904,8 @@ recipes = [
         "tags":[
             "easy",
             "simple",
-            "fast"
+            "fast",
+            "garbanzo beans"
         ],
     },
 
