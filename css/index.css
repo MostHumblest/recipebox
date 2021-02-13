@@ -60,6 +60,10 @@ li {
 
 a:hover{
 	background-color: goldenrod;
+	color: white;
+	font-variant:small-caps;
+	padding: 5px;
+	border-radius: 5px;
 }
 
 nav a:link{
