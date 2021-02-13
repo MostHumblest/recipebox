@@ -70,6 +70,12 @@ header{
 	padding: 2rem;
 }
 
+#photoCredit{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
 .container-main{
 	display:grid;
 	grid-template-columns: repeat(6, 1fr);
