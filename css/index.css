@@ -139,6 +139,7 @@ nav{
 
 .nav-container button:hover{
 	opacity: 1;
+	font-variant: small-caps;
 }
 
 /*hide #demo */
@@ -256,6 +257,15 @@ nav ul{
 		border-radius: 12px;
 		background-color: rgb(228, 157, 5);
 		color: white;		
+		cursor: pointer;
+		opacity: 0.6;
+		transition: 0.3s;
+		
+	}
+	
+	#print:hover{
+		opacity: 1;
+		font-variant: small-caps;
 	}
 
 	#recipeTitle{
