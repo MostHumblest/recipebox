@@ -4,6 +4,10 @@ body{
     font-size:11pt;
     max-width:1920px;
     margin:auto;
+	
+}
+
+.frac{
 	font-variant-numeric: diagonal-fractions;
 }
 

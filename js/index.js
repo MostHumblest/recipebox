@@ -213,8 +213,11 @@ $(document).ready(function(){
 
 	//get ingredients
 		var listIngredients = "<h3 class=\"sectionHeader\">Ingredients</h3>";
+		var thisQuantity;
 		$.each(ingredients, function(j, valueJ){
-			listIngredients = listIngredients + "<tr><td class=\"qty\">" + ingredients[j].quantity + "</td><td class=\"item\">" + ingredients[j].item + "</td></tr>";		
+			quantity = ingredients[j].quantity;
+			thisQuantity = doFractions(thisQuantity);
+			listIngredients = listIngredients + "<tr><td class=\"qty\">" + thisQuantity + "</td><td class=\"item\">" + ingredients[j].item + "</td></tr>";		
 		});
 		$("#recipeIngredients").html(listIngredients);
 		
@@ -226,6 +229,7 @@ $(document).ready(function(){
 		$.each(steps, function(i, val){
 			thisStep = steps[i];
 			thisStep = addDegreeSymbol(thisStep);
+			thisStep = doFractions(thisStep);
 			stepFirstChar=thisStep.charAt(0);
 			switch(stepFirstChar){
 				case "!":				
@@ -296,8 +300,8 @@ $(document).ready(function(){
 		var newCookTemp;
 		$.each(cookTemp, function(i, val){
 			newCookTemp = cookTemp[i].replace(/ /,"");
-			newCookTemp = newCookTemp.replace(/[Ff]/,"\u00B0F")
-			inputText = inputText.replace(cookTemp[i], newCookTemp)
+			newCookTemp = newCookTemp.replace(/[Ff]/,"\u00B0F");
+			inputText = inputText.replace(cookTemp[i], newCookTemp);
 		});
 		return inputText;
 	}
@@ -305,5 +309,10 @@ $(document).ready(function(){
 	function doFractions(inputText){
 		var oldFraction = inputText.match(/([0-9]\/[0-9])/g);
 		var newFraction;
-		
+		$.each(oldFraction, function(i, val){
+			newFraction = "<span class=\"frac\">" + inputText[i] + "</span>"
+			inputText = inputText.replace(oldFraction[i], newFraction);
+		});
+		return inputText;
+
 	}
