@@ -16,7 +16,6 @@ h1.main {
 
 header p{
 	color:linen;
-	background-color: rgb(0 0 0 .1);
 }
 
 h3 {
@@ -91,7 +90,6 @@ header{
 	text-align: right;
 	padding: 0px;
 	margin: 0 5px 5px 0;
-	color:linen;
 	font-size:8pt;
 }
 
