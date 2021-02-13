@@ -27,11 +27,13 @@ $(document).ready(function(){
 
 		$.each(uniqueCategories, function(i, val){
 			var rCategory = uniqueCategories[i];
-			rCategoryID = rCategory.replace(/ /g, "_");
-			var categoryHeaders = "<h2 id=\"h" + rCategoryID + "\" class=\"headerCategory\">" + rCategory + "    <span class=\"arrow\">\u25BE<span></h2>"; //&ring9662
-			var categoryLists = "<ul id=\"r"+ rCategoryID +"\" class=\"category-list\"></ul>";
-			$("#allRecipes").append(categoryHeaders);
-			$("#allRecipes").append(categoryLists);
+			var rCategoryID = rCategory.replace(/ /g, "_");			
+			if(rCategoryID != "demo"){ //skip template/demo section of json
+				var categoryHeaders = "<h2 id=\"h" + rCategoryID + "\" class=\"headerCategory\">" + rCategory + "    <span class=\"arrow\">\u25BE<span></h2>"; //&ring9662
+				var categoryLists = "<ul id=\"r"+ rCategoryID +"\" class=\"category-list\"></ul>";
+				$("#allRecipes").append(categoryHeaders);
+				$("#allRecipes").append(categoryLists);
+			}			
 		});			
 	}
 
@@ -51,27 +53,32 @@ $(document).ready(function(){
 			var returnID;
 			var titleSearch = false;
 			var tagSearch = false;
+			var isDemo = false;
 			var ingredients;
 			var ingredientSearch = false;
 				$.each(recipes, function(key, val){
-					titleSearch = val.title.search(regex);
-					tagSearch = val.tags.findIndex(value => regex.test(value));
-					ingredients = val.ingredients;
-					category = val.category;
-					category = "#h"+category.replace(/ /g, "_");
 					returnID = "."+val.id;
-					$.each(ingredients, function(i, value){
-						ingredientSearch = ingredients[i].item.search(regex);
-						if(ingredientSearch != -1){
-							return false;
-						}
-					});					
-					if(titleSearch != -1 || tagSearch != -1 || ingredientSearch != -1){
+					isDemo = (returnID.slice(2) === "0" || returnID.slice(2) === "emo");
+					if (isDemo != true){//don't search demo or place holder recipes
+						titleSearch = val.title.search(regex);
+						tagSearch = val.tags.findIndex(value => regex.test(value));
+						ingredients = val.ingredients;
+						category = val.category;
+						category = "#h"+category.replace(/ /g, "_");						
+						$.each(ingredients, function(i, value){
+							ingredientSearch = ingredients[i].item.search(regex);
+							if(ingredientSearch != -1){
+								return false;
+							}
+						});						
+						if(titleSearch != -1 || tagSearch != -1 || ingredientSearch != -1){
 
-						$(category).show();
-						$(returnID).show();
-						
-					}
+							$(category).show();
+							$(returnID).show();
+							
+						}
+					}		
+					
 				});		
 		});
 	}
