@@ -229,7 +229,12 @@ nav ul{
 	}
 
 	#print{
-		display:inline-block;
+		display:run-in;
+		position:absolute;
+		right: 5;
+		top: 5;
+		padding: 20px 10px;
+
 	}
 
 	#recipeTitle{
