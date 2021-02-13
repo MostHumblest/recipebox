@@ -56,7 +56,7 @@ li {
 }
 
 header,
-nav{
+.nav-container{
 	display:none;
 }
 

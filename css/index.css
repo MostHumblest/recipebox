@@ -77,11 +77,22 @@ header{
 	gap: 0;
 }
 
-nav{
+.nav-container{
 	grid-column: span 6;
 	margin: 1rem 1rem 1rem 2rem;
 	background-color: rgba(211, 211, 211,.3);
 	border-radius: 15px;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+nav{
+	grid-column: 1;
+}
+
+#showCategories,
+#hideCategories{
+	grid-column: 2;
 }
 
 /*hide #demo */

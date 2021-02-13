@@ -20,13 +20,15 @@
         <p> welcome to my online recipe box </p>
         <p> this page is under construction </p>    
         <button id="clearSearch" type="button"> clear </button>
-        <input type="text" id="searchBar" placeholder="search...">
-        <button id="hideCategories" type="button">hide all</button>
-        <button id="showCategories" type="button">show all</button>
+        <input type="text" id="searchBar" placeholder="search...">        
         <button id="print" type="button">print</button>
     </header>
     <div class="container-main">
-        <nav id="allRecipes" class="all-info"></nav>
+        <div class="nav-container">
+            <nav id="allRecipes" class="all-info"></nav>
+            <button id="hideCategories" type="button">hide all</button>
+            <button id="showCategories" type="button">show all</button>
+        </div>        
         <div class="container-recipe print">
             <div class="container-header item-a">
                 <h2 id="recipeTitle" class="title all-info"></h2>
