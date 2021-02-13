@@ -982,7 +982,7 @@ recipes = [
                 "item": "garlic cloves, finely chopped"
             },
             {	
-                "quantity": "2 1/2inch",
+                "quantity": "2 1/2 inch",
                 "item": "piece ginger, peeled, finely grated"
             },
             {	
@@ -1015,7 +1015,7 @@ recipes = [
             "Cook onion, stirring often, until softened and golden brown, 8-10 minutes.",
             "Add garlic, ginger, curry powder and red pepper flakes. Cook, stirring until fragrant, about 2 minutes",
             "Add lentils and cook, stirring, 1 minute",
-            "Add tomatoes, 1/2 cup cilantro, a generous pinch of salt, and 2.5 cups water; season with pepper.",
+            "Add tomatoes, 1/2 cup cilantro, a generous pinch of salt, and 2 1/2 cups water; season with pepper.",
             "Set aside 1/4 cup coconut milk for serving and add remaining coconut milk for serving and add remaining coconut milk to saucepan.",
             "Bring mixture to a boil; reduce heat and simmer gently, stirring occasionally, until lentils are soft, but not mushy, 20-25 minutes.",
             "Season soup with more salt and pepper if needed",
