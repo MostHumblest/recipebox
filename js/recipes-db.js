@@ -50,6 +50,10 @@ recipes = [
             "source":"from personal experience",
             "modify":"n"
         },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
         "ingredients":[
             { 
                 "item": "item 1",
@@ -63,11 +67,7 @@ recipes = [
             "step 1",
             "step 2",
             "step 3"
-        ],
-        "notes":[
-            "note 1",
-            "note 2"
-        ],
+        ],        
         "tags":[
             "test",
             "test2"
@@ -1619,7 +1619,7 @@ recipes = [
     },
 
     {   "id": "P1", "title": "Chocolate Souffle", "category":"dessert",
-        "yield":"4-8 souffles",
+        "yield":"4-8 individual souffles",
         "time":{
             "active": "55 min",
             "total": "4h 20m"
@@ -1631,6 +1631,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
+            "Source recipe says this only works for individual souffle portions (unverififed). Use 6-8 ounce ramikens",
             "<u>Make ahead:</u> once in the freezer, souffles are best within 2 days but can be stored up to 1 month.",
             "The mixing can be done by hand or using a stand mixer. Expect a good workout when mixing by hand.",
             "Using a large bowl and large whisk makes beating by hand significantly easier."

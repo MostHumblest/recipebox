@@ -214,6 +214,10 @@ $(document).ready(function(){
 					thisNote=thisNote.slice(1);
 					listNotes = listNotes + "<li><h4>" + thisNote + "</h4></li>";
 					break;
+				case "$":
+					hang = false;
+					listNotes = listNotes + "<li>" + thisNote + "</li>";
+					break;
 				default:
 					if (hang){
 						listNotes = listNotes + "<li class=\"hanging\">" + thisNote + "</li>";
@@ -252,6 +256,10 @@ $(document).ready(function(){
 					hang = true;
 					thisStep=thisStep.slice(1);
 					currentStep = currentStep + "<li><h4>" + thisStep + "</h4></li>";
+					break;
+				case "$":
+					hang = false;
+					currentStep = currentStep + "<li>" + thisStep + "</li>";
 					break;
 				default:
 					if (hang){
