@@ -321,7 +321,7 @@ nav ul{
 @media (min-width:1200px){
     .container-main{
         display:grid;
-        grid-template-columns: minmax(375px, 2fr) repeat(6, 1fr);
+        grid-template-columns: 460px repeat(6, 1fr);
     }
 
     .item-nav{
