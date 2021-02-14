@@ -196,10 +196,6 @@ recipes = [
             "step 2",
             "step 3"
         ],
-        "notes":[
-            "note 1",
-            "note 2"
-        ],
         "tags":[
             "test",
             "test2"
