@@ -313,7 +313,6 @@ $(document).ready(function(){
 		var re;
 		$.each(oldFraction, function(i, val){
 			newFraction = "<span class=\"frac\">" + oldFraction[i] + "</span>"
-			console.log("old: " + oldFraction[i] + " new: " + newFraction);
 			re = new RegExp(oldFraction[i], 'g');
 			inputText = inputText.replace(re, newFraction);
 		});
