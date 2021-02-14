@@ -75,11 +75,13 @@ a:hover{
 	border-radius: 5px;
 }
 
-nav a:link{
+nav a:link,
+a.rlink:link{
 	color:black;
 }
 
-nav a:visited{
+nav a:visited,
+a.rlink:visited{
 	color:rgb(78, 78, 78); /*darker grey*/
 }
 

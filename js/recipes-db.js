@@ -1485,7 +1485,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "See #O1 #sourdough starter# for preparing enough mature starter for this recipe",
+            "See #O1 for preparing enough mature starter for this recipe",
             ""
         ],
         "ingredients":[
