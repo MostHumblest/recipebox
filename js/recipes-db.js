@@ -1493,7 +1493,7 @@ recipes = [
         ],
         "ingredients":[
             {                 
-                "quantity": "1 cup",
+                "quantity": "1 c",
                 "item": "mature starter"
             },
             {	
