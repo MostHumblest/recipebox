@@ -319,15 +319,17 @@ $(document).ready(function(){
 			re = new RegExp(oldFraction[i], 'g');
 			inputText = inputText.replace(re, newFraction);
 		});
-		var referenceNumber = inputText.match(/(#[A-Z][0-9]?)/gi);
-		var referenceName = inputText.match(/(#[A-Z\s]*#)/gi);
-		$.each(referenceName, function(i, val){
-			referenceName[i] = referenceName[i].replace(/#/g, "");
-		});
+		var referenceNumber = inputText.match(/(#[A-Z][0-9]?)/gi);		
 		var referenceLink;
-		$.each(referenceNumber, function(i, val){
-			referenceLink ="<a href=\""+referenceNumber[i]+"\">"+ referenceName[i] +"</a>";
-		})
+		$.each(referenceNumber, function(i, valI){
+			$.each(recipes, function(j, valJ){
+				returnID = "#"+valJ.id;
+				if(referenceNumber[i] === returnID){
+					referenceLink ="<a href=\""+referenceNumber[i]+"\">"+ valJ.Title +"</a>";
+					inputText = inputText.replace(referenceNumber[i], referenceLink);
+				}
+			});			
+		});
 		return inputText;
 	}
 
