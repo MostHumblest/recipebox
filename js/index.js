@@ -319,6 +319,15 @@ $(document).ready(function(){
 			re = new RegExp(oldFraction[i], 'g');
 			inputText = inputText.replace(re, newFraction);
 		});
+		var referenceNumber = inputText.match(/(#[A-Z][0-9]?)/gi);
+		var referenceName = inputText.match(/(#[A-Z\s]*#)/gi);
+		$.each(referenceName, function(i, val){
+			referenceName[i] = referenceName[i].replace(/#/g, "");
+		});
+		var referenceLink;
+		$.each(referenceNumber, function(i, val){
+			referenceLink ="<a href=\""+referenceNumber[i]+"\">"+ referenceName[i] +"</a>";
+		})
 		return inputText;
 	}
 
