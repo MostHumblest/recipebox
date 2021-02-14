@@ -1362,8 +1362,8 @@ recipes = [
         },
         "notes":[
             "This is for use with an already mature starter.",
-            "For maintaining follow step 1 and return to fridge",
-            "For baking, follow step 2 to increase amount of starter and use that to provide required starter for your recipe. Maintain the rest per step 1"
+            "For maintaining follow step 1 and return to fridge.",
+            "For baking, follow step 2 to increase amount of starter and use that to provide required starter for your recipe. Maintain the rest per step 1."
         ],
         "ingredients":[
             { 
@@ -1487,7 +1487,9 @@ recipes = [
         },
         "notes":[
             "See #O1 for preparing your starter for use",
-            ""
+            "The cold fermenation is important to developing flavor and structure.",
+            "Before using, let dough sit at least an hour at room temperature.",
+            "Dough can be frozen and will last a month in the freezer. Defrost in fridge at least 8 hours ahead of use."
         ],
         "ingredients":[
             {                 
@@ -1495,14 +1497,38 @@ recipes = [
                 "item": "mature starter"
             },
             {	
-                "quantity": "1 cup",
-                "item": "item 2"
-            }
+                "quantity": "18 oz",
+                "item": "unbleached bread flour"
+            },
+            {	
+                "quantity": "3 1/2 tsp",
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "3 Tbsp",
+                "item": "sugar"
+            },
+            {	
+                "quantity": "1/4 c",
+                "item": "extra-virgin olive oil"
+            },
+            {	
+                "quantity": "1 c",
+                "item": "lukewarm water (90F)"
+            },
         ],
         "directions":[
-            "step 1",
-            "step 2",
-            "step 3"
+            "Remove starter from fridge and let sit at room temperature for 2 hours.",
+            "Combine stater, flour, salt, sugar, olive oil, and water.",
+            "Work vigorously by hand until dough forms a coarse ball that comes away from the sides of the bowl, adding more flour or water as necssary, about 4 minutes",
+            "Let rest for 15 minutes.",
+            "Turn out onto a lightly floured counter, dust with flour, and knead by hand until soft, supple, and no longer sticky, about 3 minutes.",
+            "Lightly oil a large bowl. Form dough into a ball and roll all around bowl until lightly coated with oil.",
+            "Cover bowl with plastic wrap and let rise in a warm, draft-free environment until dough has increased by at least half in volume. Duration will depend on strength of starter; may require overnight rise.",
+            "Divide dough into 2 halves. Form each piece into a ball and coat with olive oil.",
+            "Seal each piece in an airtight freezer bag.",
+            "Let rest at room temp for 1 hour, and then refrigerate over night."
+
         ],
         
         "tags":[
