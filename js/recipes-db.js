@@ -174,7 +174,12 @@ recipes = [
         },
         "notes":[
             "Cooking terminology is all over the place, but I've tried to summarize how I use it on this website",
-            "note 2"
+            "!Vegetable Sizes:",
+            "!Chopping Sizes:",
+            "!Peaks:",
+            "Frothy - similar to beer foam.",
+            "Soft Peaks - pick the whisk straight up, a peak should form but fall over on itself.",
+            "Firm Peaks - pick the whisk straight up, a peak should form and hold itself upright"
         ],
         "ingredients":[
             { 
