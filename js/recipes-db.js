@@ -249,8 +249,8 @@ recipes = [
         ],
         "ingredients":[
             {                 
-                "quantity": "3",
-                "item": "shallots, about 6 oz"
+                "quantity": "6 oz",
+                "item": "shallots"
             },
             {	
                 "quantity": "2 Tbsp",
