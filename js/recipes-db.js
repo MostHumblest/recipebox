@@ -87,6 +87,7 @@ recipes = [
             "modify":"n"
         },
         "notes":[
+            "My database doesn't have spell check, errors will be frequent. If you know me feel free to ask, or double check the recipe source.",
             "This website exists for two purposes - to make recipes I enjoy accessible from anywhere, and to auto format them for a recipe binder.",
             "All of these recipes have been cooked at least once, and I thought they were good enough that I'd want to make them again. There are no ratings on this page because they all meet a minimum threshold to exist here, and they're all highly recommended.",
             "None of the recipes are originals (yet), and credits for each are listed at the bottom of each page.",
@@ -153,6 +154,46 @@ recipes = [
             "step 3"
         ],
         
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "A3", "title": "Cooking Terminology", "category":"tips and techniques",
+        "yield":0,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"N/A",
+            "author":"Steve",
+            "source":"from personal experience",
+            "modify":"n"
+        },
+        "notes":[
+            "Cooking terminology is all over the place, but I've tried to summarize how I use it on this website",
+            "note 2"
+        ],
+        "ingredients":[
+            { 
+                "item": "item 1",
+                "quantity": "1 cup"
+            },
+            {	"item": "item 2",
+                "quantity": "1 tsp"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
         "tags":[
             "test",
             "test2"
@@ -828,6 +869,7 @@ recipes = [
             "modify":"n"
         },
         "notes":[
+            "Tastes far better than it sounds like it should.",
             "Crackers should be prepared while stew cooks",
             "Halibut can be used in place of cod"
         ],
@@ -1577,8 +1619,8 @@ recipes = [
     {   "id": "P1", "title": "Chocolate Souffle", "category":"dessert",
         "yield":"4-8 souffles",
         "time":{
-            "active": 0,
-            "total":0
+            "active": "55 min",
+            "total": "4h 20m"
         },
         "source":{
             "title":"Make-Ahead Chocolate Souffle",
@@ -1588,7 +1630,8 @@ recipes = [
         },
         "notes":[
             "<u>Make ahead:</u> once in the freezer, souffles are best within 2 days but can be stored up to 1 month.",
-            "The mixing can be done by hand or using a stand mixer. Expect a good workout when mixing by hand."
+            "The mixing can be done by hand or using a stand mixer. Expect a good workout when mixing by hand.",
+            "Using a large bowl and large whisk makes beating by hand significantly easier."
         ],
         "ingredients":[
             {                 
