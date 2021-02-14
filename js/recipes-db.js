@@ -1361,6 +1361,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
+            "This is for use with an already mature starter.",
             "For maintaining follow step 1 and return to fridge",
             "For baking, follow step 2 to increase amount of starter and use that to provide required starter for your recipe. Maintain the rest per step 1"
         ],
