@@ -116,6 +116,48 @@ recipes = [
         ],
     },
     
+    {   "id": "A2", "title": "Recipe Info", "category":"tips and techniques",
+        "yield":0,
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"N/A",
+            "author":"Steve",
+            "source":"from personal experience",
+            "modify":"n"
+        },
+        "notes":[
+            "Any recipes with time=0 simply haven't been timed yet",
+            "All times assume starting in a kitchen with everything put away, and a half-assed attempt at mise en place.",
+            "If type of onion is not specified, white, yellow, or red can be used",
+            "When bell peppers are called for, use red, yellow, or orange",
+            "Generally fresh parsely can be used in place of fresh cilantro",
+            "Most recipes call for unsalted butter, and I shortened it to butter. I use salted. I'm sure it matters, but I also don't care. Use whichever makes you feel better.",
+            "Minced garlic and ginger can be grated on a microplane instead."
+        ],
+        "ingredients":[
+            { 
+                "item": "item 1",
+                "quantity": "1 cup"
+            },
+            {	"item": "item 2",
+                "quantity": "1 tsp"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+    
     {   "id": "B0", "title": "Snacks Placeholder", "category":"snacks",
         "yield":1,
         "time":{
@@ -454,7 +496,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "Serve with warm rice, and/or quick naan",
+            "Serve with warm rice and/or quick naan",
             "Faux tandoori chicken is quick and easy, works well in all sorts of other meals",
             "Sauce can be made up to 4 days ahead; gently reheat before adding hot chicken."
         ],
