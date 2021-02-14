@@ -325,7 +325,7 @@ $(document).ready(function(){
 			$.each(recipes, function(j, valJ){
 				returnID = "#"+valJ.id;
 				if(referenceNumber[i] === returnID){
-					referenceLink ="<a href=\""+referenceNumber[i]+"\">"+ valJ.Title +"</a>";
+					referenceLink ="<a href=\""+referenceNumber[i]+"\">"+ valJ.title +"</a>";
 					inputText = inputText.replace(referenceNumber[i], referenceLink);
 				}
 			});			
