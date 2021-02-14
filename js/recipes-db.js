@@ -1631,7 +1631,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "Source recipe says this only works for individual souffle portions (unverified), use 6-8 ounce ramekins",
+            "Source recipe says this only works for individual souffle portions (unverified), use 8 ounce ramekins",
             "<u>Make ahead:</u> once in the freezer, souffles are best within 2 days but can be stored up to 1 month.",
             "The mixing can be done by hand or using a stand mixer. Expect a good workout when mixing by hand.",
             "Using a large bowl and large whisk makes beating by hand significantly easier."
