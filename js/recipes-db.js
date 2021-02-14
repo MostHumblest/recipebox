@@ -1133,11 +1133,11 @@ recipes = [
                 "item": "garlic clove, grated"
             },
             {	
-                "quantity": "1.5 tsp",
+                "quantity": "1 1/2 tsp",
                 "item": "ground coriander"
             },
             {	
-                "quantity": "1.5 tsp",
+                "quantity": "1 1/2 tsp",
                 "item": "ground cumin"
             },
             {	
@@ -1178,11 +1178,11 @@ recipes = [
             }
         ],
         "directions":[
-            "Preheat oven to 40F. Mix garlic, coriander, cumin, and oil in a large bowl. Add cauliflower and chickpeas; season with salt and pepper. Toss to coat",
-            "Transfer mixture to a baking sheet or two. Wipe out bowl; reserve. Roast until golden brown, tossing halfway through, 18-22 minutes",
-            "Meanwhile: mix yogurt, 1 tbsp lemon juice and salt ina small bowl",
-            "Toss fennel, chile, and parsley(if using) with remaining 3 tbsp lemon juice in reserved bowl; season with salt.",
-            "Put chickpea mixture in serving bowls, top with yogurt and fennel salad"
+            "Preheat oven to 400F. Mix garlic, coriander, cumin, and oil in a large bowl. Add cauliflower and chickpeas; season with salt and pepper. Toss to coat",
+            "Transfer mixture to a baking sheet or two. Wipe out bowl; reserve. Roast until golden brown, tossing halfway through, 18-22 minutes.",
+            "Meanwhile: mix yogurt, 1 Tbsp lemon juice and salt in a small bowl.",
+            "Toss fennel, chile, and parsley(if using) with remaining 3 Tbsp lemon juice in reserved bowl; season with salt.",
+            "Put chickpea mixture in serving bowls, top with yogurt and fennel salad."
         ],
         
         "tags":[
@@ -1596,7 +1596,7 @@ recipes = [
                 "item": "butter, 1 Tbsp softened, the rest cut into 1/4\" chunks"
             },
             {	
-                "quantity": "1/2 cup",
+                "quantity": "1/3 c plus 1 Tbsp",
                 "item": "sugar"
             },
             {	
@@ -1613,7 +1613,7 @@ recipes = [
             },
             {	
                 "quantity": "1 Tbsp",
-                "item": "grand marnier"
+                "item": "orange liqueur such as grand marnier"
             },
             {	
                 "quantity": "6 large",
@@ -1638,11 +1638,11 @@ recipes = [
             "3. Bring the 1/3  cup of sugar and 2 Tbsp water to a boil in a small saucepan, then simmer until the sugar disolves.",
             "4. Slowly add sugar syrup to egg yolks while actively mixing; beating until mixture triples in volume.",
             "5. Fold beaten yolk mix into chocolate.",
-            "6. Beat egg whites until frothy; add cream of tartar and beat to soft peaks; add powdered sugar; continue beating to stiff peaks.",
+            "6. Beat egg whites until frothy. Add cream of tartar and beat to soft peaks. Add powdered sugar and continue beating to stiff peaks.",
             "7. Vigourously stir one-quarter of whipped whites into the chcolate mixture. Gently fold remaining whites into mixture until just incorporated.",
             "8. Fill each ramiken almost to the rim, wiping excess from rim with a wet paper towel.",
             "9. Cover and freeze until firm, at least 3 hours.",
-            "10. Adjust oven rack to lower-middle and heat oven to 40 degrees. Bake until fully risen, 16-18 minutes. Serve immediately."
+            "10. Adjust oven rack to lower-middle and heat oven to 400F. Bake until fully risen, 16-18 minutes. Serve immediately."
         ],        
         "tags":[
             "dessert",
