@@ -454,8 +454,8 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "Serve with warm basmati rice",
-            "Pairs well with Quick Naan",
+            "Serve with warm rice, and/or quick naan",
+            "Faux tandoori chicken is quick and easy, works well in all sorts of other meals",
             "Sauce can be made up to 4 days ahead; gently reheat before adding hot chicken."
         ],
         "ingredients":[
@@ -545,10 +545,10 @@ recipes = [
             "Let chicken rest for 5 minutes.",
             "Cut chicken into 3/4 inch chuncks (kitchen shears work great) and stir into sauce.",
             "Stir in 2 Tbsp cilatnro, season with alt to taste. Sprinkly remaining cilantro over to serve."
-        ],
-        
+        ],        
         "tags":[
-            "indian"
+            "indian",
+            "quick"
         ],
     },
 
