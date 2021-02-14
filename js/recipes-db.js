@@ -88,11 +88,11 @@ recipes = [
         },
         "notes":[
             "This website exists for two purposes - to make recipes I enjoy accessible from anywhere, and to auto format them for a recipe binder.",
-            "All of these recipes have been cooked at least once, and I thought they were good enough that I'd want to make them again. There are no ratings on this page because they all meet a minimum threshold to exist here.",
+            "All of these recipes have been cooked at least once, and I thought they were good enough that I'd want to make them again. There are no ratings on this page because they all meet a minimum threshold to exist here, and they're all highly recommended.",
             "None of the recipes are originals (yet), and credits for each are listed at the bottom of each page.",
             "Most ingredient lists match the original recipes with some modifications for clarity - ex. 1 2\" piece of ginger is now simply 2\" piece of ginger.",
             "The significant changes are only to formatting, simplifying directions, or adding helpful notes based on my experience making them.",
-            "I personally enjoy all my foods spiced. In most cases this means that the ingredient list is a bare minimum for how much of each spice to use, but does not accurately reflect how much I actually cooked with.",
+            "I personally enjoy all my foods highly spiced. In most cases this means that the ingredient list is a bare minimum for how much of each spice to use, but does not accurately reflect how much I actually cooked with.",
             "There's some cool backend stuff that I learned while creating this page, I'm happy to be a nerd about if it you ask. That said, a lot of it was hacked together and could probably be improved. Everything worked well with only 3 test recipes, performance may suffer as I populate the database.",
             "I hope you enjoy this page and these recipes as much as I did!"
         ],
