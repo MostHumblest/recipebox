@@ -3,8 +3,8 @@ recipes = [
     {   "id": "demo", "title": "Template Placeholder", "category":"demo",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -41,8 +41,8 @@ recipes = [
     {   "id": "A0", "title": "Tips Placeholder", "category":"tips and techniques",
         "yield":0,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"N/A",
@@ -77,8 +77,8 @@ recipes = [
     {   "id": "A1", "title": "About", "category":"tips and techniques",
         "yield":0,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"N/A",
@@ -119,8 +119,8 @@ recipes = [
     {   "id": "A2", "title": "Recipe Info", "category":"tips and techniques",
         "yield":0,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"N/A",
@@ -162,8 +162,8 @@ recipes = [
     {   "id": "B0", "title": "Snacks Placeholder", "category":"snacks",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -200,8 +200,8 @@ recipes = [
     {   "id": "C0", "title": "Dips Placeholder", "category":"dips",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -238,8 +238,8 @@ recipes = [
     {   "id": "D0", "title": "Salads Placeholder", "category":"salads",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -345,7 +345,7 @@ recipes = [
             }            
         ],
         "directions":[
-            "Preheat oven to 300F, line baking sheet with parchment paper.",
+            "Preheat oven to 30F, line baking sheet with parchment paper.",
             "Trim ends of shallots and peel. Slice thin. Toss with the oil, and a little salt in a small bowl. Spread the shallots on the prepared baking sheet and bake until golden brown and crisp, 35-45 minutes.",
             "Meanwhile, trim the stalk end off the Brussels sprouts and cut them into fine shreds.",
             "Place shreds in a bowl of salted ice-cold water for at least 10 minutes.",
@@ -364,8 +364,8 @@ recipes = [
     {   "id": "E0", "title": "Poultry Placeholder", "category":"poultry",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -402,7 +402,7 @@ recipes = [
     {   "id": "E1", "title": "Gochujang Chicken", "category":"poultry",
         "yield":"4-6 servings",
         "time":{
-            "active": 00,
+            "active": 0,
             "total":"4 hours"
         },
         "source":{
@@ -464,7 +464,7 @@ recipes = [
             }
         ],
         "directions":[
-            "Place rack in middle of oven; preheat to 300F",
+            "Place rack in middle of oven; preheat to 30F",
             "Pat chicken dry and season with salt and pepper, be sure to season the cavity",
             "Whisk gochujang and 1/4 c olive oil in a medium bowl until combined. Grate 3 cloves of garlic (from one head) into oil. Peel ginger, grate into oil. Whisk to combine.",
             "Cut remaining garlic in half crosswise. Repeat with second head of garlic. Stuff 2 halves into the chicken and tie legs with kitchen twine.",
@@ -487,8 +487,8 @@ recipes = [
     {   "id": "E2", "title": "Butter Chicken", "category":"poultry",
         "yield":"4 servings",
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"Indian Butter Chicken (Murgh Markhani)",
@@ -598,8 +598,8 @@ recipes = [
     {   "id": "F0", "title": "Pork Placeholder", "category":"pork",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -636,8 +636,8 @@ recipes = [
     {   "id": "G0", "title": "Beef Placeholder", "category":"beef",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -674,7 +674,7 @@ recipes = [
     {   "id": "G1", "title": "Thai Beef Stew", "category":"beef",
         "yield":"6-8 servings",
         "time":{
-            "active": 00,
+            "active": 0,
             "total":"5 hours"
         },
         "source":{
@@ -780,8 +780,8 @@ recipes = [
     {   "id": "H0", "title": "Seafood Placeholder", "category":"seafood",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -818,8 +818,8 @@ recipes = [
     {   "id": "H1", "title": "Coconut Cod Chowder", "category":"seafood",
         "yield":"4-6 Servings",
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"Coconut Cod Chowder with Seasoned Oyster Crackers",
@@ -924,8 +924,8 @@ recipes = [
     {   "id": "I0", "title": "Vegetables Placeholder", "category":"vegetables",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -962,8 +962,8 @@ recipes = [
     {   "id": "J0", "title": "Eggs Placeholder", "category":"eggs",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -1000,8 +1000,8 @@ recipes = [
     {   "id": "K0", "title": "Pasta Placeholder", "category":"pasta",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -1038,8 +1038,8 @@ recipes = [
     {   "id": "L0", "title": "Grains Placeholder", "category":"grains and rice",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -1076,8 +1076,8 @@ recipes = [
     {   "id": "M0", "title": "Legumes Placeholder", "category":"legumes",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -1114,7 +1114,7 @@ recipes = [
     {   "id": "M1", "title": "Chickpea Bowls", "category":"legumes",
         "yield":"2-3 servings",
         "time":{
-            "active": 00,
+            "active": 0,
             "total":"30 min"
         },
         "source":{
@@ -1178,7 +1178,7 @@ recipes = [
             }
         ],
         "directions":[
-            "Preheat oven to 400F. Mix garlic, coriander, cumin, and oil in a large bowl. Add cauliflower and chickpeas; season with salt and pepper. Toss to coat",
+            "Preheat oven to 40F. Mix garlic, coriander, cumin, and oil in a large bowl. Add cauliflower and chickpeas; season with salt and pepper. Toss to coat",
             "Transfer mixture to a baking sheet or two. Wipe out bowl; reserve. Roast until golden brown, tossing halfway through, 18-22 minutes",
             "Meanwhile: mix yogurt, 1 tbsp lemon juice and salt ina small bowl",
             "Toss fennel, chile, and parsley(if using) with remaining 3 tbsp lemon juice in reserved bowl; season with salt.",
@@ -1197,8 +1197,8 @@ recipes = [
     {   "id": "M2", "title": "Curry Lentil Soup", "category":"legumes",
         "yield":"3-4 servings",
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"Curried Lentil, Tomato, and Coconut Soup",
@@ -1275,8 +1275,8 @@ recipes = [
     {   "id": "N0", "title": "Sauces Placeholder", "category":"sauces",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -1313,8 +1313,8 @@ recipes = [
     {   "id": "O0", "title": "Baking Placeholder", "category":"baking",
         "yield":1,
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"recipebox",
@@ -1351,8 +1351,8 @@ recipes = [
     {   "id": "O1", "title": "Sourdough Starter", "category":"baking",
         "yield":"~1c starter",
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"Sourdough Starter",
@@ -1400,8 +1400,8 @@ recipes = [
     {   "id": "O2", "title": "Scones", "category":"baking",
         "yield":"8-12 scones",
         "time":{
-            "active": 00,
-            "total":00
+            "active": 0,
+            "total":0
         },
         "source":{
             "title":"Blueberry Scones",
@@ -1469,6 +1469,82 @@ recipes = [
         "tags":[
             "breakfast",
             "dessert"
+        ],
+    },
+
+    {   "id": "O3", "title": "Chocolate Souffle", "category":"baking",
+        "yield":"4-8 souffles",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Make-ahead chocolate souffle",
+            "author":"ukn",
+            "source":"America's Test Kitchen",
+            "modify":"y"
+        },
+        "notes":[
+            "<u>Make ahead:</u> once in the freezer, souffles are best within 2 days but can be stored up to 1 month",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "5 Tbsp",
+                "item": "butter, 1Tbsp softened, the rest cut into 1/4\" chunks"
+            },
+            {	
+                "quantity": "1/2 cup",
+                "item": "sugar"
+            },
+            {	
+                "quantity": "8 oz",
+                "item": "bittersweet chocolate, chopped coarse"
+            },
+            {	
+                "quantity": "1/8 tsp",
+                "item": "salt"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "vanilla extract"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "grand marnier"
+            },
+            {	
+                "quantity": "6 large",
+                "item": "egg yolks"
+            },
+            {	
+                "quantity": "8 large",
+                "item": "egg whites"
+            },
+            {	
+                "quantity": "1/4 tsp",
+                "item": "cream of tartar"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "powdered sugar"
+            },
+        ],
+        "directions":[
+            "1. coat ramekins with 1 Tbsp butter, then coat the inside of each dish evenly with the 1 Tbsp sugar; refrigerate until ready to use.",
+            "2. Melt chocolate and remaining butter in a medium bowl set over a pan of simmering water. Turn off heat, stir in salt, vanilla, and liqueur.",
+            "3. Bring thw 1/3  cup of sugar and 2 Tbsp water to a boil in a small saucepan, then simmer until the sugar disolves.",
+            "4. Slowly mix sugar syrup with egg yolks; beating until mixture triples in volume.",
+            "5. Fold egg/syrup mix into chocolate.",
+            "6. Beat egg whites until frothy; add cream of tartar and beat to soft peaks; add powdered sugar; continue beating to stiff peaks.",
+            "7. Vigourously stir one-quarter of whipped whites into the chcolate mixture. Gently fold remaining whites into mixture until just incorporated.",
+            "8. Fill each ramiken almost to the rim, wiping excess from rim with a wet paper towel.",
+            "9. Cover and freeze until firm, at least 3 hours.",
+            "10. Adjust oven rack to lower-middle and heat oven to 40 degrees. Bake until fully risen, 16-18 minutes. Serve immediately."
+        ],        
+        "tags":[
+            "dessert",
+            "test2"
         ],
     },
 
