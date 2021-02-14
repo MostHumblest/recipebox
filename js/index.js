@@ -203,7 +203,7 @@ $(document).ready(function(){
 
 	//get notes
 		var listNotes = "<h3>Notes:</h3>";
-		var thisNote;
+		var thisNote = "";
 		var hang= false;
 		$.each(notes, function(i, val){
 			thisNote = doFormatting(notes[i]);			
