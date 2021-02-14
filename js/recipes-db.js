@@ -129,13 +129,14 @@ recipes = [
             "modify":"n"
         },
         "notes":[
-            "Any recipes with time=0 simply haven't been timed yet",
+            "Any recipes with time:0 simply haven't been timed yet.",
             "All times assume starting in a kitchen with everything put away, and a half-assed attempt at mise en place.",
-            "If type of onion is not specified, white, yellow, or red can be used",
+            "If type of onion is not specified, white, yellow, or red can be used, but yellow is standard.",
             "When bell peppers are called for, use red, yellow, or orange",
-            "Generally fresh parsely can be used in place of fresh cilantro",
-            "Most recipes call for unsalted butter, and I shortened it to butter. I use salted. I'm sure it matters, but I also don't care. Use whichever makes you feel better.",
-            "Minced garlic and ginger can be grated on a microplane instead."
+            "Fresh parsely can be used in place of fresh cilantro",
+            "Most recipes call for unsalted butter, and I shortened it to butter. I use salted. I'm sure it matters, but I don't care. Use whichever makes you feel better.",
+            "Minced garlic and ginger can be grated on a microplane instead.",
+            "Parchment paper isn't required when roasting, but makes for easier cleanup"
         ],
         "ingredients":[
             { 
