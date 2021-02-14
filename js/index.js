@@ -303,7 +303,7 @@ $(document).ready(function(){
 
 	function doFormatting(inputText){
 		//format temperatures
-		var cookTemp = inputText.match(/([0-9]* ?[Ff}])/g);
+		var cookTemp = inputText.match(/([0-9]{2} ?[Ff}])/g);
 		var newCookTemp;
 		$.each(cookTemp, function(i, val){
 			newCookTemp = cookTemp[i].replace(/ /,"");
