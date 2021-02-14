@@ -259,7 +259,7 @@ $(document).ready(function(){
 			sourceAuthor = " by " + sourceAuthor;
 		}
 		var sourceSource = thisRecipe[0].source.source;
-		var compiledSource = sourceTitle + sourceAuthor+" - "+ sourceSource;
+		var compiledSource = sourceTitle + sourceAuthor + " - " + sourceSource;
 		$("#recipeSource").text(compiledSource);
 
 	//get index
