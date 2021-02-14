@@ -230,6 +230,94 @@ recipes = [
         ],
     },
 
+    {   "id": "D1", "title": "Brussels Sprouts Salad", "category":"salads",
+        "yield":"4-6 servings",
+        "time":{
+            "active": "35mins",
+            "total":"45-55mins"
+        },
+        "source":{
+            "title":"Shaved Brussels Sprouts Salad",
+            "author":"Nik Sharma",
+            "source":"The Flavor Equation",
+            "modify":"y"
+        },
+        "notes":[
+            "If you can't find creme fraiche, substitue with sour cream or greek yogurt",
+            "Shredding the sprouts is easiest with the slicing disk on a food processor, reflected in active time",
+            "Salad will be good for up to 2 days if refrigerated in an airtight container. Warm to room-temp before serving."
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "3",
+                "item": "shallots, about 6 oz"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "AR",
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "1 lb",
+                "item": "brussels sprouts"
+            },
+            {	
+                "quantity": "1 1/4 oz",
+                "item": "chopped walnuts"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "thinly sliced scallions"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "chopped mint leaves"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "Aleppo chilli flakes"
+            },
+            {	
+                "quantity": "2",
+                "item": "garlic cloves"
+            },
+            {	
+                "quantity": "1 c",
+                "item": "creme fraiche"
+            },
+            {
+                "quantity": "2 Tbsp",
+                "item": "fresh lemon juice"
+            },
+            {
+                "quantity": "1 tsp",
+                "item": "ground black pepper"
+            },
+            {
+                "quantity": "AR",
+                "item": "ice"
+            }            
+        ],
+        "directions":[
+            "Preheat oven to 300F, line baking sheet with parchment paper.",
+            "Trim ends of shallots and peel. Slice thin. Toss with the oil, and a little salt in a small bowl. Spread the shallots ont he prepared baking sheet and bake until golden brown and crisp, 35-45 minutes.",
+            "Meanwhile, trim the stalk end off the Brussels sprouts and cut them into fine shreds.",
+            "Place shreds in a bowl of salted ice-cold water for at least 10 minutes.",
+            "Toast walnuts in a small skillet over medium-low heat until starting to brown, 4-5 minutes. Remove from heat and transfer to a small bowl.",
+            "To make dresding, smash garlic into fine paste (using flat side of knivfe or mortar and pestle). In a small bowl, mix garlic with creme fraiche, lemon juice, and black pepper. Taste and add salt as needed.",
+            "To assemble, drain sprouts, and spread them on a clean kitchen towl to absorb excess liquid. Transfer to a large mixing bowl. Add scallions and walnuts and half of creme fraiche. Fold to coat evenly.",
+            "Garnish with mint, chilli flakes, and crispy shallots. Serve with remaining dressing on the side. "
+        ],
+        
+        "tags":[
+            "vegetarian",
+            "party"
+        ],
+    },
+
     {   "id": "E0", "title": "Poultry Placeholder", "category":"poultry",
         "yield":1,
         "time":{
