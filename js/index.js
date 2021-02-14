@@ -204,9 +204,24 @@ $(document).ready(function(){
 	//get notes
 		var listNotes = "<h3>Notes:</h3>";
 		var thisNote;
+		var hang= false;
 		$.each(notes, function(i, val){
-			thisNote = doFormatting(notes[i]);
-			listNotes = listNotes + "<li>" + thisNote + "</li>";
+			thisNote = doFormatting(notes[i]);			
+			noteFirstChar=thisNote.charAt(0);
+			switch(noteFirstChar){
+				case "!":				
+					hang = true;
+					thisNote=thisNote.slice(1);
+					listNotes = listNotes + "<li><h4>" + thisNote + "</h4></li>";
+					break;
+				default:
+					if (hang){
+						listNotes = listNotes + "<li class=\"hanging\">" + thisNote + "</li>";
+						break;
+					}else{
+						listNotes = listNotes + "<li>" + thisNote + "</li>";
+					}
+			}
 		});
 		$("#recipeNotes").html(listNotes);
 
