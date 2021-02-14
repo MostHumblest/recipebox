@@ -1548,5 +1548,119 @@ recipes = [
         ],
     },
 
+    {   "id": "P0", "title": "Desserts Placeholder", "category":"baking",
+        "yield":1,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "P1", "title": "Chocolate Souffle", "category":"dessert",
+        "yield":"4-8 souffles",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Make-Ahead Chocolate Souffle",
+            "author":"ukn",
+            "source":"America's Test Kitchen",
+            "modify":"y"
+        },
+        "notes":[
+            "<u>Make ahead:</u> once in the freezer, souffles are best within 2 days but can be stored up to 1 month.",
+            "The mixing can be done by hand or using a stand mixer. Except a good workout when mixing by hand."
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "5 Tbsp",
+                "item": "butter, 1 Tbsp softened, the rest cut into 1/4\" chunks"
+            },
+            {	
+                "quantity": "1/2 cup",
+                "item": "sugar"
+            },
+            {	
+                "quantity": "8 oz",
+                "item": "bittersweet chocolate, chopped coarse"
+            },
+            {	
+                "quantity": "1/8 tsp",
+                "item": "salt"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "vanilla extract"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "grand marnier"
+            },
+            {	
+                "quantity": "6 large",
+                "item": "egg yolks"
+            },
+            {	
+                "quantity": "8 large",
+                "item": "egg whites"
+            },
+            {	
+                "quantity": "1/4 tsp",
+                "item": "cream of tartar"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "powdered sugar"
+            },
+        ],
+        "directions":[
+            "1. Coat ramekins with 1 Tbsp butter, then coat the inside of each dish evenly with the 1 Tbsp sugar; refrigerate until ready to use.",
+            "2. Melt chocolate and remaining butter in a medium bowl set over a pan of simmering water. Turn off heat, stir in salt, vanilla, and liqueur.",
+            "3. Bring the 1/3  cup of sugar and 2 Tbsp water to a boil in a small saucepan, then simmer until the sugar disolves.",
+            "4. Slowly add sugar syrup to egg yolks while actively mixing; beating until mixture triples in volume.",
+            "5. Fold beaten yolk mix into chocolate.",
+            "6. Beat egg whites until frothy; add cream of tartar and beat to soft peaks; add powdered sugar; continue beating to stiff peaks.",
+            "7. Vigourously stir one-quarter of whipped whites into the chcolate mixture. Gently fold remaining whites into mixture until just incorporated.",
+            "8. Fill each ramiken almost to the rim, wiping excess from rim with a wet paper towel.",
+            "9. Cover and freeze until firm, at least 3 hours.",
+            "10. Adjust oven rack to lower-middle and heat oven to 40 degrees. Bake until fully risen, 16-18 minutes. Serve immediately."
+        ],        
+        "tags":[
+            "dessert",
+            "test2"
+        ],
+    },
+
     ]
     
