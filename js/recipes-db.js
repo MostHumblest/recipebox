@@ -1533,7 +1533,7 @@ recipes = [
         "directions":[
             "1. Coat ramekins with 1 Tbsp butter, then coat the inside of each dish evenly with the 1 Tbsp sugar; refrigerate until ready to use.",
             "2. Melt chocolate and remaining butter in a medium bowl set over a pan of simmering water. Turn off heat, stir in salt, vanilla, and liqueur.",
-            "3. Bring thw 1/3  cup of sugar and 2 Tbsp water to a boil in a small saucepan, then simmer until the sugar disolves.",
+            "3. Bring the 1/3  cup of sugar and 2 Tbsp water to a boil in a small saucepan, then simmer until the sugar disolves.",
             "4. Slowly add sugar syrup to egg yolks while actively mixing; beating until mixture triples in volume.",
             "5. Fold beaten yolk mix into chocolate.",
             "6. Beat egg whites until frothy; add cream of tartar and beat to soft peaks; add powdered sugar; continue beating to stiff peaks.",
