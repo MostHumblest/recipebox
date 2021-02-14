@@ -419,7 +419,7 @@ recipes = [
         ],
         "ingredients":[
             {                 
-                "quantity": "3-4lb",
+                "quantity": "3-4 lb",
                 "item": "whole chicken"
             },
             {	
@@ -447,7 +447,7 @@ recipes = [
                 "item": "length of ginger"
             },
             {	
-                "quantity": "1 1/2lb",
+                "quantity": "1 1/2 lb",
                 "item": "baby gold potatoes"
             },
             {	
@@ -833,7 +833,7 @@ recipes = [
         ],
         "ingredients":[
             {                 
-                "quantity": "1 1/2lb",
+                "quantity": "1 1/2 lb",
                 "item": "skinless, boneless cod"
             },
             {	
@@ -885,7 +885,7 @@ recipes = [
                 "item": "celery stalks, thinkly sliced"
             },
             {	
-                "quantity": "1 1/2c",
+                "quantity": "1 1/2 c",
                 "item": "oyster crackers"
             },
             {	
@@ -1417,7 +1417,7 @@ recipes = [
         ],
         "ingredients":[
             { 
-                "quantity": "1.5c",
+                "quantity": "1 1/2 c",
                 "item": "Filling:<br>Berries(fresh or frozen)<br>Cheese and herbs<br> cut to 1/4\" size"
                 
             },
