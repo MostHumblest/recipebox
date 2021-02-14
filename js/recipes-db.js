@@ -273,7 +273,7 @@ recipes = [
         ],
     },
 
-        {   "id": "D1", "title": "Brussels Sprouts Salad", "category":"salads",
+    {   "id": "D1", "title": "Brussels Sprouts Salad", "category":"salads",
         "yield":"4-6 servings",
         "time":{
             "active": "35mins",
