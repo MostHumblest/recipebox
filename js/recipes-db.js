@@ -1479,19 +1479,19 @@ recipes = [
             "total":0
         },
         "source":{
-            "title":"Make-ahead chocolate souffle",
+            "title":"Make-Ahead Chocolate Souffle",
             "author":"ukn",
             "source":"America's Test Kitchen",
             "modify":"y"
         },
         "notes":[
-            "<u>Make ahead:</u> once in the freezer, souffles are best within 2 days but can be stored up to 1 month",
-            "note 2"
+            "<u>Make ahead:</u> once in the freezer, souffles are best within 2 days but can be stored up to 1 month.",
+            "The mixing can be done by hand or using a stand mixer. Except a good workout when mixing by hand."
         ],
         "ingredients":[
             {                 
                 "quantity": "5 Tbsp",
-                "item": "butter, 1Tbsp softened, the rest cut into 1/4\" chunks"
+                "item": "butter, 1 Tbsp softened, the rest cut into 1/4\" chunks"
             },
             {	
                 "quantity": "1/2 cup",
@@ -1531,11 +1531,11 @@ recipes = [
             },
         ],
         "directions":[
-            "1. coat ramekins with 1 Tbsp butter, then coat the inside of each dish evenly with the 1 Tbsp sugar; refrigerate until ready to use.",
+            "1. Coat ramekins with 1 Tbsp butter, then coat the inside of each dish evenly with the 1 Tbsp sugar; refrigerate until ready to use.",
             "2. Melt chocolate and remaining butter in a medium bowl set over a pan of simmering water. Turn off heat, stir in salt, vanilla, and liqueur.",
             "3. Bring thw 1/3  cup of sugar and 2 Tbsp water to a boil in a small saucepan, then simmer until the sugar disolves.",
-            "4. Slowly mix sugar syrup with egg yolks; beating until mixture triples in volume.",
-            "5. Fold egg/syrup mix into chocolate.",
+            "4. Slowly add sugar syrup to egg yolks while actively mixing; beating until mixture triples in volume.",
+            "5. Fold beaten yolk mix into chocolate.",
             "6. Beat egg whites until frothy; add cream of tartar and beat to soft peaks; add powdered sugar; continue beating to stiff peaks.",
             "7. Vigourously stir one-quarter of whipped whites into the chcolate mixture. Gently fold remaining whites into mixture until just incorporated.",
             "8. Fill each ramiken almost to the rim, wiping excess from rim with a wet paper towel.",
