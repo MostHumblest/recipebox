@@ -176,7 +176,7 @@ recipes = [
             "Cooking terminology is all over the place, but I've tried to summarize how I use it on this website",
             "!Vegetable Sizes:",
             "!Chopping Sizes:",
-            "!Peaks:",
+            "!Beating to a Peak:",
             "Frothy - similar to beer foam.",
             "Soft Peaks - pick the whisk straight up, a peak should form but fall over on itself and melt back into the mix.",
             "Firm Peaks - pick the whisk straight up, a peak should form and hold itself more distinctly, the tip will fold over.",
