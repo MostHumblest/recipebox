@@ -441,6 +441,117 @@ recipes = [
         ],
     },
 
+    {   "id": "E2", "title": "Butter Chicken", "category":"poultry",
+        "yield":"4 servings",
+        "time":{
+            "active": 00,
+            "total":00
+        },
+        "source":{
+            "title":"Indian Butter Chicken (Murgh Markhani)",
+            "author":"ukn",
+            "source":"Cook's Illustrated",
+            "modify":"y"
+        },
+        "notes":[
+            "Serve with warm basmati rice",
+            "Pairs well with Quick Naan",
+            "Sauce can be made up to 4 days ahead; gently reheat before adding hot chicken."
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "4 Tbsp",
+                "item": "Butter, cut into 4 pieces, chilled, divided"
+            },
+            {	
+                "quantity": "1",
+                "item": "onion, chopped fine"
+            },
+            {	
+                "quantity": "5",
+                "item": "garlic cloved, minced"
+            },
+            {	
+                "quantity": "4 tsp",
+                "item": "grated fresh ginger"
+            },
+            {	
+                "quantity": "1",
+                "item": "serrano chile, minced"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "garam masala"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "ground coriander"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "ground cumin"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "ground pepper"
+            },
+            {	
+                "quantity": "1 1/2 c",
+                "item": "water"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "tomato paste"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "sugar"
+            },
+            {	
+                "quantity": "2 tsp",
+                "item": "salt, divided"
+            },
+            {	
+                "quantity": "1 c",
+                "item": "heavy cream"
+            },
+            {	
+                "quantity": "2 lbs",
+                "item": "boneless, skinless chicken thighs, trimmed"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "plain Greek yogurt"
+            },
+            {	
+                "quantity": "3 Tbsp",
+                "item": "choppped cilantro"
+            },
+        ],
+        "directions":[
+            "!Sauce",
+            "Melt 2 Tbsp butter in large saucepan over medium heat. Add onion, garlic, ginger, and serrano. Cook, stirring frequently, until mixture is softened and onion begins to brown, 8-10 minutes.",
+            "Add garam masala, coriander, cumin, and pepper. Cook stirring frequently, until fragrant, about 3 minutes.",
+            "Add water and tomato opaste and whisk until no lumps of tomato paste remain.",
+            "Add sugar and 1 tsp salt and bring to boil.",
+            "Off heat, stir in cream.",
+            "Using immersion blender or blender, process until smooth, 30-60 seconds",
+            "Return sauce to simmer over medium heat and whisk in remaing 2 tablespoons butter.",
+            "Remove saucepan from heat and cover to keep warm.",
+            "!Chicken",
+            "Adjust oven rack 6 inches from broiler element and heat broiler. Prepare baking sheet with foil, and set wire rack on top.",
+            "Combine chicken, yogurt, and  remaining 1 tsp salt in bowl and toss well to coat.",
+            "Transfer chicken to wire rack. Broil until chicken, flipping halfway through, until evenly charred on both sides and registers 175F, 16-20 minutes.",
+            "Let chicken rest for 5 minutes.",
+            "Cut chicken into 3/4 inch chuncks (kitchen shears work great) and stir into sauce.",
+            "Stir in 2 Tbsp cilatnro, season with alt to taste. Sprinkly remaining cilantro over to serve."
+        ],
+        
+        "tags":[
+            "indian"
+        ],
+    },
+
     {   "id": "F0", "title": "Pork Placeholder", "category":"pork",
         "yield":1,
         "time":{
