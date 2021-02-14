@@ -11,8 +11,7 @@ $(document).ready(function(){
 	toggleHeaders();
 	liveSearch();
 	loadNull();
-	addDegreeSymbol("lol"); //default input text
-	doFractions("lol");//default input text
+	doFormatting("lol"); //default input text
 	$(window).trigger('hashchange'); //forces hash change on page load - enables bookmarking recipes
 });
 
@@ -195,8 +194,7 @@ $(document).ready(function(){
 		if(yield != 0){
 			yield = "Yield: " + yield;
 			$("#recipeYield").text(yield);
-		}
-		
+		}		
 
 	//set time
 		activeTime = "<li> Active: "+activeTime+"</li>";
@@ -207,18 +205,21 @@ $(document).ready(function(){
 		var listNotes = "<h3>Notes:</h3>";
 		var thisNote;
 		$.each(notes, function(i, val){
-			thisNote = addDegreeSymbol(notes[i]);
+			thisNote = doFormatting(notes[i]);
 			listNotes = listNotes + "<li>" + thisNote + "</li>";
 		});
 		$("#recipeNotes").html(listNotes);
 
 	//get ingredients
 		var listIngredients = "<h3 class=\"sectionHeader\">Ingredients</h3>";
+		var thisItem;
 		var thisQuantity;
 		$.each(ingredients, function(j, valueJ){
 			thisQuantity = ingredients[j].quantity;
-			thisQuantity = doFractions(thisQuantity);
-			listIngredients = listIngredients + "<tr><td class=\"qty\">" + thisQuantity + "</td><td class=\"item\">" + ingredients[j].item + "</td></tr>";		
+			thisQuantity = doFormatting(thisQuantity);
+			thisItem = ingredients[j].item;
+			thisItem = doFormatting(thisItem);
+			listIngredients = listIngredients + "<tr><td class=\"qty\">" + thisQuantity + "</td><td class=\"item\">" + thisItem + "</td></tr>";		
 		});
 		$("#recipeIngredients").html(listIngredients);
 		
@@ -229,8 +230,7 @@ $(document).ready(function(){
 		var hang=false;
 		$.each(steps, function(i, val){
 			thisStep = steps[i];
-			thisStep = addDegreeSymbol(thisStep);
-			thisStep = doFractions(thisStep);
+			thisStep = doFormatting(thisStep);
 			stepFirstChar=thisStep.charAt(0);
 			switch(stepFirstChar){
 				case "!":				
@@ -301,7 +301,8 @@ $(document).ready(function(){
 		return self.indexOf(val) === index;
 	}
 
-	function addDegreeSymbol(inputText){
+	function doFormatting(inputText){
+		//format temperatures
 		var cookTemp = inputText.match(/([0-9]{3} ?[Ff}])/g);
 		var newCookTemp;
 		$.each(cookTemp, function(i, val){
@@ -309,10 +310,7 @@ $(document).ready(function(){
 			newCookTemp = newCookTemp.replace(/[Ff]/,"\u00B0F");
 			inputText = inputText.replace(cookTemp[i], newCookTemp);
 		});
-		return inputText;
-	}
-
-	function doFractions(inputText){
+		//format fractions
 		var oldFraction = inputText.match(/([0-9]\/[0-9])/g);
 		var newFraction;
 		var re;
@@ -322,5 +320,16 @@ $(document).ready(function(){
 			inputText = inputText.replace(re, newFraction);
 		});
 		return inputText;
-
 	}
+
+	/* function doFractions(inputText){
+		var oldFraction = inputText.match(/([0-9]\/[0-9])/g);
+		var newFraction;
+		var re;
+		$.each(oldFraction, function(i, val){
+			newFraction = "<span class=\"frac\">" + oldFraction[i] + "</span>"
+			re = new RegExp(oldFraction[i], 'g');
+			inputText = inputText.replace(re, newFraction);
+		});
+		return inputText;
+	} */
