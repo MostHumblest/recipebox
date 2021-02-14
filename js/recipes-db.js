@@ -1487,8 +1487,8 @@ recipes = [
         },
         "notes":[
             "See #O1 for preparing your starter for use",
-            "The cold fermenation is important to developing flavor and structure.",
-            "Before using, let dough sit at least an hour at room temperature.",
+            "The cold fermenation in the last step is important to developing flavor and structure. Can stay in the fridge up to 5 days. Optimal texture is around 3 days",
+            "Before using, let dough sit at room temperature for an hour",
             "Dough can be frozen and will last a month in the freezer. Defrost in fridge at least 8 hours ahead of use."
         ],
         "ingredients":[
@@ -1527,8 +1527,7 @@ recipes = [
             "Cover bowl with plastic wrap and let rise in a warm, draft-free environment until dough has increased by at least half in volume. Duration will depend on strength of starter; may require overnight rise.",
             "Divide dough into 2 halves. Form each piece into a ball and coat with olive oil.",
             "Seal each piece in an airtight freezer bag.",
-            "Let rest at room temp for 1 hour, and then refrigerate over night."
-
+            "Let rest at room temp for 1 hour, and then refrigerate overnight."
         ],
         
         "tags":[
