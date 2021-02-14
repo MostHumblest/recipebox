@@ -273,7 +273,7 @@ recipes = [
         ],
     },
 
-    {   "id": "D1", "title": "Brussels Sprouts Salad", "category":"salads",
+        {   "id": "D1", "title": "Brussels Sprouts Salad", "category":"salads",
         "yield":"4-6 servings",
         "time":{
             "active": "35mins",
@@ -346,11 +346,11 @@ recipes = [
         ],
         "directions":[
             "Preheat oven to 300F, line baking sheet with parchment paper.",
-            "Trim ends of shallots and peel. Slice thin. Toss with the oil, and a little salt in a small bowl. Spread the shallots ont he prepared baking sheet and bake until golden brown and crisp, 35-45 minutes.",
+            "Trim ends of shallots and peel. Slice thin. Toss with the oil, and a little salt in a small bowl. Spread the shallots on the prepared baking sheet and bake until golden brown and crisp, 35-45 minutes.",
             "Meanwhile, trim the stalk end off the Brussels sprouts and cut them into fine shreds.",
             "Place shreds in a bowl of salted ice-cold water for at least 10 minutes.",
             "Toast walnuts in a small skillet over medium-low heat until starting to brown, 4-5 minutes. Remove from heat and transfer to a small bowl.",
-            "To make dresding, smash garlic into fine paste (using flat side of knivfe or mortar and pestle). In a small bowl, mix garlic with creme fraiche, lemon juice, and black pepper. Taste and add salt as needed.",
+            "To make dressing, smash garlic into fine paste (using flat side of knivfe or mortar and pestle). In a small bowl, mix garlic with creme fraiche, lemon juice, and black pepper. Taste and add salt as needed.",
             "To assemble, drain sprouts, and spread them on a clean kitchen towl to absorb excess liquid. Transfer to a large mixing bowl. Add scallions and walnuts and half of creme fraiche. Fold to coat evenly.",
             "Garnish with mint, chilli flakes, and crispy shallots. Serve with remaining dressing on the side. "
         ],
