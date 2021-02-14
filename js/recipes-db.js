@@ -1487,7 +1487,7 @@ recipes = [
         },
         "notes":[
             "See #O1 for preparing your starter for use",
-            "The cold fermenation in the last step is important to developing flavor and structure. Can stay in the fridge up to 5 days. Optimal texture is around 3 days",
+            "The cold fermenation in the last step is important to developing flavor and structure. Can stay in the fridge up to 5 days. Optimal texture is around 3 days.",
             "Before using, let dough sit at room temperature for an hour",
             "Dough can be frozen and will last a month in the freezer. Defrost in fridge at least 8 hours ahead of use."
         ],
