@@ -253,8 +253,13 @@ $(document).ready(function(){
 	//get source
 		var sourceTitle = thisRecipe[0].source.title;
 		var sourceAuthor = thisRecipe[0].source.author;
+		if (sourceAuthor === "ukn"){
+			sourceAuthor = "";
+		}else{
+			sourceAuthor = " by " + sourceAuthor;
+		}
 		var sourceSource = thisRecipe[0].source.source;
-		var compiledSource = sourceTitle+" by "+sourceAuthor+" - "+ sourceSource;
+		var compiledSource = sourceTitle + sourceAuthor+" - "+ sourceSource;
 		$("#recipeSource").text(compiledSource);
 
 	//get index
