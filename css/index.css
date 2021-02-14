@@ -321,6 +321,10 @@ nav ul{
         grid-template-columns: minmax(375px, 2fr) repeat(6, 1fr);
     }
 
+	.nav-container{
+		grid-template-columns: minmax(310, 1fr) 70px;
+	}
+
     .item-nav{
         grid-column: 1;
 		grid-row: span 2;
