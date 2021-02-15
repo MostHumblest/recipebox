@@ -1790,8 +1790,8 @@ recipes = [
     {   "id": "O4", "title": "No-Knead Focaccia", "category":"baking",
         "yield":"one 12\" round loaf",
         "time":{
-            "active": 0,
-            "total":0
+            "active": "15 min",
+            "total":"8-24 h"
         },
         "source":{
             "title":"Easy No-Knead Olive-Rosemary Foacaccia with Pistachios Recipe",
