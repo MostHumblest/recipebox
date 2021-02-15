@@ -1086,7 +1086,7 @@ recipes = [
             "total":"2h 20m"
         },
         "source":{
-            "title":"Spicy Mushroom Lasagna",
+            "title":"Spicy Mushroom Lasagne",
             "author":"Yotam Ottolenghi",
             "source":"Flavor",
             "modify":"n"
