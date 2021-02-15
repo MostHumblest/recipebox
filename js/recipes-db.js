@@ -1917,7 +1917,7 @@ recipes = [
             "Cover tightly with plastic wrap, let sit at room temperature for 2 hours. After the first hour, adjust an oven rack to the middle and preheat oven to 500F",
             "At the end of 2 hours, dough should mostly fill skillet. Use fingertips to press it around to edges, popping any large bubbles that appear. Lift up one edge of dough to let any air bubbles escape. Repeat, moving around the dough until there are no air bubbles and the dough is evenly spread around the skillet.",
             "Peel roasted garlic cloves. Break large cloves into pieces. Scatter over surface of dough and push down with finger to embed each in a deep weel of dough.",
-            "Transfer to oven and bake until golden brown and bubbly, 16-24 minutes. While baking, make garlic butter",
+            "Transfer to oven and bake until golden brown and bubbly, 16-24 minutes.",
             "!Garlic Butter",
             "Mince reserved garlic.",
             "In a small skillet, combine 1 Tbsp oil with butter and melt over medium-low. Add garlic, oregano, and pepper flakes and cook until fragrant, about 1 minute. Season with salt.",
