@@ -1395,6 +1395,10 @@ recipes = [
                 "item": "curry powder"
             },
             {	
+                "quantity": "1/4 tsp",
+                "item": "red pepper flakes"
+            },
+            {	
                 "quantity": "3/4 c",
                 "item": "red lentils"
             },
