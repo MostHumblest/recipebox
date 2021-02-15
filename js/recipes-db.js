@@ -1908,7 +1908,7 @@ recipes = [
             "!Roasted Garlic",
             "Adjust oven rack to middle position and preheat to 350f.",
             "Remove 4 cloves of garlic and set aside. Place remaining garlic in foil, drizzle with 1 Tbsp oil, and season with salt. Wrap tightly. Transfer to oven small oven safe skillet. Roast until tender, about 1 hour.",
-            "Remove from oven, and refrigerate until ready to use the next day",
+            "Remove from oven, and refrigerate until ready to use the next day.",
             "!Focaccia",
             "Combine flour, salt, yeast, and water in a large bowl. Mix with hands or wooden spoon until no dry flour remains.",
             "Cover bowl tightly with plastic wrap. Let rest on the countertop for at least 8 and up to 24 hours.",
@@ -1927,6 +1927,83 @@ recipes = [
             "easy",
             "bread",
             "vegetarian"
+        ],
+    },
+
+    {   "id": "O6", "title": "Quick Naan", "category":"baking",
+        "yield":"8 small naan, or 4 larger ones",
+        "time":{
+            "active":0,
+            "total":0
+        },
+        "source":{
+            "title":"Quicker Indian Flatbread (Naan)",
+            "author":"ukn",
+            "source":"Cook's Illustrated",
+            "modify":"y"
+        },
+        "notes":[
+            "Non-stick skillet can be used in place of cast-iron"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1/2 c",
+                "item": "ice water"
+            },
+            {	
+                "quantity": "1/3 c",
+                "item": "plain whole-milk yogurt"
+            },
+            {	
+                "quantity": "3 Tbsp plus 1 tsp",
+                "item": "vegetable oil"
+            },
+            {	
+                "quantity": "1",
+                "item": "large egg yolk"
+            },
+            {	
+                "quantity": "1",
+                "item": "large egg yolk"
+            },
+            {	
+                "quantity": "10 oz",
+                "item": "AP Flour"
+            },
+            {	
+                "quantity": "1 1/4 tsp",
+                "item": "sugar"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "instant yeast"
+            },
+            {	
+                "quantity": "1 1/4 tsp",
+                "item": "salt"
+            },
+        ],
+        "directions":[
+            "!Prep",
+            "In a measuring cup or small bowl, combine water, yogurt, 3 Tbsp oil, and egg yolk.",
+            "Process flour, sugar, and yeast in food processor until combined, about 2 seconds.",
+            "With processor running, slowly add water mixture; process until dough is just combined and no dry flour remains, about 10 seconds. Let stand 10 minutes.",
+            "Add salt to dough and process until dough forms satiny, sticky ball that clears sides of workbowl, 30 to 60 seconds.",
+            "Transfer dough to lightly floured work surface and knead until smooth, about 1 minute.",
+            "Shape dough into a tight ball and place in a large, lightly oiled bowl. Cover with plastic wrap and let rise for 30 minutes",
+            "Fold partially risen dough over itself 8 times, by lifting edge and folding towards middle. Cover and let rise for 30 minutes. Repeat 1 more time for a total of 3, 30 minute rises.",
+            "Transfer dough to a lightly floured work surface and divide into 4-8 equal pieces. Shape each into a smooth, tight ball.",
+            "Place dough balls on lightly oiled baking sheet, at least 2 inches apart; cover loosely with plastic coated with vegetable oil spray. Let stand 15-20 minutes.",
+            "!Cook",
+            "Transfer 1 dough ball to lightly floured work surface. Using hands and rolling pin, press and roll into a round of even thickness. Sprinkle with flour as needed to prevent sticking. Use fork to poke entire surface with fork, 20-25 times.",
+            "Heat remaining oil in 12\" cast iron skillet over medium heat until shimmering. Wipe out skillet completely with paper towels. Reserve paper towels.",
+            "Mist top of dough lightly with water, place in pan moistened side down. Mist top surface of dough and cover.",
+            "Cook 2-4 minutes until browned in spots. Flip naan, cover, and cook on second side, 2-3 minutes, until lightly browned.",
+            "Transfer to plate, and repeat with other dough balls. Wiping skillet lightly with oil soaked paper towels between pieces."
+        ],        
+        "tags":[
+            "vegetarian",
+            "bread"
         ],
     },
 
