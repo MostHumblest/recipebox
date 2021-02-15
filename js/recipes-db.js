@@ -1079,6 +1079,138 @@ recipes = [
         ],
     },
 
+    {   "id": "K1", "title": "Spicy Mushroom Lasagna", "category":"pasta",
+        "yield":"Serves 6",
+        "time":{
+            "active": "1h 5m",
+            "total":"2h 20m"
+        },
+        "source":{
+            "title":"Spicy Mushroom Lasagna",
+            "author":"Yotam Ottolenghi",
+            "source":"Flavor",
+            "modify":"n"
+        },
+        "notes":[
+            "The sauce makes an excellent vegan ragu without the cream, see #N1",
+            "Brown button mushrooms and slice baby portabellas are the same.",
+            "\"Hot\" vegetable stock is literally heated hot, not spicy hot. Fresh made \"better than boullion\" works great here"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 lb 10 oz",
+                "item": "brown button mushrooms, halved"
+            },
+            {	
+                "quantity": "1 lb 2 oz",
+                "item": "oyster mushroom"
+            },
+            {	
+                "quantity": "9 Tbsp",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "AR",
+                "item": "salt"
+            },
+            {	
+                "quantity": "2 1/4 oz",
+                "item": "dried porcini mushrooms"
+            },
+            {	
+                "quantity": "1 oz",
+                "item": "dried wild mushrooms"
+            },
+            {	
+                "quantity": "1",
+                "item": "dried red chilies"
+            },
+            {	
+                "quantity": "2 c",
+                "item": "hot vegetable stock"
+            },
+            {	
+                "quantity": "5",
+                "item": "garlic cloves, halved"
+            },
+            {	
+                "quantity": "1",
+                "item": "onion, peeled and quartered"
+            },
+            {	
+                "quantity": "2-3",
+                "item": "plum tomatoes, quartered"
+            },
+            {	
+                "quantity": "1/3 c",
+                "item": "tomato paste"
+            },
+            {	
+                "quantity": "AR",
+                "item": "black pepper"
+            },
+            {	
+                "quantity": "3 1/2 c",
+                "item": "water"
+            },
+            {	
+                "quantity": "9 Tbsp",
+                "item": "heavy cream"
+            },
+            {	
+                "quantity": "9 Tbsp",
+                "item": "heavy cream"
+            },
+            {	
+                "quantity": "2 1/4 oz",
+                "item": "pecarino, finely grated"
+            },
+            {	
+                "quantity": "2 1/4 oz",
+                "item": "paremesan, finely grated"
+            },
+            {	
+                "quantity": "1/4 c",
+                "item": "basil leaves, finely chopped"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "parsley leaves, finely chopped"
+            },
+            {	
+                "quantity": "9 oz",
+                "item": "dried lasagna noodles"
+            }
+        ],
+        "directions":[
+            "Preheat oven to 450f. Line a large, rimmed baking sheet with parchment paper.",
+            "Put fresh mushrooms into food processor, in three or four batches, and pulse until finely chopped (or chop by hand).",
+            "Toss chopped mushrooms in a large bowl with 3 Tbsp of oil, and 1 tsp salt and spread on prepared baking sheet.",
+            "Roast on in upper third of oven for 30 minutes, until mushrooms are golden brown (they will decrease in size dramatically). Set aside.",
+            "decrease oven temp to 425f.",
+            "Meanwhile, combine dired mushrooms, dried chiies, and hot stock in a large bowl and let soak for 30 minutes.",
+            "After soaking, strain into measuring cup and squeeze rehydrated mushrooms to get as much liquid as possible, approximately 1 1/2 cups. Top off with water if short.",
+            "Roughly chop mushrooms, and finely chop chilies. Set mushrooms and stock aside sperately.",
+            "Put onion, garlic, and carrot into food processor and pulse until finely chopped (or chop by hand).",
+            "Heat 1/4 cup olive oul in large saute pan or pot over medium-high. Once hot, add onion mixture and fry for 8 minutes stirring occassionally until softened and golden.",
+            "Pule tomatoes until finley chopped (or chop by hand), then add to pan along with tomato paste, 1 1/2 tsp salt, and 1 3/4 tsp pepper. Cook for 7 minutes, stirring occasionally.",
+            "Add rehydrated mushroom and chilies, and roasted mushrooms. Mix with onion mix and spread evenly across pan. Leave alone to cook for 9 minutes. Resist the urge to stir.",
+            "Stir in water, and reserved stock. Once simmering dcerease heat to medium and cook for 25 minutes until the consistenc of ragu.",
+            "Add 7 Tbsp of cream, mix, and simmer for another 2 minutes, then remove from heat.",
+            "Combine both cheeses, basil, and parsley in a small bowl.",
+            "Assemble lasagna - in a 9\" x 13\" pan, spread 1/5 sauce, top with 1/5 cheese, and a layer of lasagna nooodles. Repeat layers 3 more times. Finish with a final layer of sauce, and the cheese. (5 layers sauce, 5 layer cheese, 4 layers noodles).",
+            "Drizzle 1 Tbsp cream and 1 Tbsp oil over top, cover with aluminum foil, and bake for 15 minutes.",
+            "Remove foil, increase temperature to 450f and bake for another 12 minutes, rotating halfway through.",
+            "Turn on broiler, and broil for 2 additional minutes.",
+            "Remove from oven and set aside to cool for 5 minutes, then drizzle with remaining 1 Tbsp cream and 1 Tbsp oil before serving."
+        ],
+        
+        "tags":[
+            "vegetarian",
+            "pasta"
+        ],
+    },
+
     {   "id": "L0", "title": "Grains Placeholder", "category":"grains and rice",
         "yield":1,
         "time":{

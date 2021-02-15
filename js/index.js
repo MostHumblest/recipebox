@@ -355,15 +355,3 @@ $(document).ready(function(){
 		});
 		return inputText;
 	}
-
-	/* function doFractions(inputText){
-		var oldFraction = inputText.match(/([0-9]\/[0-9])/g);
-		var newFraction;
-		var re;
-		$.each(oldFraction, function(i, val){
-			newFraction = "<span class=\"frac\">" + oldFraction[i] + "</span>"
-			re = new RegExp(oldFraction[i], 'g');
-			inputText = inputText.replace(re, newFraction);
-		});
-		return inputText;
-	} */
