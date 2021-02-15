@@ -260,6 +260,7 @@ $(document).ready(function(){
 					break;
 				case "$":
 					hang = false;
+					thisStep=thisStep.slice(1);
 					currentStep = currentStep + "<li>" + thisStep + "</li>";
 					break;
 				default:
