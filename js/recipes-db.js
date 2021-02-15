@@ -1851,7 +1851,7 @@ recipes = [
         ],
     },
 
-    {   "id": "O5", "title": "Roasted-Garlic Focaccia", "category":"baking",
+    {   "id": "O5", "title": "Garlic Focaccia", "category":"baking",
         "yield":"one 12\" round loaf",
         "time":{
             "active": 0,
@@ -1869,7 +1869,7 @@ recipes = [
         "ingredients":[
             {                 
                 "quantity": "1",
-                "item": "head garlic"
+                "item": "head garlic, divided"
             },
             {                 
                 "quantity": "500 g",
