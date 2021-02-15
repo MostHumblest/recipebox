@@ -1858,7 +1858,7 @@ recipes = [
             "total":"8-24 h"
         },
         "source":{
-            "title":"Easy Roadted-Garlic Foacaccia Recipe",
+            "title":"Easy Roasted-Garlic Focaccia Recipe",
             "author":"J. Kenji Lopez-Alt",
             "source":"Serious Eats",
             "modify":"y"
