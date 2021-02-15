@@ -1787,7 +1787,70 @@ recipes = [
         ],
     },
 
-    {   "id": "P0", "title": "Desserts Placeholder", "category":"baking",
+    {   "id": "O4", "title": "No-Knead Focaccia", "category":"baking",
+        "yield":"one 12\" round loaf",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Easy No-Knead Olive-Rosemary Foacaccia with Pistachios Recipe",
+            "author":"J. Kenji Lopez-Alt",
+            "source":"Serious Eats",
+            "modify":"y"
+        },
+        "notes":[
+            "Also makes great garlic bread, see #O5",
+            "Extra bread should be stored in a brown paper bag at room temp for up to 2 days. Can be reheated in oven at 300f for 10 minutes if desired."
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "500 g",
+                "item": "AP Flour"
+            },
+            {	
+                "quantity": "15 g",
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "4 g",
+                "item": "instant yeast"
+            },
+            {	
+                "quantity": "325 g",
+                "item": "water"
+            },
+            {	
+                "quantity": "1/4 c",
+                "item": "extra-virign olive oil"
+            },
+            {	
+                "quantity": "AR",
+                "item": "flakey sea salt"
+            }
+        ],
+        "directions":[
+            "Combine flour, salt, yeast, and water in a large bowl. Mix with hands or wooden spoon until no dry flour remains.",
+            "Cover bowl tightly with plastic wrap, making sure that the edges are well sealed.",
+            "Let rest on the countertop for at least 8 and up to 24 hours.",
+            "Sprinkle top of dough with flour and transfer to a lightly floured work surface. Form into a ball by holding with well floured hands, and tucking dough underneath itself. Rotate until it forms a tight ball.",
+            "Pour half of oil in the bottom of a 12\" cast iron skillet or large cake pan.",
+            "Transfer dough to pan, turn to coat in oil, and position seam-side-down. Using a flat palm, press the dough around the skillet, flattening slightly and spreading oil around bottom edges of the pan.",
+            "Cover tightly with plastic wrap and let the dough sit at room temperature for 2 hours. After the first hour, adjust an oven rack to the middle position and preheat oven to 500F",
+            "At the end of 2 hours, dough should mostly fill skillet. Use fingertips to press it around and fill every corner, popping any large bubbles that appear.",
+            "Lift up one edge of dough to let any air bubbles underneath escape. Repeat, moving around the dough until there are no air bubbles underneath and the dough is evenly spread around the skillet.",
+            "Drizzle with remaining olive oil, sprinkle with sea salt.",
+            "Transfer to oven and bake until golden brown and bubbly, 16-24 minutes.",
+            "Using a thin spatula, loosen focaccia and peek underneath. If not as crisp as desired, place pan on burner over medium heat and cook 1 to 3 minutes.",
+            "Transfer to a cutting board, allow to cool slightly, slice and serve."
+        ],        
+        "tags":[
+            "easy",
+            "bread"
+        ],
+    },
+
+    {   "id": "P0", "title": "Desserts Placeholder", "category":"dessert",
         "yield":1,
         "time":{
             "active": 0,
