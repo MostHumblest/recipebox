@@ -1092,7 +1092,6 @@ recipes = [
             "modify":"n"
         },
         "notes":[
-            "Brown button mushrooms and baby portabellas are the same.",
             "\"Hot\" vegetable stock is literally heated hot, not spicy hot. Fresh made \"better than boullion\" works great here"
         ],
         "ingredients":[
