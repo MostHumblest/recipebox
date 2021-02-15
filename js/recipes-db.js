@@ -1922,7 +1922,7 @@ recipes = [
             "!Garlic Butter",
             "Mince reserved garlic.",
             "In a small skillet, combine 1 Tbsp oil with butter and melt over medium-low. Add garlic, oregano, and pepper flakes and cook until fragrant, about 1 minute. Season with salt.",
-            "When finished baking, spoon garlic butter over focaccia. Transfer to cutting board, slice and serve."
+            "$<u>When finished baking:</u> spoon garlic butter over focaccia. Transfer to cutting board, slice and serve."
         ],        
         "tags":[
             "easy",
