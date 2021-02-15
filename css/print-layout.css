@@ -10,6 +10,10 @@ body{
 	font-variant-numeric: diagonal-fractions;
 }
 
+li>h4{
+	margin:0px;
+}
+
 h1.main {
 	color:red;
 }
