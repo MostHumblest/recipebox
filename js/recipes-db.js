@@ -540,7 +540,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "Serve with warm rice and/or quick naan",
+            "Serve with warm rice and/or #O6",
             "Faux tandoori chicken is quick and easy, works well in all sorts of other meals",
             "Sauce can be made up to 4 days ahead; gently reheat before adding hot chicken."
         ],
