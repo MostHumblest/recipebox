@@ -39,6 +39,10 @@ li {
 	padding-bottom: .75rem;
 }
 
+.directions > li.subsection{
+	padding-bottom: .25rem;
+}
+
 .notes > li{
 	padding-bottom: .5rem;
 }

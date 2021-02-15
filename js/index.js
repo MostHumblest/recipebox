@@ -212,7 +212,7 @@ $(document).ready(function(){
 				case "!":				
 					hang = true;
 					thisNote=thisNote.slice(1);
-					listNotes = listNotes + "<li><h4>" + thisNote + "</h4></li>";
+					listNotes = listNotes + "<li class=\"subsection\"><h4>" + thisNote + "</h4></li>";
 					break;
 				case "$":
 					hang = false;
@@ -256,7 +256,7 @@ $(document).ready(function(){
 				case "!":				
 					hang = true;
 					thisStep=thisStep.slice(1);
-					currentStep = currentStep + "<li><h4>" + thisStep + "</h4></li>";
+					currentStep = currentStep + "<li class=\"subsection\"><h4>" + thisStep + "</h4></li>";
 					break;
 				case "$":
 					hang = false;
