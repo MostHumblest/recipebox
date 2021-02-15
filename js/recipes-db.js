@@ -1907,8 +1907,7 @@ recipes = [
         "directions":[
             "!Roasted Garlic",
             "Adjust oven rack to middle position and preheat to 350f.",
-            "Remove 4 cloves of garlic and set aside. Place remaining garlic in foil, drizzle with 1 Tbsp oil, and season with salt. Wrap tightly.",
-            "Place in an oven safe skillet; transfer to oven. Roast until tender, about 1 hour.",
+            "Remove 4 cloves of garlic and set aside. Place remaining garlic in foil, drizzle with 1 Tbsp oil, and season with salt. Wrap tightly. Transfer to oven small oven safe skillet. Roast until tender, about 1 hour.",
             "Remove from oven, and refrigerate until ready to use the next day",
             "!Focaccia",
             "Combine flour, salt, yeast, and water in a large bowl. Mix with hands or wooden spoon until no dry flour remains.",
