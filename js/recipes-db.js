@@ -180,7 +180,7 @@ recipes = [
             "Frothy - similar to beer foam.",
             "Soft Peaks - pick the whisk straight up, a peak should form but fall over on itself and melt back into the mix.",
             "Firm Peaks - pick the whisk straight up, a peak should form and hold itself more distinctly, the tip will fold over.",
-            "Stiff Peaks - pick the whisk straight up, a peak should form and hold stright up!"
+            "Stiff Peaks - pick the whisk straight up, a peak should form and hold straight up!"
         ],
         "ingredients":[
             { 
@@ -388,7 +388,7 @@ recipes = [
             }            
         ],
         "directions":[
-            "Preheat oven to 30F, line baking sheet with parchment paper.",
+            "Preheat oven to 300F, line baking sheet with parchment paper.",
             "Trim ends of shallots and peel. Slice thin. Toss with the oil, and a little salt in a small bowl. Spread the shallots on the prepared baking sheet and bake until golden brown and crisp, 35-45 minutes.",
             "Meanwhile, trim the stalk end off the Brussels sprouts and cut them into fine shreds.",
             "Place shreds in a bowl of salted ice-cold water for at least 10 minutes.",
