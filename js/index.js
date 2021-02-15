@@ -216,6 +216,7 @@ $(document).ready(function(){
 					break;
 				case "$":
 					hang = false;
+					thisNote=thisNote.slice(1);
 					listNotes = listNotes + "<li>" + thisNote + "</li>";
 					break;
 				default:

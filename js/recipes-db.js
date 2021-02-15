@@ -1915,11 +1915,14 @@ recipes = [
             "Cover bowl tightly with plastic wrap. Let rest on the countertop for at least 8 and up to 24 hours.",
             "Sprinkle top of dough with flour and transfer to a lightly floured work surface. Form into a ball.",
             "Pour 3 Tbsp of oil in the bottom of a 12\" cast iron skillet. Transfer dough to pan, turn to coat in oil, and position seam-side-down. Using a flat palm, press dough around  skillet, flattening slightly and spreading oil around pan.",
-            "Cover tightly with plastic wrap and let the dough sit at room temperature for 2 hours. After the first hour, adjust an oven rack to the middle and preheat oven to 500F",
+            "Cover tightly with plastic wrap, let sit at room temperature for 2 hours. After the first hour, adjust an oven rack to the middle and preheat oven to 500F",
             "At the end of 2 hours, dough should mostly fill skillet. Use fingertips to press it around to edges, popping any large bubbles that appear. Lift up one edge of dough to let any air bubbles escape. Repeat, moving around the dough until there are no air bubbles and the dough is evenly spread around the skillet.",
             "Peel roasted garlic cloves. Break large cloves into pieces. Scatter over surface of dough and push down with finger to embed each in a deep weel of dough.",
             "Transfer to oven and bake until golden brown and bubbly, 16-24 minutes. While baking, make garlic butter",
             "!Garlic Butter",
+            "Mince reserved garlic.",
+            "In a small skillet, combine 1 Tbsp oil with butter and melt over medium-low. Add garlic, oregano, and pepper flakes and cook until fragrant, about 1 minute. Season with salt.",
+            "$When finished baking, spread garlic butter over focaccia with spoon",
             "Transfer to a cutting board, allow to cool slightly, slice and serve."
         ],        
         "tags":[
