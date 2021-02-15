@@ -1079,14 +1079,14 @@ recipes = [
         ],
     },
 
-    {   "id": "K1", "title": "Spicy Mushroom Lasagna", "category":"pasta",
+    {   "id": "K1", "title": "Mushroom Lasagna", "category":"pasta",
         "yield":"Serves 6",
         "time":{
             "active": "1h 5m",
             "total":"2h 20m"
         },
         "source":{
-            "title":"Mushroom Lasagna",
+            "title":"Spicy Mushroom Lasagna",
             "author":"Yotam Ottolenghi",
             "source":"Flavor",
             "modify":"n"
@@ -1097,7 +1097,7 @@ recipes = [
         "ingredients":[
             {                 
                 "quantity": "1 lb 10 oz",
-                "item": "brown button mushrooms, halved"
+                "item": "baby bella mushrooms"
             },
             {	
                 "quantity": "1 lb 2 oz",
@@ -1182,12 +1182,12 @@ recipes = [
         ],
         "directions":[
             "Preheat oven to 450f. Line a large, rimmed baking sheet with parchment paper.",
-            "Put fresh mushrooms into food processor, in three or four batches, and pulse until finely chopped (or chop by hand). Toss in a large bowl with 3 Tbsp of oil, and 1 tsp salt and spread on prepared baking sheet. Roast in upper third of oven for 30 minutes, until mushrooms are golden brown (they will decrease in size dramatically). Set aside. Decrease oven temp to 425f.",
-            "Meanwhile, combine dired mushrooms, dried chiies, and hot stock in a large bowl and let soak for 30 minutes.After soaking, strain into measuring cup and squeeze rehydrated mushrooms to get as much liquid as possible, approximately 1 1/2 cups. Top off with water if short.Roughly chop mushrooms, and finely chop chilies. Set mushrooms and stock aside sperately.",
-            "Put onion, garlic, and carrot into food processor and pulse until finely chopped (or chop by hand).Heat 1/4 cup olive oul in large saute pan or pot over medium-high. Once hot, add onion mixture and fry for 8 minutes stirring occassionally until softened and golden.",
-            "Pulse tomatoes until finley chopped (or chop by hand), then add to pan along with tomato paste, 1 1/2 tsp salt, and 1 3/4 tsp pepper. Cook for 7 minutes, stirring occasionally.",
-            "Add rehydrated mushroom and chilies, and roasted mushrooms. Mix with onion mix and spread evenly across pan. Leave alone to cook for 9 minutes. Resist the urge to stir.",
-            "Stir in water, and reserved stock. Once simmering dcerease heat to medium and cook for 25 minutes until the consistenc of ragu.",
+            "Tear fresh mushrooms into chunks and put into food processor, in three or four batches, and pulse until finely chopped. Toss in a large bowl with 3 Tbsp of oil, and 1 tsp salt and spread on prepared baking sheet. Roast in upper third of oven for 30 minutes, until mushrooms are golden brown; set aside. Decrease oven temp to 425f.",
+            "Meanwhile, combine dired mushrooms, dried chiies, and hot stock in a large bowl and let soak for 30 minutes.After soaking, strain into measuring cup and squeeze rehydrated mushrooms to get as much liquid as possible, approximately 1 1/2 cups. Top off with water if short. Roughly chop mushrooms, finely chop chilies; set mushrooms and stock aside sperately.",
+            "Put onion, garlic, and carrot into food processor and pulse until finely chopped. Heat 1/4 cup olive oil in large saute pan or pot over medium-high. Once hot, add onion mixture and fry for 8 minutes stirring occassionally until softened and golden.",
+            "Pulse tomatoes until finely chopped, then add to pan along with tomato paste, 1 1/2 tsp salt, and 1 3/4 tsp pepper. Cook for 7 minutes, stirring occasionally.",
+            "Add rehydrated mushrooms and chilies, and roasted mushrooms. Mix with onion mix and spread evenly across pan. Leave alone to cook for 9 minutes. Resist the urge to stir.",
+            "Stir in water, and reserved stock. Once simmering decrease heat to medium and cook for 25 minutes until the consistency of ragu.",
             "Add 7 Tbsp of cream, mix, and simmer for another 2 minutes, then remove from heat.",
             "Combine both cheeses, basil, and parsley in a small bowl.",
             "Assemble lasagna - in a 9\" x 13\" pan, spread 1/5 sauce, top with 1/5 cheese, and a layer of lasagna nooodles. Repeat layers 3 more times. Finish with a final layer of sauce, and the cheese. (5 layers sauce, 5 layer cheese, 4 layers noodles).",
@@ -1195,8 +1195,7 @@ recipes = [
             "Remove foil, increase temperature to 450f and bake for another 12 minutes, rotating halfway through.",
             "Turn on broiler, and broil for 2 additional minutes.",
             "Remove from oven and set aside to cool for 5 minutes, then drizzle with remaining 1 Tbsp cream and 1 Tbsp oil before serving."
-        ],
-        
+        ],        
         "tags":[
             "vegetarian",
             "pasta"
