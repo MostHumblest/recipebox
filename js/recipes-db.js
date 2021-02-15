@@ -1156,10 +1156,6 @@ recipes = [
                 "item": "heavy cream"
             },
             {	
-                "quantity": "9 Tbsp",
-                "item": "heavy cream"
-            },
-            {	
                 "quantity": "2 1/4 oz",
                 "item": "pecarino, finely grated"
             },
@@ -1474,6 +1470,94 @@ recipes = [
         "tags":[
             "test",
             "test2"
+        ],
+    },
+
+    {   "id": "N0", "title": "Mushroom Ragu", "category":"sauces",
+        "yield":"Serves 6",
+        "time":{
+            "active": "55min",
+            "total":"1h 35m"
+        },
+        "source":{
+            "title":"Spicy Mushroom Lasagne",
+            "author":"Yotam Ottolenghi",
+            "source":"Flavor",
+            "modify":"n"
+        },
+        "notes":[
+            "\"Hot\" vegetable stock is literally heated hot, not spicy hot. Fresh made \"better than boullion\" works great here.",
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 lb 10 oz",
+                "item": "baby bella mushrooms"
+            },
+            {	
+                "quantity": "1 lb 2 oz",
+                "item": "oyster mushroom"
+            },
+            {	
+                "quantity": "9 Tbsp",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "AR",
+                "item": "salt"
+            },
+            {	
+                "quantity": "2 1/4 oz",
+                "item": "dried porcini mushrooms"
+            },
+            {	
+                "quantity": "1 oz",
+                "item": "dried wild mushrooms"
+            },
+            {	
+                "quantity": "1",
+                "item": "dried red chilies"
+            },
+            {	
+                "quantity": "2 c",
+                "item": "hot vegetable stock"
+            },
+            {	
+                "quantity": "5",
+                "item": "garlic cloves, halved"
+            },
+            {	
+                "quantity": "1",
+                "item": "onion, peeled and quartered"
+            },
+            {	
+                "quantity": "2-3",
+                "item": "plum tomatoes, quartered"
+            },
+            {	
+                "quantity": "1/3 c",
+                "item": "tomato paste"
+            },
+            {	
+                "quantity": "AR",
+                "item": "black pepper"
+            },
+            {	
+                "quantity": "3 1/2 c",
+                "item": "water"
+            },
+        ],
+        "directions":[
+            "Preheat oven to 450f. Line a large, rimmed baking sheet with parchment paper.",
+            "Tear fresh mushrooms into chunks, in 3 or 4 batches, pulse in food processor until finely chopped. Toss with 3 Tbsp of oil, and 1 tsp salt; spread on prepared baking sheet. Roast in upper third of oven for 30 minutes, until mushrooms are golden brown; set aside.",
+            "Meanwhile, combine dried mushrooms, dried chiies, and hot stock in a large bowl and let soak for 30 minutes. After soaking, strain into measuring cup and squeeze rehydrated mushrooms to get as much liquid as possible, approximately 1 1/2 cups (top off with water if short). Roughly chop mushrooms, finely chop chilies; set mushrooms and stock aside sperately.",
+            "Pulse onion, garlic, and carrot until finely chopped. Heat 1/4 cup olive oil in large saute pan or pot over medium-high. Once hot, add onion mixture and fry for 8 minutes, stirring occassionally, until softened and golden.",
+            "Pulse tomatoes until finely chopped, then add to pan along with tomato paste, 1 1/2 tsp salt, and 1 3/4 tsp pepper. Cook for 7 minutes, stirring occasionally.",
+            "Add rehydrated mushrooms and chilies, and roasted mushrooms; stir to mix and spread evenly across pan. Leave alone to cook for 9 minutes. Resist the urge to stir.",
+            "Stir in water, and reserved stock. Once simmering decrease heat to medium and cook, stirring occasionally for 25 minutes until the consistency of ragu."
+        ],        
+        "tags":[
+            "vegetarian",
+            "vegan"
         ],
     },
 
