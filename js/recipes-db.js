@@ -1474,7 +1474,7 @@ recipes = [
     },
 
     {   "id": "N1", "title": "Mushroom Ragu", "category":"sauces",
-        "yield":"Serves 6",
+        "yield":"Makes 3-4 cups of sauce",
         "time":{
             "active": "55min",
             "total":"1h 35m"
