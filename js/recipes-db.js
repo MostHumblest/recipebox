@@ -1182,7 +1182,7 @@ recipes = [
         ],
         "directions":[
             "Preheat oven to 450f. Line a large, rimmed baking sheet with parchment paper.",
-            "Tear fresh mushrooms into chunks and put into food processor, in three or four batches, and pulse until finely chopped. Toss in a large bowl with 3 Tbsp of oil, and 1 tsp salt and spread on prepared baking sheet. Roast in upper third of oven for 30 minutes, until mushrooms are golden brown; set aside. Decrease oven temp to 425f.",
+            "Tear fresh mushrooms into chunks and put into food processor, in 3 or 4 batches, and pulse until finely chopped. Toss in large bowl with 3 Tbsp of oil, and 1 tsp salt; spread on prepared baking sheet. Roast in upper third of oven for 30 minutes, until mushrooms are golden brown; set aside. Decrease oven temp to 425f.",
             "Meanwhile, combine dired mushrooms, dried chiies, and hot stock in a large bowl and let soak for 30 minutes.After soaking, strain into measuring cup and squeeze rehydrated mushrooms to get as much liquid as possible, approximately 1 1/2 cups. Top off with water if short. Roughly chop mushrooms, finely chop chilies; set mushrooms and stock aside sperately.",
             "Put onion, garlic, and carrot into food processor and pulse until finely chopped. Heat 1/4 cup olive oil in large saute pan or pot over medium-high. Once hot, add onion mixture and fry for 8 minutes stirring occassionally until softened and golden.",
             "Pulse tomatoes until finely chopped, then add to pan along with tomato paste, 1 1/2 tsp salt, and 1 3/4 tsp pepper. Cook for 7 minutes, stirring occasionally.",
