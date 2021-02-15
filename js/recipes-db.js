@@ -1188,7 +1188,7 @@ recipes = [
             "Pulse tomatoes until finely chopped, then add to pan along with tomato paste, 1 1/2 tsp salt, and 1 3/4 tsp pepper. Cook for 7 minutes, stirring occasionally.",
             "Add rehydrated mushrooms and chilies, and roasted mushrooms. Mix with onion mix and spread evenly across pan. Leave alone to cook for 9 minutes. Resist the urge to stir.",
             "Stir in water, and reserved stock. Once simmering decrease heat to medium and cook for 25 minutes until the consistency of ragu.",
-            "Add 7 Tbsp of cream, mix, and simmer for another 2 minutes, then remove from heat.",
+            "Add 7 Tbsp of cream; simmer for another 2 minutes; remove from heat.",
             "Combine both cheeses, basil, and parsley in a small bowl.",
             "Assemble lasagna - in a 9\" x 13\" pan, spread 1/5 sauce, top with 1/5 cheese, and a layer of lasagna nooodles. Repeat layers 3 more times. Finish with a final layer of sauce, and the cheese. (5 layers sauce, 5 layer cheese, 4 layers noodles).",
             "Drizzle 1 Tbsp cream and 1 Tbsp oil over top, cover with aluminum foil, and bake for 15 minutes.",
