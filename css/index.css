@@ -6,6 +6,10 @@ body{
     margin:auto;	
 }
 
+button:focus{
+	outline:none;
+}
+
 .frac{
 	font-variant-numeric: diagonal-fractions;
 }
