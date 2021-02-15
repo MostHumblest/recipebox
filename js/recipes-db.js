@@ -1811,7 +1811,7 @@ recipes = [
             "7. Vigourously stir one-quarter of whipped whites into the chcolate mixture. Gently fold remaining whites into mixture until just incorporated.",
             "8. Fill each ramiken almost to the rim, wiping excess from rim with a wet paper towel.",
             "9. Cover and freeze until firm, at least 3 hours.",
-            "10. Adjust oven rack to lower-middle and heat oven to 400F. Bake until fully risen, 16-18 minutes. Serve immediately."
+            "10. Adjust oven rack to lower-middle and heat oven to 400F. Bake until fully risen, 18-20 minutes. Serve immediately."
         ],        
         "tags":[
             "dessert",
