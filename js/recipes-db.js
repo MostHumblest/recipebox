@@ -1995,11 +1995,11 @@ recipes = [
             "Transfer dough to a lightly floured work surface and divide into 4-8 equal pieces. Shape each into a smooth, tight ball.",
             "Place dough balls on lightly oiled baking sheet, at least 2 inches apart; cover loosely with plastic coated with vegetable oil spray. Let stand 15-20 minutes.",
             "!Cook",
-            "Transfer 1 dough ball to lightly floured work surface. Using hands and rolling pin, press and roll into a round of even thickness. Sprinkle with flour as needed to prevent sticking. Use fork to poke entire surface with fork, 20-25 times.",
+            "Transfer 1 dough ball to lightly floured work surface. Using hands and rolling pin, press and roll into a round of even thickness. Sprinkle with flour as needed to prevent sticking. Poke entire surface with fork, 20-25 times.",
             "Heat remaining oil in 12\" cast iron skillet over medium heat until shimmering. Wipe out skillet completely with paper towels. Reserve paper towels.",
             "Mist top of dough lightly with water, place in pan moistened side down. Mist top surface of dough and cover.",
             "Cook 2-4 minutes until browned in spots. Flip naan, cover, and cook on second side, 2-3 minutes, until lightly browned.",
-            "Transfer to plate, and repeat with other dough balls. Wiping skillet lightly with oil soaked paper towels between pieces."
+            "Transfer to plate, and repeat with other dough balls. Wiping skillet lightly with reserved paper towels between pieces."
         ],        
         "tags":[
             "vegetarian",
