@@ -279,7 +279,7 @@ recipes = [
     },
 
     {   "id": "C1", "title": "Buffalo Cauliflower Dip", "category":"snacks and dips",
-    "yield":1,
+    "yield":"Dip for 4-6 people",
     "time":{
         "active": 0,
         "total":0
@@ -287,12 +287,11 @@ recipes = [
     "source":{
         "title":"Buffalo Cauliflower Dip",
         "author":"Ali Slagle",
-        "source":"NYT Cooking",
+        "source":"NY Times Cooking",
         "modify":"y"
     },
     "notes":[
-        "note 1",
-        "note 2"
+        "Great fresh out of the oven"
     ],
     "ingredients":[
         {                 
