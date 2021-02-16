@@ -291,7 +291,7 @@ recipes = [
         "modify":"y"
     },
     "notes":[
-        "Great fresh out of the oven"
+        "Great fresh out of the oven, disappears quickly."
     ],
     "ingredients":[
         {                 
