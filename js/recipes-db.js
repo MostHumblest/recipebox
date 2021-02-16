@@ -278,6 +278,72 @@ recipes = [
         ],
     },
 
+    {   "id": "C1", "title": "Buffalo Cauliflower Dip", "category":"dips",
+        "yield":1,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Buffalo Cauliflower Dip",
+            "author":"Ali Slagle",
+            "source":"NYT Cooking",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1",
+                "item": "head of cauliflower, cored and cut into small florets"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "AR",
+                "item": "salt and pepper"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "butter"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "buffalo sauce, such as Frank's"
+            },
+            {	
+                "quantity": "4 oz",
+                "item": "cream cheese, cut into pieces and softened"
+            },
+            {	
+                "quantity": "1/4 c",
+                "item": "sour cream"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "freshly shredded cheddar"
+            },
+            {	
+                "quantity": "1 1/2 tsp",
+                "item": "finely chopped chives or scallions"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "D0", "title": "Salads Placeholder", "category":"salads",
         "yield":1,
         "time":{
@@ -1360,8 +1426,8 @@ recipes = [
     {   "id": "M2", "title": "Curry Lentil Soup", "category":"legumes",
         "yield":"3-4 servings",
         "time":{
-            "active": 0,
-            "total":0
+            "active":"25 min",
+            "total":"55 min"
         },
         "source":{
             "title":"Curried Lentil, Tomato, and Coconut Soup",
@@ -1371,7 +1437,8 @@ recipes = [
         },
         "notes":[
             "Use red pepper flakes to control heat level, as written results in a medium-low spice",
-            "Can sub parsley for cilantro"
+            "Can sub parsley for cilantro",
+            "For a thicker soup, use a 27 oz can of tomatoes, and only add 1 cup of water"
         ],
         "ingredients":[
             {                 
