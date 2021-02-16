@@ -1286,7 +1286,7 @@ recipes = [
         },
         "notes":[
             "Any pasta nests will work if you can't find tagliatelle.",
-            "Canned chickpeas can be used if you don't have dried. Drain and rinse before use."
+            "Two cans of canned chickpeas can be used if you don't have dried. Drain and rinse before use."
         ],
         "ingredients":[
             {                 
@@ -1344,14 +1344,14 @@ recipes = [
             
         ],
         "directions":[
-            "step 1",
-            "step 2",
-            "step 3"
+            "!Smoky tomato oil",
+            "Place medium sautee pan over high. Once hot, add the tomatoes and cook for 4 minutes. Shaking as required, unti tomatoes are charred on te outside but still retaining their shape. Remove the pan from heat and set aside to cool for 5 minutes.",
+            "Stir in 1/2 cup oil, tomato paste, chile flakes, paprika and 1/2 tsp salt. Return to stove over medium-low, cook for 15 more minutes stirring occassionally. Remove from heat and set aside to infuse."
         ],
         
         "tags":[
-            "test",
-            "test2"
+            "garbanzo beans",
+            ""
         ],
     },
 
