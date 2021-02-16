@@ -202,7 +202,7 @@ recipes = [
         ],
     },
     
-    {   "id": "B0", "title": "Snacks Placeholder", "category":"snacks",
+    {   "id": "B0", "title": "Snacks and Dips Placeholder", "category":"snacks and dips",
         "yield":1,
         "time":{
             "active": 0,
@@ -315,7 +315,7 @@ recipes = [
     ],
     },
 
-    {   "id": "C0", "title": "Dips Placeholder", "category":"dips",
+    {   "id": "C0", "title": "Breakfast Placeholder", "category":"breakfast",
         "yield":1,
         "time":{
             "active": 0,
