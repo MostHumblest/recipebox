@@ -201,8 +201,46 @@ recipes = [
             "test2"
         ],
     },
+
+    {   "id": "B0", "title": "Breakfast Placeholder", "category":"breakfast",
+        "yield":1,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
     
-    {   "id": "B0", "title": "Snacks and Dips Placeholder", "category":"snacks and dips",
+    {   "id": "C0", "title": "Snacks and Dips Placeholder", "category":"snacks and dips",
         "yield":1,
         "time":{
             "active": 0,
@@ -240,7 +278,7 @@ recipes = [
         ],
     },
 
-    {   "id": "B1", "title": "Buffalo Cauliflower Dip", "category":"snacks and dips",
+    {   "id": "C1", "title": "Buffalo Cauliflower Dip", "category":"snacks and dips",
     "yield":1,
     "time":{
         "active": 0,
@@ -313,44 +351,6 @@ recipes = [
         "dip",
         "test2"
     ],
-    },
-
-    {   "id": "C0", "title": "Breakfast Placeholder", "category":"breakfast",
-        "yield":1,
-        "time":{
-            "active": 0,
-            "total":0
-        },
-        "source":{
-            "title":"recipebox",
-            "author":"steve",
-            "source":"na",
-            "modify":"y"
-        },
-        "notes":[
-            "note 1",
-            "note 2"
-        ],
-        "ingredients":[
-            {                 
-                "quantity": "1 cup",
-                "item": "item 1"
-            },
-            {	
-                "quantity": "1 cup",
-                "item": "item 2"
-            }
-        ],
-        "directions":[
-            "step 1",
-            "step 2",
-            "step 3"
-        ],
-        
-        "tags":[
-            "test",
-            "test2"
-        ],
     },
 
     {   "id": "D0", "title": "Salads Placeholder", "category":"salads",
