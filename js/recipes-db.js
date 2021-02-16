@@ -240,6 +240,81 @@ recipes = [
         ],
     },
 
+    {   "id": "B1", "title": "Buffalo Cauliflower Dip", "category":"snacks",
+    "yield":1,
+    "time":{
+        "active": 0,
+        "total":0
+    },
+    "source":{
+        "title":"Buffalo Cauliflower Dip",
+        "author":"Ali Slagle",
+        "source":"NYT Cooking",
+        "modify":"y"
+    },
+    "notes":[
+        "note 1",
+        "note 2"
+    ],
+    "ingredients":[
+        {                 
+            "quantity": "1",
+            "item": "head of cauliflower, cored and cut into small florets"
+        },
+        {	
+            "quantity": "1 Tbsp",
+            "item": "olive oil"
+        },
+        {	
+            "quantity": "AR",
+            "item": "salt and pepper"
+        },
+        {	
+            "quantity": "2 Tbsp",
+            "item": "butter"
+        },
+        {	
+            "quantity": "1/2 c",
+            "item": "buffalo sauce, such as Frank's"
+        },
+        {	
+            "quantity": "4 oz",
+            "item": "cream cheese, cut into pieces and softened"
+        },
+        {	
+            "quantity": "1/4 c",
+            "item": "sour cream"
+        },
+        {	
+            "quantity": "1/2 c",
+            "item": "freshly shredded cheddar"
+        },
+        {	
+            "quantity": "1 1/2 tsp",
+            "item": "finely chopped chives or scallions"
+        },
+        {	
+            "quantity": "AR",
+            "item": "carrots, celery, chips, etc. for dipping"
+        }
+    ],
+    "directions":[
+        "Heat oven to 375F",
+        "In a 9 inch cast-iron skillet, toss the cauliflower with the olive oil and season with salt and pepper.",
+        "Cover with lid or aluminum foil and cook on stovetop over high to steam. 5 minutes.",
+        "Uncover the skillet and cook, stirring constantly, until the cauliflower is fork tender and carmelized in spots, about 10 minutes.",
+        "Stir in butter. Once melted, stir in hot sauce and simmer until the sauce has reduced by half, about 3 minutes.",
+        "Turn off the heat, then stir in the cream cheese and sour cream until combined. Sprinkle cheddar over top.",
+        "Bake until bubbling around the edges and the cheese has melted, about 10 minutes.",
+        "If you'd like the top to get browned, run it under the broiler for 1 or 2 minutes.",
+        "Scatter chives/scallions over and serve with carrots, celery, or tortialla chips"
+    ],        
+    "tags":[
+        "dip",
+        "test2"
+    ],
+    },
+
     {   "id": "C0", "title": "Dips Placeholder", "category":"dips",
         "yield":1,
         "time":{
@@ -264,72 +339,6 @@ recipes = [
             {	
                 "quantity": "1 cup",
                 "item": "item 2"
-            }
-        ],
-        "directions":[
-            "step 1",
-            "step 2",
-            "step 3"
-        ],
-        
-        "tags":[
-            "test",
-            "test2"
-        ],
-    },
-
-    {   "id": "C1", "title": "Buffalo Cauliflower Dip", "category":"dips",
-        "yield":1,
-        "time":{
-            "active": 0,
-            "total":0
-        },
-        "source":{
-            "title":"Buffalo Cauliflower Dip",
-            "author":"Ali Slagle",
-            "source":"NYT Cooking",
-            "modify":"y"
-        },
-        "notes":[
-            "note 1",
-            "note 2"
-        ],
-        "ingredients":[
-            {                 
-                "quantity": "1",
-                "item": "head of cauliflower, cored and cut into small florets"
-            },
-            {	
-                "quantity": "1 Tbsp",
-                "item": "olive oil"
-            },
-            {	
-                "quantity": "AR",
-                "item": "salt and pepper"
-            },
-            {	
-                "quantity": "2 Tbsp",
-                "item": "butter"
-            },
-            {	
-                "quantity": "1/2 c",
-                "item": "buffalo sauce, such as Frank's"
-            },
-            {	
-                "quantity": "4 oz",
-                "item": "cream cheese, cut into pieces and softened"
-            },
-            {	
-                "quantity": "1/4 c",
-                "item": "sour cream"
-            },
-            {	
-                "quantity": "1/2 c",
-                "item": "freshly shredded cheddar"
-            },
-            {	
-                "quantity": "1 1/2 tsp",
-                "item": "finely chopped chives or scallions"
             }
         ],
         "directions":[
