@@ -1272,6 +1272,89 @@ recipes = [
         ],
     },
 
+    {   "id": "K2", "title": "Fried Tagliatelle", "category":"pasta",
+        "yield":"4 servings",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Fried Tagliatelle with Chickpeas and Smoky Tomatoes",
+            "author":"Yotam Ottolenghi",
+            "source":"NY Time Cooking",
+            "modify":"y"
+        },
+        "notes":[
+            "Any pasta nests will work if you can't find tagliatelle.",
+            "Canned chickpeas can be used if you don't have dried. Drain and rinse before use."
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "8 oz",
+                "item": "cherry tomatoes"
+            },
+            {	
+                "quantity": "1/2 c plus 2 Tbsp",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "tomato paste"
+            },
+            {	
+                "quantity": "2 1/2 tsp",
+                "item": "chipotle chile flakes"
+            },
+            {	
+                "quantity": "1 1/2 tsp",
+                "item": "paprika"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "8",
+                "item": "dried tagliatelle nests"
+            },
+            {	
+                "quantity": "1 c",
+                "item": "dried chickpeas, soaked 8 to 24 hours"
+            },
+            {	
+                "quantity": "1 c",
+                "item": "dried chickpeas, soaked 8 to 24 hours in plenty of cold water with 1/2 tsp baking soda"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "baking soda"
+            },
+            {	
+                "quantity": "2",
+                "item": "garlic cloves, minced"
+            },
+            {	
+                "quantity": "2",
+                "item": "lemons, halved"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "roughly chopped fresh parsley"
+            },
+            
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "L0", "title": "Grains Placeholder", "category":"grains and rice",
         "yield":1,
         "time":{
