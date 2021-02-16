@@ -1285,7 +1285,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "Any pasta nests will work if you can't find tagliatelle.",
+            "Linguine nests will work if you can't find tagliatelle.",
             "Two cans of canned chickpeas can be used if you don't have dried. Drain and rinse before use."
         ],
         "ingredients":[
@@ -1344,14 +1344,21 @@ recipes = [
             
         ],
         "directions":[
-            "!Smoky tomato oil",
+            "!Smoky Tomato Oil",
             "Place medium sautee pan over high. Once hot, add the tomatoes and cook for 4 minutes. Shaking as required, unti tomatoes are charred on te outside but still retaining their shape. Remove the pan from heat and set aside to cool for 5 minutes.",
-            "Stir in 1/2 cup oil, tomato paste, chile flakes, paprika and 1/2 tsp salt. Return to stove over medium-low, cook for 15 more minutes stirring occassionally. Remove from heat and set aside to infuse."
+            "Stir in 1/2 cup oil, tomato paste, chile flakes, paprika and 1/2 tsp salt. Return to stove over medium-low, cook for 15 more minutes stirring occassionally. Remove from heat and set aside to infuse.",
+            "!Pasta",
+            "Add 2 Tbsp oil to a large, high-sided saute pan and heat over medium-high. Once hot, add the tagliatelle nesets and cook for 2 minutes on each side, until nicely golden. Set nests aside and rince out pan.",
+            "Drain chickpeas and add to the same pan with 4 1/2 cups water and 1/2 tsp bakin soda. Return pan to medium-high heat and bring to a boil, skimming scum off top as necessary. Turn the heat to medium-low, cover with lid and cook for 10-15minutes.",
+            "Add 1 1/2 tsp of salt and check chickpeas. They should be soft but hold their shape.",
+            "Turn heat to medium-high and bring to a simmer.",
+            "Stir in the garlic, then nestle in the fried nests. Place lid back onto pan, and cook undisturbed until pasta is tender and most of the liquid has been absorbed, 5-10 minutes, or according the directions on the package.",
+            "Remove the lid, and without stirring, squeeze lemon juice over top. Spoon smoky tomato oil on top, sprinkle with parsley, and serve."
         ],
         
         "tags":[
             "garbanzo beans",
-            ""
+            "vegetarian"
         ],
     },
 
