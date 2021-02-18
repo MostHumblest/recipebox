@@ -581,7 +581,7 @@ recipes = [
             }
         ],
         "directions":[
-            "Place rack in middle of oven; preheat to 30F",
+            "Place rack in middle of oven; preheat to 300F",
             "Pat chicken dry and season with salt and pepper, be sure to season the cavity",
             "Whisk gochujang and 1/4 c olive oil in a medium bowl until combined. Grate 3 cloves of garlic (from one head) into oil. Peel ginger, grate into oil. Whisk to combine.",
             "Cut remaining garlic in half crosswise. Repeat with second head of garlic. Stuff 2 halves into the chicken and tie legs with kitchen twine.",
