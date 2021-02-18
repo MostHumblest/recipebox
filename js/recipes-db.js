@@ -588,7 +588,7 @@ recipes = [
             "Using a pastry brush, spread half of gochujang oil on the chicken.",
             "Toss potatoes and remaining 2 garlic halves and remaing 2 tbsp oil until coated. Season lightly with salt and pepper to combine.",
             "Arrange potatoes in a 12\" cast-iron skillet, scooting them towards the edges of the pan. Place garlic halves cut side down in the middle of the skillet. Place chicken over garlic.",
-            "Roast chicken and potatoes, turing potatoes once or twice to coat in juices and oil that accumulate in pan until potatoes are tender when pressed with the back of a spoon, and chicken skin is a deep reddish-golden brown, 2.5-3 hrs. When you wiggle the legs of the chicken, the should feel loose in the joints.",
+            "Roast chicken and potatoes, turning potatoes once or twice to coat in juices and oil that accumulate in pan until potatoes are tender when pressed with the back of a spoon, and chicken skin is a deep reddish-golden brown, 2.5-3 hrs. When you wiggle the legs of the chicken, the should feel loose in the joints.",
             "Transfer chicken to a cutting board and let rest 10-15 minutes",
             "Using the back of a spoon or potato masher, gentely smash potatoes in skillet exposing their flesh to the juices to soak up.",
             "Squeeze limes over potatoes, add honey and stir. Season with more salt if needed. Scatter scallions on top.",
