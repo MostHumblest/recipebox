@@ -1319,10 +1319,6 @@ recipes = [
             },
             {	
                 "quantity": "1 c",
-                "item": "dried chickpeas, soaked 8 to 24 hours"
-            },
-            {	
-                "quantity": "1 c",
                 "item": "dried chickpeas, soaked 8 to 24 hours in plenty of cold water with 1/2 tsp baking soda"
             },
             {	
