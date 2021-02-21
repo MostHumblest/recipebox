@@ -2288,5 +2288,66 @@ recipes = [
         ],
     },
 
+    {   "id": "P0", "title": "Chocolate Chunk Shortbread", "category":"dessert",
+        "yield":"18ish cookies",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Chocolate Shortbrerad Cookie Shards",
+            "author":"Lukasz Babral",
+            "source":"Insightflavour.com",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "8 oz",
+                "item": "butter, room temperature"
+            },
+            {	
+                "quantity": "80 g",
+                "item": "sugar"
+            },
+            {	
+                "quantity": "3/4 tsp",
+                "item": "vanilla extract"
+            },
+            {	
+                "quantity": "250 g",
+                "item": "AP Flour"
+            },
+            {	
+                "quantity": "AR",
+                "item": "salt"
+            },
+            {	
+                "quantity": "100 g",
+                "item": "chocolate chips"
+            }
+        ],
+        "directions":[
+            "Cream butter and sugar until white and fluffy, 5-7 minutes (3-4 in a stand mixer).",
+            "Add flour, vanilla extract and a pinch of salt. Mix until dough starts to form.",
+            "Mix in chocolate chips.",
+            "Transfer dough to a sheet of parchment paper, place another piece of parchment on top, and roll dough to a 1/2 inch thick flat.",
+            "Place dough with parchment on a small baking sheet, and place in freezer for 20 minutes.",
+            "Preheat oven to 350f.",
+            "Take dough from freezer and cut into shards. Triangles look great, but funky shaped pieces still taste good.",
+            "Return shards to freezer for 5 more minutes.",
+            "Bake until edges start to turn golden brown, about 20 minutes. (if using two trays swap halfway through)",
+            "Once baked, remove tray from oven and leave on pan for 5-10 mintues, then transfer to cooling rack. Allow to cool before serving."
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     ]
     
