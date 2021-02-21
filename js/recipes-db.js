@@ -2291,8 +2291,8 @@ recipes = [
     {   "id": "P2", "title": "Chocolate Chunk Shortbread", "category":"dessert",
         "yield":"18ish cookies",
         "time":{
-            "active": 0,
-            "total":0
+            "active": "25 min",
+            "total": "1h 10m"
         },
         "source":{
             "title":"Chocolate Shortbrerad Cookie Shards",
