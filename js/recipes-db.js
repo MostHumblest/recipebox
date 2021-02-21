@@ -2301,8 +2301,8 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "note 1",
-            "note 2"
+            "Chocolate chips can be milk, bittersweet, or dark chocolate. Chunks work well too.",
+            "Great with coffee!"
         ],
         "ingredients":[
             {                 
