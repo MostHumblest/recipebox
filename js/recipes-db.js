@@ -2306,7 +2306,7 @@ recipes = [
         ],
         "ingredients":[
             {                 
-                "quantity": "8 oz",
+                "quantity": "226g (8 oz)",
                 "item": "butter, room temperature"
             },
             {	
