@@ -1078,7 +1078,7 @@ recipes = [
     },
 
     {   "id": "I1", "title": "Cauliflower Tacos", "category":"vegetables",
-        "yield":1,
+        "yield":"~12 tacos",
         "time":{
             "active": 0,
             "total":0
