@@ -1172,7 +1172,7 @@ recipes = [
             "Combine cabage, carrot, 2 Tbsp lemon juice, white wine vinegar, 1 tsp olive oil, kosher salt, and cilatnro.",
             "Toss well to combine, and set aside.",
             "!Creama",
-            "In a small bowl, whisk together sour cream, with remaining 1 Tbsp lemon juice.",
+            "In a small bowl, whisk together sour cream, with remaining 1 Tbsp lemon juice and zest.",
             "Add salt and pepper to taste, set aside.",
             "!Cauliflower",
             "Preheat oven to 400f.",
