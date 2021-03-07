@@ -924,6 +924,10 @@ recipes = [
                 "item": "salt"
             },
             {	
+                "quantity": "2 Tbsp",
+                "item": "Olive oil"
+            },
+            {	
                 "quantity": "2",
                 "item": "yellow onions, thinly sliced"
             },
