@@ -1140,7 +1140,7 @@ recipes = [
             },
             {	
                 "quantity": "2 tsp",
-                "item": "chili powder"
+                "item": "chile powder"
             },
             {	
                 "quantity": "2 tsp",
@@ -1168,14 +1168,27 @@ recipes = [
             },
         ],
         "directions":[
-            "step 1",
-            "step 2",
-            "step 3"
+            "!Slaw",
+            "Combine cabage, carrot, 2 Tbsp lemon juice, white wine vinegar, 1 tsp olive oil, kosher salt, and cilatnro.",
+            "Toss well to combine, and set aside.",
+            "!Creama",
+            "In a small bowl, whisk together sour cream, with remaining 1 Tbsp lemon juice.",
+            "Add salt and pepper to taste, set aside.",
+            "!Cauliflower",
+            "Preheat oven to 400f.",
+            "Bring pot of salted water to boil over high heat. Add cauliflower florets and simmer until barely soft, about 90 seconds. Drain in colander and set aside.",
+            "In a large bowl combine chile powder, paprika, coriander, cumin, pinch of salt, and 2 Tbsp olive oil.",
+            "Add cauliflower and toss until evenly coated.",
+            "Arrange seaoned cauliflower in a single layer on baking sheet.",
+            "Bake 10 minutes, flip/mix florets, bake for additional 10 minutes (or until lightly browned)."
         ],
         
         "tags":[
-            "test",
-            "test2"
+            "easy",
+            "vegan",
+            "vegetarian",
+            "fast",
+            "mexican"
         ],
     },
 
