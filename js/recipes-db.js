@@ -894,6 +894,93 @@ recipes = [
         ],
     },
 
+    {   "id": "G2", "title": "Chilli Beef with Pancetta", "category":"beef",
+        "yield":1,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Beef Chjlli Fry with Pancetta",
+            "author":"Nik Sharma",
+            "source":"The Flavor Equation",
+            "modify":"y"
+        },
+        "notes":[
+            "Serve with plain rice",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "4 oz",
+                "item": "diced pancetta"
+            },
+            {	
+                "quantity": "2",
+                "item": "gold potatoes, peeled and diced into 1/2\" cubes"
+            },
+            {	
+                "quantity": "AR",
+                "item": "salt"
+            },
+            {	
+                "quantity": "2",
+                "item": "yellow onions, thinly sliced"
+            },
+            {	
+                "quantity": "6",
+                "item": "garlic cloves, minced"
+            },
+            {	
+                "quantity": "1 inch",
+                "item": "ginger, grated"
+            },
+            {	
+                "quantity": "6",
+                "item": "cloves, ground"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "ground black pepper"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "ground cinnamon"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "ground tumeric"
+            },
+            {	
+                "quantity": "1 lb",
+                "item": "flank steak"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "cider vinegar"
+            },
+            {	
+                "quantity": "1/4 c",
+                "item": "cilantro, chopped"
+            },
+            {	
+                "quantity": "2-3",
+                "item": "chilies, minced"
+            },
+
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "H0", "title": "Seafood Placeholder", "category":"seafood",
         "yield":1,
         "time":{
