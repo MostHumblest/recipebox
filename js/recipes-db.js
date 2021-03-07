@@ -1180,7 +1180,10 @@ recipes = [
             "In a large bowl combine chile powder, paprika, coriander, cumin, pinch of salt, and 2 Tbsp olive oil.",
             "Add cauliflower and toss until evenly coated.",
             "Arrange seaoned cauliflower in a single layer on baking sheet.",
-            "Bake 10 minutes, flip/mix florets, bake for additional 10 minutes (or until lightly browned)."
+            "Bake 10 minutes, flip/mix florets, bake for additional 10 minutes (or until lightly browned).",
+            "!Tacos",
+            "Warm 4-6 tortillas at a time. Wrap in a moist paper towel and microwave for 20-40 seconds until warm and pliable.",
+            "Load shells with cauliflower, top with slaw and creama."
         ],
         
         "tags":[
