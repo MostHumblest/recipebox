@@ -586,7 +586,7 @@ recipes = [
             "Whisk gochujang and 1/4 c olive oil in a medium bowl until combined. Grate 3 cloves of garlic (from one head) into oil. Peel ginger, grate into oil. Whisk to combine.",
             "Cut remaining garlic in half crosswise. Repeat with second head of garlic. Stuff 2 halves into the chicken and tie legs with kitchen twine.",
             "Using a pastry brush, spread half of gochujang oil on the chicken.",
-            "Toss potatoes and remaining 2 garlic halves and remaing 2 tbsp oil until coated. Season lightly with salt and pepper to combine.",
+            "Toss potatoes and remaining 2 garlic halves and remaing 2 Tbsp oil until coated. Season lightly with salt and pepper to combine.",
             "Arrange potatoes in a 12\" cast-iron skillet, scooting them towards the edges of the pan. Place garlic halves cut side down in the middle of the skillet. Place chicken over garlic.",
             "Roast chicken and potatoes, turning potatoes once or twice to coat in juices and oil that accumulate in pan until potatoes are tender when pressed with the back of a spoon, and chicken skin is a deep reddish-golden brown, 2.5-3 hrs. When you wiggle the legs of the chicken, the should feel loose in the joints.",
             "Transfer chicken to a cutting board and let rest 10-15 minutes",
@@ -1514,6 +1514,101 @@ recipes = [
         ],
     },
 
+    {   "id": "L1", "title": "Curry Risotto with Squash", "category":"grains and rice",
+        "yield":"4-6 servings",
+        "time":{
+            "active": "40 min",
+            "total":"55 min"
+        },
+        "source":{
+            "title":"Thai Curry Rishotto With Squash and Green Beans",
+            "author":"Hetty McKinnon",
+            "source":"NYT Cooking",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 1/2 lbs",
+                "item": "Butternut squash, peeled and cut into 1\" cubes"
+            },
+            {	
+                "quantity": "5 Tbsp",
+                "item": "Olive oil"
+            },
+            {	
+                "quantity": "AR",
+                "item": "Salt"
+            },
+            {	
+                "quantity": "AR",
+                "item": "Black Pepper"
+            },
+            {	
+                "quantity": "2",
+                "item": "Shallots, thinly sliced"
+            },
+            {	
+                "quantity": "3",
+                "item": "Garlic cloves, finely chopped"
+            },
+            {	
+                "quantity": "1 inch",
+                "item": "Ginger, finely chopped"
+            },
+            {	
+                "quantity": "2 c",
+                "item": "Arborio rice"
+            },
+            {	
+                "quantity": "4 1/2 c",
+                "item": "Vegetable stock"
+            },
+            {	
+                "quantity": "1/2 lb",
+                "item": "Green beans, trimmed"
+            },
+            {	
+                "quantity": "14 oz",
+                "item": "Coconut milk"
+            },
+            {	
+                "quantity": "1",
+                "item": "lime, halved"
+            },
+            {	
+                "quantity": "1/3 c",
+                "item": "basil or thai basil"
+            },
+        ],
+        "directions":[
+            "Preheat oven to 400f, and set racks to baking sheet and dutch oven can both fit at the same time",
+            "Add squash pieces to a rimmed sheet pan, add 2 Tbsp oil, season with salt and pper, toss to coat.",
+            "Roast until squash is tender, 20 minutes (may take longer due to oven adjustment later on)",
+            "As squash roasts, heat dutch oven over medium.",
+            "Add 2 Tbsp oil, and the shallots, cook until softened, 2-3 minutes",
+            "Add garlic and ginger, stir until fragrant, about 1 minute",
+            "Add rice and stir until well coated in oil and lightly toasted, about 2 minutes",
+            "Add curry paste and stir until fragrant, about 1 minute",
+            "Add vegetable stock, increase heat to high, and bring to a boil",
+            "Once boiling, reduce oven temperature to 350f. Stir rice, cover with lid, and bake until rice is slightly al dente, about 10 minutes",
+            "As risotto cooks, check squash. After 20 minutes, or when just tender, add beans to same pan, Drizzle with remaining 1 Tbsp oil. Season with salt and pepper.",
+            "Return pan to oven, and roast squash and beans until beans are crisp-tender but still bright green, 8-10 minutes",
+            "Once rice is al dente, move pot to stove over medium-high.",
+            "Add coconut milk and stir until rice is creamy, about 3 minutes",
+            "Turn off heat, add juice of 1/2 lime. Season with salt and pepper if necessary.",
+            "Serve, topping rice with roasted vegetables and basil."
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "M0", "title": "Legumes Placeholder", "category":"legumes",
         "yield":1,
         "time":{
@@ -1555,8 +1650,8 @@ recipes = [
     {   "id": "M1", "title": "Chickpea Bowls", "category":"legumes",
         "yield":"2-3 servings",
         "time":{
-            "active": 0,
-            "total":"30 min"
+            "active": "20 min",
+            "total":"40 min"
         },
         "source":{
             "title":"Warm Chickpea Bowls with Lemony Yogurt",
