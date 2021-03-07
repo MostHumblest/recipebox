@@ -1195,7 +1195,6 @@ recipes = [
         ],
     },
 
-
     {   "id": "J0", "title": "Eggs Placeholder", "category":"eggs",
         "yield":1,
         "time":{
@@ -1463,7 +1462,7 @@ recipes = [
             "Place medium saute pan over high. Once hot, add the tomatoes and cook for 4 minutes. Shaking as required, until tomatoes are charred on the outside but still retaining their shape. Remove the pan from heat and set aside to cool for 5 minutes.",
             "Stir in 1/2 cup oil, tomato paste, chile flakes, paprika and 1/2 tsp salt. Return to stove over medium-low, cook for 15 more minutes stirring occassionally. Remove from heat and set aside to infuse.",
             "!Pasta",
-            "Add 2 Tbsp oil to a large, high-sided saute pan and heat over medium-high. Once hot, add the tagliatelle nesets and cook for 2 minutes on each side, until nicely golden. Set nests aside and rinse out pan.",
+            "Add 2 Tbsp oil to a large, high-sided saute pan and heat over medium-high. Once hot, add the tagliatelle nests and cook for 2 minutes on each side, until nicely golden. Set nests aside and rinse out pan.",
             "Drain chickpeas and add to the same pan with 4 1/2 cups water and 1/2 tsp baking soda. Return pan to medium-high heat and bring to a boil, skimming scum off top as necessary. Turn the heat to medium-low, cover with lid and cook for 10-15minutes.",
             "Add 1 1/2 tsp of salt and check chickpeas. They should be soft but hold their shape.",
             "Turn heat to medium-high and bring to a simmer.",
