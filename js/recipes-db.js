@@ -1077,6 +1077,109 @@ recipes = [
         ],
     },
 
+    {   "id": "I1", "title": "Cauliflower Tacos", "category":"vegetables",
+        "yield":1,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Cauliflower Tacos",
+            "author":"ukn",
+            "source":"Chowhound",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1/2",
+                "item": "head red cabbage, sliced in thin strips"
+            },
+            {	
+                "quantity": "1",
+                "item": "carrot, grated"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "lemon zest"
+            },
+            {	
+                "quantity": "3 Tbsp",
+                "item": "lemon juice, divided"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "white wine vinegar"
+            },
+            {	
+                "quantity": "3 Tbsp",
+                "item": "olive oil, divided"
+            },
+            {	
+                "quantity": "AR",
+                "item": "salt"
+            },
+            {	
+                "quantity": "AR",
+                "item": "fresh ground pepper"
+            },
+            {	
+                "quantity": "2/3 c",
+                "item": "roughly chopped cilantro"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "sour cream"
+            },
+            {	
+                "quantity": "1",
+                "item": "head cauliflower cut into florets"
+            },
+            {	
+                "quantity": "2 tsp",
+                "item": "chili powder"
+            },
+            {	
+                "quantity": "2 tsp",
+                "item": "smoked paprika"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "groung coriander"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "ground cumin"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "garlic powder"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "garlic powder"
+            },
+            {	
+                "quantity": "12",
+                "item": "corn tortillas"
+            },
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+
     {   "id": "J0", "title": "Eggs Placeholder", "category":"eggs",
         "yield":1,
         "time":{
