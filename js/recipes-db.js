@@ -1136,7 +1136,7 @@ recipes = [
             },
             {	
                 "quantity": "1",
-                "item": "head cauliflower cut into florets"
+                "item": "head cauliflower, cut into florets"
             },
             {	
                 "quantity": "2 tsp",
