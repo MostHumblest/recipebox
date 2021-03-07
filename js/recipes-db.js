@@ -970,14 +970,26 @@ recipes = [
 
         ],
         "directions":[
-            "step 1",
-            "step 2",
-            "step 3"
+            "Heat large sauce pan over medium-low heat.",
+            "Add pacnetta and sautee until the fat renders and the meat starts to brown 5-8 minutes.",
+            "Add potatoes and season with salt. Cook until potatoes turn golden brown and are completely cooked but crispy on the outside, about 30 minutes.",
+            "Remove the potatoes and pancetta, transfer to a medium bowl.",
+            "In the same pan, heat the oild over medium-high heat.",
+            "Add oniions and saute until they turn translucent, 4-5 minutes.",
+            "Add garlic and ginger, saute until fragrant, about 1 minute",
+            "Add cloved, black pepper, cinnamon, and tumeric and cook until fragrant, 30-40 seconds.",
+            "Transfer onions with spices to a small bowl and leave the saucepan over heat.",
+            "Pat steak dry with paper towels.",
+            "Cut steak into 1/2\" by 1\" cubes. Season with salt.",
+            "Add cubes to hot saucepan, cook until beef is tender and medium-rare (130f), 4-5 minutes.",
+            "Turn heat to low, and scrape bottom of pan to mix drippings with beef.",
+            "Fold potatoes, onions, and pancetta in with beef. Sprinkle with vinegar.",
+            "Serve over rice, garnish with cilantro and chillis."
         ],
         
         "tags":[
-            "test",
-            "test2"
+            "easy",
+            ""
         ],
     },
 
