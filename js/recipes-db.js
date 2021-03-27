@@ -2143,7 +2143,7 @@ recipes = [
     },
 
     {   "id": "N2", "title": "BBQ Dry Rub", "category":"sauces and rubs",
-        "yield":"1 c dry rub",
+        "yield":"~1 c dry rub",
         "time":{
             "active": 0,
             "total":0
@@ -2155,8 +2155,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "great on all smoked meats",
-            "note 2"
+            "great on all smoked meats"
         ],
         "ingredients":[
             {                 
