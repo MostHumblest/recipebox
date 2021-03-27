@@ -725,8 +725,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "note 1",
-            "note 2"
+            "orzo can be used instead of couscous"
         ],
         "ingredients":[
             {                 
@@ -795,14 +794,21 @@ recipes = [
             }
         ],
         "directions":[
-            "step 1",
-            "step 2",
-            "step 3"
+            "In a large bowl, combine the chicken thighs, lime juice, olive oil, garlic and cumin. Season well with salt and pepper and stir together until the chicken is well coated in the marinage; set aside at room tempearture for 25-30 minutes.",
+            "In a deep, 12-inch skillet or dutch oven with a lid, heat the peanut oil over medium-high. When it shimmers, lift chicken out of marinade, allow excess liquid to drip into the bowl, then add chicken skin-side down. Cook until well browned on both sides, about 6 minutes per side. Remove and set aside on a plate.",
+            "Reduce heat to medium, add the leek, and cook stirring occasionally, until soft scraping up any brown bits at they form, 3-4 minutes.",
+            "Stir in harissa paste, tumeric and cinnamon, and cook until lightly toasted, 1-2 minutes. Season with salt.",
+            "Add couscous to pan and stir well until coated in spiced leek oil.",
+            "Add stock and bring to a boil.",
+            "Turn heat to low and add chicken to pan skin side up, along with any accumulated juices. Coer and simmer until couscous is al dente and chicken is cooked through. 10-15 minutes",
+            "Remove from heat, uncover and scatter herbs and lime zest over, then serve."
         ],
         
         "tags":[
-            "test",
-            "test2"
+            "easy",
+            "one pan",
+            "moroccan",
+            "skillet"
         ],
     },
 
