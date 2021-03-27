@@ -712,6 +712,44 @@ recipes = [
         ],
     },
 
+    {   "id": "E3", "title": "Skillet Chicken & Couscous", "category":"poultry",
+        "yield":1,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "F0", "title": "Pork Placeholder", "category":"pork",
         "yield":1,
         "time":{
