@@ -712,16 +712,16 @@ recipes = [
         ],
     },
 
-    {   "id": "E3", "title": "Skillet Chicken & Couscous", "category":"poultry",
-        "yield":1,
+    {   "id": "E3", "title": "Chicken and Couscous", "category":"poultry",
+        "yield":"4 servings",
         "time":{
             "active": 0,
             "total":0
         },
         "source":{
-            "title":"recipebox",
-            "author":"steve",
-            "source":"na",
+            "title":"Skillet Chicken and Pearl Couscous with Moroccan Spices",
+            "author":"Colu Henry",
+            "source":"NY Times Cooking",
             "modify":"y"
         },
         "notes":[
@@ -730,12 +730,68 @@ recipes = [
         ],
         "ingredients":[
             {                 
-                "quantity": "1 cup",
-                "item": "item 1"
+                "quantity": "2 1/2 lbs",
+                "item": "bone-in, skin-on chicken thighs"
             },
             {	
-                "quantity": "1 cup",
-                "item": "item 2"
+                "quantity": "1 tsp",
+                "item": "lime zest"
+            },
+            {	
+                "quantity": "1/4 c",
+                "item": "lime juice"
+            },
+            {	
+                "quantity": "3 Tbsp",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "3",
+                "item": "garlic cloves"
+            },
+            {	
+                "quantity": "1 1/2 tsp",
+                "item": "ground cumin"
+            },
+            {	
+                "quantity": "AR",
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "AR",
+                "item": "black pepper"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "peanut oil"
+            },
+            {	
+                "quantity": "1",
+                "item": "large leek, trimed, rinsed, thinly sliced into rings"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "harissa paste"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "ground tumeric"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "ground cinnamon"
+            },
+            {	
+                "quantity": "1 1/4 c",
+                "item": "pearl couscous"
+            },
+            {	
+                "quantity": "1 1/2 c",
+                "item": "vegetable stock"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "roughly chopped parsley"
             }
         ],
         "directions":[
