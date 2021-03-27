@@ -2142,6 +2142,76 @@ recipes = [
         ],
     },
 
+    {   "id": "N2", "title": "BBQ Dry Rub", "category":"sauces and rubs",
+        "yield":"1 c dry rub",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Barbecured Pulled Pork on a Charcoal Grill",
+            "author":"ukn",
+            "source":"America's Test Kitchen",
+            "modify":"y"
+        },
+        "notes":[
+            "great on all smoked meats",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 Tbsp",
+                "item": "black pepper"
+            },
+            {	
+                "quantity": "2 tsp",
+                "item": "cayenne pepper"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "chilie powder"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "ground cumin"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "brown sugar"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "dried oregano"
+            },
+            {	
+                "quantity": "4 Tbsp",
+                "item": "paprika"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "sugar"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "white pepper"
+            }
+        ],
+        "directions":[
+            "mix all ingredients and store in an air tight jar until ready to use"
+        ],
+        
+        "tags":[
+            "bbq",
+            "barbecue",
+            "ribs",
+            "brisket",
+        ],
+    },
+
     {   "id": "O0", "title": "Baking Placeholder", "category":"baking",
         "yield":1,
         "time":{
