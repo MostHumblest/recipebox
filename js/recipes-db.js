@@ -2016,7 +2016,7 @@ recipes = [
         ],
     },
 
-    {   "id": "N0", "title": "Sauces Placeholder", "category":"sauces",
+    {   "id": "N0", "title": "Sauces Placeholder", "category":"sauces and rubs",
         "yield":1,
         "time":{
             "active": 0,
@@ -2054,7 +2054,7 @@ recipes = [
         ],
     },
 
-    {   "id": "N1", "title": "Mushroom Ragu", "category":"sauces",
+    {   "id": "N1", "title": "Mushroom Ragu", "category":"sauces and rubs",
         "yield":"Makes 3-4 cups of sauce",
         "time":{
             "active": "55min",
