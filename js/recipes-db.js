@@ -850,6 +850,92 @@ recipes = [
         ],
     },
 
+    {   "id": "F1", "title": "Pineapple Pork Adobo", "category":"pork",
+        "yield":"4-6 servings",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Pineapple Pork Adobo",
+            "author":"Louiie Victa",
+            "source":"Bon Appetit",
+            "modify":"y"
+        },
+        "notes":[
+            "Use Filipino soy sauce, swan brand, if available",
+            "Serve over steamed white rice"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1",
+                "item": "large pineapple"
+            },
+            {	
+                "quantity": "3 Tbsp",
+                "item": "vegetable oil"
+            },
+            {	
+                "quantity": "2 lb",
+                "item": "boneless pork shoulder, cut into 1 1/2\" cubes"
+            },
+            {	
+                "quantity": "AR",
+                "item": "Kosher Salt"
+            },
+            {	
+                "quantity": "AR",
+                "item": "Black Pepper"
+            },
+            {	
+                "quantity": "1/2",
+                "item": "white onion, thinly sliced"
+            },
+            {	
+                "quantity": "6",
+                "item": "garlic cloves, thinly sliced"
+            },
+            {	
+                "quantity": "2/3 c",
+                "item": "unseasoned rice vinegar"
+            },
+            {	
+                "quantity": "1/3 c",
+                "item": "soy sauce"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "oyster sauce"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "black peppercorns"
+            },
+            {	
+                "quantity": "5",
+                "item": "dried bay leaves"
+            }
+        ],
+        "directions":[
+            "Peel and core pineapple. Cut half into bite-size pieces (about 1\"); set aside. Chope remaining half into small pieces and transfer to a small sauce pan.",
+            "Cook pineapple bits over low heat, stirring occassionally, until very soft and broken down and nearly all the juice is evaporated, 15-18 minutes",
+            "transfer cooked pinepple to a blender, add 1/4 c of water; puree until smooth.",
+            "Heat 2 Tbsp of oil in a large dutch oven or other heavy pot over medium-high. Lightly season pork with salt and pepper.",
+            "Working in 2-3 batches, cook pork until well browned on all sides, 5-8 minutes per batch, and transfer to a plate.",
+            "Reduce heat to medium-low, and add onion and garlic to the same pot. Cook, stirring often, until fragrant and softened, about 5 minutes.",
+            "Return pork to pot, stir in pineapple puree, soy sauce, vinegar, oyster sauce, peppercorns, bay leaves, and 3/4 c of water.",
+            "Bring to a simmer and cover pot. Reduce heat to a gentle simmer and cook until pork is tender, 45-50 minutes.",
+            "Meanwhile, heat remaining 1 Tbsp oil in a large skillet over medium-high. Cook reserved bite size pineapple, tossing occassionally, until golden brown all over 5-8 minutes. Transfer to a plate.",
+            "Uncover pot and skim off any fat on the surface. Increase heat to medium and cook, uncovered, until sauce is thick and shiny, about 15 minutes.",
+            "Gently stir in carmalized pineapple. Remove and discard bay leaves. Serve over rice."
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "G0", "title": "Beef Placeholder", "category":"beef",
         "yield":1,
         "time":{
