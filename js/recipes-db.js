@@ -931,8 +931,8 @@ recipes = [
         ],
         
         "tags":[
-            "test",
-            "test2"
+            "Filipino",
+            "rice"
         ],
     },
 
@@ -2294,6 +2294,80 @@ recipes = [
             "barbecue",
             "ribs",
             "brisket",
+        ],
+    },
+
+    {   "id": "N3", "title": "Pizza Sauce", "category":"sauces and rubs",
+        "yield":"Sauce for 24 pizzas",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Homemade Pizza Sauce (to freeze)",
+            "author":"ukn",
+            "source":"realfoodrn.com",
+            "modify":"y"
+        },
+        "notes":[
+            "Tomatoes don't have to be peeled for this, but it yeilds better results if they are. To easily peel, cut a cross in the bottom of the tomato, and freeze. Thaw before making sauce, and the peels will come right off.",
+            "When freezing, leave about 1/2\" to 3/4\" head rooom in the jar for expansion.",
+            "Good for about 1 week in the fridge, or 1 year + when frozen."
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "20",
+                "item": "tomatoes, chopped"
+            },
+            {	
+                "quantity": "2",
+                "item": "bell peppers, chopped"
+            },
+            {	
+                "quantity": "2",
+                "item": "heads of garlic, roughly chopped"
+            },
+            {	
+                "quantity": "2",
+                "item": "onions, diced"
+            },
+            {	
+                "quantity": "1",
+                "item": "bunch basil leaves, chopped"
+            },
+            {	
+                "quantity": "32 oz",
+                "item": "tomato paste"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "smoked paprika"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "sugar"
+            },
+            {	
+                "quantity": "AR",
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "AR",
+                "item": "black pepper"
+            }
+        ],
+        "directions":[
+            "Add all vegetables to a large stockpot. Cover and cook over medium-high until it starts to bubble",
+            "Add basil and spices, turn heat to low, cover and simmer for 3 hours",
+            "Remove from heat and allow to cool",
+            "Add tomato paste",
+            "Using immersion blender, puree until smooth",
+            "Laddle into jars and freeze."
+        ],
+        
+        "tags":[
+            "pizza",
+            "sauce"
         ],
     },
 
