@@ -812,6 +812,92 @@ recipes = [
         ],
     },
 
+    {   "id": "E4", "title": "General Tso's Chicken", "category":"poultry",
+        "yield":" 2 servings",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"General Tso's Chicken",
+            "author":"Grace Pasrisi",
+            "source":"Food & Wine",
+            "modify":"y"
+        },
+        "notes":[
+            "Better than most take out, and generally worth the effort, cooks up really fast",
+            "Control spice with the amount of chile sauce you add",
+            "Serve with white rice (and 2 stalks of broccoli)"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 1/2 tsp",
+                "item": "toasted sesame oil"
+            },
+            {	
+                "quantity": "1",
+                "item": "egg white"
+            },
+            {	
+                "quantity": "1/4 c plus 1 Tbsp",
+                "item": "soy sauce"
+            },
+            {	
+                "quantity": "1/4 c plus 2 Tbsp",
+                "item": "cornstarch, divided"
+            },
+            {	
+                "quantity": "1 lb",
+                "item": "skinless boneless chicken thighs, cut into 1\" pieces"
+            },
+            {	
+                "quantity": "1 c",
+                "item": "chicken broth"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "Chinese chile-garlic sauce"
+            },
+            {	
+                "quantity": "3 Tbsp",
+                "item": "sugar"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "vegetable oil (plus more for frying)"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "finely chopped fresh ginger"
+            },
+            {	
+                "quantity": "2",
+                "item": "garlic cloves, minced"
+            },
+            {	
+                "quantity": "4",
+                "item": "scallions, thinly sliced"
+            },
+            
+        ],
+        "directions":[
+            "!Batter",
+            "In a medium bowl, combine the toasted sesame oil with the egg white, 1 Tbsp of soy , 1/4 c plus 2 Tbsp of cornstarch. Add chicken, stirring to coat, and let stand at room temperature for 20 minutes.",
+            "!Sauce",
+            "Meanwhile, in a small bowl, whisk the chicken broth with the chile-=garlic sauce, sugar, the remaining 1/4 c of soy sauce, and 1 Tbsp of cornstarch",
+            "In a large saucepan, heat the 1 Tbsp of oil. Add the ginger and garlic, cook over high heat until fragrant, about 1 minute. Stir the broth mixture, add it to the pan and cook until thickened and glossy. Keep the sauce warm over low heat.",
+            "!Fry Time",
+            "In a large, deep skillet, heat 1/2\" of oil until shimmering. Carefully add the chicken, one piece at a time, and fry over high heat, turning once or twice, until very browned and crisp, about 4 minutes.",
+            "Drain chicken on paper towels breifly, and add to sauce along with scallions. Cook just until coated, about 30 seconds.",
+            "Serve right away, over rice."
+        ],
+        
+        "tags":[
+            "Chinese",
+            "Fast"
+        ],
+    },
+
     {   "id": "F0", "title": "Pork Placeholder", "category":"pork",
         "yield":1,
         "time":{
