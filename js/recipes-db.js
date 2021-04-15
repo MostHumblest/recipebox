@@ -3033,7 +3033,7 @@ recipes = [
     },
 
     {   "id": "O8", "title": "Fancy Donuts", "category":"baking",
-        "yield":1,
+        "yield":0,
         "time":{
             "active": 0,
             "total":0
