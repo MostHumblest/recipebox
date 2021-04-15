@@ -528,7 +528,7 @@ recipes = [
         "directions":[
             "Mix oil, lemon juice, honey, and cumin. Season with salt",
             "Add carrots and toss to coat.",
-            "Addjust dressing to taste.",
+            "Adjust dressing to taste.",
             "Stir in parsley nd let marinate for at least 30 minutes, and up to 2 hours."
         ],
         
