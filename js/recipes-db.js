@@ -3032,7 +3032,7 @@ recipes = [
         ],
     },
 
-    {   "id": "O0", "title": "Fancy Donuts", "category":"baking",
+    {   "id": "O8", "title": "Fancy Donuts", "category":"baking",
         "yield":1,
         "time":{
             "active": 0,
@@ -3083,8 +3083,7 @@ recipes = [
             "When cool enough to handle, roll donuts in sugar.",
             "Poke hole in the side of the donue with a chopstick, or soemthing of similar size.",
             "Using pastry bag gently squeeze jelly into donut."
-        ],
-        
+        ],        
         "tags":[
             "test",
             "test2"
