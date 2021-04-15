@@ -3076,9 +3076,9 @@ recipes = [
         ],
         "directions":[
             "!Glazed",
-            "Mix powdered sugar with 1/4 c milk and vanilla.",
+            "Mix powdered sugar with 1/4 c milk and vanilla. For chocolate glaze, add 1/4 c cocoa powder",
             "When cool enough to handle, dip tops of donuts in glaze and let them harden on rack.",
-            "For chocolate glaze, add 1/4 c cocoa powder",
+            
             "!Jelly Filled",
             "When cool enough to handle, roll donuts in sugar.",
             "Poke hole in the side of the donue with a chopstick, or soemthing of similar size.",
