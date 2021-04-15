@@ -390,6 +390,66 @@ recipes = [
         ],
     },
 
+    {   "id": "D2", "title": "Carottes râpées", "category":"salads",
+        "yield":"4 servings",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Extremely French Carrot Salad",
+            "author":"Rebekah Peppler",
+            "source":"Bon Appetit",
+            "modify":"y"
+        },
+        "notes":[
+            "Super easy if you grate the carrots with a food processor. Slightly harder if you have to do it by hand.",
+            "Goes with everything."
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "3 Tbsp",
+                "item": "extra-virgin olive oil"
+            },
+            {	
+                "quantity": "3 Tbsp",
+                "item": "fresh lemon juice"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "honey"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "ground cumin"
+            },
+            {	
+                "quantity": "AR",
+                "item": "salt"
+            },
+            {	
+                "quantity": "1 lb",
+                "item": "carrots, grated"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "coarsley chopped parsley"
+            },
+        ],
+        "directions":[
+            "Mix oil, lemon juice, honey, and cumin. Season with salt",
+            "Add carrots and toss to coat.",
+            "Addjust dressing to taste.",
+            "Stir in parsley nd let marinate for at least 30 minutes, and up to 2 hours."
+        ],
+        
+        "tags":[
+            "easy",
+            "party",
+            "potluck"
+        ],
+    },
+
     {   "id": "D1", "title": "Brussels Sprouts Salad", "category":"salads",
         "yield":"4-6 servings",
         "time":{
@@ -474,7 +534,8 @@ recipes = [
         
         "tags":[
             "vegetarian",
-            "party"
+            "party",
+            "potluck"
         ],
     },
 
