@@ -2964,6 +2964,107 @@ recipes = [
         ],
     },
 
+    {   "id": "O7", "title": "Donuts", "category":"baking",
+        "yield":"About a dozen, plus holes",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Doughnuts",
+            "author":"Mark Bittman",
+            "source":"NY Times Cooking",
+            "modify":"y"
+        },
+        "notes":[
+            "Can be plain, glazed or filled. For filled donuts don't cut a hole.",
+            "Donut cutter, concentric cookie cutters, or pint and shot glass can be used to shape donuts. Large circle should be roughly 3 inches and the smaller one should be about an inch.",
+            "Personally I like these either plain glazed, or rolled in sugar and jelly filled. Need to work on a better Boston cream filling."
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 1/4 c",
+                "item": "milk"
+            },
+            {	
+                "quantity": "2 1/4 tsp (one pkg)",
+                "item": "active dry yeast"
+            },
+            {                 
+                "quantity": "2",
+                "item": "eggs"
+            },
+            {                 
+                "quantity": "8 Tbsp",
+                "item": "butter, melted and cooled"
+            },
+            {                 
+                "quantity": "1/4 c",
+                "item": "sugar"
+            },
+            {                 
+                "quantity": "1 tsp",
+                "item": "salt"
+            },
+            {                 
+                "quantity": "4 1/2 c",
+                "item": "AP flour, plus more for rolling"
+            },
+            {                 
+                "quantity": "2 qts",
+                "item": "peanut oil, for frying"
+            },
+            {                 
+                "quantity": "1 3/4 c",
+                "item": "powdered sugar"
+            },
+            {                 
+                "quantity": "1/4 c",
+                "item": "milk"
+            },
+            {                 
+                "quantity": "1 tsp",
+                "item": "vanilla"
+            },
+            {                 
+                "quantity": "1/4 c",
+                "item": "cocoa powder"
+            },
+            {                 
+                "quantity": "AR",
+                "item": "sugar"
+            },
+            {                 
+                "quantity": "AR",
+                "item": "jelly"
+            },
+        ],
+        "directions":[
+            "!Donuts",
+            "Heat 1 1/4c milk until warm, about 90 F, combine with yeast. Stir lightly and let sit until mixture is foamy, about 5 minutes.",
+            "Lightly grease a large bowl with oil, set aside. Lightly coat an area with flour for kneading.",
+            "Beat eggs, butter, sugar, and salt into the yeast mixture. Add half of the flour (2 c and 2 Tbsp), and mix until combined, then mix in the rest of the flour until dough pulls away from the sides of the bowl. If dough is too wet add more flour 2 Tbsp at a time.",
+            "Transfer to floured surface, and knead gently until smooth. Transfer to greased bowl, and cover with a damp towel. Let rise at room temperature until doubled in size. About 1 hour.",
+            "Turn dough out onto a well-floured surface, and roll it to 1/2\" thick. Cut out doughnuts, flouring cutters as you go. Reserve donut holes. If you want more donuts, gently knead scraps together and let for a few minutes, then repeat rolling and cutting process.",
+            "Put donuts on floured baking sheets so there is plenty of room between each one. Cover with damp towel and let rise until slightly puffed and delicate, about 45 minutes.",
+            "About 15 minutes before th doughnuts are done rising, put oil in a heavy bottom pot over medium heat, and heat to 375F. Meanwhile, lay down paper towels and place cooling racks over them.",
+            "Carefully add donuts to oil a few at a time. Gently poke any large bubbles with a toothpick. When bottoms are deep golden brown, about 45 seconds, use a slotted spoon or spider to flip them over. Transfer to the prepared racks. Adjust heat as necesary to keep oil at 375 until done cooking all donuts",
+            "For donut holes, I found it easiest to occasioanlly bop them with the spoon to keep them rotating in the oil.",
+            "!Glazed",
+            "Mix powdered sugar with 1/4 c milk and vanilla.",
+            "When cool enough to handle, dip tops of donuts in glaze and let them harden on rack.",
+            "For chocolate glaze, add 1/4 c cocoa powder",
+            "!Jelly Filled",
+            "When cool enough to handle, roll donuts in sugar.",
+            "Poke hole in the side of the donue with a chopstick, or soemthing of similar size.",
+            "Using pastry bag gently squeeze jelly into donut."
+        ],
+        "tags":[
+            "delicious",
+            "test2"
+        ],
+    },
+
     {   "id": "P0", "title": "Desserts Placeholder", "category":"dessert",
         "yield":1,
         "time":{
