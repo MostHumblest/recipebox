@@ -2987,8 +2987,8 @@ recipes = [
                 "item": "milk"
             },
             {	
-                "quantity": "2 1/4 tsp (one pkg)",
-                "item": "active dry yeast"
+                "quantity": "2 1/4 tsp",
+                "item": "active dry yeast (one pkg)"
             },
             {                 
                 "quantity": "2",
