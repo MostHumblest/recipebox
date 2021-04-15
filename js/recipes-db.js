@@ -3010,7 +3010,7 @@ recipes = [
                 "item": "AP flour, plus more for rolling"
             },
             {                 
-                "quantity": "2 qts",
+                "quantity": "2 Qts",
                 "item": "peanut oil, for frying"
             }
         ],
