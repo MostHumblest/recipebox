@@ -3045,7 +3045,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "Follow directions in #O7 to make basic donuts, then follow these directions to glaze or fill them",
+            "Follow directions to make #O7, then follow these directions to glaze or fill them",
             "Personally I like these either plain glazed, or rolled in sugar and jelly filled. Need to work on a better Boston cream filling."
         ],
         "ingredients":[
