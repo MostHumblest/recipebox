@@ -493,7 +493,7 @@ recipes = [
         },
         "notes":[
             "Super easy if you grate the carrots with a food processor. Slightly harder if you have to do it by hand.",
-            "Goes with everything."
+            "Will pair with pretty much anything."
         ],
         "ingredients":[
             {                 
