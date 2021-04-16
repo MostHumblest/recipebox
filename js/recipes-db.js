@@ -1714,7 +1714,7 @@ recipes = [
             },
             {	
                 "quantity": "1 tsp",
-                "item": "ground tumeric"
+                "item": "ground turmeric"
             },
             {	
                 "quantity": "1 tsp",
@@ -1726,7 +1726,7 @@ recipes = [
             },
             {	
                 "quantity": "2 lbs",
-                "item": "tomatoes, about 4 medium"
+                "item": "tomatoes (about 4 medium), diced"
             },
             {	
                 "quantity": "AR",
@@ -1746,14 +1746,18 @@ recipes = [
             },
         ],
         "directions":[
-            "step 1",
-            "step 2",
-            "step 3"
+            "Pre-heat oven to 375F",
+            "Heat olive oil in a 10-12 inch oven safe skillet over medium high heat. Add the pepper and onion with a pinch of salt. REduce heat to medium and cook, stirring occassionally until vegetables are tender, about 10 minutes.",
+            "Stir in garlic, cumin, turmeric, paprika, and cayenne. Cook until fragrant, about 1 minute.",
+            "Stir in tomatoes, season with salt and black pepper. Cook partially covered until tomatoes and pepper are soft and have formed a thick sauce, about 15 minutes.",
+            "Mix in the feta and dill",
+            "Make 6 divots in the surface of the sauce, and crack an egg into each one. Season with salt and pepper. Transfer skillet to oven an bake until eggs are just set, 7 to 10 minutes. Eggs may not look fully cooked, check for doneness by wiggling skillet. Err towards less done vs overdone."
         ],
         
         "tags":[
-            "test",
-            "test2"
+            "easy",
+            "weeknight",
+            "israel"
         ],
     },
 
