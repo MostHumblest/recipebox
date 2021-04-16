@@ -1669,6 +1669,94 @@ recipes = [
         ],
     },
 
+    {   "id": "J1", "title": "Shakshuka", "category":"eggs",
+        "yield":"2-3 Servings",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Shakshuka with Golden Tomatoes and Goat Cheese",
+            "author":"Melissa Clark",
+            "source":"Dinner",
+            "modify":"y"
+        },
+        "notes":[
+            "Great place to use overripe tomatoes.",
+            "Can control heat with amount of added cayenne pepper.",
+            "Can use and equal amount of dried dill or parsley if you don't have fresh dill.",
+            "serve with rice and/or #O6."
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1/4 c",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "1",
+                "item": "bell pepper, thinly sliced"
+            },
+            {	
+                "quantity": "1",
+                "item": "small onion, diced"
+            },
+            {	
+                "quantity": "AR",
+                "item": "salt"
+            },
+            {	
+                "quantity": "2",
+                "item": "garlic cloves, finely chopped"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "ground cumin"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "ground tumeric"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "smoked parika"
+            },
+            {	
+                "quantity": "1/4 tsp",
+                "item": "cayenne pepper"
+            },
+            {	
+                "quantity": "2 lbs",
+                "item": "tomatoes, about 4 medium"
+            },
+            {	
+                "quantity": "AR",
+                "item": "black pepper"
+            },
+            {	
+                "quantity": "4 oz",
+                "item": "feta, crumbled"
+            },
+            {	
+                "quantity": "3 Tbsp",
+                "item": "fresh dill"
+            },
+            {	
+                "quantity": "6",
+                "item": "eggs"
+            },
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "K0", "title": "Pasta Placeholder", "category":"pasta",
         "yield":1,
         "time":{
