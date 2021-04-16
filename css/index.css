@@ -47,7 +47,7 @@ li {
 }
 
 li.new{
-	list-style-type:"new";
+	list-style-type:disc;
 }
 
 .directions > li{

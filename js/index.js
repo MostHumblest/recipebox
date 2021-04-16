@@ -106,11 +106,12 @@ function getCookie(cname){
 		var clientDay =  d.getDate();
 		var clientDate = clientYear + clientMonth + clientDay;
 		console.log(clientDate);
+		clientDate = clientDate-7;
 		$.each(recipes, function(i, val){	
 			var rID=recipes[i].id;
 			var rDate=recipes[i].date;
 			var isNew = "";
-			if (clientDate-7 <= rDate){
+			if (clientDate <= rDate){
 				isNew = "new"
 			}
 			var rNumber=rID.charAt(1);			
