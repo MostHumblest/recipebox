@@ -46,6 +46,10 @@ li {
 	padding-bottom: .25rem;
 }
 
+li.new{
+	list-style-type:"new";
+}
+
 .directions > li{
 	padding-bottom: 1rem;
 }
