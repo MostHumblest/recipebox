@@ -108,14 +108,18 @@ function getCookie(cname){
 		console.log(clientDate);
 		$.each(recipes, function(i, val){	
 			var rID=recipes[i].id;
-			//var rDate=recipes[i].date;
+			var rDate=recipes[i].date;
+			var isNew = "";
+			if (clientDate-7 <= rDate){
+				isNew = "new"
+			}
 			var rNumber=rID.charAt(1);			
 			if(rID != "demo" && rNumber != "0"){//if not demo or placeholder show recipe
 				var rTitle=recipes[i].title;	
 				var rCategory = recipes[i].category;
 				rCategoryID = rCategory.replace(/ /g, "_");
 				var thisTag = "#r" + rCategoryID;
-				var linkClass = "\"all " + rID +"\"";
+				var linkClass = "\"all " + rID + isNew + "\"";
 				var rTitleItem = "<li class=" +linkClass + "><a class="+linkClass+"href=\"https://mosthumblest.github.io/recipebox/#" + rID+ "\"><span>" + rTitle + "</span></a></li>";
 				$(thisTag).append(rTitleItem);
 			}
