@@ -278,7 +278,7 @@ recipes = [
         ],
     },
 
-    {   "id": "C1", "title": "Buffalo Cauliflower Dip", "category":"snacks and dips",
+    {   "id": "C1", "title": "Buffalo Cauliflower Dip", "category":"snacks and dips", "date":"20200414",
     "yield":"Dip for 4-6 people",
     "time":{
         "active": 0,
