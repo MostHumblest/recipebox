@@ -113,7 +113,7 @@ function getCookie(cname){
 			var rDate= parseInt(recipes[i].date, 10); //parse int from string in base 10
 			var isNew = "";
 			if (clientDate <= rDate){
-				isNew = "new"
+				isNew = " new"
 			}
 			var rNumber=rID.charAt(1);			
 			if(rID != "demo" && rNumber != "0"){//if not demo or placeholder show recipe
