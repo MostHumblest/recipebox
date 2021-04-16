@@ -399,7 +399,7 @@ recipes = [
         "source":{
             "title":"Shaved Brussels Sprouts Salad",
             "author":"Nik Sharma",
-            "source":"The Flavor Equation",
+            "source":"The Flavor Equation, p 112",
             "modify":"y"
         },
         "notes":[
@@ -1236,7 +1236,7 @@ recipes = [
         "source":{
             "title":"Beef Chjlli Fry with Pancetta",
             "author":"Nik Sharma",
-            "source":"The Flavor Equation",
+            "source":"The Flavor Equation, p 160",
             "modify":"y"
         },
         "notes":[
@@ -1678,7 +1678,7 @@ recipes = [
         "source":{
             "title":"Shakshuka with Golden Tomatoes and Goat Cheese",
             "author":"Melissa Clark",
-            "source":"Dinner",
+            "source":"Dinner, p 152",
             "modify":"y"
         },
         "notes":[
