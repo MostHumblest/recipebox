@@ -47,7 +47,7 @@ li {
 }
 
 li.new{
-	list-style-type:disc;
+	list-style-type:"\u261B";
 }
 
 .directions > li{
