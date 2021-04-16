@@ -1669,7 +1669,7 @@ recipes = [
         ],
     },
 
-    {   "id": "J1", "title": "Shakshuka", "category":"eggs",
+    {   "id": "J1", "title": "Shakshuka", "category":"eggs", "date":"21210416",
         "yield":"2-3 Servings",
         "time":{
             "active": 0,
