@@ -104,11 +104,11 @@ function getCookie(cname){
 		var clientYear = document.getElementById("allRecipes").innerHTML = d.getFullYear();
 		var clientMonth = document.getElementById("allRecipes").innerHTML = d.getMonth() + 1;
 		var clientDay = document.getElementById("allRecipes").innerHTML = d.getDate();
-		var clientDate = concat(clientYear, clientMonth, clientDay);
+		var clientDate = clientYear + clientMonth + clientDay;
 		console.log(clientDate);
 		$.each(recipes, function(i, val){	
 			var rID=recipes[i].id;
-			var rDate=recipes[i].date;
+			//var rDate=recipes[i].date;
 			var rNumber=rID.charAt(1);			
 			if(rID != "demo" && rNumber != "0"){//if not demo or placeholder show recipe
 				var rTitle=recipes[i].title;	
