@@ -100,6 +100,7 @@ function getCookie(cname){
 
 //add recipe titles to each section
 	function populateRecipes(){
+		//get current date in YYYYMMDD format
 		var d = new Date();
 		var clientYear = d.getFullYear() * 10000;
 		var clientMonth =  (d.getMonth() + 1) * 100;
@@ -109,7 +110,7 @@ function getCookie(cname){
 		clientDate = clientDate-7;
 		$.each(recipes, function(i, val){	
 			var rID=recipes[i].id;
-			var rDate=recipes[i].date;
+			var rDate= parseInt(recipes[i].date, 10); //parse int from string in base 10
 			var isNew = "";
 			if (clientDate <= rDate){
 				isNew = "new"
