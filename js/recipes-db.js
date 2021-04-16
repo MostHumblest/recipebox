@@ -1,6 +1,6 @@
 recipes = [ 
 
-    {   "id": "demo", "title": "Template Placeholder", "category":"demo",
+    {   "id": "demo", "title": "Template Placeholder", "category":"demo", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -38,7 +38,7 @@ recipes = [
         ],
     },	
 
-    {   "id": "A0", "title": "Tips Placeholder", "category":"tips and techniques",
+    {   "id": "A0", "title": "Tips Placeholder", "category":"tips and techniques", "date":"20210131",
         "yield":0,
         "time":{
             "active": 0,
@@ -202,7 +202,7 @@ recipes = [
         ],
     },
 
-    {   "id": "B0", "title": "Breakfast Placeholder", "category":"breakfast",
+    {   "id": "B0", "title": "Breakfast Placeholder", "category":"breakfast", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -240,7 +240,7 @@ recipes = [
         ],
     },
     
-    {   "id": "C0", "title": "Snacks and Dips Placeholder", "category":"snacks and dips",
+    {   "id": "C0", "title": "Snacks and Dips Placeholder", "category":"snacks and dips", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -278,7 +278,7 @@ recipes = [
         ],
     },
 
-    {   "id": "C1", "title": "Buffalo Cauliflower Dip", "category":"snacks and dips", "date":"20210414",
+    {   "id": "C1", "title": "Buffalo Cauliflower Dip", "category":"snacks and dips", "date":"20210131",
     "yield":"Dip for 4-6 people",
     "time":{
         "active": 0,
@@ -352,7 +352,7 @@ recipes = [
     ],
     },
 
-    {   "id": "D0", "title": "Salads Placeholder", "category":"salads",
+    {   "id": "D0", "title": "Salads Placeholder", "category":"salads", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -479,7 +479,7 @@ recipes = [
         ],
     },
 
-    {   "id": "D2", "title": "Carottes Râpées", "category":"salads",
+    {   "id": "D2", "title": "Carottes Râpées", "category":"salads", "date":"20210415",
         "yield":"4 servings",
         "time":{
             "active": 0,
@@ -539,7 +539,7 @@ recipes = [
         ],
     },
 
-    {   "id": "E0", "title": "Poultry Placeholder", "category":"poultry",
+    {   "id": "E0", "title": "Poultry Placeholder", "category":"poultry", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -873,7 +873,7 @@ recipes = [
         ],
     },
 
-    {   "id": "E4", "title": "General Tso's Chicken", "category":"poultry",
+    {   "id": "E4", "title": "General Tso's Chicken", "category":"poultry", "date":"20210415",
         "yield":" 2 servings",
         "time":{
             "active": 0,
@@ -959,7 +959,7 @@ recipes = [
         ],
     },
 
-    {   "id": "F0", "title": "Pork Placeholder", "category":"pork",
+    {   "id": "F0", "title": "Pork Placeholder", "category":"pork", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -1083,7 +1083,7 @@ recipes = [
         ],
     },
 
-    {   "id": "G0", "title": "Beef Placeholder", "category":"beef",
+    {   "id": "G0", "title": "Beef Placeholder", "category":"beef", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -1330,7 +1330,7 @@ recipes = [
         ],
     },
 
-    {   "id": "H0", "title": "Seafood Placeholder", "category":"seafood",
+    {   "id": "H0", "title": "Seafood Placeholder", "category":"seafood", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -1475,7 +1475,7 @@ recipes = [
         ],
     },
 
-    {   "id": "I0", "title": "Vegetables Placeholder", "category":"vegetables",
+    {   "id": "I0", "title": "Vegetables Placeholder", "category":"vegetables", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -1631,7 +1631,7 @@ recipes = [
         ],
     },
 
-    {   "id": "J0", "title": "Eggs Placeholder", "category":"eggs",
+    {   "id": "J0", "title": "Eggs Placeholder", "category":"eggs", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -1761,7 +1761,7 @@ recipes = [
         ],
     },
 
-    {   "id": "K0", "title": "Pasta Placeholder", "category":"pasta",
+    {   "id": "K0", "title": "Pasta Placeholder", "category":"pasta", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -2004,7 +2004,7 @@ recipes = [
         ],
     },
 
-    {   "id": "L0", "title": "Grains Placeholder", "category":"grains and rice",
+    {   "id": "L0", "title": "Grains Placeholder", "category":"grains and rice", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -2137,7 +2137,7 @@ recipes = [
         ],
     },
 
-    {   "id": "M0", "title": "Legumes Placeholder", "category":"legumes",
+    {   "id": "M0", "title": "Legumes Placeholder", "category":"legumes", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -2341,7 +2341,7 @@ recipes = [
         ],
     },
 
-    {   "id": "N0", "title": "Sauces Placeholder", "category":"sauces and rubs",
+    {   "id": "N0", "title": "Sauces Placeholder", "category":"sauces and rubs", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -2610,7 +2610,7 @@ recipes = [
         ],
     },
 
-    {   "id": "O0", "title": "Baking Placeholder", "category":"baking",
+    {   "id": "O0", "title": "Baking Placeholder", "category":"baking", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -3056,7 +3056,7 @@ recipes = [
         ],
     },
 
-    {   "id": "O7", "title": "Basic Donuts", "category":"baking",
+    {   "id": "O7", "title": "Basic Donuts", "category":"baking", "date":"20210415",
         "yield":"About a dozen, plus holes",
         "time":{
             "active": 0,
@@ -3124,7 +3124,7 @@ recipes = [
         ],
     },
 
-    {   "id": "O8", "title": "Fancy Donuts", "category":"baking",
+    {   "id": "O8", "title": "Fancy Donuts", "category":"baking", "date":"20210415",
         "yield":0,
         "time":{
             "active": 0,
@@ -3182,7 +3182,7 @@ recipes = [
         ],
     },
 
-    {   "id": "P0", "title": "Desserts Placeholder", "category":"dessert",
+    {   "id": "P0", "title": "Desserts Placeholder", "category":"dessert", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,

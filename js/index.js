@@ -107,7 +107,7 @@ function getCookie(cname){
 		var clientDay =  d.getDate();
 		var clientDate = clientYear + clientMonth + clientDay;
 		console.log(clientDate);
-		clientDate = clientDate-7;
+		clientDate = clientDate-14; //check date within last 14 days
 		$.each(recipes, function(i, val){	
 			var rID=recipes[i].id;
 			var rDate= parseInt(recipes[i].date, 10); //parse int from string in base 10
