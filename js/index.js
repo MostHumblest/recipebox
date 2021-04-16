@@ -15,6 +15,22 @@ $(document).ready(function(){
 	$(window).trigger('hashchange'); //forces hash change on page load - enables bookmarking recipes
 });
 
+//cookies! but not a recipe for them
+/* function setCookie(cname, cvalue, exdays){
+	var d = new Date();
+	d.setTime(d.getTime()+(exdays*24*60*60*1000));
+	var expires = "expires+"+d.toUTCString();
+	document.cookie= cname + "=" + cvalue+ ";" + expires + ";path=/";
+}
+
+function getCookie(cname){
+	var name  = cname + "=";
+	var ca = document.cookie.split(';');
+	for(var i = 0; i < ca.length; i++){
+		var c = ca[i];
+	}
+} */
+
 //create recipe list
 	function populateCategories(){
 		var categories = [];
@@ -84,9 +100,16 @@ $(document).ready(function(){
 
 //add recipe titles to each section
 	function populateRecipes(){
+		var d = new Date();
+		var clientYear = document.getElementById("allRecipes").innerHTML = d.getFullYear();
+		var clientMonth = document.getElementById("allRecipes").innerHTML = d.getMonth() + 1;
+		var clientDay = document.getElementById("allRecipes").innerHTML = d.getDate();
+		var clientDate = concat(clientYear, clientMonth, clientDay);
+		console.log(clientDate);
 		$.each(recipes, function(i, val){	
 			var rID=recipes[i].id;
-			var rNumber=rID.charAt(1);
+			var rDate=recipes[i].date;
+			var rNumber=rID.charAt(1);			
 			if(rID != "demo" && rNumber != "0"){//if not demo or placeholder show recipe
 				var rTitle=recipes[i].title;	
 				var rCategory = recipes[i].category;
