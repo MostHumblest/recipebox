@@ -101,8 +101,8 @@ function getCookie(cname){
 //add recipe titles to each section
 	function populateRecipes(){
 		var d = new Date();
-		var clientYear = d.getFullYear();
-		var clientMonth =  d.getMonth() + 1;
+		var clientYear = d.getFullYear() * 10000;
+		var clientMonth =  (d.getMonth() + 1) * 100;
 		var clientDay =  d.getDate();
 		var clientDate = clientYear + clientMonth + clientDay;
 		console.log(clientDate);
