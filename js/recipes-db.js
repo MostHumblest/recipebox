@@ -1653,6 +1653,73 @@ recipes = [
         ],
     },
 
+    {   "id": "H2", "title": "Za'atar Fish n Chips", "category":"seafood", "date":"20210417",
+        "yield":"2-4 servings",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Za'atar Fish and Chips",
+            "author":"ukn",
+            "source":"Bon Appetit",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1",
+                "item": "small red onion, finely chopped"
+            },
+            {	
+                "quantity": "4 Tbsp",
+                "item": "apple cider vinegar, divided"
+            },
+            {	
+                "quantity": "1 1/2 lb",
+                "item": "small potatoes, halved or quartered lengthwise"
+            },
+            {	
+                "quantity": "6 Tbsp",
+                "item": "olive oil, divided"
+            },
+            {	
+                "quantity": "1 1/4 lb",
+                "item": "cod fillet, preferably 1 piece"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "za'atar"
+            },
+            {	
+                "quantity": "3/4 c",
+                "item": "pitted olives, Kalamata or Castelvetrano"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "coarsely chopped mint"
+            },
+            
+        ],
+        "directions":[
+            "Place racks in upper an dlower thirds of oven; preheat to 425f.",
+            "Mix onion, 2 Tbsp vinegar, and a big pinch of salt in a small bowl to combine; let sit at least 10 minutes and up to 1 hour. Drain off vinegar and discard.",
+            "Meanwhile, toss potatoes and 3 Tbsp oil on a large rimmed baking sheet; arrange in a single layer. Roast on bottom rack, undistrubed, until browned and crisp underneath. 20-25 minutes.",
+            "Turn potatoes over, and return to oven. Reduce temp to 325F.",
+            "Place cod on a small rimmed baking sheet, drizzle with 1Tbsp of oil. Season with salt and sprinkle with za'atar. Slide onto empty rack and roast.",
+            "After about 10 minutes check on fish and potatoes. Fish is done when it flakes easily with fork. Potatoes should be brown all over.",
+            "Stir olives, mint, 2Tbsp of vinegar, and 2 Tbsp oil into pickled onion.",
+            "Serve cod and potatoes topped with olive mixtures."
+        ],        
+        "tags":[
+            "easy",
+            "tag2"
+        ],
+    },
+
     {   "id": "I0", "title": "Vegetables Placeholder", "category":"vegetables", "date":"20210131",
         "yield":1,
         "time":{
