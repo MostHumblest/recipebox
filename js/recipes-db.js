@@ -904,7 +904,7 @@ recipes = [
                 "item": "soy sauce"
             },
             {	
-                "quantity": "1/4 c plus<br> 2 Tbsp",
+                "quantity": "1/4 c plus<br> 3 Tbsp",
                 "item": "cornstarch, divided"
             },
             {	
