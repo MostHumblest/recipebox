@@ -900,11 +900,11 @@ recipes = [
                 "item": "egg white"
             },
             {	
-                "quantity": "1/4 c plus 1 Tbsp",
+                "quantity": "1/4 c plus<br> 1 Tbsp",
                 "item": "soy sauce"
             },
             {	
-                "quantity": "1/4 c plus 2 Tbsp",
+                "quantity": "1/4 c plus<br> 2 Tbsp",
                 "item": "cornstarch, divided"
             },
             {	
