@@ -365,12 +365,12 @@ function getCookie(cname){
 			inputText = inputText.replace(cookTemp[i], newCookTemp);
 		});
 		//add spaces between numbers and unit of measure
-		var oldAmt = inputText.match(/[0-9][A-Za-z]/g);
+		/* var oldAmt = inputText.match(/[0-9][A-Za-z]/g);
 		var newAmt;
 		$.each(oldAmt, function(i, val){
 			newAmt = oldAmt[i].split("").join(" ");
 			inputText = inputText.repalce(oldAmt[i], newAmt);
-		})
+		}) */
 		//format fractions
 		var oldFraction = inputText.match(/([0-9]\/[0-9])/g);
 		var newFraction;
