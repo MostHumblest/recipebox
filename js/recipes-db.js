@@ -835,7 +835,7 @@ recipes = [
             },
             {	
                 "quantity": "1 tsp",
-                "item": "ground tumeric"
+                "item": "ground turmeric"
             },
             {	
                 "quantity": "1/2 tsp",
@@ -858,7 +858,7 @@ recipes = [
             "In a large bowl, combine the chicken thighs, lime juice, olive oil, garlic and cumin. Season well with salt and pepper and stir together until the chicken is well coated in the marinage; set aside at room tempearture for 25-30 minutes.",
             "In a deep, 12-inch skillet or dutch oven with a lid, heat the peanut oil over medium-high. When it shimmers, lift chicken out of marinade, allow excess liquid to drip into the bowl, then add chicken skin-side down. Cook until well browned on both sides, about 6 minutes per side. Remove and set aside on a plate.",
             "Reduce heat to medium, add the leek, and cook stirring occasionally, until soft scraping up any brown bits at they form, 3-4 minutes.",
-            "Stir in harissa paste, tumeric and cinnamon, and cook until lightly toasted, 1-2 minutes. Season with salt.",
+            "Stir in harissa paste, turmeric and cinnamon, and cook until lightly toasted, 1-2 minutes. Season with salt.",
             "Add couscous to pan and stir well until coated in spiced leek oil.",
             "Add stock and bring to a boil.",
             "Turn heat to low and add chicken to pan skin side up, along with any accumulated juices. Coer and simmer until couscous is al dente and chicken is cooked through. 10-15 minutes",
@@ -1090,7 +1090,7 @@ recipes = [
             "total":0
         },
         "source":{
-            "title":"Tumeric-Coconut Curry with Pork",
+            "title":"Turmeric-Coconut Curry with Pork",
             "author":"Chris Morocco",
             "source":"Bon Appetit, Mar 2020",
             "modify":"y"
@@ -1371,7 +1371,7 @@ recipes = [
             },
             {	
                 "quantity": "1 tsp",
-                "item": "ground tumeric"
+                "item": "ground turmeric"
             },
             {	
                 "quantity": "1 lb",
@@ -1399,7 +1399,7 @@ recipes = [
             "In the same pan, heat the oild over medium-high heat.",
             "Add oniions and saute until they turn translucent, 4-5 minutes.",
             "Add garlic and ginger, saute until fragrant, about 1 minute",
-            "Add cloved, black pepper, cinnamon, and tumeric and cook until fragrant, 30-40 seconds.",
+            "Add cloved, black pepper, cinnamon, and turmeric and cook until fragrant, 30-40 seconds.",
             "Transfer onions with spices to a small bowl and leave the saucepan over heat.",
             "Pat steak dry with paper towels.",
             "Cut steak into 1/2\" by 1\" cubes. Season with salt.",
@@ -1497,7 +1497,7 @@ recipes = [
             },
             {	
                 "quantity": "3/4 tsp",
-                "item": "ground tumeric"
+                "item": "ground turmeric"
             },
             {	
                 "quantity": "3/4 tsp",
@@ -1540,7 +1540,7 @@ recipes = [
             "!Chowder",
             "Season cod all over with salt; set aside",
             "Heat 3 Tbsp ghee in a medium dutch over over medium. Cook leeks, garlic, and ginger, stirring occassionally until softened but not browned. About 3 minutes",
-            "Add tumeric, coriander, and cardamom and cook, stirring until fragrent, about 30 seconds.",
+            "Add turmeric, coriander, and cardamom and cook, stirring until fragrent, about 30 seconds.",
             "Add chile, potatoes, coconut milk, 1tsp salt, and 3/4 cup water; bring to a boil (over medium) and immediately reduce heat so soup is at a bare simmer.",
             "Cover, leaving lid slightly askew, and cook until potatoes are barely fork tender, 10-12 minutes.",
             "Carefully nestle fish into pot and spoon broth over. Cover with lid slight askew, and simmer for 4 mintues.",
