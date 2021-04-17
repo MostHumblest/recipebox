@@ -1034,14 +1034,21 @@ recipes = [
             }
         ],
         "directions":[
-            "step 1",
-            "step 2",
-            "step 3"
+            "In a wide shallow bowl, whisk eggs, milk, 1 tsp of salt, and 1/2 tsp of pepper until blended. Place flour in a seperate bowl. Line a baking sheet with paper towels.",
+            "In a wide skillet, heat olive and vegetable oils over medium heat until shimmering.",
+            "Working in atches, lightly dredge the chicken in the flour and shake off any excess. Dip into egg batter, let excess batter drip back into the bowl and place in teh skillet.",
+            "Fry until golden brown on one side, about 4 minutes. Then flip once and repeat frying. Adjust heat as necessary to maintain a slow even browning, with steady bubbling. Transfer to prepped pan, and repeat with remaining cutlets.",
+            "Once all cutlets are browned, reomve pan from heat and pour off oil. Wipe out pan with paper towels. Return to low heat",
+            "Melt 3Tbsp of butter and then scatter the lemon slices over the bottom of the pan. Cook, stirring gently occassionally, until the lemon slices are golden and browning around the edges. About 3 minutes. Scoop out lemons and set them aside",
+            "Add 3 Tbsp of butter, the wine, and lemon juice and bring to a boil. Boil until syrupy, 3-4 minutes. Pour in the stock, bring to a boil, and cook until thickened into a sauce. About 5 minutes. (It will thicken more when the cutlets are added).",
+            "Taste and adjust with lemon juice, salt and pepper. It should be more lemony than salty.",
+            "Reduce heat, tuck cutlets into the pan and simmer gently until the sauce is velvety and the chicken pieces are heated through, occasionally fliping cutlets over in sauce. About 4 minutes.",
+            "Serve cutlets, topped with lemons and parsely. Spoon extra sauce over."
         ],
         
         "tags":[
-            "test",
-            "test2"
+            "French",
+            "Italian"
         ],
     },
 
