@@ -1036,7 +1036,7 @@ recipes = [
         "directions":[
             "In a wide shallow bowl, whisk eggs, milk, 1 tsp of salt, and 1/2 tsp of pepper until blended. Place flour in a seperate bowl. Line a baking sheet with paper towels.",
             "In a wide skillet, heat olive and vegetable oils over medium heat until shimmering.",
-            "Working in atches, lightly dredge the chicken in the flour and shake off any excess. Dip into egg batter, let excess batter drip back into the bowl and place in teh skillet.",
+            "Working in batches, lightly dredge the chicken in the flour and shake off any excess. Dip into egg batter, let excess batter drip back into the bowl and place in teh skillet.",
             "Fry until golden brown on one side, about 4 minutes. Then flip once and repeat frying. Adjust heat as necessary to maintain a slow even browning, with steady bubbling. Transfer to prepped pan, and repeat with remaining cutlets.",
             "Once all cutlets are browned, reomve pan from heat and pour off oil. Wipe out pan with paper towels. Return to low heat",
             "Melt 3Tbsp of butter and then scatter the lemon slices over the bottom of the pan. Cook, stirring gently occassionally, until the lemon slices are golden and browning around the edges. About 3 minutes. Scoop out lemons and set them aside",
