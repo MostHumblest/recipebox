@@ -972,17 +972,65 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "Serve with pasta to soak up the sauce",
-            "note 2"
+            "Serve with pasta to soak up the sauce.",
+            "Chicken can be bought as cutlets, or boneless breasts can be sliced horizontlly to make thin pieces"
         ],
         "ingredients":[
             {                 
-                "quantity": "1 cup",
-                "item": "item 1"
+                "quantity": "2",
+                "item": "eggs"
             },
             {	
-                "quantity": "1 cup",
-                "item": "item 2"
+                "quantity": "2 Tbsp",
+                "item": "milk"
+            },
+            {                 
+                "quantity": "AR",
+                "item": "salt"
+            },
+            {                 
+                "quantity": "AR",
+                "item": "ground black pepper"
+            },
+            {                 
+                "quantity": "1 c",
+                "item": "AP flour"
+            },
+            {                 
+                "quantity": "1/3 c",
+                "item": "olive oil"
+            },
+            {                 
+                "quantity": "1/3 c",
+                "item": "vegetable oil"
+            },
+            {                 
+                "quantity": "4 to 6",
+                "item": "boneless, skinless chicken cutlets"
+            },
+            {                 
+                "quantity": "6 Tbsp",
+                "item": "butter, divided"
+            },
+            {                 
+                "quantity": "2",
+                "item": "lemons, one for juice, one thinly sliced with seeds removed"
+            },
+            {                 
+                "quantity": "1/2 c",
+                "item": "dry white wine"
+            },
+            {                 
+                "quantity": "2",
+                "item": "eggs"
+            },
+            {                 
+                "quantity": "2 c",
+                "item": " chicken stock"
+            },
+            {                 
+                "quantity": "1/4 c",
+                "item": "freshly minced parsley"
             }
         ],
         "directions":[

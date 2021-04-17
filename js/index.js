@@ -364,6 +364,13 @@ function getCookie(cname){
 			newCookTemp = newCookTemp.replace(/[Ff]/,"\u00B0F");
 			inputText = inputText.replace(cookTemp[i], newCookTemp);
 		});
+		//add spaces between numbers and unit of measure
+		var oldAmt = inputText.match(/[0-9][A-Za-z]/g);
+		var newAmt;
+		$.each(oldAmt, function(i, val){
+			newAmt = oldAmt[i].split("").join(" ");
+			inputText = inputText.repalce(oldAmt[i], newAmt);
+		})
 		//format fractions
 		var oldFraction = inputText.match(/([0-9]\/[0-9])/g);
 		var newFraction;
@@ -373,6 +380,8 @@ function getCookie(cname){
 			re = new RegExp(oldFraction[i], 'g');
 			inputText = inputText.replace(re, newFraction);
 		});
+		
+		//link references
 		var referenceNumber = inputText.match(/(#[A-Z][0-9]?)/gi);		
 		var referenceLink;
 		$.each(referenceNumber, function(i, valI){
