@@ -287,7 +287,7 @@ recipes = [
     "source":{
         "title":"Buffalo Cauliflower Dip",
         "author":"Ali Slagle",
-        "source":"NY Times Cooking",
+        "source":"NYT Cooking",
         "modify":"y"
     },
     "notes":[
@@ -782,7 +782,7 @@ recipes = [
         "source":{
             "title":"Skillet Chicken and Pearl Couscous with Moroccan Spices",
             "author":"Colu Henry",
-            "source":"NY Times Cooking",
+            "source":"NYT Cooking",
             "modify":"y"
         },
         "notes":[
@@ -956,6 +956,44 @@ recipes = [
         "tags":[
             "Chinese",
             "Fast"
+        ],
+    },
+
+    {   "id": "E5", "title": "Chicken Francese", "category":"poultry", "date":"20210417",
+        "yield":"4-6 Servings",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Chicken Francese",
+            "author":"Julia Moskin",
+            "source":"NYT Cooking",
+            "modify":"y"
+        },
+        "notes":[
+            "Serve with pasta to soak up the sauce",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
         ],
     },
 
@@ -3150,7 +3188,7 @@ recipes = [
         "source":{
             "title":"Doughnuts",
             "author":"Mark Bittman",
-            "source":"NY Times Cooking",
+            "source":"NYT Cooking",
             "modify":"y"
         },
         "notes":[
@@ -3218,7 +3256,7 @@ recipes = [
         "source":{
             "title":"Doughnuts",
             "author":"Mark Bittman",
-            "source":"NY Times Cooking",
+            "source":"NYT Cooking",
             "modify":"y"
         },
         "notes":[
