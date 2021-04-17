@@ -1083,6 +1083,91 @@ recipes = [
         ],
     },
 
+    {   "id": "F2", "title": "Turmeric-Coconut Curry", "category":"pork", "date":"20210417",
+        "yield":"4 servings",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Tumeric-Coconut Curry with Pork",
+            "author":"Chris Morocco",
+            "source":"Bon Appetit, Mar 2020",
+            "modify":"y"
+        },
+        "notes":[
+            "Can be made with ground chicken or turkey instead",
+            "The salted cabbage is really key, the curry is okay without it though",
+            "Serve over cooked rice"
+        ],
+        "ingredients":[
+            {	
+                "quantity": "1/2 c",
+                "item": "unsweetened coconut flakes"
+            },
+            {                 
+                "quantity": "1/2 head",
+                "item": "napa cabbage, halved lengthwise, thinly sliced"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "coconut oil"
+            },
+            {	
+                "quantity": "1 lb",
+                "item": "ground pork"
+            },
+            {	
+                "quantity": "1",
+                "item": "medium onion, sliced"
+            },
+            {	
+                "quantity": "2\"",
+                "item": "piece ginger, peeled, grated"
+            },
+            {	
+                "quantity": "1",
+                "item": "serrano chile, thinly sliced"
+            },
+            {	
+                "quantity": "8",
+                "item": "garlic cloved, thinly sliced"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "ground turmeric"
+            },
+            {	
+                "quantity": "13.5 oz",
+                "item": "unsweetened coconut milk"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "plain greek yogurt, for serving"
+            },
+            {	
+                "quantity": "1",
+                "item": "lime, cut into wedges"
+            }
+        ],
+        "directions":[
+            "Toss cabage with a pinch of salt in a medium bowl, then massage with your hands until slightly softened, about 1 minute. Set aside.",
+            "Heat a large dutch oven or other heavy pot over medium-high heat. Add coconut flakes and toast, shaking frequently until crispy. Pour into seperate bowl, season with salt, set aside. Note: these can go from raw to toasted to burnt very quickly.",
+            "Wipe remaining flakes out of pot, return to medium high heat and add oil. Add pork and cook, undisturbed until browned underneath. 2-3 minutes.",
+            "Break up pork with a wooden spoon, and continue to cook, tossing and breaking up as much as possible until browned all over, but not full cooked through. About 2 more minutes.",
+            "Add onion, season with salt and cook stirring occassionally until softened, about 3 minutes.",
+            "Reduce heat to medium. Add ginger chile, garlic, and turmeric and cook, stirring often until vegetables are fragrant and soft. Reducing heat if bottom of pan gets very dark. About 4 minutes.",
+            "Add coconut mik, and 1/2c of water and bring to a simmer. Cook, stirring occassioanlly ultil slight thickened, about 5 minutes. Taste and season with salt.",
+            "Spoon rice onto plates, top with reserved cabbage. Spoon curry over and dollop with yogurt. Sprinkle with coconut flakes and serve with limes."
+        ],
+        
+        "tags":[
+            "easy",
+            "fast",
+            "weeknight"
+        ],
+    },
+
     {   "id": "G0", "title": "Beef Placeholder", "category":"beef", "date":"20210131",
         "yield":1,
         "time":{
