@@ -344,7 +344,7 @@ nav ul{
     }
 
 	.container-recipe{
-		margin-right:200px;
+		margin-right:100px;
 	}
 
     .item-nav{
@@ -352,6 +352,13 @@ nav ul{
 		grid-row: span 2;
     }
 	
+}
+
+@media(min-width: 1600px) {
+	.container-recipe{
+		margin-right:100px;
+		margin-left:100px
+	}
 }
 
 
