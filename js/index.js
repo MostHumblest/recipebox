@@ -5,7 +5,7 @@ $(document).ready(function(){
 	clearButtonClicked();
 	hideButton();
 	showButton();
-	newButton();
+	showNewButton();
 	printButton();
 	populateCategories();
 	populateRecipes();
@@ -132,13 +132,15 @@ $(document).ready(function(){
 	function showButton(){
 		$("#showCategories").click(function(){
 			$('.category-list').show();
+			$('.all').show();
 			$('.arrow').text('\u25BE');
 		});
 	}
 
-	function newButton(){
+	function showNewButton(){
 		$("#showNew").click(function(){
-			showButton();
+			$('.category-list').show();
+			$('.arrow').text('\u25BE');
 			$('.all').hide();
 			$('.new').show();
 		})
