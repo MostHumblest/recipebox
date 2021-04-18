@@ -153,14 +153,15 @@ header{
 	grid-column: 2;
 	grid-row:3;
 }
-#hideCategories{
+#showNew{
 	grid-column: 2;
 	grid-row: 4;
 }
-#showNew{
+#hideCategories{
 	grid-column: 2;
 	grid-row: 5;
 }
+
 
 nav{
 	grid-column: 1;
