@@ -5,6 +5,7 @@ $(document).ready(function(){
 	clearButtonClicked();
 	hideButton();
 	showButton();
+	newButton();
 	printButton();
 	populateCategories();
 	populateRecipes();
