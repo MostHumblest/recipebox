@@ -130,7 +130,7 @@ header{
 .nav-container{
 	display: grid;
 	grid-template-columns: 1fr 70px;
-	grid-template-rows: 45px 15px 45px 45px auto;	
+	grid-template-rows: 45px 15px 45px 45px 45px auto;	
 	margin: 1rem 1rem 1rem 1rem;
 	padding-top: 1rem;
 	background-color: rgba(211, 211, 211,.3);
@@ -155,7 +155,11 @@ header{
 }
 #hideCategories{
 	grid-column: 2;
-	grid-row:4;
+	grid-row: 4;
+}
+#showNew{
+	grid-column: 2;
+	grid-row: 5;
 }
 
 nav{
