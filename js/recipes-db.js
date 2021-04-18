@@ -337,7 +337,7 @@ recipes = [
     ],
     "directions":[
         "Heat oven to 375F",
-        "In a 9 inch cast-iron skillet, toss the cauliflower with the olive oil and season with salt and pepper.",
+        "In a 9\" cast-iron skillet, toss the cauliflower with the olive oil and season with salt and pepper.",
         "Cover with lid or aluminum foil and cook on stovetop over high to steam. 5 minutes.",
         "Uncover the skillet and cook, stirring constantly, until the cauliflower is fork tender and carmelized in spots, about 10 minutes.",
         "Stir in butter. Once melted, stir in hot sauce and simmer until the sauce has reduced by half, about 3 minutes.",
@@ -592,7 +592,7 @@ recipes = [
         "notes":[
             "Gochujang can be found at asian grocery stores, in various levels of heat.",
             "Oven temperature is important for this, oven thermometer is recommended",
-            "Potatoes should be 1.5 inches in diameter or smaller, cut larger ones in half",
+            "Potatoes should be 1.5\"es in diameter or smaller, cut larger ones in half",
             "<u>Do ahead:</u> For crispier skin, chicken should be seasoned 12-24hrs in advanced and chilled"
         ],
         "ingredients":[
@@ -621,7 +621,7 @@ recipes = [
                 "item": "heads of garlic"
             },
             {	
-                "quantity": "1/2 inch",
+                "quantity": "1/2\"",
                 "item": "length of ginger"
             },
             {	
@@ -760,11 +760,11 @@ recipes = [
             "Return sauce to simmer over medium heat and whisk in remaing 2 tablespoons butter.",
             "Remove saucepan from heat and cover to keep warm.",
             "!Chicken",
-            "Adjust oven rack 6 inches from broiler element and heat broiler. Prepare baking sheet with foil, and set wire rack on top.",
+            "Adjust oven rack 6\"es from broiler element and heat broiler. Prepare baking sheet with foil, and set wire rack on top.",
             "Combine chicken, yogurt, and  remaining 1 tsp salt in bowl and toss well to coat.",
             "Transfer chicken to wire rack. Broil until chicken, flipping halfway through, until evenly charred on both sides and registers 175F, 16-20 minutes.",
             "Let chicken rest for 5 minutes.",
-            "Cut chicken into 3/4 inch chuncks (kitchen shears work great) and stir into sauce.",
+            "Cut chicken into 3/4\" chuncks (kitchen shears work great) and stir into sauce.",
             "Stir in 2 Tbsp cilatnro, season with alt to taste. Sprinkly remaining cilantro over to serve."
         ],        
         "tags":[
@@ -942,12 +942,12 @@ recipes = [
             
         ],
         "directions":[
-            "!Batter",
-            "In a medium bowl, combine the toasted sesame oil with the egg white, 1 Tbsp of soy , 1/4 c plus 2 Tbsp of cornstarch. Add chicken, stirring to coat, and let stand at room temperature for 20 minutes.",
-            "!Sauce",
-            "Meanwhile, in a small bowl, whisk the chicken broth with the chile-=garlic sauce, sugar, the remaining 1/4 c of soy sauce, and 1 Tbsp of cornstarch",
+            "!1 Batter",
+            "In a medium bowl, combine the toasted sesame oil with the egg white, 1 Tbsp of soy sauce, 1/4 c plus 2 Tbsp of cornstarch. Add chicken, stirring to coat, and let stand at room temperature for 20 minutes.",
+            "!2 Sauce",
+            "Meanwhile, in a small bowl, whisk the chicken broth with the chile-garlic sauce, sugar, the remaining 1/4 c of soy sauce, and 1 Tbsp of cornstarch",
             "In a large saucepan, heat the 1 Tbsp of oil. Add the ginger and garlic, cook over high heat until fragrant, about 1 minute. Stir the broth mixture, add it to the pan and cook until thickened and glossy. Keep the sauce warm over low heat.",
-            "!Fry Time",
+            "!3 Chicken",
             "In a large, deep skillet, heat 1/2\" of oil until shimmering. Carefully add the chicken, one piece at a time, and fry over high heat, turning once or twice, until very browned and crisp, about 4 minutes.",
             "Drain chicken on paper towels breifly, and add to sauce along with scallions. Cook just until coated, about 30 seconds.",
             "Serve right away, over rice."
@@ -1190,7 +1190,7 @@ recipes = [
         },
         "notes":[
             "Can be made with ground chicken or turkey instead",
-            "The salted cabbage is really key, the curry is okay without it though",
+            "The salted cabbage is key, the curry is okay without it though",
             "Serve over cooked rice"
         ],
         "ingredients":[
@@ -1224,7 +1224,7 @@ recipes = [
             },
             {	
                 "quantity": "8",
-                "item": "garlic cloved, thinly sliced"
+                "item": "garlic cloves, thinly sliced"
             },
             {	
                 "quantity": "1 tsp",
@@ -1232,7 +1232,7 @@ recipes = [
             },
             {	
                 "quantity": "13.5 oz",
-                "item": "unsweetened coconut milk"
+                "item": "unsweetened coconut milk (one can)"
             },
             {	
                 "quantity": "1/2 c",
@@ -1244,13 +1244,13 @@ recipes = [
             }
         ],
         "directions":[
-            "Toss cabage with a pinch of salt in a medium bowl, then massage with your hands until slightly softened, about 1 minute. Set aside.",
+            "Toss cabbage with a pinch of salt in a medium bowl, then massage with your hands until slightly softened, about 1 minute. Set aside.",
             "Heat a large dutch oven or other heavy pot over medium-high heat. Add coconut flakes and toast, shaking frequently until crispy. Pour into seperate bowl, season with salt, set aside. Note: these can go from raw to toasted to burnt very quickly.",
-            "Wipe remaining flakes out of pot, return to medium high heat and add oil. Add pork and cook, undisturbed until browned underneath. 2-3 minutes.",
-            "Break up pork with a wooden spoon, and continue to cook, tossing and breaking up as much as possible until browned all over, but not full cooked through. About 2 more minutes.",
+            "Wipe remaining flakes out of pot, return to medium high heat and add oil. Add pork and cook, undisturbed until browned underneath, 2-3 minutes.",
+            "Break up pork with a wooden spoon, and continue to cook; tossing and breaking up as much as possible until browned all over, but not full cooked through. About 2 more minutes.",
             "Add onion, season with salt and cook stirring occassionally until softened, about 3 minutes.",
-            "Reduce heat to medium. Add ginger chile, garlic, and turmeric and cook, stirring often until vegetables are fragrant and soft. Reducing heat if bottom of pan gets very dark. About 4 minutes.",
-            "Add coconut mik, and 1/2c of water and bring to a simmer. Cook, stirring occassioanlly ultil slight thickened, about 5 minutes. Taste and season with salt.",
+            "Reduce heat to medium. Add ginger, chile, garlic, and turmeric and cook, stirring often until vegetables are fragrant and soft. Reducing heat if bottom of pan gets very dark. About 4 minutes.",
+            "Add coconut milk, and 1/2c of water and bring to a simmer. Cook, stirring occassioanlly ultil slight thickened, about 5 minutes. Taste and season with salt.",
             "Spoon rice onto plates, top with reserved cabbage. Spoon curry over and dollop with yogurt. Sprinkle with coconut flakes and serve with limes."
         ],
         
@@ -1406,10 +1406,10 @@ recipes = [
     },
 
     {   "id": "G2", "title": "Chilli Beef with Pancetta", "category":"beef",
-        "yield":1,
+        "yield":"4 servings",
         "time":{
-            "active": 0,
-            "total":0
+            "active": "30 mins",
+            "total":"50 mins"
         },
         "source":{
             "title":"Beef Chjlli Fry with Pancetta",
@@ -1447,7 +1447,7 @@ recipes = [
                 "item": "garlic cloves, minced"
             },
             {	
-                "quantity": "1 inch",
+                "quantity": "1\"",
                 "item": "ginger, grated"
             },
             {	
@@ -1490,16 +1490,16 @@ recipes = [
             "Add potatoes and season with salt. Cook until potatoes turn golden brown and are completely cooked but crispy on the outside, about 30 minutes.",
             "Remove the potatoes and pancetta, transfer to a medium bowl.",
             "In the same pan, heat the oild over medium-high heat.",
-            "Add oniions and saute until they turn translucent, 4-5 minutes.",
+            "Add onions and saute until they turn translucent, 4-5 minutes.",
             "Add garlic and ginger, saute until fragrant, about 1 minute",
-            "Add cloved, black pepper, cinnamon, and turmeric and cook until fragrant, 30-40 seconds.",
-            "Transfer onions with spices to a small bowl and leave the saucepan over heat.",
+            "Add cloves, black pepper, cinnamon, and turmeric and cook until fragrant, 30-40 seconds.",
+            "Transfer onions with spices to bowl with potatoes and leave the saucepan over heat.",
             "Pat steak dry with paper towels.",
-            "Cut steak into 1/2\" by 1\" cubes. Season with salt.",
+            "Cut steak into 1/2\" cubes. Season with salt.",
             "Add cubes to hot saucepan, cook until beef is tender and medium-rare (130f), 4-5 minutes.",
             "Turn heat to low, and scrape bottom of pan to mix drippings with beef.",
             "Fold potatoes, onions, and pancetta in with beef. Sprinkle with vinegar.",
-            "Serve over rice, garnish with cilantro and chillis."
+            "Serve over rice, garnish with cilantro and chilies."
         ],
         
         "tags":[
@@ -1585,7 +1585,7 @@ recipes = [
                 "item": "garlic cloves, thinly sliced"
             },
             {	
-                "quantity": "3 inch",
+                "quantity": "3\"",
                 "item": "length of ginger, peeled and cut into matchsticks"
             },
             {	
@@ -1656,8 +1656,8 @@ recipes = [
     {   "id": "H2", "title": "Za'atar Fish n Chips", "category":"seafood", "date":"20210417",
         "yield":"2-4 servings",
         "time":{
-            "active": 0,
-            "total":0
+            "active": "20 mins",
+            "total":"50 mins"
         },
         "source":{
             "title":"Za'atar Fish and Chips",
@@ -1705,13 +1705,13 @@ recipes = [
             
         ],
         "directions":[
-            "Place racks in upper an dlower thirds of oven; preheat to 425f.",
-            "Mix onion, 2 Tbsp vinegar, and a big pinch of salt in a small bowl to combine; let sit at least 10 minutes and up to 1 hour. Drain off vinegar and discard.",
+            "Place racks in upper and lower thirds of oven; preheat to 425f.",
+            "Mix onion, 2 Tbsp vinegar, and a big pinch of salt in a small bowl to combine; let sit at least 10 minutes and up to 1 hour.",
             "Meanwhile, toss potatoes and 3 Tbsp oil on a large rimmed baking sheet; arrange in a single layer. Roast on bottom rack, undistrubed, until browned and crisp underneath. 20-25 minutes.",
-            "Turn potatoes over, and return to oven. Reduce temp to 325F.",
+            "Turn potatoes over, and return to oven.",
             "Place cod on a small rimmed baking sheet, drizzle with 1Tbsp of oil. Season with salt and sprinkle with za'atar. Slide onto empty rack and roast.",
             "After about 10 minutes check on fish and potatoes. Fish is done when it flakes easily with fork. Potatoes should be brown all over.",
-            "Stir olives, mint, 2Tbsp of vinegar, and 2 Tbsp oil into pickled onion.",
+            "Stir olives, mint, and 2 Tbsp oil into pickled onion.",
             "Serve cod and potatoes topped with olive mixtures."
         ],        
         "tags":[
@@ -1930,7 +1930,7 @@ recipes = [
             "Great place to use overripe tomatoes.",
             "Can control heat with amount of added cayenne pepper.",
             "Can use and equal amount of dried dill or parsley if you don't have fresh dill.",
-            "serve with rice and/or #O6."
+            "Serve with rice and/or #O6."
         ],
         "ingredients":[
             {                 
@@ -1963,7 +1963,7 @@ recipes = [
             },
             {	
                 "quantity": "1 tsp",
-                "item": "smoked parika"
+                "item": "smoked paprika"
             },
             {	
                 "quantity": "1/4 tsp",
@@ -1991,12 +1991,12 @@ recipes = [
             },
         ],
         "directions":[
-            "Pre-heat oven to 375F",
-            "Heat olive oil in a 10-12 inch oven safe skillet over medium high heat. Add the pepper and onion with a pinch of salt. REduce heat to medium and cook, stirring occassionally until vegetables are tender, about 10 minutes.",
+            "Pre-heat oven to 375F.",
+            "Heat olive oil in a 10-12\" oven safe skillet over medium high heat. Add the pepper and onion with a pinch of salt. Reduce heat to medium and cook, stirring occassionally until vegetables are tender, about 10 minutes.",
             "Stir in garlic, cumin, turmeric, paprika, and cayenne. Cook until fragrant, about 1 minute.",
             "Stir in tomatoes, season with salt and black pepper. Cook partially covered until tomatoes and pepper are soft and have formed a thick sauce, about 15 minutes.",
-            "Mix in the feta and dill",
-            "Make 6 divots in the surface of the sauce, and crack an egg into each one. Season with salt and pepper. Transfer skillet to oven an bake until eggs are just set, 7 to 10 minutes. Eggs may not look fully cooked, check for doneness by wiggling skillet. Err towards less done vs overdone."
+            "Mix in the feta and dill.",
+            "Make 6 divots in the surface of the sauce, and crack an egg into each one. Season with salt and pepper. Transfer skillet to oven and bake until eggs are just set, 7 to 10 minutes. Eggs may not look fully cooked, check for doneness by wiggling skillet. Err towards less done vs overdone."
         ],
         
         "tags":[
@@ -2329,7 +2329,7 @@ recipes = [
                 "item": "Garlic cloves, finely chopped"
             },
             {	
-                "quantity": "1 inch",
+                "quantity": "1\"",
                 "item": "Ginger, finely chopped"
             },
             {	
@@ -2534,7 +2534,7 @@ recipes = [
                 "item": "garlic cloves, finely chopped"
             },
             {	
-                "quantity": "2 1/2 inch",
+                "quantity": "2 1/2\"",
                 "item": "piece ginger, peeled, finely grated"
             },
             {	
@@ -3287,7 +3287,7 @@ recipes = [
             "Shape dough into a tight ball and place in a large, lightly oiled bowl. Cover with plastic wrap and let rise for 30 minutes",
             "Fold partially risen dough over itself 8 times, by lifting edge and folding towards middle. Cover and let rise for 30 minutes. Repeat 1 more time for a total of 3, 30 minute rises.",
             "Transfer dough to a lightly floured work surface and divide into 4-8 equal pieces. Shape each into a smooth, tight ball.",
-            "Place dough balls on lightly oiled baking sheet, at least 2 inches apart; cover loosely with plastic coated with vegetable oil spray. Let stand 15-20 minutes.",
+            "Place dough balls on lightly oiled baking sheet, at least 2\"es apart; cover loosely with plastic coated with vegetable oil spray. Let stand 15-20 minutes.",
             "!Cook",
             "Transfer 1 dough ball to lightly floured work surface. Using hands and rolling pin, press and roll into a round of even thickness. Sprinkle with flour as needed to prevent sticking. Poke entire surface with fork, 20-25 times.",
             "Heat remaining oil in 12\" cast iron skillet over medium heat until shimmering. Wipe out skillet completely with paper towels. Reserve paper towels.",
@@ -3315,7 +3315,7 @@ recipes = [
         },
         "notes":[
             "Can be plain, glazed or filled. For filled donuts don't cut a hole.",
-            "Donut cutter, concentric cookie cutters, or pint and shot glass can be used to shape donuts. Large circle should be roughly 3 inches and the smaller one should be about an inch.",
+            "Donut cutter, concentric cookie cutters, or pint and shot glass can be used to shape donuts. Large circle should be roughly 3\"es and the smaller one should be about an\".",
         ],
         "ingredients":[
             {                 
@@ -3354,14 +3354,14 @@ recipes = [
         "directions":[
             "!Donuts",
             "Heat milk to 90 F, combine with yeast. Stir lightly and let sit until mixture is foamy, about 5 minutes.",
-            "Meanwhile, lightly grease a large bowl with oil, set aside and lightly coat an area with flour for kneading.",
-            "Beat eggs, butter, sugar, and salt into yeast mixture. Add half of the flour (2 c and 2 Tbsp), and mix until combined, then mix in the rest of the flour until dough pulls away from the sides of the bowl. If dough is too wet add more flour 2 Tbsp at a time.",
-            "Transfer to floured surface, and knead gently until smooth. Transfer to a large greased bowl, and cover with a damp towel. Let rise at room temperature until doubled in size. About 1 hour.",
+            "Meanwhile, lightly grease a large bowl with oil, set aside and flour a surface for kneading.",
+            "Beat eggs, butter, sugar, and salt into yeast mixture. Add half of the flour (2 c and 2 Tbsp), and mix until combined, then mix in the rest of the flour until dough pulls away from the sides of the bowl. If dough is too wet add more flour, 2 Tbsp at a time.",
+            "Transfer to floured surface, and knead gently until smooth. Transfer to greased bowl, and cover with a damp towel. Let rise at room temperature until doubled in size. About 1 hour.",
             "Turn dough out onto a well-floured surface, and roll it to 1/2\" thick. Cut out doughnuts, flouring cutters as you go. Reserve holes. If you want more donuts, gently knead scraps together and let for a few minutes, repeat rolling and cutting process.",
             "Put donuts on floured baking sheets so there is plenty of room between each one. Cover with damp towel and let rise until slightly puffed and delicate, about 45 minutes.",
-            "About 15 minutes before th doughnuts are done rising, put oil in a heavy bottom pot over medium heat, and heat to 375F. Meanwhile, lay down paper towels and place cooling racks over them.",
+            "About 15 minutes before th donuts are done rising, put oil in a heavy bottom pot over medium heat, and heat to 375F. Meanwhile, lay down paper towels and place cooling racks over them.",
             "Carefully add donuts to oil a few at a time. Gently poke any large bubbles with a toothpick. When bottoms are deep golden brown, about 45 seconds, use a slotted spoon or spider to flip them over. Transfer to the prepared racks. Adjust heat as necesary to keep oil at 375 until done cooking all donuts",
-            "For donut holes, I found it easiest to occasioanlly bop them with the spoon to keep them rotating in the oil.",
+            "For donut holes, I found it easiest to occasioanlly bop them with the spoon to keep them rotating in the oil. They will cook faster than the donuts did.",
         ],
         "tags":[
             "delicious",
@@ -3413,12 +3413,12 @@ recipes = [
         ],
         "directions":[
             "!Glazed",
-            "Mix powdered sugar with 1/4 c milk and vanilla. For chocolate glaze, add 1/4 c cocoa powder",
+            "Mix powdered sugar with 1/4 c milk and vanilla. For chocolate glaze, add 1/4 c cocoa powder as well",
             "When cool enough to handle, dip tops of donuts in glaze and let them harden on rack.",
             
             "!Jelly Filled",
             "When cool enough to handle, roll donuts in sugar.",
-            "Poke hole in the side of the donue with a chopstick, or soemthing of similar size.",
+            "Poke hole in the side of the donue with a chopstick, or something of similar size.",
             "Using pastry bag gently squeeze jelly into donut."
         ],        
         "tags":[
@@ -3589,7 +3589,7 @@ recipes = [
             "Cream butter and sugar until white and fluffy, 5-7 minutes (3-4 in a stand mixer).",
             "Add flour, vanilla extract and a pinch of salt. Mix until dough starts to form.",
             "Mix in chocolate chips.",
-            "Transfer dough to a sheet of parchment paper, place another piece of parchment on top, and roll dough to a 1/2 inch thick flat.",
+            "Transfer dough to a sheet of parchment paper, place another piece of parchment on top, and roll dough to a 1/2\" thick flat.",
             "Place dough with parchment on a small baking sheet, and place in freezer for 20 minutes.",
             "Preheat oven to 350f.",
             "Take dough from freezer and cut into shards. Triangles look great, but funky shaped pieces still taste good.",
