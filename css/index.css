@@ -313,6 +313,10 @@ nav ul{
 		grid-template-columns: 1fr 100px;
 	}
 
+	.container-recipe{
+		margin-right:75px;
+	}
+
 	#recipeTitle{
 		font-size: 48pt;
 	}
