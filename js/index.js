@@ -138,6 +138,7 @@ $(document).ready(function(){
 
 	function newButton(){
 		$("#showNew").click(function(){
+			showButton();
 			$('.all').hide();
 			$('.new').show();
 		})
