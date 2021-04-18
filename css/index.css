@@ -332,6 +332,10 @@ nav ul{
         grid-template-columns: 460px repeat(6, 1fr);
     }
 
+	.container-recipe{
+		margin-right:200px;
+	}
+
     .item-nav{
         grid-column: 1;
 		grid-row: span 2;
