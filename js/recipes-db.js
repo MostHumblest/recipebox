@@ -370,8 +370,8 @@ recipes = [
     ],
     "ingredients":[
         {                 
-            "quantity": "1 can",
-            "item": "chickpeas (15.5oz)"
+            "quantity": "1",
+            "item": "can chickpeas (15.5oz)"
         },
         {	
             "quantity": "1",
