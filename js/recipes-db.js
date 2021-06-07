@@ -352,6 +352,75 @@ recipes = [
     ],
     },
 
+    {   "id": "C2", "title": "Hummus", "category":"snacks and dips", "date":"20210607",
+    "yield":"2 cups",
+    "time":{
+        "active": "15 mins",
+        "total":"15 mins"
+    },
+    "source":{
+        "title":"Classic Chickpea Hummus",
+        "author":"Claire Saffitz",
+        "source":"Bon Appetit, March 2021",
+        "modify":"y"
+    },
+    "notes":[
+        "Try not to eat it all in one sitting",
+
+    ],
+    "ingredients":[
+        {                 
+            "quantity": "1 can",
+            "item": "chickpeas (15.5oz)"
+        },
+        {	
+            "quantity": "1",
+            "item": "lemon"
+        },
+        {	
+            "quantity": "1",
+            "item": "garlic clove"
+        },
+        {	
+            "quantity": "1/2 c",
+            "item": "tahini"
+        },
+        {	
+            "quantity": "3/4 tsp",
+            "item": "kosher salt"
+        },
+        {	
+            "quantity": "1/4 tsp",
+            "item": "black pepper"
+        },
+        {	
+            "quantity": "1/2 tsp",
+            "item": "ground cumin"
+        },
+        {	
+            "quantity": "3 Tbsp",
+            "item": "extra-virgin olive oil"
+        },
+        {	
+            "quantity": "AR",
+            "item": "water"
+        },
+    ],
+    "directions":[
+        "Drain and rinse chickpeas, let continue to drain while you prep other ingredients.",
+        "Cut lemon in half, and remove visable seeds.",
+        "Smash garlic clove with flat side of knife, remove peel. Continue to mash with knife to form a paste, or grate on a microplane.",
+        "Combine drained chickpeas, lemon juice, tahini, salt, pepper, cumin, and 2 tablespoons water in a food processor. Process until smooth, about 1 minute.",
+        "With motor running, stream in 3 olive oil and continue to process until creamy, about 1 more minute.",
+        "Taste, season with salt if necessary, transfer to a bowl and top with za'atar, sesame seeds, or whatever your heart disaires."
+    ],
+    
+    "tags":[
+        "vegetarian",
+        "test2"
+    ],
+},
+
     {   "id": "D0", "title": "Salads Placeholder", "category":"salads", "date":"20210131",
         "yield":1,
         "time":{
@@ -1914,7 +1983,7 @@ recipes = [
         ],
     },
 
-    {   "id": "J1", "title": "Shakshuka", "category":"eggs", "date":"21210416",
+    {   "id": "J1", "title": "Shakshuka", "category":"eggs", "date":"20210416",
         "yield":"2-3 Servings",
         "time":{
             "active": 0,
