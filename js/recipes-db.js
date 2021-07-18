@@ -1789,6 +1789,84 @@ recipes = [
         ],
     },
 
+    {   "id": "H3", "title": "Fish with Spiced Chickpeas", "category":"seafood", "date":"20210718",
+        "yield":"3-4 servings",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Foolproof Fish with Spiced Chickpeas",
+            "author":"ukn",
+            "source":"Bon Appetit",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "2",
+                "item": "shallots, divided"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "golden raisins"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "red wine vinegar"
+            },
+            {	
+                "quantity": "3",
+                "item": "garlic cloves"
+            },
+            {	
+                "quantity": "1 1/2 inch",
+                "item": "piece ginger"
+            },
+            {	
+                "quantity": "6 oz",
+                "item": "carrots"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "tumeric"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "crushed red pepper"
+            },
+            {	
+                "quantity": "2",
+                "item": "15 oz cans chickpeas, drained and rinsed"
+            },
+            {	
+                "quantity": "1 1/2 lb",
+                "item": "whitefish, such as cod, or halibut"
+            },
+            {	
+                "quantity": "1 c",
+                "item": "mint leaves"
+            },
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "I0", "title": "Vegetables Placeholder", "category":"vegetables", "date":"20210131",
         "yield":1,
         "time":{
