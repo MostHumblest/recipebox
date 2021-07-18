@@ -1789,7 +1789,7 @@ recipes = [
         ],
     },
 
-    {   "id": "H3", "title": "Fish with Spiced Chickpeas", "category":"seafood", "date":"20210718",
+    {   "id": "H3", "title": "Roast Fish with Spiced Chickpeas", "category":"seafood", "date":"20210718",
         "yield":"3-4 servings",
         "time":{
             "active": 0,
@@ -1820,15 +1820,15 @@ recipes = [
             },
             {	
                 "quantity": "3",
-                "item": "garlic cloves"
+                "item": "garlic cloves, thinly sliced"
             },
             {	
                 "quantity": "1 1/2 inch",
-                "item": "piece ginger"
+                "item": "piece ginger, finely chopped"
             },
             {	
                 "quantity": "6 oz",
-                "item": "carrots"
+                "item": "carrots, thinly sliced"
             },
             {	
                 "quantity": "1/2 c",
@@ -1843,8 +1843,8 @@ recipes = [
                 "item": "crushed red pepper"
             },
             {	
-                "quantity": "2",
-                "item": "15 oz cans chickpeas, drained and rinsed"
+                "quantity": "30 oz",
+                "item": "chickpeas, drained and rinsed (2, 15 oz cans)"
             },
             {	
                 "quantity": "1 1/2 lb",
@@ -1854,11 +1854,24 @@ recipes = [
                 "quantity": "1 c",
                 "item": "mint leaves"
             },
+            {	
+                "quantity": "AR",
+                "item": "kosher salt"
+            },
         ],
         "directions":[
-            "step 1",
-            "step 2",
-            "step 3"
+            "Place a rack in the middle of the over; preheat to 300f",
+            "Peel shallots, slice in half lengthwise, then slice crosswise. Divide into a small bowl and a medium bowl",
+            "Coarsely chop raisens and transfer to medium bowl with shallots",
+            "Add red wine vinegar and 1/4 tsp salt to shallot mixture and toss gently.",
+            "Heat 3 Tbsp olive oil in a medium cast-iron skillet over medium. Add reserved shallots, cook stirring occassionally until light golden in color. 3-5 minutes.",
+            "Add garlic, ginger, tumeric, and red pepper flakes. Cook stirring constantly until fragrant. About 1 minute.",
+            "Increase heat to medium-high, and add chickpeas, carrots, 1 Tbsp olive oil, and 1/2 tsp of salt. Cook, stirring occassionally, until combined and well coated. 3-4 minutes.",
+            "Remove pan from heat.",
+            "Cut fish as necessary to fit in pan. Season with salt on all sides. Nestle into chickpea mixture.",
+            "Transfer pan to oven, and roast for 15-20 minutes until fish is flakey. Start checking at 15 minute mark",
+            "Coarsely chop mint and mix into shallot-rasin mixture. Add 3 Tbsp extra-virgin olive oil and toss to combine.",
+            "Spoon mint salsa over fish, and serve."
         ],
         
         "tags":[
