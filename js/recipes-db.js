@@ -2746,6 +2746,109 @@ recipes = [
         ],
     },
 
+    {   "id": "M3", "title": "Apple Coconut Daal", "category":"legumes", "date":"20211031",
+        "yield":"4 servings",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Coconut-Apple-Ginger Dal",
+            "author":"Anna Stockwell",
+            "source":"Bon Appetit",
+            "modify":"y"
+        },
+        "notes":[
+            "Pairs well with #O6",
+            "A tart apple such as granny smith is best"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "2 Tbsp",
+                "item": "coconut oil"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "cayenne pepper"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "ground cumin"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "ground turmeric"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "curry powder"
+            },
+            {	
+                "quantity": "1/2",
+                "item": "large onion, finely chopped"
+            },
+            {	
+                "quantity": "2",
+                "item": "garlic cloves, finely chopped"
+            },
+            {	
+                "quantity": "3 inch",
+                "item": "length ginger, finely chopped"
+            },
+            {	
+                "quantity": "1",
+                "item": "large apple, grated"
+            },
+            {	
+                "quantity": "1 1/2 c",
+                "item": "red lentils"
+            },
+            {	
+                "quantity": "13.5 oz",
+                "item": "coconut milk"
+            },
+            {	
+                "quantity": "2 c",
+                "item": "vegetable stock"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "fresh lime juice"
+            },
+            {	
+                "quantity": "AR",
+                "item": "Kosher Salt"
+            },
+            {	
+                "quantity": "AR",
+                "item": "Ground pepper"
+            },
+            {	
+                "quantity": "AR",
+                "item": "Whole fat, plain yogurt"
+            },
+            {
+                "quantity":"AR",
+                "item":"unsweetened coconut flakes"
+            }
+        ],
+        "directions":[
+            "Heat oil in a large pot over medium-high heat. Cook cayenne, cumin, turmeric, and curry powder, stirring until fragrant, about 1 minute.",
+            "Add onion, garlic, and ginger and cook, stirring until softened, about 3 minutes",
+            "Add apple and lentils and stir to coat.",
+            "Stir in coconut milk, vegetable stock, and 1/2c water and bring to a boil.",
+            "Reduce heat and simmer, stirring occasionally, unitl lentils are completely soft and dal is thick, 20-25 minutes.",
+            "Add lime juice, and season with salt and pepper.",
+            "Divide among bowls, top with yogurt and coconut flakes"
+        ],
+        
+        "tags":[
+            "vegetarian",
+            "easy",
+            "fast"
+        ],
+    },
+
     {   "id": "N0", "title": "Sauces Placeholder", "category":"sauces and rubs", "date":"20210131",
         "yield":1,
         "time":{
