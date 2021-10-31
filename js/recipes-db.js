@@ -3118,7 +3118,7 @@ recipes = [
         ],
     },
 
-    {   "id": "N4", "title": "Salsa de Arbol", "category":"sauces and rubs", "date":"20210131",
+    {   "id": "N4", "title": "Salsa de Arbol", "category":"sauces and rubs", "date":"20211031",
         "yield":1,
         "time":{
             "active": 0,
