@@ -3118,6 +3118,62 @@ recipes = [
         ],
     },
 
+    {   "id": "N4", "title": "Salsa de Arbol", "category":"sauces and rubs", "date":"20210131",
+        "yield":1,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Salsa de Árbol",
+            "author":"Rick Martinez",
+            "source":"Bon Appetit, Feb 2020",
+            "modify":"y"
+        },
+        "notes":[
+            "Salsa (without lime juice) can be made 3 days ahead, add lime juice just before serving",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "3 Tbsp",
+                "item": "Extra Virign Olive Oil"
+            },
+            {	
+                "quantity": "3",
+                "item": "Dried chiles de arbol, seeds removed, chopped"
+            },
+            {                 
+                "quantity": "2",
+                "item": "Garlic cloves, finely grated"
+            },
+            {                 
+                "quantity": "14.5 oz",
+                "item": "Fire-roasted, diced, tomatoes"
+            },
+            {                 
+                "quantity": "AR",
+                "item": "Kosher Salt"
+            },
+            {                 
+                "quantity": "2 Tbsp",
+                "item": "Fresh lime juice"
+            },
+        ],
+        "directions":[
+            "Heat oil in a medium saucepan over medium. Add chilies and garlic. Cook stirring constantly until lightly toasted and fragrant. About 30 seconds",
+            "Add tomatoes and 1c water, increase heat to medium-high. Cook stirring occassionally until most of the liquid has evaporated and tomatoes are very tender. About 15 minutes",
+            "Season mixture with salt",
+            "Using a ptoatoe masher, smash until it is the consistency of chunky salsa.",
+            "Let cool, stir in lime juice"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "O0", "title": "Baking Placeholder", "category":"baking", "date":"20210131",
         "yield":1,
         "time":{
