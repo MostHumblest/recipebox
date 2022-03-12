@@ -419,7 +419,85 @@ recipes = [
         "vegetarian",
         "test2"
     ],
-},
+    },
+
+    {   "id": "C3", "title": "Citrus-Ginger Raita", "category":"snacks and dips", "date":"20220312",
+        "yield":"2 cups",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Citrus-Ginger Raita With Spice Oil",
+            "author":"Sohla El-Waylly",
+            "source":"Bon Appetit, Oct 2020",
+            "modify":"y"
+        },
+        "notes":[
+            "Whole fat Greek yogurt can be used in place of labneh",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "2 cups",
+                "item": "labneh"
+            },
+            {	
+                "quantity": "1 1/2 tsp",
+                "item": "orange zest"
+            },
+            {	
+                "quantity": "1 1/2 tsp",
+                "item": "lemon zest"
+            },
+            {	
+                "quantity": "1/4 cup",
+                "item": "orange juice"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "lemon juice"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "grated ginger"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "sugar"
+            },
+            {	
+                "quantity": "AR",
+                "item": "kopsher salt"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "corriander seeds, crushed"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "ground turmeric"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "Kashmiri chile powder"
+            }
+        ],
+        "directions":[
+            "Whisk together labneh, zests, juices, ginger, and sugar in a small bowl, season with salt",
+            "set aside 1/4 cup if making #G3",
+            "Just before serving: heat oil in a small sauce pan over medium high. Add coriander seed and cook, shaking occassionally, until fragrant and popping, about 1 minute. Add turmeric and chile powder; cook, shaking pan, until fragrent, about 30 seconds. Pour over raita."
+        ],
+        
+        "tags":[
+            "tangy",
+            "test2"
+        ],
+    },  
 
     {   "id": "D0", "title": "Salads Placeholder", "category":"salads", "date":"20210131",
         "yield":1,
@@ -1574,6 +1652,74 @@ recipes = [
         "tags":[
             "easy",
             ""
+        ],
+    },
+
+    {   "id": "G3", "title": "Pistachio Crusted Short Ribs", "category":"beef", "date":"20220312",
+        "yield":"4-6 servings",
+        "time":{
+            "active": "45 minutes",
+            "total":"24 hours"
+        },
+        "source":{
+            "title":"Garam Masala Short Rib Roast With Pistachio Crust",
+            "author":"Sohla El Waylly",
+            "source":"Bon Appetit, Oct 2020",
+            "modify":"y"
+        },
+        "notes":[
+            "Requires #C3",
+            "Way too good for how easy it is."
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1/4 cup",
+                "item": "garam masala"
+            },
+            {	
+                "quantity": "1/4 cup",
+                "item": "Diamond Crystal kosher salt"
+            },
+            {                 
+                "quantity": "3 Tbsp",
+                "item": "brown sugar"
+            },
+            {                 
+                "quantity": "3-5lb",
+                "item": "beef rib plate roast"
+            },
+            {                 
+                "quantity": "3 Tbsp",
+                "item": "vegetable oil, divided"
+            },
+            {                 
+                "quantity": "1/4 cup",
+                "item": "reserved #C3"
+            },
+            {                 
+                "quantity": "1/4 cup",
+                "item": "chopped pistachios"
+            }
+        ],
+        "directions":[
+            "!Advanced Prep",
+            "Foil line a rimmed baking sheet, set wire rack inside.",
+            "Whisk garam masala, salt, and brown sugar in a small bowl.",
+            "Pat roast dry with paper towels, rub over with 1 Tbsp oil, then coat with dry rub, pressing to adhere.",
+            "Chill, uncovered, at least 12 hours, and up to 2 days.",
+            "!Cooking",
+            "1 hour before baking, pull ribs from fridge and let sit at room temperature.",
+            "Preheat oven to 250F. drizzle 1 Tbsp oil over meat. Pour 1 cup of water into the prepared baking sheet, and cover roast tightly with foil.",
+            "Bake until meat is tender, 4 to 5 1/2 hours (when you tug at a bone, it should feel loose and might slip out).",
+            "Remove short ribs from oven; increase temperature to 325F.",
+            "Uncover meat. Spread top with raita then sprinkle with pistachios, pressing to adhere.",
+            "Drizzle remaining 1 Tbsp of oil on top, season lightly with salt, and roast until nuts are golden brown, aobut 30 minutes.",
+            "Remove from oven and let rest 15 minutes before serving.",
+        ],
+        
+        "tags":[
+            "dinner party",
+            "healthy"
         ],
     },
 
