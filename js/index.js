@@ -108,7 +108,8 @@ $(document).ready(function(){
 				rCategoryID = rCategory.replace(/ /g, "_");
 				var thisTag = "#r" + rCategoryID;
 				var linkClass = "\"all " + rID + isNew + "\"";
-				var rTitleItem = "<li class=" +linkClass + "><a class="+linkClass+"href=\"https://mosthumblest.github.io/recipebox/#" + rID+ "\"><span>" + rTitle + "</span></a></li>";
+				var rTitleItem = "<li class=" +linkClass + "><a class="+linkClass+"href=\"../#" + rID+ "\"><span>" + rTitle + "</span></a></li>";
+				//https://mosthumblest.github.io/recipebox
 				$(thisTag).append(rTitleItem);
 			}
 		});
