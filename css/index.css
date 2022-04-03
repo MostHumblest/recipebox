@@ -340,7 +340,7 @@ nav ul{
 @media (min-width:1200px){
     .container-main{
         display:grid;
-        grid-template-columns: 480px repeat(6, 1fr);
+        grid-template-columns: 600px repeat(6, 1fr);
     }
 
 	.container-recipe{
