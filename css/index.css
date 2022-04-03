@@ -130,7 +130,7 @@ header{
 .nav-container{
 	display: grid;
 	grid-template-columns: 1fr 75px;
-	grid-template-rows: 45px 15px 45px 45px 45px minmax(250px, auto);	
+	grid-template-rows: 45px 15px 45px 45px 45px minmax(50px, auto);	
 	margin: 1rem 1rem 1rem 1rem;
 	padding-top: 1rem;
 	background-color: rgba(211, 211, 211,.3);
