@@ -2614,15 +2614,15 @@ recipes = [
         ],
         "directions":[
             "Preheat oven to 425F.",
-            "Bring a large pot of water toa boil, then add a generous amount of salt. Cook pasta, stirring occassionally, about 2 minutes short of the package directions for al dente. Reserve 1 cup of cooking liquid, then drain pasta.",
+            "Bring a large pot of water to a boil, then add a generous amount of salt. Cook pasta, stirring occassionally, about 2 minutes short of the package directions for al dente. Reserve 1 cup of cooking liquid, then drain pasta.",
             "While cooking pasta, heat 5 Tbsp olive oil in a large Dutch oven over medium-high heat.",
             "Add leeks and season with salt and black pepper. Cook, stirring occasionially,  until leeks are softened and starting to brown, 8-10 minutes",
             "Add red pepper flakes, and stir.",
             "Add broccoli rabe by the handful, stirring between additions to allow it to wilt before adding more. Season with salt and black pepper. Cook stirring occasionally until bright green and wilted, about 2 minutes.",
             "Remove pot from heat and set aside.",
-            "Add pasta to broccoli rabe mixture along wiht 3/4 of the cheese, 1/2 cup of chives, and the reserved pasta liquid. Mix well. Keep in mind that saltiness and spiciness will increase while baking, but season with salt and pepper, or more pepper flakes as desired",
+            "Add pasta to broccoli rabe mixture along with 3/4 of the cheese, 1/2 cup of chives, and the reserved pasta liquid. Mix well. Keep in mind that saltiness and spiciness will increase while baking, but season with salt and pepper, or more pepper flakes as desired",
             "In a medium bowl, toss panko with remaining 3 Tbsp of oil. season with salt and pepper.",
-            "Scatter crumbs over pasta, then sprinkle remaining cheese evenly.",
+            "Scatter crumbs over pasta, then sprinkle remaining cheese evenly on top.",
             "Bake until basta is bubbling across the entire surface and the breadcumbs are deeply golden brown, 30-35 minutes.",
             "Before serving, sprinkle with remaining chives."
         ],
