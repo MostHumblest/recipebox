@@ -2182,7 +2182,7 @@ recipes = [
         ],
     },
 
-    {   "id": "I2", "title": "Miso-Galzed Turnips", "category":"vegetables", "date":"20220424",
+    {   "id": "I2", "title": "Miso-Glazed Turnips", "category":"vegetables", "date":"20220424",
         "yield":"2 servings",
         "time":{
             "active": 0,
@@ -2230,8 +2230,8 @@ recipes = [
         "directions":[
             "Combine turnips, miso, butter, and sugar in a medium skillet.",
             "Add water to just cover the vegetables.",
-            "Season with salt and pepper",
-            "Bring to a boil over medium-high heat and cook turnips, turning occassionaly, until they are tender and liquid is evaporated, 15-20 minutes.",
+            "Season with salt and pepper.",
+            "Bring to a boil over medium-high heat and cook turnips, turning occassionally, until they are tender and liquid has evaporated, 15-20 minutes.",
             "Once all the liquid has cooked off, keep cooking turnips, tossing occassionally, until they are golden brown and carmalized and the sauce thickens and glazes the vegetables, about 5 minutes longer.",
             "Add lemon juice and swirl to coat turinps. Season with salt and pepper."
         ],
