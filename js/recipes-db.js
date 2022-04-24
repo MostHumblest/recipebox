@@ -2559,7 +2559,7 @@ recipes = [
         "yield":"3-4 servings",
         "time":{
             "active": 0,
-            "total":"35 mins"
+            "total":"60 mins"
         },
         "source":{
             "title":"Spicy Baked Pasta With Cheddar and Broccoli Rabe",
