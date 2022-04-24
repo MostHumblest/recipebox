@@ -3892,6 +3892,99 @@ recipes = [
         ],
     },
 
+    {   "id": "O9", "title": "Sesame Tea Cake", "category":"baking", "date":"20220424",
+        "yield":"1 loaf",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Swirled Sesame Tea Cake",
+            "author":"Claire Saffitz",
+            "source":"Bon Appetit, March 2018",
+            "modify":"n"
+        },
+        "notes":[
+            "When swirling, don't overdo it. Insert a skewer all the way to the bottom of the pan, and make about 4 confident figure 8s throughout the loaf"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "AR",
+                "item": "Nonstick cooking spray"
+            },
+            {	
+                "quantity": "AR",
+                "item": "White sesame seeds, for sprinkling"
+            },
+            {                 
+                "quantity": "2 Tbsp",
+                "item": "Black sesame seeds, plus more for sprinking"
+            },
+            {                 
+                "quantity": "1 c",
+                "item": "sugar. plus more for sprinkling"
+            },
+            {                 
+                "quantity": "1 1/2 c",
+                "item": "AP flour"
+            },
+            {                 
+                "quantity": "1 3/4 tsp",
+                "item": "baking powder"
+            },
+            {                 
+                "quantity": "1/4 tsp",
+                "item": "baking soda"
+            },
+            {                 
+                "quantity": "1/2 c",
+                "item": "plain whole-milk yogurt"
+            },
+            {                 
+                "quantity": "1/2 c",
+                "item": "tahini"
+            },
+            {                 
+                "quantity": "2",
+                "item": "Large eggs"
+            },
+            {                 
+                "quantity": "1 tsp",
+                "item": "vanilla extract"
+            },
+            {                 
+                "quantity": "1/2 c",
+                "item": "Vegetable oil"
+            },
+            {                 
+                "quantity": "1 1/2 tsp",
+                "item": "toasted seame oil"
+            }
+        ],
+        "directions":[
+            "Preheat oven to 350F. Lightly coat an 8 1/2 x 4 1/2 inch loaf pan with nonstick spray. Line with parchment paper, leaving overhang on long sides. Lightly coat parchment with nonstick spray. Sprinkle side and bottom of pan with white and black sesame seeds and sugar and shake around in pan to coat; tap out excess.",
+            "Finely grind 2 Tbsp black sesame seeds in a spice mill, food processor or blender; set aside",
+            "Whisk flour, baking powder, salt, cardamom, and baking soda in a medium bowl to combine.",
+            "In a small bowl, whisk together yogurt and tahinig until smooth. Mizture will seize and stiffen at first",
+            "Beat eggs, vanilla, and 1 cup sugar in a large bowl until eggs are pale and thick, about 2 minutes",
+            "While mixing, slowly stream in vegetable oil and sesame oil",
+            "Alternate adding dry ingredients and the yogurt mixture to the egg mixture, beginning and ending with dry ingredients. Beat after each addition until fully incorporated.",
+            "Scrape half of the batter into the bowl that held the dry ingredients. (this is the bread base)",
+            "Add reserved ground black sesame seed to the remaining batter and mix until even distributed. (this is the black swirl)",
+            "Alternating between batters, spoon large dollaps into the prepared pan",
+            "To make the dramatic streaks, insert a skewer to the bottom of the pan, and confidently stroke up to 4 figure 8s throughout the batter",
+            "Sprinkle mixture with more sesame seedsm then some sugar.",
+            "Bake until a tester inserted into the center of the cake comes out clean, 55-65 minutes.",
+            "Transfer pan to a wire rack, and cool in pan for 10 minutes.",
+            "Run a knife around short sides of pan and use parchment paper to help lift out of the pan onto the rack. Let cool completely."
+        ],
+        
+        "tags":[
+            "test1",
+            "test2"
+        ],
+    },
+
     {   "id": "P0", "title": "Desserts Placeholder", "category":"dessert", "date":"20210131",
         "yield":1,
         "time":{
