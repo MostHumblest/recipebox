@@ -2182,6 +2182,67 @@ recipes = [
         ],
     },
 
+    {   "id": "I2", "title": "Miso-Galzed Turnips", "category":"vegetables", "date":"20220424",
+        "yield":"2 servings",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Miso-Glazed Turnips",
+            "author":"Claire Saffitz",
+            "source":"Bon Appetit, February 2015",
+            "modify":"y"
+        },
+        "notes":[
+            "Great side dish"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 lb",
+                "item": "small turnips, trimmed, scrubbed, cut into 1inch wedges"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "white miso"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "butter"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "sugar"
+            },
+            {	
+                "quantity": "AR",
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "AR",
+                "item": "black pepper"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "lemon juice"
+            }
+        ],
+        "directions":[
+            "Combine turnips, miso, butter, and sugar in a medium skillet.",
+            "Add water to just cover the vegetables.",
+            "Season with salt and pepper",
+            "Bring to a boil over medium-high heat and cook turnips, turning occassionaly, until they are tender and liquid is evaporated, 15-20 minutes.",
+            "Once all the liquid has cooked off, keep cooking turnips, tossing occassionally, until they are golden brown and carmalized and the sauce thickens and glazes the vegetables, about 5 minutes longer.",
+            "Add lemon juice and swirl to coat turinps. Season with salt and pepper."
+        ],
+        
+        "tags":[
+            "vegetarian",
+            "test2"
+        ],
+    },
+
+
     {   "id": "J0", "title": "Eggs Placeholder", "category":"eggs", "date":"20210131",
         "yield":1,
         "time":{
