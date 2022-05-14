@@ -1199,6 +1199,94 @@ recipes = [
         ],
     },
 
+    {   "id": "E6", "title": "Schwarma Roast Chicken", "category":"poultry", "date":"20220514",
+        "yield":"2-3 servings",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Schwarma Roast Chicken with Shallots and Lemons",
+            "author":"Andy Baraghani",
+            "source":"Bon Appetit, March 2022",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 Tbsp",
+                "item": "coriander seeds"
+            },
+            {	
+                "quantity": "1 1/2 tsp",
+                "item": "cumin seeds"
+            },
+            {	
+                "quantity": "1 1/2 tsp",
+                "item": "black peppercorns"
+            },
+            {	
+                "quantity": "1 1/2 tsp",
+                "item": "smoked paprika"
+            },
+            {	
+                "quantity": "3/4 tsp",
+                "item": "ground turmeric"
+            },
+            {	
+                "quantity": "4",
+                "item": "garlic cloves, finely grated"
+            },
+            {	
+                "quantity": "1/4 cup",
+                "item": "whole-milk plain greek yogurt"
+            },
+            {	
+                "quantity": "4 Tbsp",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "3 1/2 - 4lb",
+                "item": "whole chicken"
+            },
+            {	
+                "quantity": "3",
+                "item": "medium shallots, halved lengthwise"
+            },
+            {	
+                "quantity": "1",
+                "item": "lemon, sliced into 1/4 inch thick rounds, seeds removed"
+            },
+            {	
+                "quantity": "4",
+                "item": "oregano or thyme sprigs"
+            },
+        ],
+        "directions":[
+            "!1 Chicken Prep",
+            "Finely grind coriander seeds, cumin seeds, peppercorns, paprika, and turmeric.",
+            "Transfer spice mixture to a small bowl; whisk in garlic, yogurt, and 2 Tbsp oil.",
+            "Pat chicken dry, generously season with salt, then smear yogurt mixture all over.",
+            "Let sit on a rimmed baking sheet at room temp for at least 30 minutes, or chill, uncovered, up to 12 hours. If chilling let sit at room temp for 30 minutes before roasting.",
+            "!2 Roasting",
+            "Preheat ovent to 425F. Heat remaining 2 Tbsp oil in a large, oven-safe skillet over medium-high.",
+            "Place chicken, breast side up, in pan, then nestle shallots, cut side down, and lemon slices around.",
+            "Season shallots and lemon with salt. Tuck in herb sprigs and cook, undistrubed, until shallots are starting to brown, about 3 minutes.",
+            "Pour 1/2 cup of water into pan; transfer skillet to oven, arranging so legs are pointing to the back of oven.",
+            "Roast until skin has taken on some color, 10-15 minutes. Reduce heat to 325F and continue to roast until chicken is cooked through and tender, and shallots are jammy, 60-70 minutes. (an instant-read thermometer inserted into thickest part of breast should register 155F; it will climb to 165F while resting.",
+            "Remove chicken from oven, let rest for 15 minutes.",
+            "Transfer chicken to a cutting board and carve as desired. Serve alongside shallots and lemon slices."
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "F0", "title": "Pork Placeholder", "category":"pork", "date":"20210131",
         "yield":1,
         "time":{
