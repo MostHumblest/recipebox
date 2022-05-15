@@ -686,7 +686,7 @@ recipes = [
         ],
     },
 
-    {   "id": "D3", "title": "Grilled Ceaser Wedges", "category":"salads", "date":"20220515",
+    {   "id": "D3", "title": "Grilled Caeser Wedges", "category":"salads", "date":"20220515",
         "yield":"3-4 servings",
         "time":{
             "active": 0,
