@@ -686,6 +686,87 @@ recipes = [
         ],
     },
 
+    {   "id": "D3", "title": "Grilled Ceaser Wedges", "category":"salads", "date":"20220515",
+        "yield":"3-4 servings",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Grilled Romaine",
+            "author":"Sam Sifton",
+            "source":"NYT Cooking",
+            "modify":"y"
+        },
+        "notes":[
+            "You can use 2 heads of romaine, quartered, instead of the halved romaine hearts",
+            "Greek yogurt can be used in place of the mayo"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1",
+                "item": "clove garlic, minced"
+            },
+            {	
+                "quantity": "6",
+                "item": "anchovy fillets, minced"
+            },
+            {	
+                "quantity": "2 tsp",
+                "item": "mayonnaise"
+            },
+            {	
+                "quantity": "2 tsp",
+                "item": "Dijon mustard"
+            },
+            {	
+                "quantity": "1/2 cup plus 2 Tbsp",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "cider vinegar"
+            },
+            {	
+                "quantity": "AR",
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "AR",
+                "item": "black pepper"
+            },
+            {	
+                "quantity": "3-4",
+                "item": "romaine hearts"
+            },
+            {	
+                "quantity": "1/2 cup",
+                "item": "grated parmesan"
+            }
+        ],
+        "directions":[
+            "Heat your grill for two zones (one hot over coals or gas, one cold)",
+            "!Dressing",
+            "Put minced garlic and anchoby into a bowal. Mix and mash the ingredients together until they start to form a paste.",
+            "Add mayo and mustard, and whisk.",
+            "Add 1/2 cup of olive oil and continue to whisk.",
+            "Add thge vinegar and whisk until the emulsified.",
+            "Season with salt and pepper to taste.",
+            "!Salad",
+            "Trim the bottom of the romaine hearts and halve lengthwise",
+            "Drizzle olive oil over, and season lightly with salt and pepper",
+            "Lightly grill over heat for 15-20 seconds on each side. Move to cool side of grill, cut side up.",
+            "Using pastry brush, or small spoon, paint the dressing over the lettuce, making sure to get dressing between the leaves.",
+            "Sprinkle parm over, and cover for 1-2 minutes to allow cheese to melt.",
+            "Remove and serve."
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "E0", "title": "Poultry Placeholder", "category":"poultry", "date":"20210131",
         "yield":1,
         "time":{
