@@ -499,6 +499,97 @@ recipes = [
         ],
     },  
 
+    {   "id": "C4", "title": "Beet Dip", "category":"snacks and dips", "date":"20220704",
+        "yield":"3 cups dip",
+        "time":{
+            "active": "30 mins",
+            "total":"90 mins"
+        },
+        "source":{
+            "title":"Israeli Beet Labneh",
+            "author":"Melissa Clark",
+            "source":"Dinner",
+            "modify":"y"
+        },
+        "notes":[
+            "Greek yogurt can be used in place of labneh",
+            ""
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 lb",
+                "item": "beets"
+            },
+            {	
+                "quantity": "1",
+                "item": "large lemon"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "chopped cilantro"
+            },
+            {	
+                "quantity": "2",
+                "item": "cloves garlic, divided"
+            },
+            {	
+                "quantity": "2",
+                "item": "jalepenos, divided"
+            },
+            {	
+                "quantity": "AR",
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "AR",
+                "item": "black pepper"
+            },
+            {	
+                "quantity": "4 Tbsp",
+                "item": "extra virign olive oil, divided"
+            },
+            {	
+                "quantity": "1 1/2 c",
+                "item": "labneh"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "walnuts, coarsely chopped, lightly toasted"
+            }
+        ],
+        "directions":[
+            "!Prepare Beets",
+            "Preheat the oven to 375F",
+            "Trim beets, and place, unpeeled, into a roasting dish, or baking sheet.",
+            "Drizzle with olive oil, salt and pepper, and sprinkle 3 Tbsp of water into pan.",
+            "Cover with foil, and roast until easily pierced with a knife, 30-60 minutes.",
+            "Note: larger beets may take much longer to roast.",
+            "Once cool enough to handle, peel beets with hands or a paring knife.",
+            "!Make Dip",
+            "Setup one medium bowl, and a food processor or blender",
+            "Finely dice 1 cup of beets (about 3) and place in the bowl, put remaining beets into the food processor",
+            "Grate zest of half lemon into the bowl",
+            "Add 2 1/2 tsp lemon juice to bowl, add about 1/2 tsp to processor",
+            "Add chopped cilantro to bowl.",
+            "Halve, seed, and dice 1 jalepeno, add half to each the bowl and the processor.",
+            "Grate or mince both garlic cloves, add half to each the bowl and the processor.",
+            "Add 1/2 tsp salt, and soe black pepper to taste to the bowl. Add 1/4 tsp salt to the food processor.",
+            "Add 2 Tbsp olive oil to each.",
+            "Stir the bowl ingredients together and set aside.",
+            "In the food processor, add 1/2 cup of labneh, and process until pureed.",
+            "!Serve Dip",
+            "On a large plate or in a shallow dish, spread remaining 1 cup of labneh.",
+            "Spread the pureed beet mixture on top.",
+            "Scatter beet relish over the puree.",
+            "Garnish with toasted walnuts, slices of remaining jalepeno, and extra cilantro leaves."
+        ],
+        
+        "tags":[
+            "vegetarian",
+            "test2"
+        ],
+    },
+
     {   "id": "D0", "title": "Salads Placeholder", "category":"salads", "date":"20210131",
         "yield":1,
         "time":{
