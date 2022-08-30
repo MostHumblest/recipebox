@@ -2728,6 +2728,10 @@ recipes = [
                 "item": "onion, peeled and quartered"
             },
             {	
+                "quantity": "1",
+                "item": "carrot, peeled and quartered"
+            },
+            {	
                 "quantity": "2-3",
                 "item": "plum tomatoes, quartered"
             },
@@ -3487,6 +3491,10 @@ recipes = [
             {	
                 "quantity": "1",
                 "item": "onion, peeled and quartered"
+            },
+            {	
+                "quantity": "1",
+                "item": "carrot, peeled and quartered"
             },
             {	
                 "quantity": "2-3",
