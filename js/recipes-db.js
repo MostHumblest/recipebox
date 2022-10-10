@@ -3046,6 +3046,10 @@ recipes = [
                 "item": "Arborio rice"
             },
             {	
+                "quantity": "1/2 c",
+                "item": "Thai red curry paste"
+            },
+            {	
                 "quantity": "4 1/2 c",
                 "item": "Vegetable stock"
             },
@@ -3068,7 +3072,7 @@ recipes = [
         ],
         "directions":[
             "Preheat oven to 400f, and set racks to baking sheet and dutch oven can both fit at the same time",
-            "Add squash pieces to a rimmed sheet pan, add 2 Tbsp oil, season with salt and pper, toss to coat.",
+            "Add squash pieces to a rimmed sheet pan, add 2 Tbsp oil, season with salt and pepper, toss to coat.",
             "Roast until squash is tender, 20 minutes (may take longer due to oven adjustment later on)",
             "As squash roasts, heat dutch oven over medium.",
             "Add 2 Tbsp oil, and the shallots, cook until softened, 2-3 minutes",
@@ -3086,8 +3090,8 @@ recipes = [
         ],
         
         "tags":[
-            "test",
-            "test2"
+            "vegetarian",
+            "vegan"
         ],
     },
 
