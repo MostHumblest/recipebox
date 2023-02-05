@@ -858,6 +858,96 @@ recipes = [
         ],
     },
 
+    {   "id": "D4", "title": "Turemeric Rice  & Brussels Sprouts", "category":"salads", "date":"20230205",
+        "yield":1,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Turmeric Rice Salad with Roasted Brussel Sprouts",
+            "author":"Molly Baz",
+            "source":"Bon Appetit, Nov 2018",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "3/4 c",
+                "item": "unsweetened coconut flakes"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "sliced almonds"
+            },
+            {	
+                "quantity": "4 c",
+                "item": "brussels sprouts, trimmed"
+            },
+            {	
+                "quantity": "6 Tbsp",
+                "item": "canola oil"
+            },
+            {	
+                "quantity": "1 inch",
+                "item": "ginger, grated"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "coconut cream"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "honey"
+            },
+            {	
+                "quantity": "AR",
+                "item": "black pepper"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "rice vinegar"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "ground turmeric"
+            },
+            {	
+                "quantity": "8 c",
+                "item": "cooked rice (from 2cups uncooked"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "cilantro leaves"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "dried, unsweetened cranberries "
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "mint leaves"
+            },
+            {	
+                "quantity": "1/4 c",
+                "item": "scallions, thinly sliced"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
     {   "id": "E0", "title": "Poultry Placeholder", "category":"poultry", "date":"20210131",
         "yield":1,
         "time":{
@@ -2502,7 +2592,6 @@ recipes = [
         ],
     },
 
-
     {   "id": "J0", "title": "Eggs Placeholder", "category":"eggs", "date":"20210131",
         "yield":1,
         "time":{
@@ -3299,7 +3388,7 @@ recipes = [
         ],
     },
 
-    {   "id": "M3", "title": "Apple Coconut Daal", "category":"legumes", "date":"20211031",
+    {   "id": "M3", "title": "Apple Coconut Dal", "category":"legumes", "date":"20211031",
         "yield":"4 servings",
         "time":{
             "active": 0,
@@ -3880,11 +3969,11 @@ recipes = [
             },
         ],
         "directions":[
-            "1. Adjust oven rack to middle position and heat oven to 425 F, Grate frozen butter on large holes of box grater (you should grate total of 8 tablespoons). Place grated butter in freezer until needed. Melt 2 tablespoons of remaining ungrated butter and set aside. Place blueberries in freezer until needed.",
+            "1. Adjust oven rack to middle position and heat oven to 425 F, Grate frozen butter on large holes of box grater (you should grate total of 8 tablespoons). Place grated butter in freezer until needed. Melt 2 tablespoons of remaining ungrated butter and set aside. Place filing in freezer until needed.",
             "2. Whisk together milk and sour cream in medium bowl; refrigerate until needed. Whisk flour, 1/2 cup sugar, baking powder, baking soda, salt, and lemon zest in medium bowl. Add frozen butter to flour mixture and toss with fingers until thoroughly coated.",
             "3. Add milk mixture to flour mixture; fold with spatula until just combined. With rubber spatula, transfer dough to liberally floured work surface. Dust surface of dough with flour; with floured hands, knead dough 6 to 8 times, until it just holds together in ragged ball, adding flour as needed to prevent sticking.",
-            "4. Roll dough into approximate 12-inch square. Following illustrations, fold dough into thirds like a business letter, using bench scraper or metal spatula to release dough if it sticks to countertop. Lift short ends of dough and fold into thirds again to form approximate 4-inch square. Transfer dough to plate lightly dusted with flour and chill in freezer 5 minutes.",
-            "5. Transfer dough to floured work surface and roll into approximate 12-inch square again. Sprinkle blueberries evenly over surface of dough, then press down so they are slightly embedded in dough. Using bench scraper or thin metal spatula, loosen dough from work surface. Roll dough, pressing to form tight log. Lay seam-side down and press log into 12 by 4-inch rectangle. Using sharp, floured knife, cut rectangle crosswise into 4 or 6 equal rectangles. Cut each rectangle diagonally to form 2 triangles and transfer to parchment-lined baking sheet.",
+            "4. Roll dough into approximate 12-inch square. Fold dough into thirds like a business letter, using bench scraper or metal spatula to release dough if it sticks to countertop. Lift short ends of dough and fold into thirds again to form approximate 4-inch square. Transfer dough to plate lightly dusted with flour and chill in freezer 5 minutes.",
+            "5. Transfer dough to floured work surface and roll into approximate 12-inch square again. Sprinkle filling evenly over surface of dough, then press down so they are slightly embedded in dough. Using bench scraper or thin metal spatula, loosen dough from work surface. Roll dough, pressing to form tight log. Lay seam-side down and press log into 12 by 4-inch rectangle. Using sharp, floured knife, cut rectangle crosswise into 4 or 6 equal rectangles. Cut each rectangle diagonally to form 2 triangles and transfer to parchment-lined baking sheet.",
             "6. Brush tops with melted butter and sprinkle with remaining tablespoon sugar. Bake until tops and bottoms are golden brown, 18 to 25 minutes. Transfer to wire rack and let cool 10 minutes before serving."
         ],
         
