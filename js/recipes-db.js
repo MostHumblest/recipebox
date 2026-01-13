@@ -136,7 +136,7 @@ recipes = [
             "When bell peppers are called for, use red, yellow, or orange.",
             "Fresh parsley can be used in place of fresh cilantro.",
             "Most recipes call for unsalted butter, and I shortened it to butter. I use salted. I'm sure it matters, but I don't care. Use whichever makes you feel better.",
-            "Minced garlic and ginger can be grated on a micro-plane instead.",
+            "Minced garlic and ginger can be grated on a microplane instead.",
             "Parchment paper isn't required when roasting, but makes for easier cleanup."
         ],
         "ingredients":[
@@ -408,11 +408,11 @@ recipes = [
     ],
     "directions":[
         "Drain and rinse chickpeas, let continue to drain while you prep other ingredients.",
-        "Cut lemon in half, and remove visable seeds.",
+        "Cut lemon in half, and remove visible seeds.",
         "Smash garlic clove with flat side of knife, remove peel. Continue to mash with knife to form a paste, or grate on a microplane.",
         "Combine drained chickpeas, lemon juice, tahini, salt, pepper, cumin, and 2 tablespoons water in a food processor. Process until smooth, about 1 minute.",
         "With motor running, stream in 3 olive oil and continue to process until creamy, about 1 more minute.",
-        "Taste, season with salt if necessary, transfer to a bowl and top with za'atar, sesame seeds, or whatever your heart disaires."
+        "Taste, season with salt if necessary, transfer to a bowl and top with za'atar, sesame seeds, or whatever your heart desires."
     ],
     
     "tags":[
@@ -468,7 +468,7 @@ recipes = [
             },
             {	
                 "quantity": "AR",
-                "item": "kopsher salt"
+                "item": "kosher salt"
             },
             {	
                 "quantity": "1 Tbsp",
@@ -476,7 +476,7 @@ recipes = [
             },
             {	
                 "quantity": "1 tsp",
-                "item": "corriander seeds, crushed"
+                "item": "coriander seeds, crushed"
             },
             {	
                 "quantity": "1/2 tsp",
@@ -490,7 +490,7 @@ recipes = [
         "directions":[
             "Whisk together labneh, zests, juices, ginger, and sugar in a small bowl, season with salt",
             "set aside 1/4 cup if making #G3",
-            "Just before serving: heat oil in a small sauce pan over medium high. Add coriander seed and cook, shaking occassionally, until fragrant and popping, about 1 minute. Add turmeric and chile powder; cook, shaking pan, until fragrent, about 30 seconds. Pour over raita."
+            "Just before serving: heat oil in a small sauce pan over medium high. Add coriander seed and cook, shaking occasionally, until fragrant and popping, about 1 minute. Add turmeric and chile powder; cook, shaking pan, until fragrent, about 30 seconds. Pour over raita."
         ],
         
         "tags":[
@@ -534,7 +534,7 @@ recipes = [
             },
             {	
                 "quantity": "2",
-                "item": "jalepenos, divided"
+                "item": "jalapenos, divided"
             },
             {	
                 "quantity": "AR",
@@ -546,7 +546,7 @@ recipes = [
             },
             {	
                 "quantity": "4 Tbsp",
-                "item": "extra virign olive oil, divided"
+                "item": "extra virgin olive oil, divided"
             },
             {	
                 "quantity": "1 1/2 c",
@@ -571,7 +571,7 @@ recipes = [
             "Grate zest of half lemon into the bowl.",
             "Add 2 1/2 tsp lemon juice to bowl, add about 1/2 tsp to processor.",
             "Add chopped cilantro to bowl.",
-            "Halve, seed, and dice 1 jalepeno, add half to each the bowl and the processor.",
+            "Halve, seed, and dice 1 jalapeno, add half to each the bowl and the processor.",
             "Grate or mince both garlic cloves, add half to each the bowl and the processor.",
             "Add 1/2 tsp salt, and  black pepper to taste to the bowl. Add 1/4 tsp salt to the food processor.",
             "Add 2 Tbsp olive oil to each.",
@@ -581,7 +581,7 @@ recipes = [
             "On a large plate or in a shallow dish, spread remaining 1 cup of labneh.",
             "Spread the pureed beet mixture on top.",
             "Scatter beet relish over the puree.",
-            "Garnish with toasted walnuts, slices of remaining jalepeno, and extra cilantro leaves."
+            "Garnish with toasted walnuts, slices of remaining jalapeno, and extra cilantro leaves."
         ],
         
         "tags":[
@@ -641,7 +641,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "If you can't find creme fraiche, substitue with sour cream or greek yogurt",
+            "If you can't find creme fraiche, substitute with sour cream or greek yogurt",
             "Shredding the sprouts is easiest with the slicing disk on a food processor, reflected in active time",
             "Salad will be good for up to 2 days if refrigerated in an airtight container. Warm to room-temp before serving."
         ],
@@ -705,8 +705,8 @@ recipes = [
             "Meanwhile, trim the stalk end off the Brussels sprouts and cut them into fine shreds.",
             "Place shreds in a bowl of salted ice-cold water for at least 10 minutes.",
             "Toast walnuts in a small skillet over medium-low heat until starting to brown, 4-5 minutes. Remove from heat and transfer to a small bowl.",
-            "To make dressing, smash garlic into fine paste (using flat side of knivfe or mortar and pestle). In a small bowl, mix garlic with creme fraiche, lemon juice, and black pepper. Taste and add salt as needed.",
-            "To assemble, drain sprouts, and spread them on a clean kitchen towl to absorb excess liquid. Transfer to a large mixing bowl. Add scallions and walnuts and half of creme fraiche. Fold to coat evenly.",
+            "To make dressing, smash garlic into fine paste (using flat side of knife or mortar and pestle). In a small bowl, mix garlic with creme fraiche, lemon juice, and black pepper. Taste and add salt as needed.",
+            "To assemble, drain sprouts, and spread them on a clean kitchen towel to absorb excess liquid. Transfer to a large mixing bowl. Add scallions and walnuts and half of creme fraiche. Fold to coat evenly.",
             "Garnish with mint, chilli flakes, and crispy shallots. Serve with remaining dressing on the side. "
         ],
         
@@ -760,7 +760,7 @@ recipes = [
             },
             {	
                 "quantity": "1/2 c",
-                "item": "coarsley chopped parsley"
+                "item": "coarsely chopped parsley"
             },
         ],
         "directions":[
@@ -858,14 +858,14 @@ recipes = [
         ],
     },
 
-    {   "id": "D4", "title": "Turemeric Rice  & Brussels Sprouts", "category":"salads", "date":"20230205",
+    {   "id": "D4", "title": "Turmeric Rice  & Brussels Sprouts", "category":"salads", "date":"20230205",
         "yield":1,
         "time":{
             "active": 0,
             "total":0
         },
         "source":{
-            "title":"Turmeric Rice Salad with Roasted Brussel Sprouts",
+            "title":"Turmeric Rice Salad with Roasted Brussels Sprouts",
             "author":"Molly Baz",
             "source":"Bon Appetit, Nov 2018",
             "modify":"y"
@@ -1056,11 +1056,11 @@ recipes = [
             "Whisk gochujang and 1/4 c olive oil in a medium bowl until combined. Grate 3 cloves of garlic (from one head) into oil. Peel ginger, grate into oil. Whisk to combine.",
             "Cut remaining garlic in half crosswise. Repeat with second head of garlic. Stuff 2 halves into the chicken and tie legs with kitchen twine.",
             "Using a pastry brush, spread half of gochujang oil on the chicken.",
-            "Toss potatoes and remaining 2 garlic halves and remaing 2 Tbsp oil until coated. Season lightly with salt and pepper to combine.",
+            "Toss potatoes and remaining 2 garlic halves and remaining 2 Tbsp oil until coated. Season lightly with salt and pepper to combine.",
             "Arrange potatoes in a 12\" cast-iron skillet, scooting them towards the edges of the pan. Place garlic halves cut side down in the middle of the skillet. Place chicken over garlic.",
             "Roast chicken and potatoes, turning potatoes once or twice to coat in juices and oil that accumulate in pan until potatoes are tender when pressed with the back of a spoon, and chicken skin is a deep reddish-golden brown, 2.5-3 hrs. When you wiggle the legs of the chicken, the should feel loose in the joints.",
             "Transfer chicken to a cutting board and let rest 10-15 minutes",
-            "Using the back of a spoon or potato masher, gentely smash potatoes in skillet exposing their flesh to the juices to soak up.",
+            "Using the back of a spoon or potato masher, gently smash potatoes in skillet exposing their flesh to the juices to soak up.",
             "Squeeze limes over potatoes, add honey and stir. Season with more salt if needed. Scatter scallions on top.",
             "Carve chicken and serve with potatoes."
         ],
@@ -1099,7 +1099,7 @@ recipes = [
             },
             {	
                 "quantity": "5",
-                "item": "garlic cloved, minced"
+                "item": "garlic cloves, minced"
             },
             {	
                 "quantity": "4 tsp",
@@ -1162,19 +1162,19 @@ recipes = [
             "!Sauce",
             "Melt 2 Tbsp butter in large saucepan over medium heat. Add onion, garlic, ginger, and serrano. Cook, stirring frequently, until mixture is softened and onion begins to brown, 8-10 minutes.",
             "Add garam masala, coriander, cumin, and pepper. Cook stirring frequently, until fragrant, about 3 minutes.",
-            "Add water and tomato opaste and whisk until no lumps of tomato paste remain.",
+            "Add water and tomato paste and whisk until no lumps of tomato paste remain.",
             "Add sugar and 1 tsp salt and bring to boil.",
             "Off heat, stir in cream.",
             "Using immersion blender or blender, process until smooth, 30-60 seconds",
-            "Return sauce to simmer over medium heat and whisk in remaing 2 tablespoons butter.",
+            "Return sauce to simmer over medium heat and whisk in remaining 2 tablespoons butter.",
             "Remove saucepan from heat and cover to keep warm.",
             "!Chicken",
             "Adjust oven rack 6\"es from broiler element and heat broiler. Prepare baking sheet with foil, and set wire rack on top.",
             "Combine chicken, yogurt, and  remaining 1 tsp salt in bowl and toss well to coat.",
             "Transfer chicken to wire rack. Broil until chicken, flipping halfway through, until evenly charred on both sides and registers 175F, 16-20 minutes.",
             "Let chicken rest for 5 minutes.",
-            "Cut chicken into 3/4\" chuncks (kitchen shears work great) and stir into sauce.",
-            "Stir in 2 Tbsp cilatnro, season with alt to taste. Sprinkly remaining cilantro over to serve."
+            "Cut chicken into 3/4\" chunks (kitchen shears work great) and stir into sauce.",
+            "Stir in 2 Tbsp cilantro, season with alt to taste. Sprinkle remaining cilantro over to serve."
         ],        
         "tags":[
             "indian",
@@ -1236,7 +1236,7 @@ recipes = [
             },
             {	
                 "quantity": "1",
-                "item": "large leek, trimed, rinsed, thinly sliced into rings"
+                "item": "large leek, trimmed, rinsed, thinly sliced into rings"
             },
             {	
                 "quantity": "1 Tbsp",
@@ -1270,7 +1270,7 @@ recipes = [
             "Stir in harissa paste, turmeric and cinnamon, and cook until lightly toasted, 1-2 minutes. Season with salt.",
             "Add couscous to pan and stir well until coated in spiced leek oil.",
             "Add stock and bring to a boil.",
-            "Turn heat to low and add chicken to pan skin side up, along with any accumulated juices. Coer and simmer until couscous is al dente and chicken is cooked through. 10-15 minutes",
+            "Turn heat to low and add chicken to pan skin side up, along with any accumulated juices. Cover and simmer until couscous is al dente and chicken is cooked through. 10-15 minutes",
             "Remove from heat, uncover and scatter herbs and lime zest over, then serve."
         ],
         
@@ -1358,7 +1358,7 @@ recipes = [
             "In a large saucepan, heat the 1 Tbsp of oil. Add the ginger and garlic, cook over high heat until fragrant, about 1 minute. Stir the broth mixture, add it to the pan and cook until thickened and glossy. Keep the sauce warm over low heat.",
             "!3 Chicken",
             "In a large, deep skillet, heat 1/2\" of oil until shimmering. Carefully add the chicken, one piece at a time, and fry over high heat, turning once or twice, until very browned and crisp, about 4 minutes.",
-            "Drain chicken on paper towels breifly, and add to sauce along with scallions. Cook just until coated, about 30 seconds.",
+            "Drain chicken on paper towels briefly, and add to sauce along with scallions. Cook just until coated, about 30 seconds.",
             "Serve right away, over rice."
         ],
         
@@ -1382,7 +1382,7 @@ recipes = [
         },
         "notes":[
             "Serve with pasta to soak up the sauce.",
-            "Chicken can be bought as cutlets, or boneless breasts can be sliced horizontlly to make thin pieces"
+            "Chicken can be bought as cutlets, or boneless breasts can be sliced horizontally to make thin pieces"
         ],
         "ingredients":[
             {                 
@@ -1443,16 +1443,16 @@ recipes = [
             }
         ],
         "directions":[
-            "In a wide shallow bowl, whisk eggs, milk, 1 tsp of salt, and 1/2 tsp of pepper until blended. Place flour in a seperate bowl. Line a baking sheet with paper towels.",
+            "In a wide shallow bowl, whisk eggs, milk, 1 tsp of salt, and 1/2 tsp of pepper until blended. Place flour in a separate bowl. Line a baking sheet with paper towels.",
             "In a wide skillet, heat olive and vegetable oils over medium heat until shimmering.",
             "Working in batches, lightly dredge the chicken in the flour and shake off any excess. Dip into egg batter, let excess batter drip back into the bowl and place in teh skillet.",
             "Fry until golden brown on one side, about 4 minutes. Then flip once and repeat frying. Adjust heat as necessary to maintain a slow even browning, with steady bubbling. Transfer to prepped pan, and repeat with remaining cutlets.",
-            "Once all cutlets are browned, reomve pan from heat and pour off oil. Wipe out pan with paper towels. Return to low heat",
-            "Melt 3Tbsp of butter and then scatter the lemon slices over the bottom of the pan. Cook, stirring gently occassionally, until the lemon slices are golden and browning around the edges. About 3 minutes. Scoop out lemons and set them aside",
+            "Once all cutlets are browned, remove pan from heat and pour off oil. Wipe out pan with paper towels. Return to low heat",
+            "Melt 3Tbsp of butter and then scatter the lemon slices over the bottom of the pan. Cook, stirring gently occasionally, until the lemon slices are golden and browning around the edges. About 3 minutes. Scoop out lemons and set them aside",
             "Add 3 Tbsp of butter, the wine, and lemon juice and bring to a boil. Boil until syrupy, 3-4 minutes. Pour in the stock, bring to a boil, and cook until thickened into a sauce. About 5 minutes. (It will thicken more when the cutlets are added).",
             "Taste and adjust with lemon juice, salt and pepper. It should be more lemony than salty.",
-            "Reduce heat, tuck cutlets into the pan and simmer gently until the sauce is velvety and the chicken pieces are heated through, occasionally fliping cutlets over in sauce. About 4 minutes.",
-            "Serve cutlets, topped with lemons and parsely. Spoon extra sauce over."
+            "Reduce heat, tuck cutlets into the pan and simmer gently until the sauce is velvety and the chicken pieces are heated through, occasionally flipping cutlets over in sauce. About 4 minutes.",
+            "Serve cutlets, topped with lemons and parsley. Spoon extra sauce over."
         ],
         
         "tags":[
@@ -1535,7 +1535,7 @@ recipes = [
             "!Roasting",
             "Preheat oven to 425F. Heat remaining 2 Tbsp oil in a large, oven-safe skillet over medium-high.",
             "Place chicken, breast side up, in pan, then nestle shallots, cut side down, and lemon slices around.",
-            "Season shallots and lemon with salt. Tuck in herb sprigs and cook, undistrubed, until shallots are starting to brown, about 3 minutes.",
+            "Season shallots and lemon with salt. Tuck in herb sprigs and cook, undisturbed, until shallots are starting to brown, about 3 minutes.",
             "Pour 1/2 cup of water into pan; transfer skillet to oven, arranging so legs are pointing to the back of oven.",
             "Roast until skin has taken on some color, 10-15 minutes.",
             "Reduce heat to 325F and continue to roast until chicken is cooked through and tender, and shallots are jammy, 60-70 minutes. (an instant-read thermometer inserted into thickest part of breast should register 155F; it will climb to 165F while resting.)",
@@ -1654,17 +1654,17 @@ recipes = [
             }
         ],
         "directions":[
-            "Peel and core pineapple. Cut half into bite-size pieces (about 1\"); set aside. Chope remaining half into small pieces and transfer to a small sauce pan.",
-            "Cook pineapple bits over low heat, stirring occassionally, until very soft and broken down and nearly all the juice is evaporated, 15-18 minutes",
-            "transfer cooked pinepple to a blender, add 1/4 c of water; puree until smooth.",
+            "Peel and core pineapple. Cut half into bite-size pieces (about 1\"); set aside. Chop remaining half into small pieces and transfer to a small sauce pan.",
+            "Cook pineapple bits over low heat, stirring occasionally, until very soft and broken down and nearly all the juice is evaporated, 15-18 minutes",
+            "transfer cooked pineapple to a blender, add 1/4 c of water; puree until smooth.",
             "Heat 2 Tbsp of oil in a large dutch oven or other heavy pot over medium-high. Lightly season pork with salt and pepper.",
             "Working in 2-3 batches, cook pork until well browned on all sides, 5-8 minutes per batch, and transfer to a plate.",
             "Reduce heat to medium-low, and add onion and garlic to the same pot. Cook, stirring often, until fragrant and softened, about 5 minutes.",
             "Return pork to pot, stir in pineapple puree, soy sauce, vinegar, oyster sauce, peppercorns, bay leaves, and 3/4 c of water.",
             "Bring to a simmer and cover pot. Reduce heat to a gentle simmer and cook until pork is tender, 45-50 minutes.",
-            "Meanwhile, heat remaining 1 Tbsp oil in a large skillet over medium-high. Cook reserved bite size pineapple, tossing occassionally, until golden brown all over 5-8 minutes. Transfer to a plate.",
+            "Meanwhile, heat remaining 1 Tbsp oil in a large skillet over medium-high. Cook reserved bite size pineapple, tossing occasionally, until golden brown all over 5-8 minutes. Transfer to a plate.",
             "Uncover pot and skim off any fat on the surface. Increase heat to medium and cook, uncovered, until sauce is thick and shiny, about 15 minutes.",
-            "Gently stir in carmalized pineapple. Remove and discard bay leaves. Serve over rice."
+            "Gently stir in caramelized pineapple. Remove and discard bay leaves. Serve over rice."
         ],
         
         "tags":[
@@ -1745,7 +1745,7 @@ recipes = [
             "Heat a large dutch oven or other heavy pot over medium-high heat. Add coconut flakes and toast, shaking frequently until crispy. Pour into seperate bowl, season with salt, set aside. Note: these can go from raw to toasted to burnt very quickly.",
             "Wipe remaining flakes out of pot, return to medium high heat and add oil. Add pork and cook, undisturbed until browned underneath, 2-3 minutes.",
             "Break up pork with a wooden spoon, and continue to cook; tossing and breaking up as much as possible until browned all over, but not full cooked through. About 2 more minutes.",
-            "Add onion, season with salt and cook stirring occassionally until softened, about 3 minutes.",
+            "Add onion, season with salt and cook stirring occasionally until softened, about 3 minutes.",
             "Reduce heat to medium. Add ginger, chile, garlic, and turmeric and cook, stirring often until vegetables are fragrant and soft. Reducing heat if bottom of pan gets very dark. About 4 minutes.",
             "Add coconut milk, and 1/2c of water and bring to a simmer. Cook, stirring occassioanlly ultil slight thickened, about 5 minutes. Taste and season with salt.",
             "Spoon rice onto plates, top with reserved cabbage. Spoon curry over and dollop with yogurt. Sprinkle with coconut flakes and serve with limes."
@@ -2179,7 +2179,7 @@ recipes = [
             },
             {	
                 "quantity": "2",
-                "item": "celery stalks, thinkly sliced"
+                "item": "celery stalks, thickly sliced"
             },
             {	
                 "quantity": "1 1/2 c",
@@ -2197,11 +2197,11 @@ recipes = [
         "directions":[
             "!Chowder",
             "Season cod all over with salt; set aside",
-            "Heat 3 Tbsp ghee in a medium dutch over over medium. Cook leeks, garlic, and ginger, stirring occassionally until softened but not browned. About 3 minutes",
-            "Add turmeric, coriander, and cardamom and cook, stirring until fragrent, about 30 seconds.",
+            "Heat 3 Tbsp ghee in a medium dutch over over medium. Cook leeks, garlic, and ginger, stirring occasionally until softened but not browned. About 3 minutes",
+            "Add turmeric, coriander, and cardamom and cook, stirring until fragrant, about 30 seconds.",
             "Add chile, potatoes, coconut milk, 1tsp salt, and 3/4 cup water; bring to a boil (over medium) and immediately reduce heat so soup is at a bare simmer.",
             "Cover, leaving lid slightly askew, and cook until potatoes are barely fork tender, 10-12 minutes.",
-            "Carefully nestle fish into pot and spoon broth over. Cover with lid slight askew, and simmer for 4 mintues.",
+            "Carefully nestle fish into pot and spoon broth over. Cover with lid slight askew, and simmer for 4 minutes.",
             "Stir in celery, then cook until fish is opaque and flakes easily, about 5 minutes",
             "Slice 1 lime in half and squeeze juice into chowder, slice remaining lime into wedges",
             "Serve with lime wedges alongside, and top with oyster crackers",
@@ -2272,7 +2272,7 @@ recipes = [
         "directions":[
             "Place racks in upper and lower thirds of oven; preheat to 425f.",
             "Mix onion, 2 Tbsp vinegar, and a big pinch of salt in a small bowl to combine; let sit at least 10 minutes and up to 1 hour.",
-            "Meanwhile, toss potatoes and 3 Tbsp oil on a large rimmed baking sheet; arrange in a single layer. Roast on bottom rack, undistrubed, until browned and crisp underneath. 20-25 minutes.",
+            "Meanwhile, toss potatoes and 3 Tbsp oil on a large rimmed baking sheet; arrange in a single layer. Roast on bottom rack, undisturbed, until browned and crisp underneath. 20-25 minutes.",
             "Turn potatoes over, and return to oven.",
             "Place cod on a small rimmed baking sheet, drizzle with 1Tbsp of oil. Season with salt and sprinkle with za'atar. Slide onto empty rack and roast.",
             "After about 10 minutes check on fish and potatoes. Fish is done when it flakes easily with fork. Potatoes should be brown all over.",
@@ -2358,15 +2358,15 @@ recipes = [
         "directions":[
             "Place a rack in the middle of the over; preheat to 300f",
             "Peel shallots, slice in half lengthwise, then slice crosswise. Divide into a small bowl and a medium bowl",
-            "Coarsely chop raisens and transfer to medium bowl with shallots",
+            "Coarsely chop raisins and transfer to medium bowl with shallots",
             "Add red wine vinegar and 1/4 tsp salt to shallot mixture and toss gently.",
-            "Heat 3 Tbsp olive oil in a medium cast-iron skillet over medium. Add reserved shallots, cook stirring occassionally until light golden in color. 3-5 minutes.",
+            "Heat 3 Tbsp olive oil in a medium cast-iron skillet over medium. Add reserved shallots, cook stirring occasionally until light golden in color. 3-5 minutes.",
             "Add garlic, ginger, tumeric, and red pepper flakes. Cook stirring constantly until fragrant. About 1 minute.",
-            "Increase heat to medium-high, and add chickpeas, carrots, 1 Tbsp olive oil, and 1/2 tsp of salt. Cook, stirring occassionally, until combined and well coated. 3-4 minutes.",
+            "Increase heat to medium-high, and add chickpeas, carrots, 1 Tbsp olive oil, and 1/2 tsp of salt. Cook, stirring occasionally, until combined and well coated. 3-4 minutes.",
             "Remove pan from heat.",
             "Cut fish as necessary to fit in pan. Season with salt on all sides. Nestle into chickpea mixture.",
             "Transfer pan to oven, and roast for 15-20 minutes until fish is flakey. Start checking at 15 minute mark",
-            "Coarsely chop mint and mix into shallot-rasin mixture. Add 3 Tbsp extra-virgin olive oil and toss to combine.",
+            "Coarsely chop mint and mix into shallot-raisin mixture. Add 3 Tbsp extra-virgin olive oil and toss to combine.",
             "Spoon mint salsa over fish, and serve."
         ],
         
@@ -2485,7 +2485,7 @@ recipes = [
             },
             {	
                 "quantity": "1 tsp",
-                "item": "groung coriander"
+                "item": "ground coriander"
             },
             {	
                 "quantity": "1/2 tsp",
@@ -2506,7 +2506,7 @@ recipes = [
         ],
         "directions":[
             "!Slaw",
-            "Combine cabage, carrot, 2 Tbsp lemon juice, white wine vinegar, 1 tsp olive oil, kosher salt, and cilatnro.",
+            "Combine cabbage, carrot, 2 Tbsp lemon juice, white wine vinegar, 1 tsp olive oil, kosher salt, and cilantro.",
             "Toss well to combine, and set aside.",
             "!Creama",
             "In a small bowl, whisk together sour cream, with remaining 1 Tbsp lemon juice and zest.",
@@ -2516,7 +2516,7 @@ recipes = [
             "Bring pot of salted water to boil over high heat. Add cauliflower florets and simmer until barely soft, about 90 seconds. Drain in colander and set aside.",
             "In a large bowl combine chile powder, paprika, coriander, cumin, pinch of salt, and 2 Tbsp olive oil.",
             "Add cauliflower and toss until evenly coated.",
-            "Arrange seaoned cauliflower in a single layer on baking sheet.",
+            "Arrange seasoned cauliflower in a single layer on baking sheet.",
             "Bake 10 minutes, flip/mix florets, bake for additional 10 minutes (or until lightly browned).",
             "!Tacos",
             "Warm 4-6 tortillas at a time. Wrap in a moist paper towel and microwave for 20-40 seconds until warm and pliable.",
@@ -2581,9 +2581,9 @@ recipes = [
             "Combine turnips, miso, butter, and sugar in a medium skillet.",
             "Add water to just cover the vegetables.",
             "Season with salt and pepper.",
-            "Bring to a boil over medium-high heat and cook turnips, turning occassionally, until they are tender and liquid has evaporated, 15-20 minutes.",
-            "Once all the liquid has cooked off, keep cooking turnips, tossing occassionally, until they are golden brown and carmalized and the sauce thickens and glazes the vegetables, about 5 minutes longer.",
-            "Add lemon juice and swirl to coat turinps. Season with salt and pepper."
+            "Bring to a boil over medium-high heat and cook turnips, turning occasionally, until they are tender and liquid has evaporated, 15-20 minutes.",
+            "Once all the liquid has cooked off, keep cooking turnips, tossing occasionally, until they are golden brown and caramelized and the sauce thickens and glazes the vegetables, about 5 minutes longer.",
+            "Add lemon juice and swirl to coat turnips. Season with salt and pepper."
         ],
         
         "tags":[
@@ -2708,7 +2708,7 @@ recipes = [
         ],
         "directions":[
             "Pre-heat oven to 375F.",
-            "Heat olive oil in a 10-12\" oven safe skillet over medium high heat. Add the pepper and onion with a pinch of salt. Reduce heat to medium and cook, stirring occassionally until vegetables are tender, about 10 minutes.",
+            "Heat olive oil in a 10-12\" oven safe skillet over medium high heat. Add the pepper and onion with a pinch of salt. Reduce heat to medium and cook, stirring occasionally until vegetables are tender, about 10 minutes.",
             "Stir in garlic, cumin, turmeric, paprika, and cayenne. Cook until fragrant, about 1 minute.",
             "Stir in tomatoes, season with salt and black pepper. Cook partially covered until tomatoes and pepper are soft and have formed a thick sauce, about 15 minutes.",
             "Mix in the feta and dill.",
@@ -2846,7 +2846,7 @@ recipes = [
             },
             {	
                 "quantity": "2 1/4 oz",
-                "item": "paremesan, finely grated"
+                "item": "parmesan, finely grated"
             },
             {	
                 "quantity": "1/4 c",
@@ -2864,14 +2864,14 @@ recipes = [
         "directions":[
             "Preheat oven to 450f. Line a large, rimmed baking sheet with parchment paper.",
             "Tear fresh mushrooms into chunks, in 3 or 4 batches, pulse in food processor until finely chopped. Toss with 3 Tbsp of oil, and 1 tsp salt; spread on prepared baking sheet. Roast in upper third of oven for 30 minutes, until mushrooms are golden brown; Mix halfway through, set aside. Decrease oven temp to 425f.",
-            "Meanwhile, combine dried mushrooms, dried chiies, and hot stock in a large bowl and let soak for 30 minutes. After soaking, strain into measuring cup and squeeze rehydrated mushrooms to get as much liquid as possible, approximately 1 1/2 cups (top off with water if short). Roughly chop mushrooms, finely chop chilies; set mushrooms and stock aside sperately.",
-            "Pulse onion, garlic, and carrot until finely chopped. Heat 1/4 cup olive oil in large saute pan or pot over medium-high. Once hot, add onion mixture and fry for 8 minutes, stirring occassionally, until softened and golden.",
+            "Meanwhile, combine dried mushrooms, dried chilies, and hot stock in a large bowl and let soak for 30 minutes. After soaking, strain into measuring cup and squeeze rehydrated mushrooms to get as much liquid as possible, approximately 1 1/2 cups (top off with water if short). Roughly chop mushrooms, finely chop chilies; set mushrooms and stock aside sperately.",
+            "Pulse onion, garlic, and carrot until finely chopped. Heat 1/4 cup olive oil in large saute pan or pot over medium-high. Once hot, add onion mixture and fry for 8 minutes, stirring occasionally, until softened and golden.",
             "Pulse tomatoes until finely chopped, then add to pan along with tomato paste, 1 1/2 tsp salt, and 1 3/4 tsp pepper. Cook for 7 minutes, stirring occasionally.",
             "Add rehydrated mushrooms and chilies, and roasted mushrooms; stir to mix and spread evenly across pan. Leave alone to cook for 9 minutes. Resist the urge to stir.",
             "Stir in water, and reserved stock. Once simmering decrease heat to medium and cook, stirring occasionally for 25 minutes until the consistency of ragu.",
             "Add 7 Tbsp of cream, simmer for another 2 minutes. Remove from heat.",
             "Combine both cheeses, basil, and parsley in a small bowl.",
-            "Assemble lasagna - in a 9\" x 13\" pan, spread 1/5 sauce, top with 1/5 cheese, and a layer of lasagna nooodles. Repeat layers 3 more times. Finish with a final layer of sauce, and the cheese. (5 layers sauce, 5 layer cheese, 4 layers noodles).",
+            "Assemble lasagna - in a 9\" x 13\" pan, spread 1/5 sauce, top with 1/5 cheese, and a layer of lasagna noodles. Repeat layers 3 more times. Finish with a final layer of sauce, and the cheese. (5 layers sauce, 5 layer cheese, 4 layers noodles).",
             "Drizzle 1 Tbsp cream and 1 Tbsp oil over top, cover with aluminum foil, and bake for 15 minutes.",
             "Remove foil, increase temperature to 450f and bake for another 12 minutes, rotating halfway through.",
             "Turn on broiler, and broil for 2 additional minutes.",
@@ -2953,7 +2953,7 @@ recipes = [
         "directions":[
             "!Smoky Tomato Oil",
             "Place medium saute pan over high. Once hot, add the tomatoes and cook for 4 minutes. Shaking as required, until tomatoes are charred on the outside but still retaining their shape. Remove the pan from heat and set aside to cool for 5 minutes.",
-            "Stir in 1/2 cup oil, tomato paste, chile flakes, paprika and 1/2 tsp salt. Return to stove over medium-low, cook for 15 more minutes stirring occassionally. Remove from heat and set aside to infuse.",
+            "Stir in 1/2 cup oil, tomato paste, chile flakes, paprika and 1/2 tsp salt. Return to stove over medium-low, cook for 15 more minutes stirring occasionally. Remove from heat and set aside to infuse.",
             "!Pasta",
             "Add 2 Tbsp oil to a large, high-sided saute pan and heat over medium-high. Once hot, add the tagliatelle nests and cook for 2 minutes on each side, until nicely golden. Set nests aside and rinse out pan.",
             "Drain chickpeas and add to the same pan with 4 1/2 cups water and 1/2 tsp baking soda. Return pan to medium-high heat and bring to a boil, skimming scum off top as necessary. Turn the heat to medium-low, cover with lid and cook for 10-15minutes.",
@@ -3028,16 +3028,16 @@ recipes = [
         ],
         "directions":[
             "Preheat oven to 425F.",
-            "Bring a large pot of water to a boil, then add a generous amount of salt. Cook pasta, stirring occassionally, about 2 minutes short of the package directions for al dente. Reserve 1 cup of cooking liquid, then drain pasta.",
+            "Bring a large pot of water to a boil, then add a generous amount of salt. Cook pasta, stirring occasionally, about 2 minutes short of the package directions for al dente. Reserve 1 cup of cooking liquid, then drain pasta.",
             "While cooking pasta, heat 5 Tbsp olive oil in a large Dutch oven over medium-high heat.",
-            "Add leeks and season with salt and black pepper. Cook, stirring occasionially,  until leeks are softened and starting to brown, 8-10 minutes",
+            "Add leeks and season with salt and black pepper. Cook, stirring occasionally,  until leeks are softened and starting to brown, 8-10 minutes",
             "Add red pepper flakes, and stir.",
             "Add broccoli rabe by the handful, stirring between additions to allow it to wilt before adding more. Season with salt and black pepper. Cook stirring occasionally until bright green and wilted, about 2 minutes.",
             "Remove pot from heat and set aside.",
             "Add pasta to broccoli rabe mixture along with 3/4 of the cheese, 1/2 cup of chives, and the reserved pasta liquid. Mix well. Keep in mind that saltiness and spiciness will increase while baking, but season with salt and pepper, or more pepper flakes as desired",
             "In a medium bowl, toss panko with remaining 3 Tbsp of oil. season with salt and pepper.",
             "Scatter crumbs over pasta, then sprinkle remaining cheese evenly on top.",
-            "Bake until basta is bubbling across the entire surface and the breadcumbs are deeply golden brown, 30-35 minutes.",
+            "Bake until basta is bubbling across the entire surface and the breadcrumbs are deeply golden brown, 30-35 minutes.",
             "Before serving, sprinkle with remaining chives."
         ],
         
@@ -3092,7 +3092,7 @@ recipes = [
             "total":"55 min"
         },
         "source":{
-            "title":"Thai Curry Rishotto With Squash and Green Beans",
+            "title":"Thai Curry Risotto With Squash and Green Beans",
             "author":"Hetty McKinnon",
             "source":"NYT Cooking",
             "modify":"y"
@@ -3369,7 +3369,7 @@ recipes = [
             }            
         ],
         "directions":[
-            "Heat oil in a medium saucepan over meadium",
+            "Heat oil in a medium saucepan over medium",
             "Cook onion, stirring often, until softened and golden brown, 8-10 minutes.",
             "Add garlic, ginger, curry powder and red pepper flakes. Cook, stirring until fragrant, about 2 minutes",
             "Add lentils and cook, stirring, 1 minute",
@@ -3479,7 +3479,7 @@ recipes = [
             "Add onion, garlic, and ginger and cook, stirring until softened, about 3 minutes",
             "Add apple and lentils and stir to coat.",
             "Stir in coconut milk, vegetable stock, and 1/2c water and bring to a boil.",
-            "Reduce heat and simmer, stirring occasionally, unitl lentils are completely soft and dal is thick, 20-25 minutes.",
+            "Reduce heat and simmer, stirring occasionally, until lentils are completely soft and dal is thick, 20-25 minutes.",
             "Add lime juice, and season with salt and pepper.",
             "Divide among bowls, top with yogurt and coconut flakes"
         ],
@@ -3609,8 +3609,8 @@ recipes = [
         "directions":[
             "Preheat oven to 450f. Line a large, rimmed baking sheet with parchment paper.",
             "Tear fresh mushrooms into chunks, in 3 or 4 batches, pulse in food processor until finely chopped. Toss with 3 Tbsp of oil, and 1 tsp salt; spread on prepared baking sheet. Roast in upper third of oven for 30 minutes, until mushrooms are golden brown; set aside.",
-            "Meanwhile, combine dried mushrooms, dried chiies, and hot stock in a large bowl and let soak for 30 minutes. After soaking, strain into measuring cup and squeeze rehydrated mushrooms to get as much liquid as possible, approximately 1 1/2 cups (top off with water if short). Roughly chop mushrooms, finely chop chilies; set mushrooms and stock aside sperately.",
-            "Pulse onion, garlic, and carrot until finely chopped. Heat 1/4 cup olive oil in large saute pan or pot over medium-high. Once hot, add onion mixture and fry for 8 minutes, stirring occassionally, until softened and golden.",
+            "Meanwhile, combine dried mushrooms, dried chilies, and hot stock in a large bowl and let soak for 30 minutes. After soaking, strain into measuring cup and squeeze rehydrated mushrooms to get as much liquid as possible, approximately 1 1/2 cups (top off with water if short). Roughly chop mushrooms, finely chop chilies; set mushrooms and stock aside sperately.",
+            "Pulse onion, garlic, and carrot until finely chopped. Heat 1/4 cup olive oil in large saute pan or pot over medium-high. Once hot, add onion mixture and fry for 8 minutes, stirring occasionally, until softened and golden.",
             "Pulse tomatoes until finely chopped, then add to pan along with tomato paste, 1 1/2 tsp salt, and 1 3/4 tsp pepper. Cook for 7 minutes, stirring occasionally.",
             "Add rehydrated mushrooms and chilies, and roasted mushrooms; stir to mix and spread evenly across pan. Leave alone to cook for 9 minutes. Resist the urge to stir.",
             "Stir in water, and reserved stock. Once simmering decrease heat to medium and cook, stirring occasionally for 25 minutes until the consistency of ragu."
@@ -3628,7 +3628,7 @@ recipes = [
             "total":0
         },
         "source":{
-            "title":"Barbecured Pulled Pork on a Charcoal Grill",
+            "title":"Barbecued Pulled Pork on a Charcoal Grill",
             "author":"ukn",
             "source":"America's Test Kitchen",
             "modify":"y"
@@ -3647,7 +3647,7 @@ recipes = [
             },
             {	
                 "quantity": "2 Tbsp",
-                "item": "chilie powder"
+                "item": "chili powder"
             },
             {	
                 "quantity": "2 Tbsp",
@@ -3703,8 +3703,8 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "Tomatoes don't have to be peeled for this, but it yeilds better results if they are. To easily peel, cut a cross in the bottom of the tomato, and freeze. Thaw before making sauce, and the peels will come right off.",
-            "When freezing, leave about 1/2\" to 3/4\" head rooom in the jar for expansion.",
+            "Tomatoes don't have to be peeled for this, but it yields better results if they are. To easily peel, cut a cross in the bottom of the tomato, and freeze. Thaw before making sauce, and the peels will come right off.",
+            "When freezing, leave about 1/2\" to 3/4\" head room in the jar for expansion.",
             "Good for about 1 week in the fridge, or 1 year + when frozen."
         ],
         "ingredients":[
@@ -3783,7 +3783,7 @@ recipes = [
         "ingredients":[
             {                 
                 "quantity": "3 Tbsp",
-                "item": "Extra Virign Olive Oil"
+                "item": "Extra Virgin Olive Oil"
             },
             {	
                 "quantity": "3",
@@ -3808,9 +3808,9 @@ recipes = [
         ],
         "directions":[
             "Heat oil in a medium saucepan over medium. Add chilies and garlic. Cook stirring constantly until lightly toasted and fragrant. About 30 seconds",
-            "Add tomatoes and 1c water, increase heat to medium-high. Cook stirring occassionally until most of the liquid has evaporated and tomatoes are very tender. About 15 minutes",
+            "Add tomatoes and 1c water, increase heat to medium-high. Cook stirring occasionally until most of the liquid has evaporated and tomatoes are very tender. About 15 minutes",
             "Season mixture with salt",
-            "Using a ptoatoe masher, smash until it is the consistency of chunky salsa.",
+            "Using a potato masher, smash until it is the consistency of chunky salsa.",
             "Let cool, stir in lime juice"
         ],
         
@@ -3969,7 +3969,7 @@ recipes = [
             },
         ],
         "directions":[
-            "1. Adjust oven rack to middle position and heat oven to 425 F, Grate frozen butter on large holes of box grater (you should grate total of 8 tablespoons). Place grated butter in freezer until needed. Melt 2 tablespoons of remaining ungrated butter and set aside. Place filing in freezer until needed.",
+            "1. Adjust oven rack to middle position and heat oven to 425 F, Grate frozen butter on large holes of box grater (you should grate total of 8 tablespoons). Place grated butter in freezer until needed. Melt 2 tablespoons of remaining un-grated butter and set aside. Place filing in freezer until needed.",
             "2. Whisk together milk and sour cream in medium bowl; refrigerate until needed. Whisk flour, 1/2 cup sugar, baking powder, baking soda, salt, and lemon zest in medium bowl. Add frozen butter to flour mixture and toss with fingers until thoroughly coated.",
             "3. Add milk mixture to flour mixture; fold with spatula until just combined. With rubber spatula, transfer dough to liberally floured work surface. Dust surface of dough with flour; with floured hands, knead dough 6 to 8 times, until it just holds together in ragged ball, adding flour as needed to prevent sticking.",
             "4. Roll dough into approximate 12-inch square. Fold dough into thirds like a business letter, using bench scraper or metal spatula to release dough if it sticks to countertop. Lift short ends of dough and fold into thirds again to form approximate 4-inch square. Transfer dough to plate lightly dusted with flour and chill in freezer 5 minutes.",
@@ -3997,7 +3997,7 @@ recipes = [
         },
         "notes":[
             "See #O1 for preparing your starter for use",
-            "The cold fermenation in the last step is important to developing flavor and structure. Can stay in the fridge up to 5 days. Optimal texture is around 3 days.",
+            "The cold fermentation in the last step is important to developing flavor and structure. Can stay in the fridge up to 5 days. Optimal texture is around 3 days.",
             "Before using, let dough sit at room temperature for an hour",
             "Dough can be frozen and will last a month in the freezer. Defrost in fridge at least 8 hours ahead of use."
         ],
@@ -4030,7 +4030,7 @@ recipes = [
         "directions":[
             "Remove starter from fridge and let sit at room temperature for 2 hours.",
             "Combine stater, flour, salt, sugar, olive oil, and water.",
-            "Work vigorously by hand until dough forms a coarse ball that comes away from the sides of the bowl, adding more flour or water as necssary, about 4 minutes",
+            "Work vigorously by hand until dough forms a coarse ball that comes away from the sides of the bowl, adding more flour or water as necessary, about 4 minutes",
             "Let rest for 15 minutes.",
             "Turn out onto a lightly floured counter, dust with flour, and knead by hand until soft, supple, and no longer sticky, about 3 minutes.",
             "Lightly oil a large bowl. Form dough into a ball and roll all around bowl until lightly coated with oil.",
@@ -4082,7 +4082,7 @@ recipes = [
             },
             {	
                 "quantity": "4 Tbsp",
-                "item": "extra-virign olive oil, divided"
+                "item": "extra-virgin olive oil, divided"
             },
             {	
                 "quantity": "AR",
@@ -4148,7 +4148,7 @@ recipes = [
             },
             {	
                 "quantity": "5 Tbsp",
-                "item": "extra-virign olive oil, divided"
+                "item": "extra-virgin olive oil, divided"
             },
             {	
                 "quantity": "2 Tbsp",
@@ -4247,7 +4247,7 @@ recipes = [
             "In a measuring cup or small bowl, combine water, yogurt, 3 Tbsp oil, and egg yolk.",
             "Process flour, sugar, and yeast in food processor until combined, about 2 seconds.",
             "With processor running, slowly add water mixture; process until dough is just combined and no dry flour remains, about 10 seconds. Let stand 10 minutes.",
-            "Add salt to dough and process until dough forms satiny, sticky ball that clears sides of workbowl, 30 to 60 seconds.",
+            "Add salt to dough and process until dough forms satiny, sticky ball that clears sides of work bowl, 30 to 60 seconds.",
             "Transfer dough to lightly floured work surface and knead until smooth, about 1 minute.",
             "Shape dough into a tight ball and place in a large, lightly oiled bowl. Cover with plastic wrap and let rise for 30 minutes",
             "Fold partially risen dough over itself 8 times, by lifting edge and folding towards middle. Cover and let rise for 30 minutes. Repeat 1 more time for a total of 3, 30 minute rises.",
@@ -4326,7 +4326,7 @@ recipes = [
             "Put donuts on floured baking sheets so there is plenty of room between each one. Cover with damp towel and let rise until slightly puffed and delicate, about 45 minutes.",
             "About 15 minutes before th donuts are done rising, put oil in a heavy bottom pot over medium heat, and heat to 375F. Meanwhile, lay down paper towels and place cooling racks over them.",
             "Carefully add donuts to oil a few at a time. Gently poke any large bubbles with a toothpick. When bottoms are deep golden brown, about 45 seconds, use a slotted spoon or spider to flip them over. Transfer to the prepared racks. Adjust heat as necesary to keep oil at 375 until done cooking all donuts",
-            "For donut holes, I found it easiest to occasioanlly bop them with the spoon to keep them rotating in the oil. They will cook faster than the donuts did.",
+            "For donut holes, I found it easiest to occasionally bop them with the spoon to keep them rotating in the oil. They will cook faster than the donuts did.",
         ],
         "tags":[
             "delicious",
@@ -4383,7 +4383,7 @@ recipes = [
             
             "!Jelly Filled",
             "When cool enough to handle, roll donuts in sugar.",
-            "Poke hole in the side of the donue with a chopstick, or something of similar size.",
+            "Poke hole in the side of the donut with a chopstick, or something of similar size.",
             "Using pastry bag gently squeeze jelly into donut."
         ],        
         "tags":[
@@ -4418,7 +4418,7 @@ recipes = [
             },
             {                 
                 "quantity": "2 Tbsp",
-                "item": "Black sesame seeds, plus more for sprinking"
+                "item": "Black sesame seeds, plus more for sprinkling"
             },
             {                 
                 "quantity": "1 c",
@@ -4458,22 +4458,22 @@ recipes = [
             },
             {                 
                 "quantity": "1 1/2 tsp",
-                "item": "toasted seame oil"
+                "item": "toasted sesame oil"
             }
         ],
         "directions":[
             "Preheat oven to 350F. Lightly coat an 8 1/2 x 4 1/2 inch loaf pan with nonstick spray. Line with parchment paper, leaving overhang on long sides. Lightly coat parchment with nonstick spray. Sprinkle side and bottom of pan with white and black sesame seeds and sugar and shake around in pan to coat; tap out excess.",
             "Finely grind 2 Tbsp black sesame seeds in a spice mill, food processor or blender; set aside",
             "Whisk flour, baking powder, salt, cardamom, and baking soda in a medium bowl to combine.",
-            "In a small bowl, whisk together yogurt and tahinig until smooth. Mizture will seize and stiffen at first",
+            "In a small bowl, whisk together yogurt and tahini until smooth. Mixture will seize and stiffen at first",
             "Beat eggs, vanilla, and 1 cup sugar in a large bowl until eggs are pale and thick, about 2 minutes",
             "While mixing, slowly stream in vegetable oil and sesame oil",
             "Alternate adding dry ingredients and the yogurt mixture to the egg mixture, beginning and ending with dry ingredients. Beat after each addition until fully incorporated.",
             "Scrape half of the batter into the bowl that held the dry ingredients. (this is the bread base)",
             "Add reserved ground black sesame seed to the remaining batter and mix until even distributed. (this is the black swirl)",
-            "Alternating between batters, spoon large dollaps into the prepared pan",
+            "Alternating between batters, spoon large dollops into the prepared pan",
             "To make the dramatic streaks, insert a skewer to the bottom of the pan, and confidently stroke up to 4 figure 8s throughout the batter",
-            "Sprinkle mixture with more sesame seedsm then some sugar.",
+            "Sprinkle mixture with more sesame seeds then some sugar.",
             "Bake until a tester inserted into the center of the cake comes out clean, 55-65 minutes.",
             "Transfer pan to a wire rack, and cool in pan for 10 minutes.",
             "Run a knife around short sides of pan and use parchment paper to help lift out of the pan onto the rack. Let cool completely."
@@ -4586,12 +4586,12 @@ recipes = [
         "directions":[
             "1. Coat ramekins with 1 Tbsp butter, then coat the inside of each dish evenly with the 1 Tbsp sugar; refrigerate until ready to use.",
             "2. Melt chocolate and remaining butter in a medium bowl set over a pan of simmering water. Turn off heat, stir in salt, vanilla, and liqueur.",
-            "3. Bring the 1/3  cup of sugar and 2 Tbsp water to a boil in a small saucepan, then simmer until the sugar disolves.",
+            "3. Bring the 1/3  cup of sugar and 2 Tbsp water to a boil in a small saucepan, then simmer until the sugar dissolves.",
             "4. Slowly add sugar syrup to egg yolks while actively mixing; beating until mixture triples in volume.",
             "5. Fold beaten yolk mix into chocolate.",
             "6. Beat egg whites until frothy. Add cream of tartar and beat to soft peaks. Add powdered sugar and continue beating to stiff peaks.",
-            "7. Vigourously stir one-quarter of whipped whites into the chcolate mixture. Gently fold remaining whites into mixture until just incorporated.",
-            "8. Fill each ramiken almost to the rim, wiping excess from rim with a wet paper towel.",
+            "7. Vigorously stir one-quarter of whipped whites into the chocolate mixture. Gently fold remaining whites into mixture until just incorporated.",
+            "8. Fill each ramekin almost to the rim, wiping excess from rim with a wet paper towel.",
             "9. Cover and freeze until firm, at least 3 hours.",
             "10. Adjust oven rack to lower-middle and heat oven to 400F. Bake until fully risen, 18-20 minutes. Serve immediately."
         ],        
@@ -4608,7 +4608,7 @@ recipes = [
             "total": "1h 10m"
         },
         "source":{
-            "title":"Chocolate Shortbrerad Cookie Shards",
+            "title":"Chocolate Shortbread Cookie Shards",
             "author":"Lukasz Babral",
             "source":"Insightflavour.com",
             "modify":"y"
@@ -4653,7 +4653,7 @@ recipes = [
             "Take dough from freezer and cut into shards. Triangles look great, but funky shaped pieces still taste good.",
             "Return shards to freezer for 5 more minutes.",
             "Bake until edges start to turn golden brown, about 20 minutes. (if using two trays swap halfway through)",
-            "Once baked, remove tray from oven and leave on pan for 5-10 mintues, then transfer to cooling rack. Allow to cool before serving."
+            "Once baked, remove tray from oven and leave on pan for 5-10 minutes, then transfer to cooling rack. Allow to cool before serving."
         ],
         
         "tags":[
