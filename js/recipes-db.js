@@ -134,9 +134,9 @@ recipes = [
             "All times assume starting in a kitchen with everything put away, and a half-assed attempt at mise en place.",
             "If type of onion is not specified, white, yellow, or red can be used, but yellow is standard.",
             "When bell peppers are called for, use red, yellow, or orange.",
-            "Fresh parsely can be used in place of fresh cilantro.",
+            "Fresh parsley can be used in place of fresh cilantro.",
             "Most recipes call for unsalted butter, and I shortened it to butter. I use salted. I'm sure it matters, but I don't care. Use whichever makes you feel better.",
-            "Minced garlic and ginger can be grated on a microplane instead.",
+            "Minced garlic and ginger can be grated on a micro-plane instead.",
             "Parchment paper isn't required when roasting, but makes for easier cleanup."
         ],
         "ingredients":[
@@ -338,13 +338,13 @@ recipes = [
     "directions":[
         "Heat oven to 375F",
         "In a 9\" cast-iron skillet, toss the cauliflower with the olive oil and season with salt and pepper.",
-        "Cover with lid or aluminum foil and cook on stovetop over high to steam. 5 minutes.",
-        "Uncover the skillet and cook, stirring constantly, until the cauliflower is fork tender and carmelized in spots, about 10 minutes.",
+        "Cover with lid or aluminum foil and cook on stove top over high to steam. 5 minutes.",
+        "Uncover the skillet and cook, stirring constantly, until the cauliflower is fork tender and caramelized in spots, about 10 minutes.",
         "Stir in butter. Once melted, stir in hot sauce and simmer until the sauce has reduced by half, about 3 minutes.",
         "Turn off the heat, then stir in the cream cheese and sour cream until combined. Sprinkle cheddar over top.",
         "Bake until bubbling around the edges and the cheese has melted, about 10 minutes.",
         "If you'd like the top to get browned, run it under the broiler for 1 or 2 minutes.",
-        "Scatter chives/scallions over and serve with carrots, celery, or tortialla chips"
+        "Scatter chives/scallions over and serve with carrots, celery, or tortilla chips"
     ],        
     "tags":[
         "dip",
