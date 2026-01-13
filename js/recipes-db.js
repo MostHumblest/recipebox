@@ -2773,7 +2773,7 @@ recipes = [
             "modify":"n"
         },
         "notes":[
-            "\"Hot\" vegetable stock is literally heated hot, not spicy hot. Fresh made \"better than boullion\" works great here"
+            "\"Hot\" vegetable stock is literally heated hot, not spicy hot. Fresh made \"better than bouillon\" works great here"
         ],
         "ingredients":[
             {                 
@@ -2842,7 +2842,7 @@ recipes = [
             },
             {	
                 "quantity": "2 1/4 oz",
-                "item": "pecarino, finely grated"
+                "item": "pecorino, finely grated"
             },
             {	
                 "quantity": "2 1/4 oz",
@@ -2864,7 +2864,7 @@ recipes = [
         "directions":[
             "Preheat oven to 450f. Line a large, rimmed baking sheet with parchment paper.",
             "Tear fresh mushrooms into chunks, in 3 or 4 batches, pulse in food processor until finely chopped. Toss with 3 Tbsp of oil, and 1 tsp salt; spread on prepared baking sheet. Roast in upper third of oven for 30 minutes, until mushrooms are golden brown; Mix halfway through, set aside. Decrease oven temp to 425f.",
-            "Meanwhile, combine dried mushrooms, dried chilies, and hot stock in a large bowl and let soak for 30 minutes. After soaking, strain into measuring cup and squeeze rehydrated mushrooms to get as much liquid as possible, approximately 1 1/2 cups (top off with water if short). Roughly chop mushrooms, finely chop chilies; set mushrooms and stock aside sperately.",
+            "Meanwhile, combine dried mushrooms, dried chilies, and hot stock in a large bowl and let soak for 30 minutes. After soaking, strain into measuring cup and squeeze rehydrated mushrooms to get as much liquid as possible, approximately 1 1/2 cups (top off with water if short). Roughly chop mushrooms, finely chop chilies; set mushrooms and stock aside separately.",
             "Pulse onion, garlic, and carrot until finely chopped. Heat 1/4 cup olive oil in large saute pan or pot over medium-high. Once hot, add onion mixture and fry for 8 minutes, stirring occasionally, until softened and golden.",
             "Pulse tomatoes until finely chopped, then add to pan along with tomato paste, 1 1/2 tsp salt, and 1 3/4 tsp pepper. Cook for 7 minutes, stirring occasionally.",
             "Add rehydrated mushrooms and chilies, and roasted mushrooms; stir to mix and spread evenly across pan. Leave alone to cook for 9 minutes. Resist the urge to stir.",
@@ -3037,7 +3037,7 @@ recipes = [
             "Add pasta to broccoli rabe mixture along with 3/4 of the cheese, 1/2 cup of chives, and the reserved pasta liquid. Mix well. Keep in mind that saltiness and spiciness will increase while baking, but season with salt and pepper, or more pepper flakes as desired",
             "In a medium bowl, toss panko with remaining 3 Tbsp of oil. season with salt and pepper.",
             "Scatter crumbs over pasta, then sprinkle remaining cheese evenly on top.",
-            "Bake until basta is bubbling across the entire surface and the breadcrumbs are deeply golden brown, 30-35 minutes.",
+            "Bake until pasta is bubbling across the entire surface and the breadcrumbs are deeply golden brown, 30-35 minutes.",
             "Before serving, sprinkle with remaining chives."
         ],
         
@@ -3542,7 +3542,7 @@ recipes = [
             "modify":"n"
         },
         "notes":[
-            "\"Hot\" vegetable stock is literally heated hot, not spicy hot. Fresh made \"better than boullion\" works great here.",
+            "\"Hot\" vegetable stock is literally heated hot, not spicy hot. Fresh made \"better than bouillon\" works great here.",
         ],
         "ingredients":[
             {                 
@@ -3609,7 +3609,7 @@ recipes = [
         "directions":[
             "Preheat oven to 450f. Line a large, rimmed baking sheet with parchment paper.",
             "Tear fresh mushrooms into chunks, in 3 or 4 batches, pulse in food processor until finely chopped. Toss with 3 Tbsp of oil, and 1 tsp salt; spread on prepared baking sheet. Roast in upper third of oven for 30 minutes, until mushrooms are golden brown; set aside.",
-            "Meanwhile, combine dried mushrooms, dried chilies, and hot stock in a large bowl and let soak for 30 minutes. After soaking, strain into measuring cup and squeeze rehydrated mushrooms to get as much liquid as possible, approximately 1 1/2 cups (top off with water if short). Roughly chop mushrooms, finely chop chilies; set mushrooms and stock aside sperately.",
+            "Meanwhile, combine dried mushrooms, dried chilies, and hot stock in a large bowl and let soak for 30 minutes. After soaking, strain into measuring cup and squeeze rehydrated mushrooms to get as much liquid as possible, approximately 1 1/2 cups (top off with water if short). Roughly chop mushrooms, finely chop chilies; set mushrooms and stock aside separately.",
             "Pulse onion, garlic, and carrot until finely chopped. Heat 1/4 cup olive oil in large saute pan or pot over medium-high. Once hot, add onion mixture and fry for 8 minutes, stirring occasionally, until softened and golden.",
             "Pulse tomatoes until finely chopped, then add to pan along with tomato paste, 1 1/2 tsp salt, and 1 3/4 tsp pepper. Cook for 7 minutes, stirring occasionally.",
             "Add rehydrated mushrooms and chilies, and roasted mushrooms; stir to mix and spread evenly across pan. Leave alone to cook for 9 minutes. Resist the urge to stir.",
@@ -3755,7 +3755,7 @@ recipes = [
             "Remove from heat and allow to cool",
             "Add tomato paste",
             "Using immersion blender, puree until smooth",
-            "Laddle into jars and freeze."
+            "Ladle into jars and freeze."
         ],
         
         "tags":[
@@ -4053,7 +4053,7 @@ recipes = [
             "total":"8-24 h"
         },
         "source":{
-            "title":"Easy No-Knead Olive-Rosemary Foacaccia with Pistachios Recipe",
+            "title":"Easy No-Knead Olive-Rosemary Focaccia with Pistachios Recipe",
             "author":"J. Kenji Lopez-Alt",
             "source":"Serious Eats",
             "modify":"y"
@@ -4325,7 +4325,7 @@ recipes = [
             "Turn dough out onto a well-floured surface, and roll it to 1/2\" thick. Cut out doughnuts, flouring cutters as you go. Reserve holes. If you want more donuts, gently knead scraps together and let for a few minutes, repeat rolling and cutting process.",
             "Put donuts on floured baking sheets so there is plenty of room between each one. Cover with damp towel and let rise until slightly puffed and delicate, about 45 minutes.",
             "About 15 minutes before th donuts are done rising, put oil in a heavy bottom pot over medium heat, and heat to 375F. Meanwhile, lay down paper towels and place cooling racks over them.",
-            "Carefully add donuts to oil a few at a time. Gently poke any large bubbles with a toothpick. When bottoms are deep golden brown, about 45 seconds, use a slotted spoon or spider to flip them over. Transfer to the prepared racks. Adjust heat as necesary to keep oil at 375 until done cooking all donuts",
+            "Carefully add donuts to oil a few at a time. Gently poke any large bubbles with a toothpick. When bottoms are deep golden brown, about 45 seconds, use a slotted spoon or spider to flip them over. Transfer to the prepared racks. Adjust heat as necessary to keep oil at 375 until done cooking all donuts",
             "For donut holes, I found it easiest to occasionally bop them with the spoon to keep them rotating in the oil. They will cook faster than the donuts did.",
         ],
         "tags":[
