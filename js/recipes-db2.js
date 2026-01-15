@@ -556,4 +556,4 @@ c = [//Snacks and Dips
     }
 ]
 
-recipes = [...a,...b,...c]
+recipes = a.concat(b, c)
