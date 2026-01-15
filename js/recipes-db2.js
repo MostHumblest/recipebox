@@ -1,7 +1,6 @@
 recipes =[a, b, c]
 
-a = [
-    {   "id": "A0", "title": "Tips Placeholder", "category":"tips and techniques", "date":"20210131",
+a = {   "id": "A0", "title": "Tips Placeholder", "category":"tips and techniques", "date":"20210131",
         "yield":0,
         "time":{
             "active": 0,
@@ -163,11 +162,9 @@ a = [
             "test",
             "test2"
         ],
-    },
-]
+    }
 
-b = [
-     {   "id": "B0", "title": "Breakfast Placeholder", "category":"breakfast", "date":"20210131",
+b = {   "id": "B0", "title": "Breakfast Placeholder", "category":"breakfast", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -203,11 +200,9 @@ b = [
             "test",
             "test2"
         ],
-    },
-]
+    }
 
-c = [
-        {   "id": "C0", "title": "Snacks and Dips Placeholder", "category":"snacks and dips", "date":"20210131",
+c = {   "id": "C0", "title": "Snacks and Dips Placeholder", "category":"snacks and dips", "date":"20210131",
         "yield":1,
         "time":{
             "active": 0,
@@ -556,4 +551,3 @@ c = [
             "test2"
         ],
     }
-]
