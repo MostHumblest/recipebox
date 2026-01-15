@@ -1,4 +1,4 @@
-a = [
+a = [ //Tips and Notes
     {   "id": "A0", "title": "Tips Placeholder", "category":"tips and techniques", "date":"20210131",
         "yield":0,
         "time":{
@@ -164,7 +164,7 @@ a = [
     },
 ]
 
-b = [
+b = [//Breakfast
      {   "id": "B0", "title": "Breakfast Placeholder", "category":"breakfast", "date":"20210131",
         "yield":1,
         "time":{
@@ -204,7 +204,7 @@ b = [
     },
 ]
 
-c = [
+c = [//Snacks and Dips
         {   "id": "C0", "title": "Snacks and Dips Placeholder", "category":"snacks and dips", "date":"20210131",
         "yield":1,
         "time":{
@@ -556,4 +556,4 @@ c = [
     }
 ]
 
-recipes =[a, b, c,]
+recipes =a+b+c
