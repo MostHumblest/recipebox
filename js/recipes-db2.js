@@ -1,0 +1,559 @@
+recipes =[a, b, c]
+
+a = [
+    {   "id": "A0", "title": "Tips Placeholder", "category":"tips and techniques", "date":"20210131",
+        "yield":0,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"N/A",
+            "author":"Steve",
+            "source":"from personal experience",
+            "modify":"n"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            { 
+                "item": "item 1",
+                "quantity": "1 cup"
+            },
+            {	"item": "item 2",
+                "quantity": "1 tsp"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "A1", "title": "About", "category":"tips and techniques",
+        "yield":0,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"N/A",
+            "author":"Steve",
+            "source":"from personal experience",
+            "modify":"n"
+        },
+        "notes":[
+            "My database doesn't have spell check, errors will be frequent. If you know me feel free to ask, or double check the recipe source.",
+            "This website exists for two purposes - to make recipes I enjoy accessible from anywhere, and to auto format them for a recipe binder.",
+            "All of these recipes have been cooked at least once, and I thought they were good enough that I'd want to make them again. There are no ratings on this page because they all meet a minimum threshold to exist here, and they're all highly recommended.",
+            "None of the recipes are originals (yet), and credits for each are listed at the bottom of each page.",
+            "Most ingredient lists match the original recipes with some modifications for clarity - ex. 1 2\" piece of ginger is now simply 2\" piece of ginger.",
+            "The significant changes are only to formatting, simplifying directions, or adding helpful notes based on my experience making them.",
+            "I personally enjoy all my foods highly spiced. In most cases this means that the ingredient list is a bare minimum for how much of each spice to use, but does not accurately reflect how much I actually cooked with.",
+            "There's some cool backend stuff that I learned while creating this page, I'm happy to be a nerd about if it you ask. That said, a lot of it was hacked together and could probably be improved. Everything worked well with only 3 test recipes, performance may suffer as I populate the database.",
+            "I hope you enjoy this page and these recipes as much as I did!"
+        ],
+        "ingredients":[
+            { 
+                "item": "item 1",
+                "quantity": "1 cup"
+            },
+            {	"item": "item 2",
+                "quantity": "1 tsp"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+    
+    {   "id": "A2", "title": "Recipe Info", "category":"tips and techniques",
+        "yield":0,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"N/A",
+            "author":"Steve",
+            "source":"from personal experience",
+            "modify":"n"
+        },
+        "notes":[
+            "Any recipes with time:0 simply haven't been timed yet.",
+            "All times assume starting in a kitchen with everything put away, and a half-assed attempt at mise en place.",
+            "If type of onion is not specified, white, yellow, or red can be used, but yellow is standard.",
+            "When bell peppers are called for, use red, yellow, or orange.",
+            "Fresh parsley can be used in place of fresh cilantro.",
+            "Most recipes call for unsalted butter, and I shortened it to butter. I use salted. I'm sure it matters, but I don't care. Use whichever makes you feel better.",
+            "Minced garlic and ginger can be grated on a microplane instead.",
+            "Parchment paper isn't required when roasting, but makes for easier cleanup."
+        ],
+        "ingredients":[
+            { 
+                "item": "item 1",
+                "quantity": "1 cup"
+            },
+            {	"item": "item 2",
+                "quantity": "1 tsp"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "A3", "title": "Cooking Terminology", "category":"tips and techniques",
+        "yield":0,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"N/A",
+            "author":"Steve",
+            "source":"from personal experience",
+            "modify":"n"
+        },
+        "notes":[
+            "Cooking terminology is all over the place, but I've tried to summarize how I use it on this website",
+            "!Vegetable Sizes:",
+            "!Chopping Sizes:",
+            "!Beating to a Peak:",
+            "Frothy - similar to beer foam.",
+            "Soft Peaks - pick the whisk straight up, a peak should form but fall over on itself and melt back into the mix.",
+            "Firm Peaks - pick the whisk straight up, a peak should form and hold itself more distinctly, the tip will fold over.",
+            "Stiff Peaks - pick the whisk straight up, a peak should form and hold straight up!"
+        ],
+        "ingredients":[
+            { 
+                "item": "item 1",
+                "quantity": "1 cup"
+            },
+            {	"item": "item 2",
+                "quantity": "1 tsp"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+]
+
+b = [
+     {   "id": "B0", "title": "Breakfast Placeholder", "category":"breakfast", "date":"20210131",
+        "yield":1,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+]
+
+c = [
+        {   "id": "C0", "title": "Snacks and Dips Placeholder", "category":"snacks and dips", "date":"20210131",
+        "yield":1,
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"recipebox",
+            "author":"steve",
+            "source":"na",
+            "modify":"y"
+        },
+        "notes":[
+            "note 1",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 cup",
+                "item": "item 1"
+            },
+            {	
+                "quantity": "1 cup",
+                "item": "item 2"
+            }
+        ],
+        "directions":[
+            "step 1",
+            "step 2",
+            "step 3"
+        ],
+        
+        "tags":[
+            "test",
+            "test2"
+        ],
+    },
+
+    {   "id": "C1", "title": "Buffalo Cauliflower Dip", "category":"snacks and dips", "date":"20210131",
+    "yield":"Dip for 4-6 people",
+    "time":{
+        "active": 0,
+        "total":0
+    },
+    "source":{
+        "title":"Buffalo Cauliflower Dip",
+        "author":"Ali Slagle",
+        "source":"NYT Cooking",
+        "modify":"y"
+    },
+    "notes":[
+        "Great fresh out of the oven, disappears quickly."
+    ],
+    "ingredients":[
+        {                 
+            "quantity": "1",
+            "item": "head of cauliflower, cored and cut into small florets"
+        },
+        {	
+            "quantity": "1 Tbsp",
+            "item": "olive oil"
+        },
+        {	
+            "quantity": "AR",
+            "item": "salt and pepper"
+        },
+        {	
+            "quantity": "2 Tbsp",
+            "item": "butter"
+        },
+        {	
+            "quantity": "1/2 c",
+            "item": "buffalo sauce, such as Frank's"
+        },
+        {	
+            "quantity": "4 oz",
+            "item": "cream cheese, cut into pieces and softened"
+        },
+        {	
+            "quantity": "1/4 c",
+            "item": "sour cream"
+        },
+        {	
+            "quantity": "1/2 c",
+            "item": "freshly shredded cheddar"
+        },
+        {	
+            "quantity": "1 1/2 tsp",
+            "item": "finely chopped chives or scallions"
+        },
+        {	
+            "quantity": "AR",
+            "item": "carrots, celery, chips, etc. for dipping"
+        }
+    ],
+    "directions":[
+        "Heat oven to 375F",
+        "In a 9\" cast-iron skillet, toss the cauliflower with the olive oil and season with salt and pepper.",
+        "Cover with lid or aluminum foil and cook on stove top over high to steam. 5 minutes.",
+        "Uncover the skillet and cook, stirring constantly, until the cauliflower is fork tender and caramelized in spots, about 10 minutes.",
+        "Stir in butter. Once melted, stir in hot sauce and simmer until the sauce has reduced by half, about 3 minutes.",
+        "Turn off the heat, then stir in the cream cheese and sour cream until combined. Sprinkle cheddar over top.",
+        "Bake until bubbling around the edges and the cheese has melted, about 10 minutes.",
+        "If you'd like the top to get browned, run it under the broiler for 1 or 2 minutes.",
+        "Scatter chives/scallions over and serve with carrots, celery, or tortilla chips"
+    ],        
+    "tags":[
+        "dip",
+        "test2"
+    ],
+    },
+
+    {   "id": "C2", "title": "Hummus", "category":"snacks and dips", "date":"20210607",
+    "yield":"2 cups",
+    "time":{
+        "active": "15 mins",
+        "total":"15 mins"
+    },
+    "source":{
+        "title":"Classic Chickpea Hummus",
+        "author":"Claire Saffitz",
+        "source":"Bon Appetit, March 2021",
+        "modify":"y"
+    },
+    "notes":[
+        "Try not to eat it all in one sitting",
+
+    ],
+    "ingredients":[
+        {                 
+            "quantity": "1",
+            "item": "can chickpeas (15.5oz)"
+        },
+        {	
+            "quantity": "1",
+            "item": "lemon"
+        },
+        {	
+            "quantity": "1",
+            "item": "garlic clove"
+        },
+        {	
+            "quantity": "1/2 c",
+            "item": "tahini"
+        },
+        {	
+            "quantity": "3/4 tsp",
+            "item": "kosher salt"
+        },
+        {	
+            "quantity": "1/4 tsp",
+            "item": "black pepper"
+        },
+        {	
+            "quantity": "1/2 tsp",
+            "item": "ground cumin"
+        },
+        {	
+            "quantity": "3 Tbsp",
+            "item": "extra-virgin olive oil"
+        },
+        {	
+            "quantity": "AR",
+            "item": "water"
+        },
+    ],
+    "directions":[
+        "Drain and rinse chickpeas, let continue to drain while you prep other ingredients.",
+        "Cut lemon in half, and remove visible seeds.",
+        "Smash garlic clove with flat side of knife, remove peel. Continue to mash with knife to form a paste, or grate on a microplane.",
+        "Combine drained chickpeas, lemon juice, tahini, salt, pepper, cumin, and 2 tablespoons water in a food processor. Process until smooth, about 1 minute.",
+        "With motor running, stream in 3 olive oil and continue to process until creamy, about 1 more minute.",
+        "Taste, season with salt if necessary, transfer to a bowl and top with za'atar, sesame seeds, or whatever your heart desires."
+    ],
+    
+    "tags":[
+        "vegetarian",
+        "test2"
+    ],
+    },
+
+    {   "id": "C3", "title": "Citrus-Ginger Raita", "category":"snacks and dips", "date":"20220312",
+        "yield":"2 cups",
+        "time":{
+            "active": 0,
+            "total":0
+        },
+        "source":{
+            "title":"Citrus-Ginger Raita With Spice Oil",
+            "author":"Sohla El-Waylly",
+            "source":"Bon Appetit, Oct 2020",
+            "modify":"y"
+        },
+        "notes":[
+            "Whole fat Greek yogurt can be used in place of labneh",
+            "note 2"
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "2 cups",
+                "item": "labneh"
+            },
+            {	
+                "quantity": "1 1/2 tsp",
+                "item": "orange zest"
+            },
+            {	
+                "quantity": "1 1/2 tsp",
+                "item": "lemon zest"
+            },
+            {	
+                "quantity": "1/4 cup",
+                "item": "orange juice"
+            },
+            {	
+                "quantity": "2 Tbsp",
+                "item": "lemon juice"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "grated ginger"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "sugar"
+            },
+            {	
+                "quantity": "AR",
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "1 Tbsp",
+                "item": "olive oil"
+            },
+            {	
+                "quantity": "1 tsp",
+                "item": "coriander seeds, crushed"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "ground turmeric"
+            },
+            {	
+                "quantity": "1/2 tsp",
+                "item": "Kashmiri chile powder"
+            }
+        ],
+        "directions":[
+            "Whisk together labneh, zests, juices, ginger, and sugar in a small bowl, season with salt",
+            "set aside 1/4 cup if making #G3",
+            "Just before serving: heat oil in a small sauce pan over medium high. Add coriander seed and cook, shaking occasionally, until fragrant and popping, about 1 minute. Add turmeric and chile powder; cook, shaking pan, until fragrant, about 30 seconds. Pour over raita."
+        ],
+        
+        "tags":[
+            "tangy",
+            "test2"
+        ],
+    },  
+
+    {   "id": "C4", "title": "Beet Dip", "category":"snacks and dips", "date":"20220704",
+        "yield":"3 cups dip",
+        "time":{
+            "active": "30 mins",
+            "total":"90 mins"
+        },
+        "source":{
+            "title":"Israeli Beet Labneh",
+            "author":"Melissa Clark",
+            "source":"Dinner",
+            "modify":"y"
+        },
+        "notes":[
+            "Greek yogurt can be used in place of labneh",
+            ""
+        ],
+        "ingredients":[
+            {                 
+                "quantity": "1 lb",
+                "item": "beets"
+            },
+            {	
+                "quantity": "1",
+                "item": "large lemon"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "chopped cilantro"
+            },
+            {	
+                "quantity": "2",
+                "item": "cloves garlic, divided"
+            },
+            {	
+                "quantity": "2",
+                "item": "jalapenos, divided"
+            },
+            {	
+                "quantity": "AR",
+                "item": "kosher salt"
+            },
+            {	
+                "quantity": "AR",
+                "item": "black pepper"
+            },
+            {	
+                "quantity": "4 Tbsp",
+                "item": "extra virgin olive oil, divided"
+            },
+            {	
+                "quantity": "1 1/2 c",
+                "item": "labneh"
+            },
+            {	
+                "quantity": "1/2 c",
+                "item": "walnuts, coarsely chopped, lightly toasted"
+            }
+        ],
+        "directions":[
+            "!Prepare Beets",
+            "Preheat the oven to 375F",
+            "Trim beets and place, unpeeled, into a roasting dish, or baking sheet.",
+            "Drizzle with olive oil, salt and pepper, and sprinkle 3 Tbsp of water into pan.",
+            "Cover with foil, and roast until easily pierced with a knife, 30-60 minutes.",
+            "Note: larger beets may take much longer to roast.",
+            "Once cool enough to handle, peel beets with hands or a paring knife.",
+            "!Make Dip",
+            "Setup one medium bowl, and a food processor or blender.",
+            "Finely dice 1 cup of beets (about 3) and place in the bowl, put remaining beets into the food processor.",
+            "Grate zest of half lemon into the bowl.",
+            "Add 2 1/2 tsp lemon juice to bowl, add about 1/2 tsp to processor.",
+            "Add chopped cilantro to bowl.",
+            "Halve, seed, and dice 1 jalapeno, add half to each the bowl and the processor.",
+            "Grate or mince both garlic cloves, add half to each the bowl and the processor.",
+            "Add 1/2 tsp salt, and  black pepper to taste to the bowl. Add 1/4 tsp salt to the food processor.",
+            "Add 2 Tbsp olive oil to each.",
+            "Stir the bowl ingredients together and set aside the beet relish.",
+            "In the food processor, add 1/2 cup of labneh, and process until pureed.",
+            "!Serve Dip",
+            "On a large plate or in a shallow dish, spread remaining 1 cup of labneh.",
+            "Spread the pureed beet mixture on top.",
+            "Scatter beet relish over the puree.",
+            "Garnish with toasted walnuts, slices of remaining jalapeno, and extra cilantro leaves."
+        ],
+        
+        "tags":[
+            "vegetarian",
+            "test2"
+        ],
+    }
+]
