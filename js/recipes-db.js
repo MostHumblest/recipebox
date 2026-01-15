@@ -490,7 +490,7 @@ recipes = [
         "directions":[
             "Whisk together labneh, zests, juices, ginger, and sugar in a small bowl, season with salt",
             "set aside 1/4 cup if making #G3",
-            "Just before serving: heat oil in a small sauce pan over medium high. Add coriander seed and cook, shaking occasionally, until fragrant and popping, about 1 minute. Add turmeric and chile powder; cook, shaking pan, until fragrent, about 30 seconds. Pour over raita."
+            "Just before serving: heat oil in a small sauce pan over medium high. Add coriander seed and cook, shaking occasionally, until fragrant and popping, about 1 minute. Add turmeric and chile powder; cook, shaking pan, until fragrant, about 30 seconds. Pour over raita."
         ],
         
         "tags":[
@@ -777,7 +777,7 @@ recipes = [
         ],
     },
 
-    {   "id": "D3", "title": "Grilled Caeser Wedges", "category":"salads", "date":"20220515",
+    {   "id": "D3", "title": "Grilled Caesar Wedges", "category":"salads", "date":"20220515",
         "yield":"3-4 servings",
         "time":{
             "active": 0,
@@ -1155,7 +1155,7 @@ recipes = [
             },
             {	
                 "quantity": "3 Tbsp",
-                "item": "choppped cilantro"
+                "item": "chopped cilantro"
             },
         ],
         "directions":[
@@ -1264,7 +1264,7 @@ recipes = [
             }
         ],
         "directions":[
-            "In a large bowl, combine the chicken thighs, lime juice, olive oil, garlic and cumin. Season well with salt and pepper and stir together until the chicken is well coated in the marinage; set aside at room tempearture for 25-30 minutes.",
+            "In a large bowl, combine the chicken thighs, lime juice, olive oil, garlic and cumin. Season well with salt and pepper and stir together until the chicken is well coated in the marinade; set aside at room temperature for 25-30 minutes.",
             "In a deep, 12-inch skillet or dutch oven with a lid, heat the peanut oil over medium-high. When it shimmers, lift chicken out of marinade, allow excess liquid to drip into the bowl, then add chicken skin-side down. Cook until well browned on both sides, about 6 minutes per side. Remove and set aside on a plate.",
             "Reduce heat to medium, add the leek, and cook stirring occasionally, until soft scraping up any brown bits at they form, 3-4 minutes.",
             "Stir in harissa paste, turmeric and cinnamon, and cook until lightly toasted, 1-2 minutes. Season with salt.",
@@ -1461,14 +1461,14 @@ recipes = [
         ],
     },
 
-    {   "id": "E6", "title": "Schwarma Roast Chicken", "category":"poultry", "date":"20220514",
+    {   "id": "E6", "title": "Shawarma Roast Chicken", "category":"poultry", "date":"20220514",
         "yield":"2-3 servings",
         "time":{
             "active": 0,
             "total":0
         },
         "source":{
-            "title":"Schwarma Roast Chicken with Shallots and Lemons",
+            "title":"Shawarma Roast Chicken with Shallots and Lemons",
             "author":"Andy Baraghani",
             "source":"Bon Appetit, March 2022",
             "modify":"y"
@@ -1742,12 +1742,12 @@ recipes = [
         ],
         "directions":[
             "Toss cabbage with a pinch of salt in a medium bowl, then massage with your hands until slightly softened, about 1 minute. Set aside.",
-            "Heat a large dutch oven or other heavy pot over medium-high heat. Add coconut flakes and toast, shaking frequently until crispy. Pour into seperate bowl, season with salt, set aside. Note: these can go from raw to toasted to burnt very quickly.",
+            "Heat a large dutch oven or other heavy pot over medium-high heat. Add coconut flakes and toast, shaking frequently until crispy. Pour into separate bowl, season with salt, set aside. Note: these can go from raw to toasted to burnt very quickly.",
             "Wipe remaining flakes out of pot, return to medium high heat and add oil. Add pork and cook, undisturbed until browned underneath, 2-3 minutes.",
             "Break up pork with a wooden spoon, and continue to cook; tossing and breaking up as much as possible until browned all over, but not full cooked through. About 2 more minutes.",
             "Add onion, season with salt and cook stirring occasionally until softened, about 3 minutes.",
             "Reduce heat to medium. Add ginger, chile, garlic, and turmeric and cook, stirring often until vegetables are fragrant and soft. Reducing heat if bottom of pan gets very dark. About 4 minutes.",
-            "Add coconut milk, and 1/2c of water and bring to a simmer. Cook, stirring occassioanlly ultil slight thickened, about 5 minutes. Taste and season with salt.",
+            "Add coconut milk, and 1/2c of water and bring to a simmer. Cook, stirring occasionally until slight thickened, about 5 minutes. Taste and season with salt.",
             "Spoon rice onto plates, top with reserved cabbage. Spoon curry over and dollop with yogurt. Sprinkle with coconut flakes and serve with limes."
         ],
         
@@ -1809,7 +1809,7 @@ recipes = [
             "modify":"y"
         },
         "notes":[
-            "Serranos, fresnos, or jalapenos can be used in place of thai chilies",
+            "Serrano, fresno, or jalapeno peppers can be used in place of thai chilies",
             "If available, 4 kaffir lime leaves, chopped, should be used in place of zest",
             "<u>Warning:</u> Step 1 creates a mean pepper gas"
         ],
@@ -1909,7 +1909,7 @@ recipes = [
             "total":"50 mins"
         },
         "source":{
-            "title":"Beef Chjlli Fry with Pancetta",
+            "title":"Beef Chili Fry with Pancetta",
             "author":"Nik Sharma",
             "source":"The Flavor Equation, p 160",
             "modify":"y"
@@ -1983,10 +1983,10 @@ recipes = [
         ],
         "directions":[
             "Heat large sauce pan over medium-low heat.",
-            "Add pacnetta and sautee until the fat renders and the meat starts to brown 5-8 minutes.",
+            "Add pancetta and saute until the fat renders and the meat starts to brown 5-8 minutes.",
             "Add potatoes and season with salt. Cook until potatoes turn golden brown and are completely cooked but crispy on the outside, about 30 minutes.",
             "Remove the potatoes and pancetta, transfer to a medium bowl.",
-            "In the same pan, heat the oild over medium-high heat.",
+            "In the same pan, heat the oil over medium-high heat.",
             "Add onions and saute until they turn translucent, 4-5 minutes.",
             "Add garlic and ginger, saute until fragrant, about 1 minute",
             "Add cloves, black pepper, cinnamon, and turmeric and cook until fragrant, 30-40 seconds.",
@@ -2063,7 +2063,7 @@ recipes = [
             "Bake until meat is tender, 4 to 5 1/2 hours (when you tug at a bone, it should feel loose and might slip out).",
             "Remove short ribs from oven; increase temperature to 325F.",
             "Uncover meat. Spread top with raita then sprinkle with pistachios, pressing to adhere.",
-            "Drizzle remaining 1 Tbsp of oil on top, season lightly with salt, and roast until nuts are golden brown, aobut 30 minutes.",
+            "Drizzle remaining 1 Tbsp of oil on top, season lightly with salt, and roast until nuts are golden brown, about 30 minutes.",
             "Remove from oven and let rest 15 minutes before serving.",
         ],
         
