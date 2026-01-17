@@ -11,15 +11,15 @@ $(document).ready(function(){
         $.holdReady(true);
         $.getJSON("js/recipes.json", function (json) {
             recipes = json;
+            populateCategories();
+            populateRecipes();
+            toggleHeaders();
+            liveSearch();
+            loadNull();
+            doFormatting("lol"); //default input text
+            $(window).trigger('hashchange'); //forces hash change on page load - enables bookmarking recipes
             $.holdReady(false)
         });
-        populateCategories();
-        populateRecipes();
-        toggleHeaders();
-        liveSearch();
-        loadNull();
-        doFormatting("lol"); //default input text
-        $(window).trigger('hashchange'); //forces hash change on page load - enables bookmarking recipes
     });
     
     //load json slug
