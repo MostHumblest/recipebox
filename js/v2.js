@@ -7,7 +7,7 @@ $(document).ready(function(){
         showButton();
         showNewButton();
         printButton();
-        recipes = {}
+        recipes = [];
         readJson();
         populateCategories();
         populateRecipes();
