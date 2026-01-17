@@ -6,9 +6,13 @@ $(document).ready(function(){
         hideButton();
         showButton();
         showNewButton();
-        printButton();
+        printButton();        
         recipes = [];
-        readJson();
+        $.holdReady(true);
+        $.getJSON("js/recipes.json", function (json) {
+            recipes = json;
+            $.holdReady(false)
+        });
         populateCategories();
         populateRecipes();
         toggleHeaders();
@@ -20,9 +24,7 @@ $(document).ready(function(){
     
     //load json slug
         function readJson(){
-            $.getJSON("js/recipes.json", function (json) {
-                recipes = json;
-            });
+           
         }
     
     //create recipe list
