@@ -32,7 +32,7 @@ $(document).ready(function(){
             var categories = [];
             var uniqueCategories = [];
             $.each(recipes, function(i, val){
-                categories.push(recipes[i].category);			
+                categories.push(recipes[i][0].category);			
             });	
             uniqueCategories = categories.filter(onlyUnique);
             $.each(uniqueCategories, function(i, val){
