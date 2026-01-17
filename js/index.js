@@ -7,7 +7,7 @@ $(document).ready(function(){
 	showButton();
 	showNewButton();
 	printButton();
-	getJson();
+	readJson();
 	populateCategories();
 	populateRecipes();
 	toggleHeaders();
@@ -18,8 +18,8 @@ $(document).ready(function(){
 });
 
 //load json slug
-	function getJson(){
-		$.getJson("/recipes.json", function (json) {
+	function readJson(){
+		$.getJSON("/recipes.json", function (json) {
 			recipes = json;
 		});
 	}
