@@ -7,6 +7,7 @@ $(document).ready(function(){
 	showButton();
 	showNewButton();
 	printButton();
+	getJson();
 	populateCategories();
 	populateRecipes();
 	toggleHeaders();
@@ -16,6 +17,12 @@ $(document).ready(function(){
 	$(window).trigger('hashchange'); //forces hash change on page load - enables bookmarking recipes
 });
 
+//load json slug
+	function getJson(){
+		$.getJson("/recipes.json", function (json) {
+			recipes = json;
+		});
+	}
 
 //create recipe list
 	function populateCategories(){
