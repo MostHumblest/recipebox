@@ -1,7 +1,8 @@
 {
     "recipes": [
       {
-        "A - Tips": [
+        "category": "A - Tips and Techniques",
+        "items": [
           {
             "id": "A0",
             "title": "Tips Placeholder",
@@ -181,7 +182,8 @@
         ]
       },
       {
-        "B - Breakfast": [
+        "category": "B - Breakfast",
+        "items": [
           {
             "id": "B0",
             "title": "Breakfast Placeholder",
@@ -225,7 +227,8 @@
         ]
       },
       {
-        "C - Snacks and Dips": [
+        "category": "C - Snacks and Dips",
+        "items": [
           {
             "id": "C0",
             "title": "Snacks and Dips Placeholder",
@@ -589,7 +592,8 @@
         ]
       },
       {
-        "D - Salads": [
+        "category":"D - Salads",
+        "items": [
           {
             "id": "D1",
             "title": "Brussels Sprouts Salad",
