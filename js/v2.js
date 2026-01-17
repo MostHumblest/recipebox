@@ -100,23 +100,25 @@ $(document).ready(function(){
             console.log(clientDate);
             clientDate = clientDate-14; //check date within last 14 days
             $.each(recipes, function(i, val){	
-                var rID=recipes[i].id;
-                var rDate= parseInt(recipes[i].date, 10); //parse int from string in base 10
-                var isNew = "";
-                if (clientDate <= rDate){
-                    isNew = " new"
-                }
-                var rNumber=rID.charAt(1);			
-                if(rID != "demo" && rNumber != "0"){//if not demo or placeholder show recipe
-                    var rTitle=recipes[i].title;	
-                    var rCategory = recipes[i].category;
-                    rCategoryID = rCategory.replace(/ /g, "_");
-                    var thisTag = "#r" + rCategoryID;
-                    var linkClass = "\"all " + rID + isNew + "\"";
-                    var rTitleItem = "<li class=" +linkClass + "><a class="+linkClass+"href=\"../#" + rID+ "\"><span>" + rTitle + "</span></a></li>";
-                    //https://mosthumblest.github.io/recipebox
-                    $(thisTag).append(rTitleItem);
-                }
+                $.each(recipes[i].items, function(j,phv){
+                    var rID=recipes[i].items[j].id;
+                    var rDate= parseInt(recipes[i].items[j].date, 10); //parse int from string in base 10
+                    var isNew = "";
+                    if (clientDate <= rDate){
+                        isNew = " new"
+                    }
+                    var rNumber=rID.charAt(1);			
+                    if(rID != "demo" && rNumber != "0"){//if not demo or placeholder show recipe
+                        var rTitle=recipes[i].items[j].title;	
+                        var rCategory = recipes[i].items[j].category;
+                        rCategoryID = rCategory.replace(/ /g, "_");
+                        var thisTag = "#r" + rCategoryID;
+                        var linkClass = "\"all " + rID + isNew + "\"";
+                        var rTitleItem = "<li class=" +linkClass + "><a class="+linkClass+"href=\"../#" + rID+ "\"><span>" + rTitle + "</span></a></li>";
+                        //https://mosthumblest.github.io/recipebox
+                        $(thisTag).append(rTitleItem);
+                    }
+                })
             });
         }	
     
