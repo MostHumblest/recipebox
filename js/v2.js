@@ -10,7 +10,7 @@ $(document).ready(function(){
         recipes = [];
         $.holdReady(true);
         $.getJSON("js/recipes.json", function (json) {
-            recipes = json;
+            recipes = json.recipes;
             populateCategories();
             populateRecipes();
             toggleHeaders();
@@ -21,11 +21,6 @@ $(document).ready(function(){
             $.holdReady(false)
         });
     });
-    
-    //load json slug
-        function readJson(){
-           
-        }
     
     //create recipe list
         function populateCategories(){
