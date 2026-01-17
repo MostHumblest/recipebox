@@ -7,6 +7,7 @@ $(document).ready(function(){
         showButton();
         showNewButton();
         printButton();
+        recipes = {}
         readJson();
         populateCategories();
         populateRecipes();
@@ -19,7 +20,7 @@ $(document).ready(function(){
     
     //load json slug
         function readJson(){
-            $.getJSON("/recipes.json", function (json) {
+            $.getJSON("js/recipes.json", function (json) {
                 recipes = json;
             });
         }
