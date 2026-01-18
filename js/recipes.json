@@ -1,12 +1,7 @@
 {
     "recipes": [
-      {
-        "section": "A",
-        "category": "tips and techniques",
-        "items": [
-          {
-            "id": "A0",
-            "title": "Tips Placeholder",
+      {"section": "A", "category": "tips and techniques", "items": [
+          {"id": "A0", "title": "Tips Placeholder",
             "category": "tips and techniques",
             "date": "20210131",
             "yield": 0,
@@ -44,9 +39,7 @@
               "test2"
             ]
           },
-          {
-            "id": "A1",
-            "title": "About",
+          {"id": "A1", "title": "About",
             "category": "tips and techniques",
             "yield": 0,
             "time": {
@@ -90,9 +83,7 @@
               "test2"
             ]
           },
-          {
-            "id": "A2",
-            "title": "Recipe Info",
+          { "id": "A2", "title": "Recipe Info",
             "category": "tips and techniques",
             "yield": 0,
             "time": {
@@ -135,9 +126,7 @@
               "test2"
             ]
           },
-          {
-            "id": "A3",
-            "title": "Cooking Terminology",
+          {"id": "A3", "title": "Cooking Terminology",
             "category": "tips and techniques",
             "yield": 0,
             "time": {
@@ -182,13 +171,8 @@
           }
         ]
       },
-      {
-        "section": "B",
-        "category": "breakfast",
-        "items": [
-          {
-            "id": "B0",
-            "title": "Breakfast Placeholder",
+      {"section": "B","category": "breakfast", "items": [
+          {"id": "B0", "title": "Breakfast Placeholder",
             "category": "breakfast",
             "date": "20210131",
             "yield": 1,
@@ -228,13 +212,8 @@
           }
         ]
       },
-      {
-        "section": "C",
-        "category": "snacks and dips",
-        "items": [
-          {
-            "id": "C0",
-            "title": "Snacks and Dips Placeholder",
+      {"section": "C", "category": "snacks and dips", "items": [
+          {"id": "C0", "title": "Snacks and Dips Placeholder",
             "category": "snacks and dips",
             "date": "20210131",
             "yield": 1,
@@ -272,9 +251,7 @@
               "test2"
             ]
           },
-          {
-            "id": "C1",
-            "title": "Buffalo Cauliflower Dip",
+          {"id": "C1", "title": "Buffalo Cauliflower Dip",
             "category": "snacks and dips",
             "date": "20210131",
             "yield": "Dip for 4-6 people",
@@ -349,9 +326,7 @@
               "test2"
             ]
           },
-          {
-            "id": "C2",
-            "title": "Hummus",
+          {"id": "C2", "title": "Hummus",
             "category": "snacks and dips",
             "date": "20210607",
             "yield": "2 cups",
@@ -419,9 +394,7 @@
               "test2"
             ]
           },
-          {
-            "id": "C3",
-            "title": "Citrus-Ginger Raita",
+          {"id": "C3", "title": "Citrus-Ginger Raita",
             "category": "snacks and dips",
             "date": "20220312",
             "yield": "2 cups",
@@ -499,9 +472,7 @@
               "test2"
             ]
           },
-          {
-            "id": "C4",
-            "title": "Beet Dip",
+          {"id": "C4", "title": "Beet Dip",
             "category": "snacks and dips",
             "date": "20220704",
             "yield": "3 cups dip",
@@ -594,13 +565,8 @@
           }
         ]
       },
-      {
-        "section": "D",
-        "category": "salads",
-        "items": [
-          {
-            "id": "D0",
-            "title": "Salads Placeholder",
+      {"section": "D", "category": "salads", "items": [
+          {"id": "D0", "title": "Salads Placeholder",
             "category": "salads",
             "date": "20210131",
             "yield": 1,
@@ -638,9 +604,7 @@
               "test2"
             ]
           },
-          {
-            "id": "D1",
-            "title": "Brussels Sprouts Salad",
+          {"id": "D1", "title": "Brussels Sprouts Salad",
             "category": "salads",
             "yield": "4-6 servings",
             "time": {
@@ -728,9 +692,7 @@
               "potluck"
             ]
           },
-          {
-            "id": "D2",
-            "title": "Carottes Râpées",
+          {"id": "D2", "title": "Carottes Râpées",
             "category": "salads",
             "date": "20210415",
             "yield": "4 servings",
@@ -792,9 +754,7 @@
               "vegan"
             ]
           },
-          {
-            "id": "D3",
-            "title": "Grilled Caesar Wedges",
+          {"id": "D3", "title": "Grilled Caesar Wedges",
             "category": "salads",
             "date": "20220515",
             "yield": "3-4 servings",
@@ -875,9 +835,7 @@
               "test2"
             ]
           },
-          {
-            "id": "D4",
-            "title": "Turmeric Rice  & Brussels Sprouts",
+          {"id": "D4", "title": "Turmeric Rice  & Brussels Sprouts",
             "category": "salads",
             "date": "20230205",
             "yield": 1,
@@ -969,13 +927,8 @@
           }
         ]
       },
-      {
-        "section": "E",
-        "category": "poultry",
-        "items": [
-          {
-            "id": "E0",
-            "title": "Poultry Placeholder",
+      {"section": "E", "category": "poultry", "items": [
+          {"id": "E0", "title": "Poultry Placeholder",
             "category": "poultry",
             "date": "20210131",
             "yield": 1,
@@ -1013,9 +966,7 @@
               "test2"
             ]
           },
-          {
-            "id": "E1",
-            "title": "Gochujang Chicken",
+          {"id": "E1", "title": "Gochujang Chicken",
             "category": "poultry",
             "yield": "4-6 servings",
             "time": {
@@ -1099,9 +1050,7 @@
               "test2"
             ]
           },
-          {
-            "id": "E2",
-            "title": "Butter Chicken",
+          {"id": "E2", "title": "Butter Chicken",
             "category": "poultry",
             "yield": "4 servings",
             "time": {
@@ -1212,9 +1161,7 @@
               "quick"
             ]
           },
-          {
-            "id": "E3",
-            "title": "Chicken and Couscous",
+          {"id": "E3", "title": "Chicken and Couscous",
             "category": "poultry",
             "yield": "4 servings",
             "time": {
@@ -1313,9 +1260,7 @@
               "skillet"
             ]
           },
-          {
-            "id": "E4",
-            "title": "General Tso's Chicken",
+          {"id": "E4", "title": "General Tso's Chicken",
             "category": "poultry",
             "date": "20210415",
             "yield": " 2 servings",
@@ -1400,9 +1345,7 @@
               "Fast"
             ]
           },
-          {
-            "id": "E5",
-            "title": "Chicken Francese",
+          {"id": "E5", "title": "Chicken Francese",
             "category": "poultry",
             "date": "20210417",
             "yield": "4-6 Servings",
@@ -1495,9 +1438,7 @@
               "Italian"
             ]
           },
-          {
-            "id": "E6",
-            "title": "Shawarma Roast Chicken",
+          {"id": "E6", "title": "Shawarma Roast Chicken",
             "category": "poultry",
             "date": "20220514",
             "yield": "2-3 servings",
@@ -1587,13 +1528,8 @@
           }
         ]
       },
-      {
-        "section": "F",
-        "category": "pork",
-        "items": [
-          {
-            "id": "F0",
-            "title": "Pork Placeholder",
+      {"section": "F", "category": "pork", "items": [
+          {"id": "F0", "title": "Pork Placeholder",
             "category": "pork",
             "date": "20210131",
             "yield": 1,
@@ -1631,9 +1567,7 @@
               "test2"
             ]
           },
-          {
-            "id": "F1",
-            "title": "Pineapple Pork Adobo",
+          {"id": "F1", "title": "Pineapple Pork Adobo",
             "category": "pork",
             "yield": "4-6 servings",
             "time": {
@@ -1718,9 +1652,7 @@
               "rice"
             ]
           },
-          {
-            "id": "F2",
-            "title": "Turmeric-Coconut Curry",
+          {"id": "F2", "title": "Turmeric-Coconut Curry",
             "category": "pork",
             "date": "20210417",
             "yield": "4 servings",
@@ -1807,13 +1739,8 @@
           }
         ]
       },
-      {
-        "section": "G",
-        "category": "beef",
-        "items": [
-          {
-            "id": "G0",
-            "title": "Beef Placeholder",
+      {"section": "G", "category": "beef", "items": [
+          {"id": "G0", "title": "Beef Placeholder",
             "category": "beef",
             "date": "20210131",
             "yield": 1,
@@ -1851,9 +1778,7 @@
               "test2"
             ]
           },
-          {
-            "id": "G1",
-            "title": "Thai Beef Stew",
+          {"id": "G1", "title": "Thai Beef Stew",
             "category": "beef",
             "yield": "6-8 servings",
             "time": {
@@ -1958,9 +1883,7 @@
               "soup"
             ]
           },
-          {
-            "id": "G2",
-            "title": "Chilli Beef with Pancetta",
+          {"id": "G2", "title": "Chilli Beef with Pancetta",
             "category": "beef",
             "yield": "4 servings",
             "time": {
@@ -2061,9 +1984,7 @@
               ""
             ]
           },
-          {
-            "id": "G3",
-            "title": "Pistachio Crusted Short Ribs",
+          {"id": "G3", "title": "Pistachio Crusted Short Ribs",
             "category": "beef",
             "date": "20220312",
             "yield": "4-6 servings",
@@ -2133,13 +2054,8 @@
           }
         ]
       },
-      {
-        "section": "H",
-        "category": "seafood",
-        "items": [
-          {
-            "id": "H0",
-            "title": "Seafood Placeholder",
+      {"section": "H", "category": "seafood", "items": [
+          {"id": "H0", "title": "Seafood Placeholder",
             "category": "seafood",
             "date": "20210131",
             "yield": 1,
@@ -2177,9 +2093,7 @@
               "test2"
             ]
           },
-          {
-            "id": "H1",
-            "title": "Coconut Cod Chowder",
+          {"id": "H1", "title": "Coconut Cod Chowder",
             "category": "seafood",
             "yield": "4-6 Servings",
             "time": {
@@ -2285,9 +2199,7 @@
               "stew"
             ]
           },
-          {
-            "id": "H2",
-            "title": "Za'atar Fish n Chips",
+          {"id": "H2", "title": "Za'atar Fish n Chips",
             "category": "seafood",
             "date": "20210417",
             "yield": "2-4 servings",
@@ -2354,9 +2266,7 @@
               "tag2"
             ]
           },
-          {
-            "id": "H3",
-            "title": "Roast Fish with Spiced Chickpeas",
+          {"id": "H3", "title": "Roast Fish with Spiced Chickpeas",
             "category": "seafood",
             "date": "20210718",
             "yield": "3-4 servings",
@@ -2449,13 +2359,8 @@
           }
         ]
       },
-      {
-        "section": "I",
-        "category": "vegetables",
-        "items": [
-          {
-            "id": "I0",
-            "title": "Vegetables Placeholder",
+      {"section": "I", "category": "vegetables", "items": [
+          {"id": "I0", "title": "Vegetables Placeholder",
             "category": "vegetables",
             "date": "20210131",
             "yield": 1,
@@ -2493,9 +2398,7 @@
               "test2"
             ]
           },
-          {
-            "id": "I1",
-            "title": "Cauliflower Tacos",
+          {"id": "I1", "title": "Cauliflower Tacos",
             "category": "vegetables",
             "yield": "~12 tacos",
             "time": {
@@ -2612,9 +2515,7 @@
               "mexican"
             ]
           },
-          {
-            "id": "I2",
-            "title": "Miso-Glazed Turnips",
+          {"id": "I2", "title": "Miso-Glazed Turnips",
             "category": "vegetables",
             "date": "20220424",
             "yield": "2 servings",
@@ -2676,13 +2577,8 @@
           }
         ]
       },
-      {
-        "section": "J",
-        "category": "eggs",
-        "items": [
-          {
-            "id": "J0",
-            "title": "Eggs Placeholder",
+      {"section": "J", "category": "eggs", "items": [
+          {"id": "J0", "title": "Eggs Placeholder",
             "category": "eggs",
             "date": "20210131",
             "yield": 1,
@@ -2720,9 +2616,7 @@
               "test2"
             ]
           },
-          {
-            "id": "J1",
-            "title": "Shakshuka",
+          {"id": "J1", "title": "Shakshuka",
             "category": "eggs",
             "date": "20210416",
             "yield": "2-3 Servings",
@@ -2816,13 +2710,8 @@
           }
         ]
       },
-      {
-        "section": "K",
-        "category": "pasta",
-        "items": [
-          {
-            "id": "K0",
-            "title": "Pasta Placeholder",
+      {"section": "K", "category": "pasta", "items": [
+          {"id": "K0", "title": "Pasta Placeholder",
             "category": "pasta",
             "date": "20210131",
             "yield": 1,
@@ -2860,9 +2749,7 @@
               "test2"
             ]
           },
-          {
-            "id": "K1",
-            "title": "Mushroom Lasagna",
+          {"id": "K1", "title": "Mushroom Lasagna",
             "category": "pasta",
             "yield": "Serves 6",
             "time": {
@@ -2985,9 +2872,7 @@
               "pasta"
             ]
           },
-          {
-            "id": "K2",
-            "title": "Fried Tagliatelle",
+          {"id": "K2", "title": "Fried Tagliatelle",
             "category": "pasta",
             "yield": "4 servings",
             "time": {
@@ -3071,9 +2956,7 @@
               "vegetarian"
             ]
           },
-          {
-            "id": "K3",
-            "title": "Adult Mac and Cheese",
+          {"id": "K3", "title": "Adult Mac and Cheese",
             "category": "pasta",
             "date": "20220424",
             "yield": "3-4 servings",
@@ -3153,13 +3036,8 @@
           }
         ]
       },
-      {
-        "section": "L",
-        "category": "grains and rice",
-        "items": [
-          {
-            "id": "L0",
-            "title": "Grains Placeholder",
+      {"section": "L", "category": "grains and rice", "items": [
+          {"id": "L0", "title": "Grains Placeholder",
             "category": "grains and rice",
             "date": "20210131",
             "yield": 1,
@@ -3197,9 +3075,7 @@
               "test2"
             ]
           },
-          {
-            "id": "L1",
-            "title": "Curry Risotto with Squash",
+          {"id": "L1", "title": "Curry Risotto with Squash",
             "category": "grains and rice",
             "yield": "4-6 servings",
             "time": {
@@ -3299,13 +3175,8 @@
           }
         ]
       },
-      {
-        "section": "M",
-        "category": "legumes",
-        "items": [
-          {
-            "id": "M0",
-            "title": "Legumes Placeholder",
+      { "section": "M", "category": "legumes", "items": [
+          {"id": "M0", "title": "Legumes Placeholder",
             "category": "legumes",
             "date": "20210131",
             "yield": 1,
@@ -3343,9 +3214,7 @@
               "test2"
             ]
           },
-          {
-            "id": "M1",
-            "title": "Chickpea Bowls",
+          {"id": "M1", "title": "Chickpea Bowls",
             "category": "legumes",
             "yield": "2-3 servings",
             "time": {
@@ -3427,9 +3296,7 @@
               "vegetarian"
             ]
           },
-          {
-            "id": "M2",
-            "title": "Curry Lentil Soup",
+          {"id": "M2", "title": "Curry Lentil Soup",
             "category": "legumes",
             "yield": "3-4 servings",
             "time": {
@@ -3511,9 +3378,7 @@
               "vegetarian"
             ]
           },
-          {
-            "id": "M3",
-            "title": "Apple Coconut Dal",
+          {"id": "M3", "title": "Apple Coconut Dal",
             "category": "legumes",
             "date": "20211031",
             "yield": "4 servings",
@@ -3618,14 +3483,8 @@
           }
         ]
       },
-      {
-        "section": "N",
-        "category": "sauces and rubs",
-        "items": [
-          {
-            "id": "N0",
-            "title": "Sauces Placeholder",
-            "category": "sauces and rubs",
+      {"section": "N", "category": "sauces and rubs", "items": [
+          {"id": "N0", "category": "sauces and rubs",
             "date": "20210131",
             "yield": 1,
             "time": {
@@ -3662,9 +3521,7 @@
               "test2"
             ]
           },
-          {
-            "id": "N1",
-            "title": "Mushroom Ragu",
+          {"id": "N1", "title": "Mushroom Ragu",
             "category": "sauces and rubs",
             "yield": "Makes 3-4 cups of sauce",
             "time": {
@@ -3756,9 +3613,7 @@
               "vegan"
             ]
           },
-          {
-            "id": "N2",
-            "title": "BBQ Dry Rub",
+          {"id": "N2", "title": "BBQ Dry Rub",
             "category": "sauces and rubs",
             "yield": "~1 c dry rub",
             "time": {
@@ -3826,9 +3681,7 @@
               "brisket"
             ]
           },
-          {
-            "id": "N3",
-            "title": "Pizza Sauce",
+          {"id": "N3", "title": "Pizza Sauce",
             "category": "sauces and rubs",
             "yield": "Sauce for 24 pizzas",
             "time": {
@@ -3901,9 +3754,7 @@
               "sauce"
             ]
           },
-          {
-            "id": "N4",
-            "title": "Salsa de Arbol",
+          {"id": "N4", "title": "Salsa de Arbol",
             "category": "sauces and rubs",
             "date": "20211031",
             "yield": 1,
@@ -3961,13 +3812,8 @@
           }
         ]
       },
-      {
-        "section": "O",
-        "category": "baking",
-        "items": [
-          {
-            "id": "O0",
-            "title": "Baking Placeholder",
+      {"section": "O", "category": "baking", "items": [
+          {"id": "O0", "title": "Baking Placeholder",
             "category": "baking",
             "date": "20210131",
             "yield": 1,
@@ -4005,9 +3851,7 @@
               "test2"
             ]
           },
-          {
-            "id": "O1",
-            "title": "Sourdough Starter",
+          {"id": "O1", "title": "Sourdough Starter",
             "category": "baking",
             "yield": "~1c starter",
             "time": {
@@ -4057,9 +3901,7 @@
               "test2"
             ]
           },
-          {
-            "id": "O2",
-            "title": "Scones",
+          {"id": "O2", "title": "Scones",
             "category": "baking",
             "yield": "8-12 scones",
             "time": {
@@ -4132,9 +3974,7 @@
               "dessert"
             ]
           },
-          {
-            "id": "O3",
-            "title": "Sourdough Pizza Crust",
+          {"id": "O3", "title": "Sourdough Pizza Crust",
             "category": "baking",
             "yield": "2 twenty-ounce dough balls, good for 14\" pizzas",
             "time": {
@@ -4196,9 +4036,7 @@
               "test2"
             ]
           },
-          {
-            "id": "O4",
-            "title": "No-Knead Focaccia",
+          {"id": "O4", "title": "No-Knead Focaccia",
             "category": "baking",
             "yield": "one 12\" round loaf",
             "time": {
@@ -4262,9 +4100,7 @@
               "bread"
             ]
           },
-          {
-            "id": "O5",
-            "title": "Garlic Focaccia",
+          {"id": "O5", "title": "Garlic Focaccia",
             "category": "baking",
             "yield": "one 12\" round loaf",
             "time": {
@@ -4343,9 +4179,7 @@
               "vegetarian"
             ]
           },
-          {
-            "id": "O6",
-            "title": "Quick Naan",
+          {"id": "O6", "title": "Quick Naan",
             "category": "baking",
             "yield": "8 small naan, or 4 larger ones",
             "time": {
@@ -4422,9 +4256,7 @@
               "bread"
             ]
           },
-          {
-            "id": "O7",
-            "title": "Basic Donuts",
+          {"id": "O7", "title": "Basic Donuts",
             "category": "baking",
             "date": "20210415",
             "yield": "About a dozen, plus holes",
@@ -4493,9 +4325,7 @@
               "test2"
             ]
           },
-          {
-            "id": "O8",
-            "title": "Fancy Donuts",
+          {"id": "O8", "title": "Fancy Donuts",
             "category": "baking",
             "date": "20210415",
             "yield": 0,
@@ -4553,9 +4383,7 @@
               "test2"
             ]
           },
-          {
-            "id": "O9",
-            "title": "Sesame Tea Cake",
+          {"id": "O9", "title": "Sesame Tea Cake",
             "category": "baking",
             "date": "20220424",
             "yield": "1 loaf",
@@ -4650,13 +4478,8 @@
           }
         ]
       },
-      {
-        "section": "P",
-        "category": "dessert",
-        "items": [
-          {
-            "id": "P0",
-            "title": "Desserts Placeholder",
+      {"section": "P", "category": "dessert", "items": [
+          {"id": "P0", "title": "Desserts Placeholder",
             "category": "dessert",
             "date": "20210131",
             "yield": 1,
@@ -4694,9 +4517,7 @@
               "test2"
             ]
           },
-          {
-            "id": "P1",
-            "title": "Chocolate Souffle",
+          {"id": "P1", "title": "Chocolate Souffle",
             "category": "dessert",
             "yield": "4-8 individual souffles",
             "time": {
@@ -4774,9 +4595,7 @@
               "test2"
             ]
           },
-          {
-            "id": "P2",
-            "title": "Chocolate Chunk Shortbread",
+          {"id": "P2", "title": "Chocolate Chunk Shortbread",
             "category": "dessert",
             "yield": "18ish cookies",
             "time": {
