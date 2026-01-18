@@ -171,7 +171,7 @@ $(document).ready(function(){
                 var headText = $(this).text();
                 var n = headText.length;
                 var arrowType = headText.charCodeAt(n-1);
-            //toogle arrow type
+            //toggle arrow type
                 if(arrowType == 9656){
                     $(newArrow).text('\u25BE');
                     $(newID).show();
@@ -344,8 +344,6 @@ $(document).ready(function(){
             var thisSection = recipes.filter(function(e){
                 return e.section === hashIndex
             });
-            //grab recipe list from section
-            thisItems = thisSection[0].items
             //find matching hash
             var thisRecipe = thisSection[0].items.filter(function(e){
                 return e.id === hash;
@@ -398,13 +396,19 @@ $(document).ready(function(){
             var referenceNumber = inputText.match(/(#[A-Z][0-9]?)/gi);		
             var referenceLink;
             $.each(referenceNumber, function(i, valI){
-                $.each(recipes, function(j, valJ){
-                    returnID = "#"+valJ.id;
-                    if(referenceNumber[i] === returnID){
-                        referenceLink ="<a class=\"rlink\" href=\""+referenceNumber[i]+"\">"+ valJ.title +"</a>";
-                        inputText = inputText.replace(referenceNumber[i], referenceLink);
-                    }
-                });			
+                //get section
+                hash = referenceNumber.replace('#', '');//strip hash symbol
+                hashIndex = referenceNumber.substring(1,2);
+                //find matching section
+                var thisSection = recipes.filter(function(e){
+                    return e.section === hashIndex
+                });
+                //find matching hash
+                var thisRecipe = thisSection[0].items.filter(function(e){
+                    return e.id === hash;
+                });
+                referenceLink ="<a class=\"rlink\" href=\""+referenceNumber[i]+"\">"+ thisRecipe.title +"</a>";
+                inputText = inputText.replace(referenceNumber[i], referenceLink);		
             });
             return inputText;
         }
