@@ -270,8 +270,13 @@ $(document).ready(function(){
             $.each(ingredients, function(j, valueJ){
                 thisQuantity = ingredients[j].quantity;
                 thisQuantity = doFormatting(thisQuantity);
-                thisItem = ingredients[j].item;
+                thisItem = ingredients[j].item;                   
                 thisItem = doFormatting(thisItem);
+                itemFirstChar = thisItem.charAt(0);
+                if (itemFirstChar === "!"){                    
+                    thisItem=thisItem.slice(1);
+                    thisItem= "<h4>"+thisItem+"</h4>"
+                }
                 listIngredients = listIngredients + "<tr><td class=\"qty\">" + thisQuantity + "</td><td class=\"item\">" + thisItem + "</td></tr>";		
             });
             $("#recipeIngredients").html(listIngredients);

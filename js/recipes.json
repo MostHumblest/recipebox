@@ -772,7 +772,7 @@
                 "item": "Dijon mustard"
               },
               {
-                "quantity": "1/2 cup plus 2 Tbsp",
+                "quantity": "1/2 c plus 2 Tbsp",
                 "item": "olive oil"
               },
               {
@@ -792,7 +792,7 @@
                 "item": "romaine hearts"
               },
               {
-                "quantity": "1/2 cup",
+                "quantity": "1/2 c",
                 "item": "grated parmesan"
               }
             ],
@@ -4656,11 +4656,11 @@
             ],
             "ingredients": [
               {
-                "quantity": "!Cake",
-                "item": ""
+                "quantity": "",
+                "item": "!Cake"
               },
               {
-                "quantity": "1 cup, about 6oz",
+                "quantity": "1 c, ~6oz",
                 "item": "finely chopped pitted dates"
               },
               {
@@ -4688,7 +4688,7 @@
                 "item": "brown sugar"
               },
               {
-                "quantity": "1/2 cup (1 stick)",
+                "quantity": "1/2 c",
                 "item": "butter, room temperature"
               },
               {
@@ -4700,15 +4700,15 @@
                 "item": "vanilla extract"
               },
               {
-                "quantity": "!Sauce",
-                "item": ""
+                "quantity": "",
+                "item": "!Sauce"
               },
               {
                 "quantity": "175g",
                 "item": "brown sugar"
               },
               {
-                "quantity": "3/4 cup",
+                "quantity": "3/4 c",
                 "item": "heavy cream"
               },
               {
