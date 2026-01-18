@@ -1,7 +1,8 @@
 {
     "recipes": [
       {
-        "category": "A - Tips and Techniques",
+        "section": "A",
+        "category": "tips and techniques",
         "items": [
           {
             "id": "A0",
@@ -182,7 +183,8 @@
         ]
       },
       {
-        "category": "B - Breakfast",
+        "section": "B",
+        "category": "breakfast",
         "items": [
           {
             "id": "B0",
@@ -227,7 +229,8 @@
         ]
       },
       {
-        "category": "C - Snacks and Dips",
+        "section": "C",
+        "category": "snacks and dips",
         "items": [
           {
             "id": "C0",
@@ -592,7 +595,8 @@
         ]
       },
       {
-        "category":"D - Salads",
+        "section": "D",
+        "category":"salads",
         "items": [
           {
             "id": "D1",

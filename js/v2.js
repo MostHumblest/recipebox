@@ -25,13 +25,13 @@ $(document).ready(function(){
     //create recipe list
         function populateCategories(){
             var categories = [];
-            var uniqueCategories = [];
+            //var uniqueCategories = [];
             $.each(recipes, function(i, val){
-                categories.push(recipes[i].items[0].category);			
+                categories.push(recipes[i].category);			
             });	
-            uniqueCategories = categories.filter(onlyUnique);
-            $.each(uniqueCategories, function(i, val){
-                var rCategory = uniqueCategories[i];
+            //uniqueCategories = categories.filter(onlyUnique);
+            $.each(categories, function(i, val){
+                var rCategory = categories[i];
                 var rCategoryID = rCategory.replace(/ /g, "_");			
                 if(rCategoryID != "demo"){ //skip template/demo section of json
                     var categoryHeaders = "<h2 id=\"h" + rCategoryID + "\" class=\"headerCategory\">" + rCategory + "    <span class=\"arrow\">\u25BE<span></h2>"; //&ring9662
@@ -100,7 +100,7 @@ $(document).ready(function(){
             console.log(clientDate);
             clientDate = clientDate-14; //check date within last 14 days
             $.each(recipes, function(i, val){	
-                $.each(recipes[i].items, function(j,phv){
+                $.each(recipes[i].items, function(j,val){
                     var rID=recipes[i].items[j].id;
                     var rDate= parseInt(recipes[i].items[j].date, 10); //parse int from string in base 10
                     var isNew = "";
