@@ -397,8 +397,8 @@ $(document).ready(function(){
             var referenceLink;
             $.each(referenceNumber, function(i, valI){
                 //get section
-                hash = referenceNumber.replace('#', '');//strip hash symbol
-                hashIndex = referenceNumber.substring(1,2);
+                hash = referenceNumber[i].replace('#', '');//strip hash symbol
+                hashIndex = referenceNumber[i].substring(1,2);
                 //find matching section
                 var thisSection = recipes.filter(function(e){
                     return e.section === hashIndex
