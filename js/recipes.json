@@ -4652,7 +4652,8 @@
               "modify": "y"
             },
             "notes": [
-              "Double recipe to fill 9x13 pan"
+              "Double recipe to fill 9x13 pan",
+              "Metal pan is preferred, glass pan may require extended cook time"
             ],
             "ingredients": [
               {
@@ -4692,8 +4693,8 @@
                 "item": "butter, room temperature"
               },
               {
-                "quantity": "3",
-                "item": "2 eggs, room temperature"
+                "quantity": "2",
+                "item": "eggs, room temperature"
               },
               {
                 "quantity": "1 tsp",
@@ -4725,9 +4726,36 @@
               }
             ],
             "directions": [
-              "step 1",
-              "step 2",
-              "step 3"
+              "!Cake",
+              "Place rack in center of oven; preheat to 350f",
+              "Combine dates and 1/2 cup of water in a saucepan and bring to a boil.",
+              "Reduce heat and simmer until dates are soft, most of the liquid has evaporated, and mixture is very moist, 5-8 minutes.",
+              "Transfer dates to a small bowl and cool for at least 10 minutes.",
+              "Stir in baking soda",
+              "Spray baking dish with nonstick spray",
+              "In a medium bowl, whisk together AP flour, baking powder, and salt - set aside",
+              "In a large bowl (or stand mixer) beat brown sugar and butter until light and creamy, 3-5 minutes",
+              "Add eggs one at a time, beating after each",
+              "Add vanilla",
+              "In two additions, add flour mixture into butter mixture and mix at low speed.",
+              "Using rubber spatula, mix in date mixture",
+              "Transfer mixture to prepared pan, and spread in even layer",
+              "Bake until a tester inserted into the center of the cake comes out clean, 25-30 minutes",
+              "!Sauce",
+              "Combine brown sugar, cream, and butter in a sauce pan",
+              "Cook over medium heat, stirring, until butter melts and sugar dissolves",
+              "Maintain gentle boil until sauce thickens and reduces slightly, about 8 minutes",
+              "Remove from heat, add salt, set aside until cake is finished",
+              "!Combine",
+              "Pierce top of hot cake all over with wooden skewer or toothpick",
+              "Pour half of toffee sauce over top of cake",
+              "Return cake to oven and back until sauce bubbles, 5-7minutes",
+              "Let cake cool in pan until warm",
+              "!Serving",
+              "Cut cake into squares and transfer to plate",
+              "Pour some remaining sauce over and serve with ice cream",
+              "$<u>Do ahead</u>: Toffee sauce can be made 3 days ahead. Store in frdige and rewarm over low heat",
+              "Cake, without sauce, can be baked 1 day ahead. Store at room temp. Rewarm in 350f oven for 10-15 minutes then continue at Combine"
             ],
             "tags": [
               "test",
