@@ -343,7 +343,7 @@ $(document).ready(function(){
             //down select recipe match number
             thisSection = recipes[hashIndex]
             //find matching hash
-            var thisRecipe = thisSecion.filter(function(e){
+            var thisRecipe = thisSection.filter(function(e){
                 return e.items.id === hash;
             });	
             return thisRecipe;
