@@ -338,8 +338,13 @@ $(document).ready(function(){
     //find recipe
         function findRecipe(hash){
             //create new array for recipe ID that matches
-            var thisRecipe = recipes.filter(function(e){
-                return e.id === hash;
+            //separate letter from hash, map to number [0-25]
+            hashIndex = hash.charAt(0)-98
+            //down select recipe match number
+            thisSection = recipes[hashIndex]
+            //find matching hash
+            var thisRecipe = thisSecion.filter(function(e){
+                return e.items.id === hash;
             });	
             return thisRecipe;
             //console.log(selectedRecipe);
