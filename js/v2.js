@@ -26,8 +26,8 @@ $(document).ready(function(){
         function populateCategories(){
             var categories = [];
             var uniqueCategories = [];
-            $.each(recipes, function(i, val){
-                categories.push(recipes[i].items[0].category);			
+            $.each(recipes, function(i, cat){
+                categories.push(cat[0].category);			
             });	
             uniqueCategories = categories.filter(onlyUnique);
             $.each(uniqueCategories, function(i, val){
