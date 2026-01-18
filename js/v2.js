@@ -345,9 +345,9 @@ $(document).ready(function(){
                 return e.section === hashIndex
             });
             //grab recipe list from section
-            thisItems = thisSection.items
+            thisItems = thisSection[0].items
             //find matching hash
-            var thisRecipe = thisItems.filter(function(e){
+            var thisRecipe = thisSection[0].items.filter(function(e){
                 return e.id === hash;
             });	
             return thisRecipe;
