@@ -340,12 +340,15 @@ $(document).ready(function(){
             //create new array for recipe ID that matches
             //separate letter from hash
             hashIndex = hash.substring(0,1);
+            //find matching section
             var thisSection = recipes.filter(function(e){
                 return e.section === hashIndex
             });
+            //grab recipe list from section
+            thisItems = thisSection.items
             //find matching hash
-            var thisRecipe = thisSection.filter(function(e){
-                return e.items.id === hash;
+            var thisRecipe = thisItems.filter(function(e){
+                return e.id === hash;
             });	
             return thisRecipe;
             //console.log(selectedRecipe);
