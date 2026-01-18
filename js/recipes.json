@@ -4636,6 +4636,103 @@
               "test",
               "test2"
             ]
+          },
+          {"id": "P3", "title": "Sticky Toffee Pudding",
+            "category": "dessert",
+            "date": "20260118",
+            "yield": "4-6 servings",
+            "time": {
+              "active": 0,
+              "total": 0
+            },
+            "source": {
+              "title": "Sticky Toffee Pudding",
+              "author": "Bon Appetit Test Kitchen",
+              "source": "Bon Appetit, Nov 2024",
+              "modify": "y"
+            },
+            "notes": [
+              "Double recipe to fill 9x13 pan"
+            ],
+            "ingredients": [
+              {
+                "quantity": "!Cake",
+                "item": ""
+              },
+              {
+                "quantity": "1 cup, about 6oz",
+                "item": "finely chopped pitted dates"
+              },
+              {
+                "quantity": "1/8 tsp",
+                "item": "baking soda"
+              }
+              {
+                "quantity": "AR",
+                "item": "Nonstick cooking spray"
+              },
+              {
+                "quantity": "110g",
+                "item": "AP Flour"
+              },
+              {
+                "quantity": "1/4 tsp",
+                "item": "baking powder"
+              },
+              {
+                "quantity": "1/2 tsp",
+                "item": "kosher salt"
+              },
+              {
+                "quantity": "100g",
+                "item": "brown sugar"
+              },
+              {
+                "quantity": "1/2 cup (1 stick)",
+                "item": "butter, room temperature"
+              },
+              {
+                "quantity": "3",
+                "item": "2 eggs, room temperature"
+              },
+              {
+                "quantity": "1 tsp",
+                "item": "vanilla extract"
+              },
+              {
+                "quantity": "!Sauce",
+                "item": ""
+              },
+              {
+                "quantity": "175g",
+                "item": "brown sugar"
+              },
+              {
+                "quantity": "3/4 cup",
+                "item": "heavy cream"
+              },
+              {
+                "quantity": "3 Tbsp",
+                "item": "butter"
+              },
+              {
+                "quantity": "1/4 tsp",
+                "item": "kosher salt"
+              },
+              {
+                "quantity": "AR",
+                "item": "vanilla ice cream"
+              }
+            ],
+            "directions": [
+              "step 1",
+              "step 2",
+              "step 3"
+            ],
+            "tags": [
+              "test",
+              "test2"
+            ]
           }
         ]
       }
