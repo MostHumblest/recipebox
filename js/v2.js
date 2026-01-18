@@ -275,7 +275,7 @@ $(document).ready(function(){
                 itemFirstChar = thisItem.charAt(0);
                 if (itemFirstChar === "!"){                    
                     thisItem=thisItem.slice(1);
-                    thisItem= "<h4>"+thisItem+"</h4>"
+                    thisItem= "<b>"+thisItem+"</b>"
                 }
                 listIngredients = listIngredients + "<tr><td class=\"qty\">" + thisQuantity + "</td><td class=\"item\">" + thisItem + "</td></tr>";		
             });
