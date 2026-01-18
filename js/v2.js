@@ -407,7 +407,7 @@ $(document).ready(function(){
                 var thisRecipe = thisSection[0].items.filter(function(e){
                     return e.id === hash;
                 });
-                referenceLink ="<a class=\"rlink\" href=\""+referenceNumber[i]+"\">"+ thisRecipe.title +"</a>";
+                referenceLink ="<a class=\"rlink\" href=\""+referenceNumber[i]+"\">"+ thisRecipe[0].title +"</a>";
                 inputText = inputText.replace(referenceNumber[i], referenceLink);		
             });
             return inputText;
