@@ -817,90 +817,84 @@
               "test2"
             ]
           },
-          {"id": "D4", "title": "Turmeric Rice  & Brussels Sprouts",
+          {"id": "D4", "title": "Roasted Cauliflower with Feta & Dates",
             "category": "salads",
-            "date": "20230205",
-            "yield": 1,
+            "date": "20260118",
+            "yield": "4 servings",
             "time": {
               "active": 0,
               "total": 0
             },
             "source": {
-              "title": "Turmeric Rice Salad with Roasted Brussels Sprouts",
-              "author": "Molly Baz",
-              "source": "Bon Appetit, Nov 2018",
+              "title": "Roasted Cauliflower Salad with Feta and Dates",
+              "author": "Kendra Vaculin",
+              "source": "Bon Appetit, Feb 2025",
               "modify": "y"
             },
             "notes": [
-              "note 1",
-              "note 2"
+              "Great side along fish and chicken"
             ],
             "ingredients": [
               {
-                "quantity": "3/4 c",
-                "item": "unsweetened coconut flakes"
+                "quantity": "1",
+                "item": "head cauliflower, leaves removed, stems trimmed"
               },
               {
-                "quantity": "1/2 c",
-                "item": "sliced almonds"
+                "quantity": "1/2 c plus 2 Tbsp",
+                "item": "Extra Virgin Olive Oil"
               },
               {
-                "quantity": "4 c",
-                "item": "brussels sprouts, trimmed"
-              },
-              {
-                "quantity": "6 Tbsp",
-                "item": "canola oil"
-              },
-              {
-                "quantity": "1 inch",
-                "item": "ginger, grated"
-              },
-              {
-                "quantity": "1/2 c",
-                "item": "coconut cream"
-              },
-              {
-                "quantity": "1 Tbsp",
-                "item": "honey"
-              },
-              {
-                "quantity": "AR",
-                "item": "black pepper"
+                "quantity": "1",
+                "item": "garlic clove, grated"
               },
               {
                 "quantity": "2 Tbsp",
-                "item": "rice vinegar"
+                "item": "red wine vinegar"
               },
               {
-                "quantity": "1 tsp",
-                "item": "ground turmeric"
+                "quantity": "2 tsp",
+                "item": "honey"
               },
               {
-                "quantity": "8 c",
-                "item": "cooked rice (from 2cups uncooked"
+                "quantity": "1",
+                "item": "red onion"
               },
               {
-                "quantity": "1/2 c",
-                "item": "cilantro leaves"
+                "quantity": "6oz",
+                "item": "Feta, thinly sliced in slabs"
               },
               {
-                "quantity": "1/2 c",
-                "item": "dried, unsweetened cranberries "
+                "quantity": "2 Tbsp",
+                "item": "drained capers"
               },
               {
-                "quantity": "1/2 c",
-                "item": "mint leaves"
+                "quantity": "2 Tbsp",
+                "item": "shelled pistachios"
               },
               {
-                "quantity": "1/4 c",
-                "item": "scallions, thinly sliced"
+                "quantity": "3 oz",
+                "item": "arugula"
+              },
+              {
+                "quantity": "4 oz",
+                "item": "torn, pitted Medjool dates"
+              },
+              {
+                "quantity": "AR",
+                "item": "fresh ground pepper"
               }
             ],
             "directions": [
-              "step 1",
-              "step 2",
-              "step 3"
+              "Place rack in lowest position in oven, preheat to 450f.",
+              "Cut cauliflower through core into 1/2 inch thick slabs. Arrange in single layer on baking sheet, drizzle with 1/4 c oil and season with salt.",
+              "Roast cauliflower until starting to brown underneath, 18 minutes",
+              "Whisk garlic, red wine vinegar, honey, olive oil, and salt in a large bowl to combine, set aside.",
+              "Cut onion into 1 inch wedges through the root end. Scatter over cauliflower. Drizzle onion if oil and season with salt (do not toss)",
+              "Roast until onion is slightly softened, 14 minutes",
+              "Using spatula, turn over large cauliflower pieces, arrange feta slabs over, and scatter capers and pistachios on top.",
+              "Roast until feta softens slightly and pistachios are golden brown, 9-12 minutes. Let cool for 5 minutes",
+              "Add arugula and dates to bowl with reserved dressing and toss to coat.",
+              "Scatter salad over cauliflower mixture, toss to combine, season with black pepper."
             ],
             "tags": [
               "test",
@@ -2508,7 +2502,7 @@
             "source": {
               "title": "Miso-Glazed Turnips",
               "author": "Claire Saffitz",
-              "source": "Bon Appetit, February 2015",
+              "source": "Bon Appetit, Feb 2015",
               "modify": "y"
             },
             "notes": [
