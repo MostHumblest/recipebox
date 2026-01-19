@@ -64,27 +64,28 @@ $(document).ready(function(){
                 var isDemo = false;
                 var ingredients;
                 var ingredientSearch = false;
-                    $.each(recipes, function(key, val){
-                        returnID = "."+val.id;
-                        isDemo = (returnID.slice(2) === "0" || returnID.slice(2) === "emo");
-                        if (isDemo != true){//don't search demo or place holder recipes
-                            titleSearch = val.title.search(regex);
-                            tagSearch = val.tags.findIndex(value => regex.test(value));
-                            ingredients = val.ingredients;
-                            category = val.category;
-                            category = "#h"+category.replace(/ /g, "_");						
-                            $.each(ingredients, function(i, value){
-                                ingredientSearch = ingredients[i].item.search(regex);
-                                if(ingredientSearch != -1){
-                                    return false;
+                    $.each(recipes, function(i, val){                        
+                        $.each(recipes[i].items, function(j,val){
+                            returnID = "."+recipes[i].items[j].id;
+                            isDemo = (returnID.slice(2) === "0" || returnID.slice(2) === "emo");
+                            if (isDemo != true){//don't search demo or place holder recipes
+                                titleSearch = recipes[i].items[j].title.search(regex);
+                                tagSearch = recipes[i].items[j].tags.findIndex(value => regex.test(value));
+                                ingredients = recipes[i].items[j].ingredients;
+                                category = recipes[i].items[j].category;
+                                category = "#h"+category.replace(/ /g, "_");						
+                                $.each(ingredients, function(k, value){
+                                    ingredientSearch = ingredients[k].item.search(regex);
+                                    if(ingredientSearch != -1){
+                                        return false;
+                                    }
+                                });						
+                                if(titleSearch != -1 || tagSearch != -1 || ingredientSearch != -1){ //if found in search one of these returns true
+                                    $(category).show();
+                                    $(returnID).show();							
                                 }
-                            });						
-                            if(titleSearch != -1 || tagSearch != -1 || ingredientSearch != -1){ //if found in search one of these returns true
-                                $(category).show();
-                                $(returnID).show();							
-                            }
-                        }		
-                        
+                            }		
+                        })
                     });		
             });
         }
