@@ -209,6 +209,178 @@
               "test",
               "test2"
             ]
+          },
+          {"id": "B1", "title": "Pancakes",
+            "category": "breakfast",
+            "date": "20260119",
+            "yield": "12-16 pancakes",
+            "time": {
+              "active": 0,
+              "total": 0
+            },
+            "source": {
+              "title": "The Easiest, Fluffiest Pancakes",
+              "author": "Leah Colins",
+              "source": "Serious Eats, Nov 2025",
+              "modify": "y"
+            },
+            "notes": [
+              "Easy to add blueberries or other during cooking.",
+              "Don't forget maple syrup!"
+            ],
+            "ingredients": [
+              {
+                "quantity": "225g",
+                "item": "AP Flour"
+              },
+              {
+                "quantity": "50g",
+                "item": "sugar"
+              },
+              {
+                "quantity": "3 1/2 tsp",
+                "item": "baking powder"
+              },
+              {
+                "quantity": "3/4 tsp",
+                "item": "kosher salt"
+              },
+              {
+                "quantity": "2",
+                "item": "eggs, room temperature"
+              },
+              {
+                "quantity": "1/4c",
+                "item": "neutral oil"
+              },
+              {
+                "quantity": "AR",
+                "item": "oil butter for greasing skillet"
+              },
+              {
+                "quantity": "1 1/3 c",
+                "item": "whole milk"
+              },
+              {
+                "quantity": "1/4 tsp",
+                "item": "vanilla extract"
+              }
+            ],
+            "directions": [
+              "In a large bowl, whisk flour, sugar, baking powder, and salt until combined.",
+              "In a medium bowl, whisk eggs, oil, milk, and vanilla until well combined.",
+              "Pour egg mixture into flour mixture and with the whisk, stir gently until just combined (batter will remain lumpy and have a few streaks of flour). Let batter sit for 10-15 minutes.",
+              "In a 12\" nonstick skillet, heat just enough oil or butter over medium-low to leave a thin film on the skillet.",
+              "<b>To test temperature of skillet:</b> Drop 1 Tbsp of batter in center of skillet, and flip after 60 seconds. If pancake is pale golden skillet is ready, otherwise if too light or dark adjust temp accordingly.",
+              "Using 1/4 c dry measuring cup, portion patter into skillet in three places, leaving and even spacing between. If adding blueberries or other, sprinkle over pancakes here.",
+              "Cook until bubbles on surface are just beginning to break, edges are set, and bottom sides are golden, about 2 minutes",
+              "Using a thin spatula, flip pancakes and continue to cook until second side is done, 1-3 minutes longer.",
+              "Transfer to plate and serve. Repeat with remaining batter, adjust heat as necessary."
+            ],
+            "tags": [
+              "easy",
+              "test2"
+            ]
+          },
+          {"id": "B2", "title": "Blueberry Muffin Oatmeal Bake",
+            "category": "breakfast",
+            "date": "20260119",
+            "yield": "6-8 servings",
+            "time": {
+              "active": 0,
+              "total": 0
+            },
+            "source": {
+              "title": "Blueberry Muffin Baked Oatmeal",
+              "author": "Hali Bey Ramdene",
+              "source": "Bon Appetit, May 2025",
+              "modify": "y"
+            },
+            "notes": [
+              "can use fresh or frozen blueberries",
+              "if using frozen berries or a glass dish, baking time may extend another 10+ minutes."
+            ],
+            "ingredients": [
+              {
+                "quantity": "AR",
+                "item": "butter, for pan"
+              },
+              {
+                "quantity": "2 1/2 c",
+                "item": "old-fashioned oats"
+              },
+              {
+                "quantity": "3 Tbsp",
+                "item": "chia seeds"
+              },
+              {
+                "quantity": "1 tsp",
+                "item": "baking powder"
+              },
+              {
+                "quantity": "3/4 c",
+                "item": "sliced almonds, divided"
+              },
+              {
+                "quantity": "1 1/2c",
+                "item": "blueberries"
+              },
+              {
+                "quantity": "1",
+                "item": "egg"
+              },
+              {
+                "quantity": "1/2 c",
+                "item": "almond butter"
+              },
+              {
+                "quantity": "100g",
+                "item": "brown sugar"
+              },
+              {
+                "quantity": "1 tsp",
+                "item": "kosher salt"
+              },
+              {
+                "quantity": "1/2 tsp",
+                "item": "ground cinnamon"
+              },
+              {
+                "quantity": "1/4 tsp",
+                "item": "fresh ground nutmeg"
+              },
+              {
+                "quantity": "1/2 tsp",
+                "item": "almond extract"
+              },
+              {
+                "quantity": "1/2 tsp",
+                "item": "vanilla extract"
+              },
+              {
+                "quantity": "2 1/2 c",
+                "item": "milk of choice"
+              },
+              {
+                "quantity": "1/4 c",
+                "item": "blueberry jam"
+              }
+            ],
+            "directions": [
+              "Place a rack in middle of oven; preheat to 375f.",
+              "Butter an 8x8\" baking dish.",
+              "toss oats, chia seeds, baking powder, and 1/2 c of almonds in a medium bowl to combine. Add blueberries and toss to coat.",
+              "Mix egg, almond butter, brown sugar, salt, cinnamon, nutmeg, almond extract, and vanilla extract in a large bowl. Pour in 1/2c of milk and whisk until almond butter and sugar are dissolved.",
+              "Gradually pour in remaining 2 cups of milk, whisking constantly to combine. Pour over oat mixture and stir to combine.",
+              "Transfer oatmeal mix to prepared pan, making sure berries are evenly distributed.",
+              "Make a few divots over the surface, and fill each with a dollop of jam. Sprinkle remaining almonds over.",
+              "Place pan on a rimmed baking sheet, and bake until oatmeal is slightly puffed 30-40 minutes.",
+              "Serve divided among bowls, drizzle with maple syrup, or pour in milk of choice."
+            ],
+            "tags": [
+              "easy",
+              "holiday"
+            ]
           }
         ]
       },
@@ -337,7 +509,7 @@
             "source": {
               "title": "Classic Chickpea Hummus",
               "author": "Claire Saffitz",
-              "source": "Bon Appetit, March 2021",
+              "source": "Bon Appetit, Mar 2021",
               "modify": "y"
             },
             "notes": [
@@ -889,7 +1061,7 @@
               "Cut cauliflower through core into 1/2\" thick slabs. Arrange in single layer on baking sheet, drizzle with 1/4 c oil and season with salt.",
               "Roast cauliflower until starting to brown underneath, 18 minutes.",
               "Whisk garlic, red wine vinegar, honey, olive oil, and salt in a large bowl to combine, set aside.",
-              "Cut onion into 1 inch wedges through the root end. Scatter over cauliflower. Drizzle onion if oil and season with salt (do not toss).",
+              "Cut onion into 1 inch wedges through the root end. Scatter over cauliflower. Drizzle onion with oil and season with salt (do not toss).",
               "Roast until onion is slightly softened, 14 minutes.",
               "Using spatula, turn over large cauliflower pieces, arrange feta slabs over, and scatter capers and pistachios on top.",
               "Roast until feta softens slightly and pistachios are golden brown, 9-12 minutes. Let cool for 5 minutes.",
@@ -1510,7 +1682,7 @@
             "source": {
               "title": "Shawarma Roast Chicken with Shallots and Lemons",
               "author": "Andy Baraghani",
-              "source": "Bon Appetit, March 2022",
+              "source": "Bon Appetit, Mar 2022",
               "modify": "y"
             },
             "notes": [
@@ -2417,6 +2589,92 @@
               "test",
               "test2"
             ]
+          },
+          {"id": "H4", "title": "Green Curry Cod",
+            "category": "seafood",
+            "date": "20260119",
+            "yield": "3-4 Servings",
+            "time": {
+              "active": 0,
+              "total": 0
+            },
+            "source": {
+              "title": "Green Curry Coconut Cod",
+              "author": "Alaina Chou",
+              "source": "Bon Appetit, Nov 2024",
+              "modify": "y"
+            },
+            "notes": [
+              "serve with steamed rice"
+            ],
+            "ingredients": [
+              {
+                "quantity": "1 Tbsp",
+                "item": "vegetable oil"
+              },
+              {
+                "quantity": "1",
+                "item": "shallot"
+              },
+              {
+                "quantity": "1\"",
+                "item": "length of ginger, chopped"
+              },
+              {
+                "quantity": "4 Tbsp",
+                "item": "green curry paste"
+              },
+              {
+                "quantity": "13.5oz",
+                "item": "unsweetened coconut milk (one can)"
+              },
+              {
+                "quantity": "10oz",
+                "item": "baby spinach"
+              },
+              {
+                "quantity": "1 tsp",
+                "item": "brown sugar"
+              },
+              {
+                "quantity": "1 Tbsp",
+                "item": "fish sauce"
+              },
+              {
+                "quantity": "1/4 tsp",
+                "item": "kosher salt"
+              },
+              {
+                "quantity": "24 oz",
+                "item": "cod, split into 4 pieces"
+              },
+              {
+                "quantity": "AR",
+                "item": "fresh ground pepper"
+              },
+              {
+                "quantity": "1",
+                "item": "lime"
+              },
+              {
+                "quantity": "1",
+                "item": "fresno chile, thinly sliced"
+              }
+            ],
+            "directions": [
+              "Heat oil in a medium skillet over medium.",
+              "Add shallot and ginger and cook, stirring often until starting to soften, about 2 minutes",
+              "Add curry paste and cook stirring constantly, until fragrant and slightly darkened in color, about 2 minutes",
+              "Using blender or immersion blender, add coconut milk, 5oz spinach, brown sugar, fish sauce, and salt and blend. If using a regular blender, reserve pan.",
+              "Bring blended sauce to a simmer over medium-low heat. Cook until slightly reduced, about 5 minutes.",
+              "Lightly season cod fillets with salt and pepper and nestle into sauce with remaining baby spinach. Cover pan and cook at a bare simmer until fish is opaque and flakes easily with a fork, 8-10 minutes.",
+              "Uncover pan, cut lime in half squeeze juice from one half over fish. Cut remaining half into wedges for serving.",
+              "Serve over rice with thinly sliced chile, and a lime wedge."
+            ],
+            "tags": [
+              "fast",
+              "weeknight"
+            ]
           }
         ]
       },
@@ -2634,6 +2892,163 @@
             "tags": [
               "vegetarian",
               "test2"
+            ]
+          },
+          {"id": "I3", "title": "Green Beans with Parm Vinaigrette",
+            "category": "vegetables",
+            "date": "20260119",
+            "yield": "4-6 servings",
+            "time": {
+              "active": 0,
+              "total": 0
+            },
+            "source": {
+              "title": "Green Bean Salad",
+              "author": "Kendra Vaculin",
+              "source": "Bon Appetit, Oct 2025",
+              "modify": "y"
+            },
+            "notes": [
+              "a lighter alternative to traditional green beans",
+              "if you can find them, prefer green beans to smaller hericot verts",
+              "use blender or immersion blender to make dressing"
+            ],
+            "ingredients": [
+              {
+                "quantity": "1/4 c plus 1 Tbsp",
+                "item": "cider vinegar"
+              },
+              {
+                "quantity": "1 Tbsp",
+                "item": "honey"
+              },
+              {
+                "quantity": "AR",
+                "item": "kosher salt"
+              },
+              {
+                "quantity": "1",
+                "item": "large shallot, thinly sliced"
+              },
+              {
+                "quantity": "1 lb",
+                "item": "green beans"
+              },
+              {
+                "quantity": "2 oz",
+                "item": "parmesan cut in small pieces"
+              },
+              {
+                "quantity": "1",
+                "item": "garlic clove, grated"
+              },
+              {
+                "quantity": "1/4 c",
+                "item": "extra-virgin olive oil"
+              },
+              {
+                "quantity": "1 Tbsp",
+                "item": "Dijon mustard"
+              },
+              {
+                "quantity": "AR",
+                "item": "fresh ground pepper"
+              }
+            ],
+            "directions": [
+              "Whisk together vinegar, honey, and a pinch of salt in a small bowl. Add shallot and let sit, stirring occasionally, at least 15 minutes and up to 30 minutes. Drain shallot, reserve liquid.",
+              "Meanwhile, fill bowl with ice water and bring a large pot of salted water to a vigorous boil, and blanch green beans until tender, about 4 minutes. Use slotted spoon to transfer cooked beans to ice bath. Keep water boiling.",
+              "Blend parmesan pieces until finely crumbled. Add 3 Tbsp boiling water and blend. Add garlic, oil, mustard, and reserved pickling liquid; season with salt and pepper, blend until smooth.",
+              "Drain green beans and pat dry. Place in clean large bowl, drizzle dressing over, and add shallot. Toss to combine.", 
+              "Chill, tossing occasionally, at least 1 hour and up to 5 hours (dressing will thicken).", 
+              "When ready to serve, toss green beans to loosen dressing, top with additional grated parm and fresh ground pepper."
+            ],
+            "tags": [
+              "thanksgiving",
+              "side"
+            ]
+          },
+          {"id": "I4", "title": "Sweet and Spicy Squash",
+            "category": "vegetables",
+            "date": "20260119",
+            "yield": "6 servings",
+            "time": {
+              "active": 0,
+              "total": 0
+            },
+            "source": {
+              "title": "Sweet-and-Spicy Squash with Scallion Oil",
+              "author": "Shilpa Uskokovic",
+              "source": "Bon Appetit, Oct 2025",
+              "modify": "y"
+            },
+            "notes": [
+              "Slicing the scallions into long thin wisps creates a delicate garnish, worth taking your time.",
+              "note 2"
+            ],
+            "ingredients": [
+              {
+                "quantity": "1 1/2 - 2 lb",
+                "item": "butternut squash, halved, peeled, seeded"
+              },
+              {
+                "quantity": "1 1/2 lb",
+                "item": "acorn squash, halved, seeded"
+              },
+              {
+                "quantity": "1 lb",
+                "item": "delicata squash, ends trimmed"
+              },
+              {
+                "quantity": "1/2 c",
+                "item": "olive oil"
+              },
+              {
+                "quantity": "1\"",
+                "item": "length ginger, grated"
+              },
+              {
+                "quantity": "1/2 c",
+                "item": "cider vinegar"
+              },
+              {
+                "quantity": "1/2 c",
+                "item": "maple syrup"
+              },
+              {
+                "quantity": "1/4 c",
+                "item": "soy sauce"
+              },
+              {
+                "quantity": "2 Tbsp",
+                "item": "sambal oelek"
+              },
+              {
+                "quantity": "2 Tbsp",
+                "item": "white miso"
+              },
+              {
+                "quantity": "12",
+                "item": "scallions, thinly sliced on long diagonal"
+              },
+              {
+                "quantity": "2",
+                "item": "fresno chiles, thinly sliced"
+              }
+            ],
+            "directions": [
+              "Slice squash crosswise into 1\" or 2\" thick slices. For delicata squash, after slicing remove seeds to leave rings.",
+              "Place rack in bottom third of oven; preheat to 425f.",
+              "Place squash on large rimmed baking sheet; drizzle with 1/4 c of oil and sprinkle with salt. Toss to coat; arrange in a single layer. Roast squash undisturbed, until nearing tender (about three-quarters cooked) and golden brown underneath, 25-25 minutes.",
+              "Meanwhile, bring ginger, vinegar, maple syrup, soy sauce, sambal oelek, and miso to a boil over medium heat and cook, whisking often, until glaze is thick and syrupy, 7-9 minutes.",
+              "Remove squash from oven and pour glaze over, shaking baking sheet gently to distribute as evenly as possible. Return to oven and roast until squash is completely tender and glaze is sticky, 12-18 minutes. Gently toss squash to coat in glaze.",
+              "Meanwhile, cook scallions in remaining 1/4 c oil in a medium nonstick skillet over medium heat, stirring often until scallions are deeply brown in spots and crisp, 8-12 minutes",
+              "Spoon scallions over squash and scatter chile on top before serving."
+            ],
+            "tags": [
+              "thanksgiving",
+              "holiday",
+              "side"
             ]
           }
         ]
@@ -3028,7 +3443,7 @@
             "source": {
               "title": "Spicy Baked Pasta With Cheddar and Broccoli Rabe",
               "author": "ukn",
-              "source": "Bon Appetit, March 2020",
+              "source": "Bon Appetit, Mar 2020",
               "modify": "y"
             },
             "notes": [
@@ -4455,7 +4870,7 @@
             "source": {
               "title": "Swirled Sesame Tea Cake",
               "author": "Claire Saffitz",
-              "source": "Bon Appetit, March 2018",
+              "source": "Bon Appetit, Mar 2018",
               "modify": "n"
             },
             "notes": [
