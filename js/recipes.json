@@ -4536,6 +4536,84 @@
               "test1",
               "test2"
             ]
+          },
+          {"id": "O10", "title": "Garlic Bread Biscuits",
+            "category": "baking",
+            "date": "20260119",
+            "yield": "12 Biscuits",
+            "time": {
+              "active": 0,
+              "total": 0
+            },
+            "source": {
+              "title": "Garlic Bread Biscuits",
+              "author": "Shilpa Uskokovic",
+              "source": "Bon Appetit, Oct 2024",
+              "modify": "y"
+            },
+            "notes": [
+              "Original recipe calls for double size batch"
+            ],
+            "ingredients": [
+              {
+                "quantity": "438g",
+                "item": "AP Flour"
+              },
+              {
+                "quantity": "25g",
+                "item": "sugar"
+              },
+              {
+                "quantity": "1 Tbsp plus 1 tsp",
+                "item": "baking powder"
+              },
+              {
+                "quantity": "1/2 Tbsp plus 1/2 tsp",
+                "item": "garlic powder"
+              },
+              {
+                "quantity": "1/2 tsp",
+                "item": "baking soda"
+              },
+              {
+                "quantity": "1 oz",
+                "item": "finely grated parmesan"
+              },
+              {
+                "quantity": "1/4 c",
+                "item": "finely chopped parsley"
+              },
+              {
+                "quantity": "1 Tbsp",
+                "item": "kosher salt"
+              },
+              {
+                "quantity": "1 c",
+                "item": "butter, thinly sliced"
+              },
+              {
+                "quantity": "1 1/4 c",
+                "item": "buttermilk"
+              }
+            ],
+            "directions": [
+              "Whisk flour, sugar, baking powder, garlic powder, baking soda, parmesan, parsley, and kosher salt in a large bowl.",
+              "Add sliced butter, toss to coat, then smash into smaller flat pieces about the size of a dime.",
+              "Chill dough at least 15 minutes, or cover and chill up to 12 hours.",
+              "Drizzle buttermilk over butter mixture; toss with a fork to incorporate, then knead lightly in bowl until a shaggy dough forms (it will look dry).",
+              "Turn dough out onto a surface; pat into a 1\" thick square, gently pushing dry bits into the dough as best as possible. Roll slightly to flatten to about 1/2\" thick.",
+              "Using a bench scrapper, cut dough into 3 equal pieces. Stack pieces on top of one another, sandwiching dry bits between layers; press down with hands to flatten and pat into a rectangle.",
+              "Tidy edges with bench scraper. Roll dough into a 1\" thick rectangle. Repeat cutting, stacking, rolling 2 more times, making sure final rectangle is 1\" - 1 1/4\" thick.",
+              "Wrap dough tightly in plastic and chill at least 1 hour and up to 12 hours",
+              "Unwrap dough and trim ~1/8\" off sides with a knife to tidy edges (this also helps biscuits rise better).",
+              "Cut dough into 4 equal rectangles, then cut each rectangle into 3 squares to make 12 biscuits total.",
+              "Arrange on a parchment-lined rimmed baking sheet, spacing about 1/4\" apart (this close spacing helps keep them vertical). Chill 30 minutes",
+              "While dough is chilling, place rack in middle of oven and preheat to 400f, then bake biscuits until tops are golden brown, 35-40 minutes"
+            ],
+            "tags": [
+              "holiday",
+              "rolls"
+            ]
           }
         ]
       },
