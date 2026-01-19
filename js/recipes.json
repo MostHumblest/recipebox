@@ -900,6 +900,91 @@
               "test",
               "test2"
             ]
+          },
+          {"id": "D5", "title": "Sheet-Pan Halloumi",
+            "category": "salads",
+            "date": "20260118",
+            "yield": "3-4 servings",
+            "time": {
+              "active": 0,
+              "total": 0
+            },
+            "source": {
+              "title": "Sheet-Pan Halloumi",
+              "author": "Emma Laperruque",
+              "source": "Bon Appetit, Mar 2025",
+              "modify": "y"
+            },
+            "notes": [
+              "Original recipe doesn't call for greens"
+            ],
+            "ingredients": [
+              {
+                "quantity": "8 oz",
+                "item": "pita, torn into 1\" pieces"
+              },
+              {
+                "quantity": "16 oz",
+                "item": "halloumi, patted dry, torn into 1\" pieces"
+              },
+              {
+                "quantity": "1/2 c",
+                "item": "olive oil"
+              },
+              {
+                "quantity": "1 tsp",
+                "item": "kosher salt"
+              },
+              {
+                "quantity": "1/4 c",
+                "item": "lime juice"
+              },
+              {
+                "quantity": "2 Tbsp",
+                "item": "honey"
+              },
+              {
+                "quantity": "2",
+                "item": "oranges"
+              },
+              {
+                "quantity": "1",
+                "item": "grapefruit"
+              },
+              {
+                "quantity": "1",
+                "item": "shallot, thinly slices"
+              },
+              {
+                "quantity": "1",
+                "item": "jalapeno, thinly sliced"
+              },
+              {
+                "quantity": "2/3 c",
+                "item": "dill, coarsely chopped"
+              },
+              {
+                "quantity": "1",
+                "item": "avocado"
+              },
+              {
+                "quantity": "5 oz",
+                "item": "baby arugula"
+              }
+            ],
+            "directions": [
+              "Place rack in middle of oven and set a rimmed baking sheet on rack, preheat to 400f",
+              "Toss pita, cheese, 1/4 c of oil, and a big pinch of salt in a large bowl. Carefully spread in a single layer on hot baking sheet. Reserve bowl.",
+              "Roast, tossing halfway through, until pita is crisp and cheese is golden brown, 18-20 minutes",
+              "Meanwhile, whisk lime juice, honey, 1 tsp salt, and remaining oil in reserved bowl. Set aside",
+              "Using a sharp knife, remove peel and pith from oranges and grapefruit. Cut/tear into various small chunks",
+              "Transfer citrus to bowl with reserved dressing. Add shallot, jalapeno, pita, cheese, and arugula. Gently combine.",
+              "Scatter dill and avocado over."
+            ],
+            "tags": [
+              "test",
+              "test2"
+            ]
           }
         ]
       },
