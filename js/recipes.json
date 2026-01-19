@@ -409,7 +409,7 @@
             "source": {
               "title": "Classic Chickpea Hummus",
               "author": "Claire Saffitz",
-              "source": "Bon Appetit, March 2021",
+              "source": "Bon Appetit, Mar 2021",
               "modify": "y"
             },
             "notes": [
@@ -1582,7 +1582,7 @@
             "source": {
               "title": "Shawarma Roast Chicken with Shallots and Lemons",
               "author": "Andy Baraghani",
-              "source": "Bon Appetit, March 2022",
+              "source": "Bon Appetit, Mar 2022",
               "modify": "y"
             },
             "notes": [
@@ -2867,6 +2867,89 @@
               "thanksgiving",
               "side"
             ]
+          },
+          {"id": "I4", "title": "Sweet and Spicy Squash",
+            "category": "vegetables",
+            "date": "20260119",
+            "yield": "6 servings",
+            "time": {
+              "active": 0,
+              "total": 0
+            },
+            "source": {
+              "title": "Sweet-and-Spicy Squash with Scallion Oil",
+              "author": "Shilpa Uskokovic",
+              "source": "Bon Appetit, Oct 2025",
+              "modify": "y"
+            },
+            "notes": [
+              "Slicing the scallions into long thin wisps creates a delicate garnish, worth taking your time.",
+              "note 2"
+            ],
+            "ingredients": [
+              {
+                "quantity": "1 1/2 - 2 lb",
+                "item": "butternut squash, halved, peeled, seeded"
+              },
+              {
+                "quantity": "1 1/2 lb",
+                "item": "acorn squash, halved, seeded"
+              },
+              {
+                "quantity": "1 lb",
+                "item": "delicata squash, ends trimmed"
+              },
+              {
+                "quantity": "1/2 c",
+                "item": "olive oil"
+              },
+              {
+                "quantity": "1\"",
+                "item": "length ginger, grated"
+              },
+              {
+                "quantity": "1/2 c",
+                "item": "cider vinegar"
+              },
+              {
+                "quantity": "1/2 c",
+                "item": "maple syrup"
+              },
+              {
+                "quantity": "1/4 c",
+                "item": "soy sauce"
+              },
+              {
+                "quantity": "2 Tbsp",
+                "item": "sambal oelek"
+              },
+              {
+                "quantity": "2 Tbsp",
+                "item": "white miso"
+              },
+              {
+                "quantity": "2 bunches",
+                "item": "scallions, thinly sliced on long diagonal"
+              },
+              {
+                "quantity": "2",
+                "item": "fresno chiles, thinly sliced"
+              }
+            ],
+            "directions": [
+              "Slice squash crosswise into 1\" or 2\" thick slices. For delicata squash, after slicing remove seeds to leave rings.",
+              "Place rack in bottom third of oven; preheat to 425f.",
+              "Place squash on large rimmed baking sheet; drizzle with 1/4 c of oil and sprinkle with salt. Toss to coat; arrange in a single layer. Roast squash undisturbed, until nearing tender (about three-quarters cooked) and golden brown underneath, 25-25 minutes.",
+              "Meanwhile, bring ginger, vinegar, maple syrup, soy sauce, sambal oelek, and miso to a boil over medium heat and cook, whisking often, until glaze is thick and syrupy, 7-9 minutes.",
+              "Remove squash from oven and pour glaze over, shaking baking sheet gently to distribute as evenly as possible. Return to oven and roast until squash is completely tender and glaze is sticky, 12-18 minutes. Gently toss squash to coat in glaze.",
+              "Meanwhile, cook scallions in remaining 1/4 c oil in a medium nonstick skillet over medium heat, stirring often until scallions are deeply brown in spots and crisp, 8-12 minutes",
+              "Spoon scallions over squash and scatter chile on top before serving."
+            ],
+            "tags": [
+              "thanksgiving",
+              "holiday",
+              "side"
+            ]
           }
         ]
       },
@@ -3260,7 +3343,7 @@
             "source": {
               "title": "Spicy Baked Pasta With Cheddar and Broccoli Rabe",
               "author": "ukn",
-              "source": "Bon Appetit, March 2020",
+              "source": "Bon Appetit, Mar 2020",
               "modify": "y"
             },
             "notes": [
@@ -4687,7 +4770,7 @@
             "source": {
               "title": "Swirled Sesame Tea Cake",
               "author": "Claire Saffitz",
-              "source": "Bon Appetit, March 2018",
+              "source": "Bon Appetit, Mar 2018",
               "modify": "n"
             },
             "notes": [
