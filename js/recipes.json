@@ -2417,6 +2417,92 @@
               "test",
               "test2"
             ]
+          },
+          {"id": "H4", "title": "Green Curry Cod",
+            "category": "seafood",
+            "date": "20260119",
+            "yield": "3-4 Servings",
+            "time": {
+              "active": 0,
+              "total": 0
+            },
+            "source": {
+              "title": "Green Curry Coconut Cod",
+              "author": "Alaina Chou",
+              "source": "Bon Appetit, Nov 2024",
+              "modify": "y"
+            },
+            "notes": [
+              "serve with steamed rice"
+            ],
+            "ingredients": [
+              {
+                "quantity": "1 Tbsp",
+                "item": "vegetable oil"
+              },
+              {
+                "quantity": "1",
+                "item": "shallot"
+              },
+              {
+                "quantity": "1\"",
+                "item": "length of ginger, chopped"
+              },
+              {
+                "quantity": "4 Tbsp",
+                "item": "green curry paste"
+              },
+              {
+                "quantity": "13.5oz",
+                "item": "unsweetened coconut milk (one can)"
+              },
+              {
+                "quantity": "10oz",
+                "item": "baby spinach"
+              },
+              {
+                "quantity": "1 tsp",
+                "item": "brown sugar"
+              },
+              {
+                "quantity": "1 Tbsp",
+                "item": "fish sauce"
+              },
+              {
+                "quantity": "1/4 tsp",
+                "item": "kosher salt"
+              },
+              {
+                "quantity": "24 oz",
+                "item": "cod, split into 4 pieces"
+              },
+              {
+                "quantity": "AR",
+                "item": "fresh ground pepper"
+              },
+              {
+                "quantity": "1",
+                "item": "lime"
+              },
+              {
+                "quantity": "1",
+                "item": "fresno chile, thinly sliced"
+              }
+            ],
+            "directions": [
+              "Heat oil in a medium skillet over medium.",
+              "Add shallot and ginger and cook, stirring often until starting to soften, about 2 minutes",
+              "Add curry paste and cook stirring constantly, until fragrant and slightly darkened in color, about 2 minutes",
+              "Using blender or immersion blender, add coconut milk, 5oz spinach, brown sugar, fish sauce, and salt and blend. If using a regular blender, reserve pan.",
+              "Bring blended sauce to a simmer over medium-low heat. Cook until slightly reduced, about 5 minutes.",
+              "Lightly season cod fillets with salt and pepper and nestle into sauce with remaining baby spinach. Cover pan and cook at a bare simmer until fish is opaque and flakes easily with a fork, 8-10 minutes.",
+              "Uncover pan, cut lime in half squeeze juice from one half over fish. Cut remaining half into wedges for serving.",
+              "Serve over rice with thinly sliced chile, and a lime wedge."
+            ],
+            "tags": [
+              "fast",
+              "weeknight"
+            ]
           }
         ]
       },
