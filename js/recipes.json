@@ -281,6 +281,106 @@
               "easy",
               "test2"
             ]
+          },
+          {"id": "B0", "title": "Blueberry Muffin Oatmeal Bake",
+            "category": "breakfast",
+            "date": "20210131",
+            "yield": "6-8 servings",
+            "time": {
+              "active": 0,
+              "total": 0
+            },
+            "source": {
+              "title": "Blueberry Muffin Baked Oatmeal",
+              "author": "Hali Bey Ramdene",
+              "source": "Bon Appetit, May 2025",
+              "modify": "y"
+            },
+            "notes": [
+              "can use fresh or frozen blueberries",
+              "if using frozen berries or a glass dish, baking time may extend another 10+ minutes."
+            ],
+            "ingredients": [
+              {
+                "quantity": "AR",
+                "item": "butter, for pan"
+              },
+              {
+                "quantity": "2 1/2 c",
+                "item": "old-fashioned oats"
+              },
+              {
+                "quantity": "3 Tbsp",
+                "item": "chia seeds"
+              },
+              {
+                "quantity": "1 tsp",
+                "item": "baking powder"
+              },
+              {
+                "quantity": "3/4 c",
+                "item": "sliced almonds, divided"
+              },
+              {
+                "quantity": "1 1/2c",
+                "item": "blueberries"
+              },
+              {
+                "quantity": "1",
+                "item": "egg"
+              },
+              {
+                "quantity": "1/2 c",
+                "item": "almond butter"
+              },
+              {
+                "quantity": "100g",
+                "item": "brown sugar"
+              },
+              {
+                "quantity": "1 tsp",
+                "item": "kosher salt"
+              },
+              {
+                "quantity": "1/2 tsp",
+                "item": "ground cinnamon"
+              },
+              {
+                "quantity": "1/4 tsp",
+                "item": "fresh ground nutmeg"
+              },
+              {
+                "quantity": "1/2 tsp",
+                "item": "almond extract"
+              },
+              {
+                "quantity": "1/2 tsp",
+                "item": "vanilla extract"
+              },
+              {
+                "quantity": "2 1/2 c",
+                "item": "milk of choice"
+              },
+              {
+                "quantity": "1/4 c",
+                "item": "blueberry jam"
+              }
+            ],
+            "directions": [
+              "Place a rack in middle of oven; preheat to 375f.",
+              "Butter an 8x8\" baking dish.",
+              "toss oats, chia seeds, baking powder, and 1/2 c of almonds in a medium bowl to combine. Add blueberries and toss to coat.",
+              "Mix egg, almond butter, brown sugar, salt, cinnamon, nutmeg, almond extract, and vanilla extract in a large bowl. Pour in 1/2c of milk and whisk until almond butter and sugar are dissolved.",
+              "Gradually pour in remaining 2 cups of milk, whisking constantly to combine. Pour over oat mixture and stir to combine.",
+              "Transfer oatmeal mix to prepared pan, making sure berries are evenly distributed.",
+              "Make a few divots over the surface, and fill each with a dollop of jam. Sprinkle remaining almonds over.",
+              "Place pan on a rimmed baking sheet, and bake until oatmeal is slightly puffed 30-40 minutes.",
+              "Serve divided among bowls, drizzle with maple syrup, or pour in milk of choice."
+            ],
+            "tags": [
+              "easy",
+              "holiday"
+            ]
           }
         ]
       },
