@@ -3183,6 +3183,102 @@
               "weeknight",
               "israel"
             ]
+          },
+          {"id": "J2", "title": "Chickpea and Chard Poached Eggs",
+            "category": "eggs",
+            "date": "20260120",
+            "yield": "4 servings",
+            "time": {
+              "active": 0,
+              "total": 0
+            },
+            "source": {
+              "title": "Chickpeas and Chard with Poached Eggs",
+              "author": "Sara Kramer",
+              "source": "Bon Appetit, Dec 2014",
+              "modify": "y"
+            },
+            "notes": [
+              "Greek yogurt can be used in place of labneh.",
+              "Baharat is a middle eastern spice blend. typically found with other spice blends at the grocery store",
+              "If using 13.5 oz can of chickpeas instead of dried, reduce water to 1/2\" coverage, and skip 30 min covered simmer."
+            ],
+            "ingredients": [
+              {
+                "quantity": "2 Tbsp plus 1/4 c",
+                "item": "olive oil"
+              },
+              {
+                "quantity": "1/2",
+                "item": "lemon"
+              },
+              {
+                "quantity": "3",
+                "item": "onions, one halved, two chopped"
+              },
+              {
+                "quantity": "6",
+                "item": "cloves garlic, smashed, divided"
+              },
+              {
+                "quantity": "2",
+                "item": "bay leaves"
+              },
+              {
+                "quantity": "1 c",
+                "item": "dried chickpeas, soaked overnight, drained"
+              },
+              {
+                "quantity": "AR",
+                "item": "kosher salt"
+              },
+              {
+                "quantity": "1",
+                "item": "fresno chile, chopped"
+              },
+              {
+                "quantity": "1 tsp",
+                "item": "baharat"
+              },
+              {
+                "quantity": "2",
+                "item": "large bunches Swiss chard"
+              },
+              {
+                "quantity": "3 Tbsp",
+                "item": "dried cranberries"
+              },
+              {
+                "quantity": "8",
+                "item": "eggs"
+              },
+              {
+                "quantity": "AR",
+                "item": "Labneh"
+              },
+              {
+                "quantity": "AR",
+                "item": "fresh ground pepper"
+              }
+            ],
+            "directions": [
+              "Separate the chard leaves from the ribs and stems. Tear leaves into 1\" pieces, and thinly slice the ribs and stems.",
+              "Heat 2 Tbsp of oil in a medium saucepan over medium-high. Add lemon and halved onion, cut side down, and 2 garlic cloves and cook, turning occasionally until golden brown. About 4 minutes.",
+              "Add bay leaves and chickpeas; add water to cover by 1\". Bring to a boil and skim surface. Reduce heat, cover, and gently simmer 30 minutes. Stir in 2 tsp of salt and continue to simmer until chickpeas are tender, 10-20 minutes.",
+              "Remove chickpeas from heat, discard lemon, onion, and bay leaves.",
+              "Meanwhile, heat remaining 1/4 c oil in a large, straight-sided skilled over medium. Add chopped onion, chile, baharat, and remaining garlic; season with salt.",
+              "Cook, stirring often, until onions are translucent, 8-10 minutes. Add chard ribs and stems to cook, stirring occasionally, until tender, 5-8 minutes.",
+              "Using a slotted spoon, transfer chickpeas to skillet. Add cooking liquid to cover and bring to a simmer.",
+              "Gradually add chard leaves, stirring until slightly wilted before adding more.",
+              "Add cranberries; cook until leaves are wilted, 5-8 minutes.",
+              "With mixture at a gentle simmer, use a spoon to make an indentation for each egg. Crack eggs into indents and simmer until whites are almost entirely opaque, about 10 minutes",
+              "Cover pan and cook until whites are set but yolks are still runny, about 2 more minutes.",
+              "Season with salt and pepper, spoon into bowls and top with labneh for serving."
+            ],
+            "tags": [
+              "test",
+              "test2"
+            ]
           }
         ]
       },
@@ -5028,6 +5124,64 @@
             "tags": [
               "holiday",
               "rolls"
+            ]
+          },
+          {"id": "O11", "title": "Pie Crust",
+            "category": "baking",
+            "date": "20260120",
+            "yield": "one 9\" pie crust",
+            "time": {
+              "active": 0,
+              "total": 0
+            },
+            "source": {
+              "title": "Pie Crust",
+              "author": "Melissa Clark",
+              "source": "NYT Cooking, Dec 2025",
+              "modify": "n"
+            },
+            "notes": [
+              "super easy replacement for store bought",
+              "dough disc will keep for 3 months in the freezer, defrost overnight before using."
+            ],
+            "ingredients": [
+              {
+                "quantity": "150g",
+                "item": "AP flour"
+              },
+              {
+                "quantity": "1/4 tsp",
+                "item": "kosher salt"
+              },
+              {
+                "quantity": "10 Tbsp",
+                "item": "butter, cold, cut into cubes"
+              },
+              {
+                "quantity": "4 Tbsp",
+                "item": "ice water"
+              }
+            ],
+            "directions": [
+              "!Dough",
+              "In food processor, pulse together the flour and salt.",
+              "Add butter and pulse until the mixture forms lima bean-size pieces.",
+              "Slowly add ice water, 1 Tbsp at a time, and pulse until the dough just comes together. It should be moist, not wet. (may not use all water).",
+              "Turn dough out onto a lightly floured surface and gather into a ball.",
+              "Flatten into a disc with heel of hand.",
+              "Cover tightly with plastic wrap and refrigerate for at least 1 hour and up to 2 days.",
+              "!Blind Baking",
+              "Roll out dough to desired thickness and place in pan. Poke holes all over dough with fork or toothpick.",
+              "Line dough with parchment or foil, fill with pie weights.",
+              "Transfer to a 425f oven.",
+              "Bake until crust firms up, about 15 minutes, it should still be very pale.",
+              "Remove liner and pie weights then return curst to over. Bake 5-7 more minutes until pale golden brown",
+              "Let cool before filling.",
+              "<u>Do ahead:</u> blind baking can be done up to 24 hours ahead, cover loosely with a dish towel and store at room temp."
+            ],
+            "tags": [
+              "tart",
+              "quiche"
             ]
           }
         ]
