@@ -142,9 +142,9 @@ $(document).ready(function(){
             $("#showCategories").click(function(){
                 $("#searchBar").val("");                
                 $("#searchBar").keyup();
-                // $('.category-list').show();
-                // $('.all').show();
-                // $('.arrow').text('\u25BE');
+                $('.category-list').show();
+                $('.all').show();
+                $('.arrow').text('\u25BE');
             });
         }
     
