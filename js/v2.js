@@ -140,10 +140,11 @@ $(document).ready(function(){
     
         function showButton(){
             $("#showCategories").click(function(){
-                $("#searchBar").val("");
-                $('.category-list').show();
-                $('.all').show();
-                $('.arrow').text('\u25BE');
+                $("#searchBar").val("");                
+                $("#searchBar").keyup();
+                // $('.category-list').show();
+                // $('.all').show();
+                // $('.arrow').text('\u25BE');
             });
         }
     
