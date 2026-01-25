@@ -140,7 +140,7 @@ $(document).ready(function(){
     
         function showButton(){
             $("#showCategories").click(function(){
-                clearButtonClicked()
+                $("#searchBar").val("");
                 $('.category-list').show();
                 $('.all').show();
                 $('.arrow').text('\u25BE');
