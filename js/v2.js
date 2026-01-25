@@ -140,6 +140,7 @@ $(document).ready(function(){
     
         function showButton(){
             $("#showCategories").click(function(){
+                clearButtonClicked()
                 $('.category-list').show();
                 $('.all').show();
                 $('.arrow').text('\u25BE');
